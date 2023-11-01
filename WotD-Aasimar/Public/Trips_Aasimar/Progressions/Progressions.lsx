@@ -3,18 +3,48 @@
 <save>
   <version major="4" minor="0" revision="9" build="328" />
   <region id="Progressions">
-    <node id="root">                 
+    <node id="root">
       <children>
         <node id="Progression">
-                  <attribute id="Level" type="uint8" value="1" /> which level the progression is for
-                  <attribute id="Name" type="LSString" value="Trips_Aasimar_1" /> just an internal name
-                  <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)" /> movement!
-                  <attribute id="PassivesAdded" type="LSString" value="" /> passives from stats folder here
-                  <attribute id="Selectors" type="LSString" value="" /> you can add spells here
-                  <attribute id="ProgressionType" type="uint8" value="2" /> 2 means race
-                  <attribute id="TableUUID" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81" /> Always use this one for races.lsx, says this progression node is for sun elves
-                  <attribute id="UUID" type="guid" value="459fe764-6f12-4533-9b84-a69d16a8832e" />  this one must be unique
-          </node>
+          <attribute id="Level" type="uint8" value="1" />
+          <attribute id="Name" type="LSString" value="Trips_Aasimar_1" />
+          <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)" />
+          <attribute id="PassivesAdded" type="LSString" value="" />
+          <attribute id="Selectors" type="LSString" value="" />
+          <attribute id="ProgressionType" type="uint8" value="2" />
+          <attribute id="TableUUID" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81" />
+          <attribute id="UUID" type="guid" value="459fe764-6f12-4533-9b84-a69d16a8832e" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="1" />
+          <attribute id="Name" type="LSString" value="Trips_Scourge_1" />
+          <attribute id="Boosts" type="LSString" value="" />
+          <attribute id="PassivesAdded" type="LSString" value="" />
+          <attribute id="Selectors" type="LSString" value="" />
+          <attribute id="ProgressionType" type="uint8" value="2" />
+          <attribute id="TableUUID" type="guid" value="5ff931a1-6120-4bd6-ba72-cb0864cbad04" />
+          <attribute id="UUID" type="guid" value="2d88948b-45ec-42ce-8dc9-755b6987a8f6" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="1" />
+          <attribute id="Name" type="LSString" value="Trips_Protector_1" />
+          <attribute id="Boosts" type="LSString" value="" />
+          <attribute id="PassivesAdded" type="LSString" value="" />
+          <attribute id="Selectors" type="LSString" value="" />
+          <attribute id="ProgressionType" type="uint8" value="2" />
+          <attribute id="TableUUID" type="guid" value="33223fd6-6eeb-4581-8368-3edef0225e95" />
+          <attribute id="UUID" type="guid" value="63e0259e-4721-4f7e-bb75-c5d26a55dc74" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="1" />
+          <attribute id="Name" type="LSString" value="Trips_Fallen_1" />
+          <attribute id="Boosts" type="LSString" value="" />
+          <attribute id="PassivesAdded" type="LSString" value="" />
+          <attribute id="Selectors" type="LSString" value="" />
+          <attribute id="ProgressionType" type="uint8" value="2" />
+          <attribute id="TableUUID" type="guid" value="9fb769b4-b7a1-43d2-bc9b-95bea9d58258" />
+          <attribute id="UUID" type="guid" value="adab8d9e-904b-436e-ba9b-9657dd5216c6" />
+        </node>
       </children>
     </node>
   </region>
