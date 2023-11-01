@@ -8,7 +8,7 @@
 					<attribute id="MapKey" type="FixedString" value="62fa124d-75ae-446d-a4d8-7a91bb21cc29" /> must be unique
 					<attribute id="Name" type="LSString" value="BASE_Aasimar_Female" />
 					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="e87dd6f0-22f4-4cd5-914f-adddd2595941" /> base human reference
+					<attribute id="ParentTemplateId" type="FixedString" value="df4aee69-40ea-480d-aa96-1abe82c28b66" /> base human reference
 					<attribute id="Icon" type="FixedString" value="65508880-7afc-74cf-97eb-8d85c80b79b4-_(Icon_Human_Female)" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="a888490b-e176-4995-ae04-edceb1fc665a" /> which models to load
 					<attribute id="Race" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> define race as aasimar
@@ -28,7 +28,7 @@
 					<attribute id="MapKey" type="FixedString" value="9d30f2ab-6dcd-42c5-b293-5dd6e98aefec" /> must be unique
 					<attribute id="Name" type="LSString" value="BASE_Aasimar_Male" />
 					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="acd7060a-43bd-4dc9-b050-9d9b2cf7b7df" /> base human reference
+					<attribute id="ParentTemplateId" type="FixedString" value="fd7f2707-8f86-4836-bda8-e0db99c389cc" /> base human reference
 					<attribute id="Icon" type="FixedString" value="c0807a07-7e67-6f66-31d8-437c234a42e9-_(Icon_Human_Male)" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="baf3dee0-1493-4f8b-af0a-c35437c5aed7" /> which models to load
 					<attribute id="Race" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> define race as aasimar
