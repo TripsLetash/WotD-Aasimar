@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="58" lslib_meta="v1,bswap_guids" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|SCOURGE AASIMAR|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h52d7266cg2c25g4c08g9104geb6f29877847" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h91a77d44gefbeg4cd4g82b4g4ef0a77fc0f9" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="Trips_Aasimar_Scourge" />
+			<attribute id="UUID" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Race" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="PlayerRace" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

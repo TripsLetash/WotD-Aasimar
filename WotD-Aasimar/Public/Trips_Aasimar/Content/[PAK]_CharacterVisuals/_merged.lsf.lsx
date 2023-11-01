@@ -6,11 +6,11 @@
 			<children>
 				<node id="Resource">
 					<attribute id="BaseVisual" type="FixedString" value="3773c64c-c5a9-9baf-1b85-6bee029ee044" />
-					<attribute id="BodySetVisual" type="FixedString" value="38cee76d-1a75-4419-9293-52e47fda65e9" />	body model
-					<attribute id="ID" type="FixedString" value="baf3dee0-1493-4f8b-af0a-c35437c5aed7" /> must be unique		
+					<attribute id="BodySetVisual" type="FixedString" value="38cee76d-1a75-4419-9293-52e47fda65e9" />
+					<attribute id="ID" type="FixedString" value="baf3dee0-1493-4f8b-af0a-c35437c5aed7" />	
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="BASE_Aasimar_Male" />	localised name
-					<attribute id="ShowEquipmentVisuals" type="bool" value="True" />	does it display equipped armour?
+					<attribute id="Name" type="LSString" value="BASE_Aasimar_Male" />
+					<attribute id="ShowEquipmentVisuals" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725056" />
 					<children>
 						<node id="MaterialOverrides">
@@ -1914,6 +1914,9 @@
 						</node>
 					</children>
 				</node>
+			<!--Scourge-->
+			<!--Protector-->
+			<!--Fallen-->
 			</children>
 		</node>
 	</region>
