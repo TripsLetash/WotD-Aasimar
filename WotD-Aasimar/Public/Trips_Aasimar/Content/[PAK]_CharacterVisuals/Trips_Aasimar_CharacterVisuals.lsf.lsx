@@ -6,7 +6,7 @@
 			<children>
 				<node id="Resource">
 					<attribute id="BaseVisual" type="FixedString" value="3773c64c-c5a9-9baf-1b85-6bee029ee044" />
-					<attribute id="BodySetVisual" type="FixedString" value="38cee76d-1a75-4419-9293-52e47fda65e9" />
+					<attribute id="BodySetVisual" type="FixedString" value="dd2c4e01-74f8-45e5-a34c-343bebcec237" />
 					<attribute id="ID" type="FixedString" value="baf3dee0-1493-4f8b-af0a-c35437c5aed7" />	
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="BASE_Aasimar_Male" />
@@ -974,7 +974,7 @@
 				</node>
 				<node id="Resource">
 					<attribute id="BaseVisual" type="FixedString" value="3773c64c-c5a9-9baf-1b85-6bee029ee044" />
-					<attribute id="BodySetVisual" type="FixedString" value="38cee76d-1a75-4419-9293-52e47fda65e9" />
+					<attribute id="BodySetVisual" type="FixedString" value="dd2c4e01-74f8-45e5-a34c-343bebcec237" />
 					<attribute id="ID" type="FixedString" value="103af4dd-60f5-4407-aba3-152a00881cef" />
 					<attribute id="Name" type="LSString" value="Trips_Aasimar_Male_Player" />
 					<attribute id="ShowEquipmentVisuals" type="bool" value="True" />
@@ -1627,7 +1627,7 @@
 				</node>
 				<node id="Resource">
 					<attribute id="BaseVisual" type="FixedString" value="20b3ea2f-40db-418e-81fd-5dabe2d3e62b" />
-					<attribute id="BodySetVisual" type="FixedString" value="82ab6969-2889-4149-bd6f-c7922e320593" />
+					<attribute id="BodySetVisual" type="FixedString" value="7444546b-0e15-43cd-9c14-9e4a08bd5102" />
 					<attribute id="ID" type="FixedString" value="c5839104-434c-4c6c-830e-0c6b5f091a33" />
 					<attribute id="Name" type="LSString" value="Trips_Aasimar_Male_Strong_Player" />
 					<attribute id="ShowEquipmentVisuals" type="bool" value="True" />
