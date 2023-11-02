@@ -420,7 +420,7 @@
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Masc/Models/HUM_M_NKD_Head_Raphael.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Masc/Models/HUM_M_NKD_Head_Raphael.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="HUM_M_NKD_Head_Raphael.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 					<children>
 						<node id="AnimationSetOverrides">
