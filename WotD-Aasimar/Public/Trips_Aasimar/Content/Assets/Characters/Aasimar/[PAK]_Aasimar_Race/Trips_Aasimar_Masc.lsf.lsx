@@ -122,7 +122,7 @@
 	<region id="VisualBank">
 		<node id="VisualBank">
 			<children>
-								<node id="Resource">
+				<node id="Resource">
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
