@@ -130,7 +130,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="896dc443-f789-ddd1-7bfe-687060845584" />
+							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_NKD_Head_B_Remap.HUM_FS_NKD_Head_B_Remap_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -223,7 +223,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="2c17490c-7b67-2ca8-ffd7-14e9c50db79b" />
+							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_NKD_Head_C_Remap.HUM_FS_NKD_Head_C_Remap_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -316,7 +316,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="2c17490c-7b67-2ca8-ffd7-14e9c50db79b" />
+							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_NKD_Head_E_Remap.HUM_FS_NKD_Head_E_Remap_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -409,7 +409,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="896dc443-f789-ddd1-7bfe-687060845584" />
+							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_NKD_Head_K_Remap.HUM_FS_NKD_Head_K_Remap_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -496,7 +496,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="896dc443-f789-ddd1-7bfe-687060845584" />
+							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_NKD_Head_Nightsong.HUM_FS_NKD_Head_Nightsong_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">

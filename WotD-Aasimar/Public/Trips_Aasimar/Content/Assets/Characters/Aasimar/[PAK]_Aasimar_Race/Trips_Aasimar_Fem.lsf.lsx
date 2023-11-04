@@ -266,7 +266,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="2c17490c-7b67-2ca8-ffd7-14e9c50db79b" />
+							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_C.HUM_F_NKD_Head_C_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -351,7 +351,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="896dc443-f789-ddd1-7bfe-687060845584" />
+							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_B.HUM_F_NKD_Head_B_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -433,7 +433,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="0f5fe220-8ad3-4f4e-7682-213e778ccf09" />
+							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_Mystra.HUM_F_NKD_Head_Mystra_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -518,7 +518,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="896dc443-f789-ddd1-7bfe-687060845584" />
+							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_K.HUM_F_NKD_Head_K_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -603,7 +603,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="44c3666a-cf33-93d0-bb9e-5879d4bfe0da" />
+							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_E.HUM_F_NKD_Head_E_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
