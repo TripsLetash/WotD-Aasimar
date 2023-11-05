@@ -523,6 +523,70 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
+			<!--Fallen Wings-->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hfbcc0df1g829dg489fga7a1g19e7a45b9521" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hfbcc0df1g829dg489fga7a1g19e7a45b9521" version="1" />
+					<attribute id="Icon" type="FixedString" value="Status_Fly" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="20110880-cd92-4c24-9ed1-2c676498d36a" />
+					<attribute id="Name" type="LSString" value="Fallen Wings" />
+					<attribute id="Stats" type="FixedString" value="Trips_Fallen_Wings" />
+					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ParentRace" />
+								<node id="ShortHair" />
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Wings" />
+								</node>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ba7e80c2-c08c-4f00-914f-dbb0dbb13838" /> custom
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="480f1b94-8032-4271-8ad4-0a1553bc4e8f" /> custom
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="34482a6b-128d-4dce-bbd5-3777e463b83a" /> custom
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="81c89e10-df02-4524-aa8c-6d066f0ef6be" /> custom
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>

@@ -8,7 +8,7 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="1" />
           <attribute id="Name" type="LSString" value="Trips_Aasimar_1" />
-          <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)" />
+          <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0);ActionResource(ProtectorActionTrait,1,0)" />
           <attribute id="PassivesAdded" type="LSString" value="LightBearer" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
