@@ -28,4 +28,8 @@
 	<content contentuid="h794e5c6fg17d0g4b7eg894dgad4573a18d8a" version="1">Radiant Soul Charge</content>	
 	<content contentuid="h40b7ecf5g8c44g4839g8725g2765a68414bb" version="1">You may use this damagebonus once per turn.</content>
 
+	<!--Scourge Abilities-->
+	<content contentuid="h989f2ecage565g4e72ga2c5g81e1d3f265dc" version="1">Mark of the Scourge</content>	
+	<content contentuid="h0babd2c7gea14g4b2egb138g9079abe86152" version="1">You may fill yourself or a target with ire to take deal increased damage the next time they attack. The bonus damage equals your Proficiency Bonus and is currently [1]. This ability refreshes on a Short Rest.</content>
+	
 </contentList>
