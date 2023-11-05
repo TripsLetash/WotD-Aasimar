@@ -1,7 +1,5 @@
-<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
-<!--------------------- Aasimar Passives --------------------->
-<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
 
+<!--------------------- Aasimar Passives --------------------->
 
 new entry "Aasimar_CelestialResistance"
 type "PassiveData"
@@ -58,7 +56,7 @@ data "InterruptContext" "OnCastHit"
 data "InterruptContextScope" "Self"
 data "Container" "YesNoDecision"
 data "Conditions" "IsAbleToReact(context.Observer) and not Item() and IsMeleeAttack() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponAttack()  and not AnyEntityIsItem() and not IsKillingBlow()"
-data "Properties" "DealDamage(ProficiencyBonus,Radiant,Magical);IF(UndeadOrFiend(context.Target)):DealDamage(ProficiencyBonus,Radiant,Magical);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0)"
+data "Properties" "IF(not UndeadOrFiend(context.Target)):DealDamage(ProficiencyBonus,Radiant,Magical);IF(UndeadOrFiend(context.Target)):DealDamage(ProficiencyBonus+ProficiencyBonus,Radiant,Magical);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0)"
 data "Cost" "ProtectorActionTrait:1"
 data "Stack" "Protector_RadiantSoul"
 data "InterruptDefaultValue" "Enabled;Ask"
@@ -72,7 +70,7 @@ data "Icon" "Action_Paladin_AuraOfDevotion"
 data "StackId" "TRIPS_AURA_OF_PROTECTION"
 data "StackPriority" "10"
 data "AuraRadius" "10"
-data "AuraStatuses" "IF((Self() or Ally()) and Character()):ApplyStatus(TRIPS_AURA_OF_PROTECTION_BUFF)"
+data "AuraStatuses" "IF((Ally()) and Character()):ApplyStatus(TRIPS_AURA_OF_PROTECTION_BUFF)"
 data "Passives" "Trips_Aura_Of_Protection_Heal"
 data "Boosts" ""
 data "RemoveConditions" "HasStatus('SG_Incapacitated')"
@@ -103,45 +101,46 @@ data "Icon" "Action_Paladin_AuraOfDevotion"
 data "DisplayName" "h2983a23dg5341g4444g81a4g76cbc861bf05"
 data "Description" "h5e88dccag4c70g437fg8f2ag38b38b8302dc"
 data "StatsFunctorContext" "OnCreate;OnTurn"
-data "StatsFunctors" "RegainHitPoints(SELF,ProficiencyBonus)"
+data "StatsFunctors" "RegainHitPoints(SELF,Cause.ProficiencyBonus)"
 data "Properties" "Highlighted"
 
 
-<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
-<!--------------------- Aasimar Wings --------------------->
-<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+
+<!--------------------- Aasimar Wings Items --------------------->
+
 
 new entry "Trips_Protector_Wings"
 type "Armor"
-using "_Back"
+using "ARM_Underwear"
 data "RootTemplate" "812ba0ed-454b-4a3e-84f6-4ec2e2e6eb7b"
 data "ArmorType" "Cloth"
 data "ValueOverride" "100"
-data "Boosts" "UnlockSpell(SpectralWings_Flight);Attribute(InventoryBound)"
+data "Boosts" "UnlockSpell(SpectralWings_Flight);"
+data "DefaultBoosts" "HiddenDuringCinematic()"
 data "PassivesOnEquip" "Fly_Effect_Wings"
 
 new entry "Trips_Scourge_Wings"
 type "Armor"
-using "_Back"
+using "ARM_Underwear"
 data "RootTemplate" "00355696-1c4b-4e0f-a735-071e6eb24762"
 data "ArmorType" "Cloth"
 data "ValueOverride" "100"
-data "Boosts" "UnlockSpell(SpectralWings_Flight);Attribute(InventoryBound)"
+data "Boosts" "UnlockSpell(SpectralWings_Flight);"
+data "DefaultBoosts" "HiddenDuringCinematic()"
 data "PassivesOnEquip" "Fly_Effect_Wings"
 
 new entry "Trips_Fallen_Wings"
 type "Armor"
-using "_Back"
+using "ARM_Underwear"
 data "RootTemplate" "20110880-cd92-4c24-9ed1-2c676498d36a"
 data "ArmorType" "Cloth"
 data "ValueOverride" "100"
-data "Boosts" "UnlockSpell(SpectralWings_Flight);Attribute(InventoryBound)"
+data "Boosts" "UnlockSpell(SpectralWings_Flight);"
+data "DefaultBoosts" "HiddenDuringCinematic()"
 data "PassivesOnEquip" "Fly_Effect_Wings"
 
 
-<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
 <!--------------------- Aasimar STATUS  --------------------->
-<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
 
 //PROTECTOR
 new entry "PROTECTOR_WING_ABILITIES"
@@ -166,7 +165,7 @@ data "Description" ""
 data "DescriptionParams" "Distance(12)"
 data "Icon" "statIcons_Pure"
 data "StackId" "PROTECTOR_PASSIVE_WINGS"
-data "Boosts" ""
+data "Boosts" "Attribute(InventoryBound)"
 data "Passives" ""
 data "IsUnique" "1"
 data "StatusEffect" ""
@@ -196,7 +195,7 @@ data "StackId" "PROTECTOR_BLESSING_BUFF"
 data "RemoveConditions" ""
 data "RemoveEvents" "OnDamagedPrevented"
 data "OnApplyFunctors" ""
-data "Boosts" "DamageReduction(All, Flat, ProficiencyBonus)"
+data "Boosts" "DamageReduction(All, Flat, Cause.ProficiencyBonus)"
 
 //SCOURGE
 new entry "SCOURGE_WING_ABILITIES"
@@ -221,7 +220,7 @@ data "Description" ""
 data "DescriptionParams" "Distance(12)"
 data "Icon" "statIcons_Pure"
 data "StackId" "SCOURGE_PASSIVE_WINGS"
-data "Boosts" ""
+data "Boosts" "Attribute(InventoryBound)"
 data "Passives" ""
 data "IsUnique" "1"
 data "StatusEffect" ""
@@ -262,7 +261,7 @@ data "Description" ""
 data "DescriptionParams" "Distance(12)"
 data "Icon" "statIcons_Pure"
 data "StackId" "FALLEN_PASSIVE_WINGS"
-data "Boosts" ""
+data "Boosts" "Attribute(InventoryBound)"
 data "Passives" ""
 data "IsUnique" "1"
 data "StatusEffect" ""
@@ -280,14 +279,12 @@ data "RemoveEvents" "OnTurn;OnStatusRemoved"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnApplyFunctors" "BreakConcentration()"
 
-<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
-<!--------------------- Aasimar - Traits  --------------------->
-<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Aasimar - Spells  --------------------->
 
 new entry "Trips_Base_ProtectorBlessing"
 type "SpellData"
 data "SpellType" "Target"
-//data "Cooldown" "OncePerRest"
+data "Cooldown" "OncePerRest"
 data "SpellProperties" "ApplyStatus(PROTECTOR_BLESSING_BUFF,-1)"
 data "TargetRadius" "1.5"
 data "TargetConditions" ""
@@ -433,6 +430,7 @@ data "SpellActionType" "Dismiss"
 data "PrepareEffect" "4ccd738c-494b-4231-9067-742798e4c241"
 data "CastEffect" "727a210b-90c4-4a5a-b9d6-a466753aa2ed"
 
+<!--------------------- Aasimar - Flight Skill  --------------------->
 
 new entry "SpectralWings_Flight"
 type "SpellData"
