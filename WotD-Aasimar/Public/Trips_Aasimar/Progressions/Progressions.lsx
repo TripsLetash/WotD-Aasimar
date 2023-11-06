@@ -20,7 +20,7 @@
           <attribute id="Level" type="uint8" value="1" />
           <attribute id="Name" type="LSString" value="Trips_Protector_1" />
           <attribute id="Boosts" type="LSString" value="" />
-          <attribute id="PassivesAdded" type="LSString" value="Aasimar_Protector_Resistance" />
+          <attribute id="PassivesAdded" type="LSString" value="Aasimar_Protector_Resistance;Trips_ProtectorMark" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="33223fd6-6eeb-4581-8368-3edef0225e95" />
@@ -30,7 +30,7 @@
           <attribute id="Level" type="uint8" value="3" />
           <attribute id="Name" type="LSString" value="Trips_Protector_3" />
           <attribute id="Boosts" type="LSString" value="" />
-          <attribute id="PassivesAdded" type="LSString" value="" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Protector_lvl3" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="33223fd6-6eeb-4581-8368-3edef0225e95" />
@@ -51,22 +51,62 @@
           <attribute id="Level" type="uint8" value="1" />
           <attribute id="Name" type="LSString" value="Trips_Scourge_1" />
           <attribute id="Boosts" type="LSString" value="" />
-          <attribute id="PassivesAdded" type="LSString" value="Aasimar_Scourge_Resistance" />
+          <attribute id="PassivesAdded" type="LSString" value="Aasimar_Scourge_Resistance;Trips_ScourgeMark" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="5ff931a1-6120-4bd6-ba72-cb0864cbad04" />
           <attribute id="UUID" type="guid" value="2d88948b-45ec-42ce-8dc9-755b6987a8f6" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3" />
+          <attribute id="Name" type="LSString" value="Trips_Scourge_3" />
+          <attribute id="Boosts" type="LSString" value="" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Scourge_lvl3" />
+          <attribute id="Selectors" type="LSString" value="" />
+          <attribute id="ProgressionType" type="uint8" value="2" />
+          <attribute id="TableUUID" type="guid" value="5ff931a1-6120-4bd6-ba72-cb0864cbad04" />
+          <attribute id="UUID" type="guid" value="fa24028e-f59f-43a5-803f-ae44d19e21b5" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10" />
+          <attribute id="Name" type="LSString" value="Trips_Scourge_10" />
+          <attribute id="Boosts" type="LSString" value="" />
+          <attribute id="PassivesAdded" type="LSString" value="Passive_lvl10" />
+          <attribute id="Selectors" type="LSString" value="" />
+          <attribute id="ProgressionType" type="uint8" value="2" />
+          <attribute id="TableUUID" type="guid" value="5ff931a1-6120-4bd6-ba72-cb0864cbad04" />
+          <attribute id="UUID" type="guid" value="0a16c6df-dd79-409a-97c1-8ad37e5592d4" />
         </node>
 
         <node id="Progression">
           <attribute id="Level" type="uint8" value="1" />
           <attribute id="Name" type="LSString" value="Trips_Fallen_1" />
           <attribute id="Boosts" type="LSString" value="" />
-          <attribute id="PassivesAdded" type="LSString" value="Aasimar_Fallen_Resistance" />
+          <attribute id="PassivesAdded" type="LSString" value="Aasimar_Fallen_Resistance;Trips_FallenMark" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="9fb769b4-b7a1-43d2-bc9b-95bea9d58258" />
           <attribute id="UUID" type="guid" value="adab8d9e-904b-436e-ba9b-9657dd5216c6" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3" />
+          <attribute id="Name" type="LSString" value="Trips_Fallen_3" />
+          <attribute id="Boosts" type="LSString" value="" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Fallen_lvl3" />
+          <attribute id="Selectors" type="LSString" value="" />
+          <attribute id="ProgressionType" type="uint8" value="2" />
+          <attribute id="TableUUID" type="guid" value="9fb769b4-b7a1-43d2-bc9b-95bea9d58258" />
+          <attribute id="UUID" type="guid" value="ca305d48-f13d-4698-a9bb-b4270d2068c5" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10" />
+          <attribute id="Name" type="LSString" value="Trips_Fallen_10" />
+          <attribute id="Boosts" type="LSString" value="" />
+          <attribute id="PassivesAdded" type="LSString" value="Passive_lvl10" />
+          <attribute id="Selectors" type="LSString" value="" />
+          <attribute id="ProgressionType" type="uint8" value="2" />
+          <attribute id="TableUUID" type="guid" value="9fb769b4-b7a1-43d2-bc9b-95bea9d58258" />
+          <attribute id="UUID" type="guid" value="e3c689ff-2513-4b0f-8f2a-b0e6353540af" />
         </node>
       </children>
     </node>
