@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 	<!--Race titles and descriptions-->
-	<content contentuid="h3b50a476g26b0g46ffgb876g239463c0367a" version="1">Fancy Angels Description.</content>
+	<content contentuid="h3b50a476g26b0g46ffgb876g239463c0367a" version="1">Descending from celestials of the Upper Planes, Aasimar are a rare species often regarded as messianic figures throughout Faerûn. Compelled by divine purpose, their ancestry grants them unique abilities.</content>
 	<content contentuid="haf93d995g7905g4663g9f14g1b95579af9f2" version="1">Aasimar</content>
-	<content contentuid="h52d7266cg2c25g4c08g9104geb6f29877847" version="1">Scourge Desc</content>
+	<content contentuid="h52d7266cg2c25g4c08g9104geb6f29877847" version="1">Descended from crusading angels, Scourge Aasimar inherit a burning desire to destroy evil wherever it's found. Their divine abilities are dedicated to offense.</content>
 	<content contentuid="h91a77d44gefbeg4cd4g82b4g4ef0a77fc0f9" version="1">Scourge Aasimar</content>
-	<content contentuid="h0e98342agff55g4afaga2fbg5e6251ae267a" version="1">Protector Desc</content>
+	<content contentuid="h0e98342agff55g4afaga2fbg5e6251ae267a" version="1">Descended from guardian angels, Protector Aasimar, also known as Vigils, feel a need to safeguard others. Their divine abilities are dedicated to protection.</content>
 	<content contentuid="hbd053ca5g5678g4239g9abdg4b08e63e676c" version="1">Protector Aasimar</content>
-	<content contentuid="h784431d2g3a49g4f43g81a2g1333eb183a8e" version="1">Fallen Desc</content>
+	<content contentuid="h784431d2g3a49g4f43g81a2g1333eb183a8e" version="1">Descended from fallen angels, or having fallen themselves, Fallen Aasimar experience impulses to destroy goodness as much as protect it. Their divine abilities are twisted into something altogether darker.</content>
 	<content contentuid="h7c6af3a5ge868g45b8gac01g509380877d9f" version="1">Fallen Aasimar</content>
 
 	<!--Heads-->
@@ -22,14 +22,26 @@
 	<content contentuid="h56d3999fg5af0g49fbgac25g0950ced60a5f" version="1">Wings of the Scourge</content>	
 	<content contentuid="hfbcc0df1g829dg489fga7a1g19e7a45b9521" version="1">Wings of the Fallen</content>	
 
-	<!--Protector Abilities-->
-	<content contentuid="hc63dd4b1g50f6g4064gad21gb2a5c8e0b84e" version="1">Blessing of the Protector</content>	
-	<content contentuid="hb67cf8d2g0323g483fg81aeg46461c2211ba" version="1">You may bless yourself or a target to take reduced damage the next time they are hurt. The reduced damage equals your Proficiency Bonus and is currently [1]. This ability refreshes on a Short Rest.</content>
 	<content contentuid="h794e5c6fg17d0g4b7eg894dgad4573a18d8a" version="1">Radiant Soul Charge</content>	
 	<content contentuid="h40b7ecf5g8c44g4839g8725g2765a68414bb" version="1">You may use this damagebonus once per turn.</content>
+	<content contentuid="h095f9fbeg7213g4ee2ga944g2b25d36b82d7" version="1">Mark Charge</content>	
+	<content contentuid="h32d42a8fg2f00g4c7eg8f6bgefdf60a2b9fe" version="1">You may use this ability once per turn. The amount of times you can use this ability equals your Proficiency Bonus. You regain your charges on a Long Rest.</content>
+
+	<!--Protector Abilities-->
+	<content contentuid="hc63dd4b1g50f6g4064gad21gb2a5c8e0b84e" version="1">Mark of the Protector</content>	
+	<content contentuid="hb67cf8d2g0323g483fg81aeg46461c2211ba" version="1">You may bless yourself or a target to take reduced damage the next time they are hurt. The reduced damage equals your Proficiency Bonus and is currently [1]. This ability refreshes on a Short Rest.</content>
+	<content contentuid="he0025637gff81g4533gbf11ge84057fcce0d" version="1">Mantle of the Protector</content>
+	<content contentuid="h9ea2caadgf8bag4269ga137gdc14e611491b" version="1">Your need to protect others manifests itself as divine power. Gain half your movespeed in flight. At the end of each turn, you and allies within 10 feet of you that you can see restore health equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage with an attack or spell.</content>
 
 	<!--Scourge Abilities-->
 	<content contentuid="h989f2ecage565g4e72ga2c5g81e1d3f265dc" version="1">Mark of the Scourge</content>	
 	<content contentuid="h0babd2c7gea14g4b2egb138g9079abe86152" version="1">You may fill yourself or a target with ire to take deal increased damage the next time they attack. The bonus damage equals your Proficiency Bonus and is currently [1]. This ability refreshes on a Short Rest.</content>
-	
+	<content contentuid="hcfd55c57g688dg43bdg8f72gfb20137f1c3b" version="1">Fury of the Scourge</content>
+	<content contentuid="hd64be7f7g8461g4eabg8a46g81eefbbfb8e5" version="1">Your righteous fury boils over, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you. Gain half your movespeed as flight. You shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each hostile creature within 10 feet of you take radiant damage equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
+
+	<!--Fallen Abilities-->
+	<content contentuid="h828c4101g6508g4daag9055g394f13f47b7d" version="1">Mark of the Fallen</content>	
+	<content contentuid="h20926a3bga055g47f5gae22g6eacb2522321" version="1">You may project your dark power into the mind of a target, cursing them to make a save (DC8+Proficiency+Spellcasting Modifier), or become Frightened for 1 turn.</content>
+	<content contentuid="h42b96546g51ffg453bg9930g4692f957113b" version="1">Embrace of the Fallen</content>
+	<content contentuid="hb9cf9239g6903g4805g9078g991396c2a9b6" version="1">Unleash the darkness inside. Gain half your movespeed in flight. At the end of each turn, other creatures within 10 feet of you that can see you must each succeed on a Charisma saving throw (DC8+Proficiency+Spellcasting Modifier) or become frightened of you until the end of your next turn. Once per turn, deal extra Necrotic damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
 </contentList>
