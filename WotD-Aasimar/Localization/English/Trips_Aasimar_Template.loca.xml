@@ -29,19 +29,19 @@
 
 	<!--Protector Abilities-->
 	<content contentuid="hc63dd4b1g50f6g4064gad21gb2a5c8e0b84e" version="1">Mark of the Protector</content>	
-	<content contentuid="hb67cf8d2g0323g483fg81aeg46461c2211ba" version="1">You may bless yourself or a target to take reduced damage the next time they are hurt. The reduced damage equals your Proficiency Bonus and is currently [1]. This ability refreshes on a Short Rest.</content>
+	<content contentuid="hb67cf8d2g0323g483fg81aeg46461c2211ba" version="1">You may bless yourself or a target to take reduced damage equal to your Proficiency Bonus the next time they are hurt.</content>
 	<content contentuid="he0025637gff81g4533gbf11ge84057fcce0d" version="1">Mantle of the Protector</content>
-	<content contentuid="h9ea2caadgf8bag4269ga137gdc14e611491b" version="1">Your need to protect others manifests itself as divine power. Gain half your movespeed in flight. At the end of each turn, you and allies within 10 feet of you that you can see restore health equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage with an attack or spell.</content>
+	<content contentuid="h9ea2caadgf8bag4269ga137gdc14e611491b" version="1">Your need to protect others manifests itself as divine power. You gain flight, and at the end of each turn, you and allies within 10 feet of you that you can see restore health equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage with an attack or spell.</content>
 
 	<!--Scourge Abilities-->
 	<content contentuid="h989f2ecage565g4e72ga2c5g81e1d3f265dc" version="1">Mark of the Scourge</content>	
-	<content contentuid="h0babd2c7gea14g4b2egb138g9079abe86152" version="1">You may fill yourself or a target with ire to take deal increased damage the next time they attack. The bonus damage equals your Proficiency Bonus and is currently [1]. This ability refreshes on a Short Rest.</content>
+	<content contentuid="h0babd2c7gea14g4b2egb138g9079abe86152" version="1">You may infuse yourself or a target with divine ire, gaining your Proficiency Bonus as Radiant damage on their next attack or spell.</content>
 	<content contentuid="hcfd55c57g688dg43bdg8f72gfb20137f1c3b" version="1">Fury of the Scourge</content>
-	<content contentuid="hd64be7f7g8461g4eabg8a46g81eefbbfb8e5" version="1">Your righteous fury boils over, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you. Gain half your movespeed as flight. You shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each hostile creature within 10 feet of you take radiant damage equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
+	<content contentuid="hd64be7f7g8461g4eabg8a46g81eefbbfb8e5" version="1">Your righteous fury boils over. You gain flight, shed bright light in a 10-foot radius, and at the end of your turn, you and each enemy creature within 10 feet of you take radiant damage equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
 
 	<!--Fallen Abilities-->
 	<content contentuid="h828c4101g6508g4daag9055g394f13f47b7d" version="1">Mark of the Fallen</content>	
-	<content contentuid="h20926a3bga055g47f5gae22g6eacb2522321" version="1">You may project your dark power into the mind of a target, cursing them to make a save (DC8+Proficiency+Spellcasting Modifier), or become Frightened for 1 turn.</content>
+	<content contentuid="h20926a3bga055g47f5gae22g6eacb2522321" version="1">You may ward yourself or an ally with your inner darkness, forcing the next enemy who damages them in melee to make a save, or become Frightened for a duration equal to half your Proficiency Bonus, rounded down.</content>
 	<content contentuid="h42b96546g51ffg453bg9930g4692f957113b" version="1">Embrace of the Fallen</content>
 	<content contentuid="hb9cf9239g6903g4805g9078g991396c2a9b6" version="1">Unleash the darkness inside. Gain half your movespeed in flight. At the end of each turn, other creatures within 10 feet of you that can see you must each succeed on a Charisma saving throw (DC8+Proficiency+Spellcasting Modifier) or become frightened of you until the end of your next turn. Once per turn, deal extra Necrotic damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
 </contentList>
