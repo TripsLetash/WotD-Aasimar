@@ -17,11 +17,20 @@
 	<content contentuid="h3ec4a2a3g317fg46fegb3d0gd317f9d2162c" version="1">Cracks 04</content>	
 	<content contentuid="heeb6f2a9g8cd7g4d6dg825bg34fa1163104a" version="1">Cracks 05</content>
 
+	<!--DEBUG-->
+	<content contentuid="h91c77b28g130fg46d8g806ag05f230b564aa" version="1">Level 10 Wings: DEBUG</content>	
+	<content contentuid="h7ec2e0c1ga04cg4f5bg8616g3d33aa16eded" version="1">FALLEN TECHNICAL: DEBUG</content>
+	<content contentuid="h2194c3acg41cag4667gb7cbgbe2683b5d44e" version="1">FALLEN CREATURE: DEBUG</content>
+	<content contentuid="h7d700342gb5c6g4cdfg8c0ag520aeb8b4a49" version="1">FALLEN FEAR: DEBUG</content>
+	<content contentuid="h5c44181cga722g495fgb5c6g7eb7176ad5b0" version="1">FALLEN FEARROLL 1: DEBUG</content>
+	<content contentuid="h8d8c6bb7g7ebeg4521ga545gb90438274953" version="1">FALLEN FEARROLL 2: DEBUG</content>
+	<content contentuid="h2ee15314gb35eg4225g9c97g243ec5d0b3cc" version="1">FALLEN AURA APPLIED: DEBUG</content>
+
 	<!--Wings-->
 	<content contentuid="h5b712fcdg285dg4077g800dg91447da2f552" version="1">Wings of the Protector</content>	
 	<content contentuid="h56d3999fg5af0g49fbgac25g0950ced60a5f" version="1">Wings of the Scourge</content>	
 	<content contentuid="hfbcc0df1g829dg489fga7a1g19e7a45b9521" version="1">Wings of the Fallen</content>
-	<content contentuid="h91c77b28g130fg46d8g806ag05f230b564aa" version="1">Level 10 Wings: DEBUG</content>	
+
 
 	<content contentuid="h794e5c6fg17d0g4b7eg894dgad4573a18d8a" version="1">Radiant Soul Charge</content>	
 	<content contentuid="h40b7ecf5g8c44g4839g8725g2765a68414bb" version="1">You may use this damagebonus once per turn.</content>

@@ -9,7 +9,7 @@
           <attribute id="Level" type="uint8" value="1" />
           <attribute id="Name" type="LSString" value="Trips_Aasimar_1" />
           <attribute id="Boosts" type="LSString" value="ActionResource(Trips_Aasimar_Bigcast,1,0)" />
-          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Smallcast;LightBearer" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Smallcast" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81" />
@@ -40,7 +40,7 @@
           <attribute id="Level" type="uint8" value="10" />
           <attribute id="Name" type="LSString" value="Trips_Protector_10" />
           <attribute id="Boosts" type="LSString" value="" />
-          <attribute id="PassivesAdded" type="LSString" value="Passive_lvl10" />
+          <attribute id="PassivesAdded" type="LSString" value="Protector_Passive_lvl10" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="33223fd6-6eeb-4581-8368-3edef0225e95" />
@@ -71,7 +71,7 @@
           <attribute id="Level" type="uint8" value="10" />
           <attribute id="Name" type="LSString" value="Trips_Scourge_10" />
           <attribute id="Boosts" type="LSString" value="" />
-          <attribute id="PassivesAdded" type="LSString" value="Passive_lvl10" />
+          <attribute id="PassivesAdded" type="LSString" value="Scourge_Passive_lvl10" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="5ff931a1-6120-4bd6-ba72-cb0864cbad04" />
@@ -102,7 +102,7 @@
           <attribute id="Level" type="uint8" value="10" />
           <attribute id="Name" type="LSString" value="Trips_Fallen_10" />
           <attribute id="Boosts" type="LSString" value="" />
-          <attribute id="PassivesAdded" type="LSString" value="Passive_lvl10" />
+          <attribute id="PassivesAdded" type="LSString" value="Fallen_Passive_lvl10" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="9fb769b4-b7a1-43d2-bc9b-95bea9d58258" />
