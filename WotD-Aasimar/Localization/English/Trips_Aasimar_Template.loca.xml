@@ -25,33 +25,66 @@
 	<content contentuid="h5c44181cga722g495fgb5c6g7eb7176ad5b0" version="1">FALLEN FEARROLL 1: DEBUG</content>
 	<content contentuid="h8d8c6bb7g7ebeg4521ga545gb90438274953" version="1">FALLEN FEARROLL 2: DEBUG</content>
 	<content contentuid="h2ee15314gb35eg4225g9c97g243ec5d0b3cc" version="1">FALLEN AURA APPLIED: DEBUG</content>
+	<content contentuid="hd9e16e71gcc98g40f7g8a5fg7701452ea08d" version="1">WING ABILITIES: DEBUG</content>
+
+	<!--Passives-->
+	<content contentuid="h21a956d9gd655g4936g9540g61b251f7c6ac" version="1">Radiant Resistance</content>	
+	<content contentuid="h6bbb9fe2g905cg4ef2ga543g1b6cbae1696d" version="1">You gain resistance against Radiant damage.</content>		
+	<content contentuid="hdd002048ge382g467aga7feg473c03ebaa8a" version="1">Necrotic Resistance</content>	
+	<content contentuid="h0a8879b2gd333g457dg888fg7f34a5af4788" version="1">You gain resistance against Necrotic damage.</content>		
 
 	<!--Wings-->
 	<content contentuid="h5b712fcdg285dg4077g800dg91447da2f552" version="1">Wings of the Protector</content>	
 	<content contentuid="h56d3999fg5af0g49fbgac25g0950ced60a5f" version="1">Wings of the Scourge</content>	
 	<content contentuid="hfbcc0df1g829dg489fga7a1g19e7a45b9521" version="1">Wings of the Fallen</content>
+	<content contentuid="h4efdee8bg80c1g4facg96f2g38fe55cbfa96" version="1">Dismiss Manifestation</content>
+	<content contentuid="h443a44b2ge90ag411dg8a55g797715a13836" version="1">Revert back from your celestial form.</content>
 
-
+	<!--Action Resources-->
 	<content contentuid="h794e5c6fg17d0g4b7eg894dgad4573a18d8a" version="1">Radiant Soul Charge</content>	
-	<content contentuid="h40b7ecf5g8c44g4839g8725g2765a68414bb" version="1">You may use this damagebonus once per turn.</content>
+	<content contentuid="h40b7ecf5g8c44g4839g8725g2765a68414bb" version="1">Once per turn, you may call upon your celestial power to deal extra damage on a succesful attack.</content>
 	<content contentuid="h095f9fbeg7213g4ee2ga944g2b25d36b82d7" version="1">Mark Charge</content>	
 	<content contentuid="h32d42a8fg2f00g4c7eg8f6bgefdf60a2b9fe" version="1">You may use this ability once per turn. The amount of times you can use this ability equals your Proficiency Bonus. You regain your charges on a Long Rest.</content>
 
 	<!--Protector Abilities-->
 	<content contentuid="hc63dd4b1g50f6g4064gad21gb2a5c8e0b84e" version="1">Mark of the Protector</content>	
 	<content contentuid="hb67cf8d2g0323g483fg81aeg46461c2211ba" version="1">You may bless yourself or a target to take reduced damage equal to your Proficiency Bonus the next time they are hurt.</content>
+	<content contentuid="hb6b05e7cgcdbeg425fg9b85g2ea5e38dce5b" version="1">You are blessed by a Vigil to take reduced damage equal to their Proficiency Bonus the next time you are hurt.</content>
 	<content contentuid="he0025637gff81g4533gbf11ge84057fcce0d" version="1">Mantle of the Protector</content>
-	<content contentuid="h9ea2caadgf8bag4269ga137gdc14e611491b" version="1">Your need to protect others manifests itself as divine power. You gain flight, and at the end of each turn, you and allies within 10 feet of you that you can see restore health equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage with an attack or spell.</content>
+	<content contentuid="h9ea2caadgf8bag4269ga137gdc14e611491b" version="1">Your need to protect others manifests itself as divine power. You gain flight, and at the end of each turn, you and allies within 10 meters of you that you can see restore health equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage with an attack or spell.</content>
+	<content contentuid="hecf071a6g399dg4a6cgbf4eg422d9bc3473f" version="1">Mantle of the Protector Aura</content>	
+	<content contentuid="h9ea2caadgf8bag4269ga137gdc14e611491b" version="1">At the end of each turn, you and allies within 10 meters of you that you can see restore health equal to your Proficiency Bonus.</content>
 
 	<!--Scourge Abilities-->
 	<content contentuid="h989f2ecage565g4e72ga2c5g81e1d3f265dc" version="1">Mark of the Scourge</content>	
 	<content contentuid="h0babd2c7gea14g4b2egb138g9079abe86152" version="1">You may infuse yourself or a target with divine ire, gaining your Proficiency Bonus as Radiant damage on their next attack or spell.</content>
+	<content contentuid="h058b0fb2g82ecg4967gbcbcgbc9702464e72" version="1">You are infused with divine ire by a Scourge of the Light, gaining their Proficiency Bonus as Radiant damage on your next attack or spell.</content>
 	<content contentuid="hcfd55c57g688dg43bdg8f72gfb20137f1c3b" version="1">Fury of the Scourge</content>
-	<content contentuid="hd64be7f7g8461g4eabg8a46g81eefbbfb8e5" version="1">Your righteous fury boils over. You gain flight, shed bright light in a 10-foot radius, and at the end of your turn, you and each enemy creature within 10 feet of you take radiant damage equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
+	<content contentuid="hd64be7f7g8461g4eabg8a46g81eefbbfb8e5" version="1">Your righteous fury boils over. You gain flight, shed bright light in a 10-foot radius, and at the end of your turn, you and each enemy creature within 10 meters of you take radiant damage equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
+	<content contentuid="h491254c1ge5c9g47adgab07gf3af7a8c4067" version="1">Fury of the Scourge Aura</content>
+	<content contentuid="h68e765e7gc069g42cega77cg394a0ee9569f" version="1">At the end of your turn, you and each enemy creature within 10 meters of you take radiant damage equal to your Proficiency Bonus. You also shed bright light in a 10 meter radius.</content>
 
 	<!--Fallen Abilities-->
 	<content contentuid="h828c4101g6508g4daag9055g394f13f47b7d" version="1">Mark of the Fallen</content>	
-	<content contentuid="h20926a3bga055g47f5gae22g6eacb2522321" version="1">You may ward yourself or an ally with your inner darkness, forcing the next enemy who damages them in melee to make a save, or become Frightened for a duration equal to half your Proficiency Bonus, rounded down.</content>
+	<content contentuid="h20926a3bga055g47f5gae22g6eacb2522321" version="1">You may ward yourself or an ally with your inner darkness, forcing the next enemy who attacks them in melee to make a Charisma save, or become Frightened for a duration equal to half your Proficiency Bonus, rounded down.</content>
+	<content contentuid="hcf2d0a4dgd447g4012ga1f8gc2040b90bf12" version="1">You are warded by a Fallen Aasimar's inner darkness, forcing the next enemy who attacks you in melee to make a Charisma save, or become Frightened for a duration equal to half their Proficiency Bonus, rounded down.</content>
 	<content contentuid="h42b96546g51ffg453bg9930g4692f957113b" version="1">Embrace of the Fallen</content>
-	<content contentuid="hb9cf9239g6903g4805g9078g991396c2a9b6" version="1">Unleash the darkness inside. You gain flight, and at the end of each turn, other creatures within 10 feet of you that can see you must each succeed on a Charisma saving throw (DC8+Proficiency+Spellcasting Modifier) or become frightened of you until the end of your next turn. Once per turn, deal extra Necrotic damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
+	<content contentuid="hb9cf9239g6903g4805g9078g991396c2a9b6" version="1">Unleash the darkness inside. You gain flight, and at the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Charisma saving throw (DC8+Proficiency+Spellcasting Modifier) or become frightened of you until the end of your next turn. Once per turn, deal extra Necrotic damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
+	<content contentuid="h112918e9g580fg4ea8g8aecg172048c86aa0" version="1">Embrace of the Fallen Aura</content>
+	<content contentuid="h56721999gf8ffg41e7g87c1g4f8e5c5b577b" version="1">At the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Charisma saving throw or become frightened of you until the end of your next turn.</content>
+
+	<!--Level 10 Wings Passive-->
+	<content contentuid="h62a92649ge35dg480egba44gb984f394e6bf" version="1">Powerful Connection</content>	
+	<content contentuid="hbed6bfddg8353g4199gb7e1g02cd8f65c7df" version="1">A stronger connection to your ancestral ties has allowed you to manifest your wings at will.</content>	
+
+	<!--Celestial Revelation-->
+	<content contentuid="h4e4a1f8eg8be5g4914g8a89g709e30a87c8d" version="1">Celestial Revelation</content>	
+	<content contentuid="h3ac27425g6e0cg402fga27eg09972025d4ff" version="1">You have transformed into a manifestation of your celestial ancestry.</content>	
+
+	<!--Interrupts-->
+	<content contentuid="h285fbd86gc4d6g40e6gaa1dg55ebed3c4e18" version="1">Radiant Soul</content>	
+	<content contentuid="hd02a1981gf6adg4cd9gaf8dgba586ab1d878" version="1">Once per turn, you may call upon your celestial power to deal extra Radiant damage equal to your Proficiency Bonus on a succesful attack.</content>	
+	<content contentuid="hdd751efdg7b9ag49a7g9ce3g23eba4d17245" version="1">Necrotic Soul</content>	
+	<content contentuid="h6455bc6fgd4b1g4b89g8ab9g2541a7df15f4" version="1">Once per turn, you may call upon your celestial power to deal extra Necrotic damage equal to your Proficiency Bonus on a succesful attack.</content>	
+
 </contentList>
