@@ -8,8 +8,8 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="1" />
           <attribute id="Name" type="LSString" value="Trips_Aasimar_1" />
-          <attribute id="Boosts" type="LSString" value="ActionResource(Trips_Aasimar_Bigcast,1,0)" />
-          <attribute id="PassivesAdded" type="LSString" value="" />
+          <attribute id="Boosts" type="LSString" value="" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Smallcast" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81" />
@@ -18,8 +18,8 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="3" />
           <attribute id="Name" type="LSString" value="Trips_Aasimar_3" />
-          <attribute id="Boosts" type="LSString" value="" />
-          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Smallcast" />
+          <attribute id="Boosts" type="LSString" value="ActionResource(Trips_Aasimar_Bigcast,1,0)" />
+          <attribute id="PassivesAdded" type="LSString" value="" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81" />
