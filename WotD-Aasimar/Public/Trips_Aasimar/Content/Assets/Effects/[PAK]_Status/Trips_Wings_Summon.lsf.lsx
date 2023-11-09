@@ -227,6 +227,50 @@
 						</node>
 					</children>
 				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="9 9 9" />
+					<attribute id="BoundsMin" type="fvec3" value="-9 -9 -9" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="6.999999" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Fallen_Eclipse_02" />
+					<attribute id="ID" type="FixedString" value="237ca042-6fc3-4f6d-8f28-5a426ec6cd77" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Fallen_Eclipse_02" />
+					<attribute id="Radius" type="float" value="9" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Fallen_Eclipse_02.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241710" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="10" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Fallen_Smoke_Big" />
+					<attribute id="ID" type="FixedString" value="6670b8d2-d59b-4aea-9bfc-c7f5f3fc8698" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Fallen_Smoke_Big" />
+					<attribute id="Radius" type="float" value="10" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Fallen_Smoke_Big.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>							
+							</children>
+						</node>
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>
