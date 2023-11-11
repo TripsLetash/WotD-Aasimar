@@ -1,21 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 	<!--Race titles and descriptions-->
-	<content contentuid="h3b50a476g26b0g46ffgb876g239463c0367a" version="1">Descending from celestials of the Upper Planes, Aasimar are a rare species often regarded as messianic figures throughout Faerûn. Compelled by divine purpose, their ancestry grants them unique abilities.</content>
+	<content contentuid="h3b50a476g26b0g46ffgb876g239463c0367a" version="1">Descendants of celestials of the Upper Planes, aasimars are a rare species often regarded as messianic figures throughout Faerûn. Faced with high expectations from society and compulsions to act or feel certain ways due to their celestial heritage, aasimar often have little control over their own lives. However, those who find their calling- whether through divine purpose or self-discovery- are capable of staggering feats, wielding the powers of the angels themselves.</content>
 	<content contentuid="haf93d995g7905g4663g9f14g1b95579af9f2" version="1">Aasimar</content>
-	<content contentuid="h52d7266cg2c25g4c08g9104geb6f29877847" version="1">Descended from crusading angels, Scourge Aasimar inherit a burning desire to destroy evil wherever it's found. Their divine abilities are dedicated to offense.</content>
+	<content contentuid="h52d7266cg2c25g4c08g9104geb6f29877847" version="1">Descended from guardian angels, Protector aasimars highly value mortal life and feel obligated to safeguard those around them. They may tap into their angelic bloodline to shield and heal others.</content>
 	<content contentuid="h91a77d44gefbeg4cd4g82b4g4ef0a77fc0f9" version="1">Scourge Aasimar</content>
-	<content contentuid="h0e98342agff55g4afaga2fbg5e6251ae267a" version="1">Descended from guardian angels, Protector Aasimar, also known as Vigils, feel a need to safeguard others. Their divine abilities are dedicated to protection.</content>
+	<content contentuid="h0e98342agff55g4afaga2fbg5e6251ae267a" version="1">Descended from crusading angels, Scourge aasimars inherit a burning hatred for the forces of evil and are driven to destroy it wherever it is found. They may tap into their angelic bloodline to burn their foes in holy fire.</content>
 	<content contentuid="hbd053ca5g5678g4239g9abdg4b08e63e676c" version="1">Protector Aasimar</content>
-	<content contentuid="h784431d2g3a49g4f43g81a2g1333eb183a8e" version="1">Descended from fallen angels, or having fallen themselves, Fallen Aasimar experience impulses to destroy goodness as much as protect it. Their divine abilities are twisted into something altogether darker.</content>
+	<content contentuid="h784431d2g3a49g4f43g81a2g1333eb183a8e" version="1">Descended from fallen angels, or having fallen themselves, Fallen aasimars have irreconcilably damaged the connection to their bloodline, and experience conficting impulses to destroy good as much as protect it. Their divine abilities are twisted into something altogether darker.</content>
 	<content contentuid="h7c6af3a5ge868g45b8gac01g509380877d9f" version="1">Fallen Aasimar</content>
 
+	<!--Passives-->
+	<content contentuid="h18f631efgdfeeg4683gac99g72a7dff7e657" version="1">Darkvision</content>
+	<content contentuid="hb1c0e0d5g1cbag401agb788gc5a4fa133bac" version="1">You can see in ordinary darkness up to a range of [1].</content>
+	<content contentuid="hfcf2eb88g90aeg4562gb506g2df739217cc0" version="1">You can fly.</content>
+
 	<!--Heads-->
-	<content contentuid="h15662ff8ga9ddg410bg8f01g14dc297f6666" version="1">Cracks 01</content>
-	<content contentuid="hd8c0d07cgb938g469fg85e8ge5db112507fc" version="1">Cracks 02</content>
-	<content contentuid="h3e88b235gde24g49f2g88eag5b87aecd560c" version="1">Cracks 03</content>
-	<content contentuid="h3ec4a2a3g317fg46fegb3d0gd317f9d2162c" version="1">Cracks 04</content>	
-	<content contentuid="heeb6f2a9g8cd7g4d6dg825bg34fa1163104a" version="1">Cracks 05</content>
+	<!--Yellow-->
+	<content contentuid="h15662ff8ga9ddg410bg8f01g14dc297f6666" version="1">Scourge Cracks 01</content>
+	<content contentuid="hd8c0d07cgb938g469fg85e8ge5db112507fc" version="1">Scourge Cracks 02</content>
+	<content contentuid="h3e88b235gde24g49f2g88eag5b87aecd560c" version="1">Scourge Cracks 03</content>
+	<content contentuid="h3ec4a2a3g317fg46fegb3d0gd317f9d2162c" version="1">Scourge Cracks 04</content>	
+	<content contentuid="heeb6f2a9g8cd7g4d6dg825bg34fa1163104a" version="1">Scourge Cracks 05</content>
+	<!--Blue-->
+	<content contentuid="h2b1cc186g04b7g49edga7c6gac1c997f5e93" version="1">Protector Cracks 01</content>
+	<content contentuid="h253e0d9dgcb71g4b13g9639ga608fb6cbe67" version="1">Protector Cracks 02</content>
+	<content contentuid="h6508367ag8bb9g4fa4ga92egc201bd8ad897" version="1">Protector Cracks 03</content>
+	<content contentuid="h24629ff1gcba5g40edg92e5gfe654be9a233" version="1">Protector Cracks 04</content>	
+	<content contentuid="hd5d4b206g3e60g4409g89b3gf427a7e953ba" version="1">Protector Cracks 05</content>
+	<!--Green-->
+	<content contentuid="h6b0081d6g2e4cg42e0g8225gef1cbd92bf9f" version="1">Fallen Cracks 01</content>
+	<content contentuid="hc5dee8c2g0a8bg482dg8fc3g568be60e6e7f" version="1">Fallen Cracks 02</content>
+	<content contentuid="h106d5d26g2159g4598g82b6g069be912e3ff" version="1">Fallen Cracks 03</content>
+	<content contentuid="h5f552cfeg0b1eg48ebgbb00gb452526957f9" version="1">Fallen Cracks 04</content>	
+	<content contentuid="h3e4403eagc79fg469agb4c5g9b69090df7aa" version="1">Fallen Cracks 05</content>
+
+	<!--Halos-->
+	<!--Crown-->
+	<content contentuid="hd243e29ege7f1g4a9eg99a6g991730d99377" version="1">Divine Crown - Scourge</content>
+	<content contentuid="hb27968f0g364ag4a4fgaadag253a32f2e24d" version="1">Divine Crown - Protector</content>
+	<content contentuid="h52d8d509gb618g4932g92dbg0208e52ff5d0" version="1">Divine Crown - Fallen</content>
+	<!--MoonStar-->
+	<content contentuid="h433b8200g9944g4d1egb127g062bb89ddaae" version="1">Starlight - Scourge</content>
+	<content contentuid="h0dcda976gb52fg44d6g80a3gfe41621bdfc6" version="1">Starlight - Protector</content>
+	<content contentuid="habaeac65g267eg4ddbg9a08g1899c385a376" version="1">Starlight - Fallen</content>
+	<!--Eye Wings-->
+	<content contentuid="h548e4fcfg99f8g48cdg8b4fg294669e3990c" version="1">Never See - Protector</content>
+	<content contentuid="h478c625eg59eeg4467ga0c6gb5d15a95a8b8" version="1">Never See - Scourge</content>
+	<content contentuid="h8dad7039g3b15g46eaga1c9g2e4f822984e4" version="1">Never See - Fallen</content>
+	<!--Generic Halo-->
+	<content contentuid="h2bbb96a6gc8d1g4625g9566gdf83cf99b56b" version="1">Heritage - Protector</content>
+	<content contentuid="h0ed0e90eg8f21g43ddga7e4gf0388dadf1c2" version="1">Heritage - Scourge</content>
+	<content contentuid="h657a9882g5327g4fd8ga327gcef9913862bd" version="1">Heritage - Fallen</content>
 
 	<!--DEBUG-->
 	<content contentuid="h91c77b28g130fg46d8g806ag05f230b564aa" version="1">Level 10 Wings: DEBUG</content>	
@@ -83,8 +119,8 @@
 
 	<!--Interrupts-->
 	<content contentuid="h285fbd86gc4d6g40e6gaa1dg55ebed3c4e18" version="1">Radiant Soul</content>	
-	<content contentuid="hd02a1981gf6adg4cd9gaf8dgba586ab1d878" version="1">Once per turn, you may call upon your celestial power to deal extra Radiant damage equal to your Proficiency Bonus on a succesful attack.</content>	
+	<content contentuid="hd02a1981gf6adg4cd9gaf8dgba586ab1d878" version="1">Once per turn, you may call upon your celestial power to deal extra Radiant damage equal to your Proficiency Bonus on a successful attack.</content>	
 	<content contentuid="hdd751efdg7b9ag49a7g9ce3g23eba4d17245" version="1">Necrotic Soul</content>	
-	<content contentuid="h6455bc6fgd4b1g4b89g8ab9g2541a7df15f4" version="1">Once per turn, you may call upon your celestial power to deal extra Necrotic damage equal to your Proficiency Bonus on a succesful attack.</content>	
+	<content contentuid="h6455bc6fgd4b1g4b89g8ab9g2541a7df15f4" version="1">Once per turn, you may call upon your celestial power to deal extra Necrotic damage equal to your Proficiency Bonus on a successful attack.</content>	
 
 </contentList>
