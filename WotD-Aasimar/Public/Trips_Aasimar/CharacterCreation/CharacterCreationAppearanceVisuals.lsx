@@ -274,7 +274,7 @@
                     <attribute id="SlotName" type="FixedString" value="Horns" />
                     <attribute id="UUID" type="guid" value="5197325f-5835-4136-aadc-0fdb574df22c" />
                     <attribute id="VisualResource" type="guid" value="8e8d2c06-dd39-437f-ad40-20adfbe482cd" />
-                </node>                
+                </node>           
         <!--Masc beeg-->
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1" />

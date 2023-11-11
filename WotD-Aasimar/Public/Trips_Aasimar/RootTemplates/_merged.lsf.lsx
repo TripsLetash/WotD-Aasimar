@@ -19,6 +19,9 @@
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="59154963-bd1f-4cd3-a1a1-a261b88501b8" /> aasimar tag
 								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d2f86ec3-c41f-47e1-8acd-984872a4d7d5" /> Aasimar tag
+								</node>
 							</children>
 						</node>
 						<node id="GameMaster" />
@@ -39,6 +42,9 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="59154963-bd1f-4cd3-a1a1-a261b88501b8" /> Aasimar tag
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d2f86ec3-c41f-47e1-8acd-984872a4d7d5" /> Aasimar tag
 								</node>
 							</children>
 						</node>

@@ -80,7 +80,7 @@
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
 						<node id="TargetBone">
-							<attribute id="Value" type="LSString" value="Dummy_FX" />
+							<attribute id="Value" type="LSString" value="Dummy_Root" />
 						</node>
 					</children>
 				</node>
