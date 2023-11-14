@@ -87,8 +87,8 @@
 
 	<!--Protector Abilities-->
 	<content contentuid="hc63dd4b1g50f6g4064gad21gb2a5c8e0b84e" version="1">Mark of the Protector</content>	
-	<content contentuid="hb67cf8d2g0323g483fg81aeg46461c2211ba" version="1">You may bless yourself or a target to take reduced damage equal to your Proficiency Bonus the next time they are hurt.</content>
-	<content contentuid="hb6b05e7cgcdbeg425fg9b85g2ea5e38dce5b" version="1">You are blessed by a Vigil to take reduced damage equal to their Proficiency Bonus the next time you are hurt.</content>
+	<content contentuid="hb67cf8d2g0323g483fg81aeg46461c2211ba" version="1">You may bless yourself or a target to take reduced damage equal to their Proficiency Bonus times 1d4 the next time they are hurt.</content>
+	<content contentuid="hb6b05e7cgcdbeg425fg9b85g2ea5e38dce5b" version="1">You are blessed by a Vigil to take reduced damage equal to your Proficiency Bonus times 1d4 the next time you are hurt.</content>
 	<content contentuid="he0025637gff81g4533gbf11ge84057fcce0d" version="1">Mantle of the Protector</content>
 	<content contentuid="h9ea2caadgf8bag4269ga137gdc14e611491b" version="1">Your need to protect others manifests itself as divine power. You gain flight, and at the end of each turn, you and allies within 10 meters of you that you can see restore health equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage with an attack or spell.</content>
 	<content contentuid="hecf071a6g399dg4a6cgbf4eg422d9bc3473f" version="1">Mantle of the Protector Aura</content>	
@@ -96,8 +96,8 @@
 
 	<!--Scourge Abilities-->
 	<content contentuid="h989f2ecage565g4e72ga2c5g81e1d3f265dc" version="1">Mark of the Scourge</content>	
-	<content contentuid="h0babd2c7gea14g4b2egb138g9079abe86152" version="1">You may infuse yourself or a target with divine ire, gaining your Proficiency Bonus as Radiant damage on their next attack or spell.</content>
-	<content contentuid="h058b0fb2g82ecg4967gbcbcgbc9702464e72" version="1">You are infused with divine ire by a Scourge of the Light, gaining their Proficiency Bonus as Radiant damage on your next attack or spell.</content>
+	<content contentuid="h0babd2c7gea14g4b2egb138g9079abe86152" version="1">You may infuse yourself or a target with divine ire, gaining their Proficiency Bonus times 1d4 as Radiant damage on their next attack or spell.</content>
+	<content contentuid="h058b0fb2g82ecg4967gbcbcgbc9702464e72" version="1">You are infused with divine ire by a Scourge of the Light, gaining your Proficiency Bonus times 1d4 as Radiant damage on your next attack or spell.</content>
 	<content contentuid="hcfd55c57g688dg43bdg8f72gfb20137f1c3b" version="1">Fury of the Scourge</content>
 	<content contentuid="hd64be7f7g8461g4eabg8a46g81eefbbfb8e5" version="1">Your righteous fury boils over. You gain flight, shed bright light in a 10-foot radius, and at the end of your turn, you and each enemy creature within 10 meters of you take radiant damage equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
 	<content contentuid="h491254c1ge5c9g47adgab07gf3af7a8c4067" version="1">Fury of the Scourge Aura</content>
@@ -105,8 +105,8 @@
 
 	<!--Fallen Abilities-->
 	<content contentuid="h828c4101g6508g4daag9055g394f13f47b7d" version="1">Mark of the Fallen</content>	
-	<content contentuid="h20926a3bga055g47f5gae22g6eacb2522321" version="1">You may ward yourself or an ally with your inner darkness, forcing the next enemy who attacks them in melee to make a Charisma save, or become Frightened for a duration equal to half your Proficiency Bonus, rounded down.</content>
-	<content contentuid="hcf2d0a4dgd447g4012ga1f8gc2040b90bf12" version="1">You are warded by a Fallen Aasimar's inner darkness, forcing the next enemy who attacks you in melee to make a Charisma save, or become Frightened for a duration equal to half their Proficiency Bonus, rounded down.</content>
+	<content contentuid="h20926a3bga055g47f5gae22g6eacb2522321" version="1">You may ward yourself or an ally with your inner darkness, forcing the next enemy who attacks them in melee to make a Charisma save, or become Frightened for a duration equal to their Proficiency Bonus times d4, rounded down.</content>
+	<content contentuid="hcf2d0a4dgd447g4012ga1f8gc2040b90bf12" version="1">You are warded by a Fallen Aasimar's inner darkness, forcing the next enemy who attacks you in melee to make a Charisma save, or become Frightened for a duration equal to your Proficiency Bonus times 1d4.</content>
 	<content contentuid="h42b96546g51ffg453bg9930g4692f957113b" version="1">Embrace of the Fallen</content>
 	<content contentuid="hb9cf9239g6903g4805g9078g991396c2a9b6" version="1">Unleash the darkness inside. You gain flight, and at the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Charisma saving throw (DC8+Proficiency+Spellcasting Modifier) or become frightened of you until the end of your next turn. Once per turn, deal extra Necrotic damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
 	<content contentuid="h112918e9g580fg4ea8g8aecg172048c86aa0" version="1">Embrace of the Fallen Aura</content>
