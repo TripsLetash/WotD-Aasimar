@@ -49,6 +49,218 @@
                     <attribute id="Width" type="int32" value="4096" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209035" />
                 </node>
+            <!--fem-->
+                <node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="0e77fd31-7aab-47dc-a60e-c7ef0a96869e" />
+					<attribute id="Name" type="LSString" value="UNIQUE_F_NKD_BODY_A_CLEA" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/FEMALE/UNIQUE_F_NKD_BODY_A_CLEA.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_F_NKD_BODY_A_CLEA" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209033" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="4b64ef7d-d52f-482e-a4b2-e9492ca91788" />
+					<attribute id="Name" type="LSString" value="UNIQUE_F_NKD_BODY_A_HMVY" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/FEMALE/UNIQUE_F_NKD_BODY_A_HMVY.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_F_NKD_BODY_A_HMVY" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="f94bfdfc-da22-4c3a-8259-1dc8a8e66c29" />
+					<attribute id="Name" type="LSString" value="UNIQUE_F_NKD_BODY_A_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/FEMALE/UNIQUE_F_NKD_BODY_A_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_F_NKD_BODY_A_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209033" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="43749997-6685-415a-9e15-ef90c4411d20" />
+					<attribute id="Name" type="LSString" value="UNIQUE_F_NKD_BODY_A_NM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/FEMALE/UNIQUE_F_NKD_BODY_A_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_F_NKD_BODY_A_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209033" />
+				</node>
+            <!--MAsc-->
+                <node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="5b510db9-67a6-4809-91f1-fe54a8386158" />
+					<attribute id="Name" type="LSString" value="UNIQUE_M_NKD_BODY_A_CLEA" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/MALE/UNIQUE_M_NKD_BODY_A_CLEA.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_M_NKD_BODY_A_CLEA" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="c8f451a7-6f4f-4022-b652-36fe3cfddb22" />
+					<attribute id="Name" type="LSString" value="UNIQUE_M_NKD_BODY_A_HMVY" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/MALE/UNIQUE_M_NKD_BODY_A_HMVY.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_M_NKD_BODY_A_HMVY" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="708f093a-1ff4-4f66-bf23-0b9f366e049a" />
+					<attribute id="Name" type="LSString" value="UNIQUE_M_NKD_BODY_A_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/MALE/UNIQUE_M_NKD_BODY_A_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_M_NKD_BODY_A_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="24891a2f-8dee-4ffb-b480-b9a3d2636e9b" />
+					<attribute id="Name" type="LSString" value="UNIQUE_M_NKD_BODY_A_NM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/MALE/UNIQUE_M_NKD_BODY_A_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_M_NKD_BODY_A_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+				</node>
+            <!--Fem strong-->
+                <node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="41a872a6-229d-46fb-945b-a8fb396af603" />
+					<attribute id="Name" type="LSString" value="UNIQUE_FS_NKD_BODY_A_CLEA" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/STRONG_FEMALE/UNIQUE_FS_NKD_BODY_A_CLEA.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_FS_NKD_BODY_A_CLEA" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="06cb65ca-76c1-4400-9e12-00de1de242d2" />
+					<attribute id="Name" type="LSString" value="UNIQUE_FS_NKD_BODY_A_HMVY" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/STRONG_FEMALE/UNIQUE_FS_NKD_BODY_A_HMVY.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_FS_NKD_BODY_A_HMVY" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="90ca4e50-a5d6-456b-ad45-4f3db1d4857e" />
+					<attribute id="Name" type="LSString" value="UNIQUE_FS_NKD_BODY_A_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/STRONG_FEMALE/UNIQUE_FS_NKD_BODY_A_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_FS_NKD_BODY_A_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="20e35ed3-42e6-4ba3-b615-ff2ccf3bdffd" />
+					<attribute id="Name" type="LSString" value="UNIQUE_FS_NKD_BODY_A_NM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/STRONG_FEMALE/UNIQUE_FS_NKD_BODY_A_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_FS_NKD_BODY_A_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
+            <!--MAsc strong-->
+                <node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="2f32f9ba-d7c3-4b12-9c20-6e30ad8f7a3c" />
+					<attribute id="Name" type="LSString" value="UNIQUE_MS_NKD_BODY_A_CLEA" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/STRONG_MALE/UNIQUE_MS_NKD_BODY_A_CLEA.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_MS_NKD_BODY_A_CLEA" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="5910f7ad-9685-43f6-a9cb-3d6e1bdf4cb9" />
+					<attribute id="Name" type="LSString" value="UNIQUE_MS_NKD_BODY_A_HMVY" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/STRONG_MALE/UNIQUE_MS_NKD_BODY_A_HMVY.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_MS_NKD_BODY_A_HMVY" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="cd96831a-95eb-4114-8655-2823b65f9506" />
+					<attribute id="Name" type="LSString" value="UNIQUE_MS_NKD_BODY_A_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/STRONG_MALE/UNIQUE_MS_NKD_BODY_A_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_MS_NKD_BODY_A_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="6b8ee78e-a9ba-44d1-834e-48941d22ea8f" />
+					<attribute id="Name" type="LSString" value="UNIQUE_MS_NKD_BODY_A_NM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/STRONG_MALE/UNIQUE_MS_NKD_BODY_A_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_MS_NKD_BODY_A_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
 			</children>
 		</node>
 	</region>

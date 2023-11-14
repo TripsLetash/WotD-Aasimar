@@ -1822,9 +1822,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="NakedBody" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="e96eed75-850b-4497-b077-a8f62f731bf3" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Characters/_Models/Humans/_Female/Resources/HUM_F_NKD_Body_A.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/FEMALE/UNIQUE_F_NKD_Body_A.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Characters/_Models/Humans/_Female/Resources/HUM_F_NKD_Body_A.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/unique_tav/BODY/NORMIES/FEMALE/UNIQUE_F_NKD_Body_A.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
 						<node id="Base" />
@@ -1832,12 +1832,12 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="cb2b3d59-1546-4e72-8e17-d7569a564f68" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_A.HUM_F_NKD_Body_A_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="UNIQUE_F_NKD_Body_A.UNIQUE_F_NKD_Body_A_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="1" />
 							<attribute id="MaterialID" type="FixedString" value="cb2b3d59-1546-4e72-8e17-d7569a564f68" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Body_A.HUM_F_NKD_Body_A_Mesh_LOD1.1" />
+							<attribute id="ObjectID" type="FixedString" value="UNIQUE_F_NKD_Body_A.UNIQUE_F_NKD_Body_A_Mesh_LOD1.1" />
 						</node>
 					</children>
 				</node>
@@ -1892,7 +1892,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_C.HUM_F_NKD_Head_C_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -1977,7 +1977,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_B.HUM_F_NKD_Head_B_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -2059,7 +2059,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_Mystra.HUM_F_NKD_Head_Mystra_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -2144,7 +2144,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_K.HUM_F_NKD_Head_K_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -2229,7 +2229,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_E.HUM_F_NKD_Head_E_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -2314,7 +2314,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_Engels_Bodytype_1_Head.Trips_Engels_Bodytype_1_Head_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -2400,7 +2400,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_C.HUM_F_NKD_Head_C_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -2485,7 +2485,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_B.HUM_F_NKD_Head_B_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -2567,7 +2567,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_Mystra.HUM_F_NKD_Head_Mystra_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -2652,7 +2652,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_K.HUM_F_NKD_Head_K_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -2737,7 +2737,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_E.HUM_F_NKD_Head_E_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -2822,7 +2822,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_Engels_Bodytype_1_Head.Trips_Engels_Bodytype_1_Head_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -2908,7 +2908,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_C.HUM_F_NKD_Head_C_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -2993,7 +2993,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_B.HUM_F_NKD_Head_B_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -3075,7 +3075,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_Mystra.HUM_F_NKD_Head_Mystra_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -3160,7 +3160,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_K.HUM_F_NKD_Head_K_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -3245,7 +3245,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_F_NKD_Head_E.HUM_F_NKD_Head_E_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -3330,7 +3330,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="37569c4b-4307-4ef5-9410-8bdbb8edf57c" />
+							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_Engels_Bodytype_1_Head.Trips_Engels_Bodytype_1_Head_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -5373,7 +5373,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ID" type="FixedString" value="372a742d-c779-43cf-b598-e6a4d75d1952" />
+							<attribute id="ID" type="FixedString" value="43749997-6685-415a-9e15-ef90c4411d20" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -5387,7 +5387,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ID" type="FixedString" value="0264cd63-6ad9-42b4-8ea7-cd6e9a83325e" />
+							<attribute id="ID" type="FixedString" value="f94bfdfc-da22-4c3a-8259-1dc8a8e66c29" />
 							<attribute id="ParameterName" type="FixedString" value="CancelMSK" />
 						</node>
 						<node id="Texture2DParameters">
@@ -5415,7 +5415,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ID" type="FixedString" value="4dc7b6c7-7608-45b2-862a-f6e550b4d44e" />
+							<attribute id="ID" type="FixedString" value="4b64ef7d-d52f-482e-a4b2-e9492ca91788" />
 							<attribute id="ParameterName" type="FixedString" value="HMVY" />
 						</node>
 						<node id="Texture2DParameters">
@@ -5436,7 +5436,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ID" type="FixedString" value="ac2ead6a-b81b-4eb4-a77b-06aa633edb53" />
+							<attribute id="ID" type="FixedString" value="0e77fd31-7aab-47dc-a60e-c7ef0a96869e" />
 							<attribute id="ParameterName" type="FixedString" value="CLEA" />
 						</node>
 						<node id="Texture2DParameters">
