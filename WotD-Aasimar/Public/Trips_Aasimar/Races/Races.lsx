@@ -2679,6 +2679,16 @@
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Human"/>
                     <attribute id="UUID" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c"/>
                 </node>
+                <node id="Race">
+                    <attribute id="Description" type="TranslatedString" handle="h8097cf13gaef2g48e4gb34ag7e301ae95f25" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbc2c7eb3g8231g4acfga0dfgc41c6479a222" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="Trips_Harbinger"/>
+                    <attribute id="ParentGuid" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="54d12c65-ae54-4acf-9e38-66acb975da16"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Human"/>
+                    <attribute id="UUID" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d"/>
+                </node>
             </children>
         </node>
     </region>

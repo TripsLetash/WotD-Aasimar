@@ -240,70 +240,70 @@
                     <attribute id="V2" type="float" value="0.03125"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 32
+                    <attribute id="MapKey" type="FixedString" value="Trips_Harbinger_Mark_Skill"/> 32
                     <attribute id="U1" type="float" value="0.96875"/> Left
                     <attribute id="U2" type="float" value="1.0"/> Right
                     <attribute id="V1" type="float" value="0.0"/> Top
                     <attribute id="V2" type="float" value="0.03125"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 33 ROW 2 = 1
+                    <attribute id="MapKey" type="FixedString" value="Trips_Harbinger_Wings_Skill"/> 33 ROW 2 = 1
                     <attribute id="U1" type="float" value="0.0"/> Left side
                     <attribute id="U2" type="float" value="0.03125"/> Right side
                     <attribute id="V1" type="float" value="0.03125"/> Top
                     <attribute id="V2" type="float" value="0.0625"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 34 ROW 2 = 2
+                    <attribute id="MapKey" type="FixedString" value="Trips_Harbinger_Item"/> 34 ROW 2 = 2
                     <attribute id="U1" type="float" value="0.03125"/> Left
                     <attribute id="U2" type="float" value="0.0625"/> Right
                     <attribute id="V1" type="float" value="0.03125"/> Top
                     <attribute id="V2" type="float" value="0.0625"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 35 ROW 2 = 3
+                    <attribute id="MapKey" type="FixedString" value="Trips_Flagellant_Wounds_Status"/> 35 ROW 2 = 3
                     <attribute id="U1" type="float" value="0.0625"/> Left
                     <attribute id="U2" type="float" value="0.09375"/> Right
                     <attribute id="V1" type="float" value="0.03125"/> Top
                     <attribute id="V2" type="float" value="0.0625"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 36 ROW 2 = 4
+                    <attribute id="MapKey" type="FixedString" value="Trips_Exanimate_Glory_Status"/> 36 ROW 2 = 4
                     <attribute id="U1" type="float" value="0.09375"/> Left
                     <attribute id="U2" type="float" value="0.125"/> Right
                     <attribute id="V1" type="float" value="0.03125"/> Top
                     <attribute id="V2" type="float" value="0.0625"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 37 ROW 2 = 5
+                    <attribute id="MapKey" type="FixedString" value="Trips_Harbinger_Mark_Status"/> 37 ROW 2 = 5
                     <attribute id="U1" type="float" value="0.125"/> Left
                     <attribute id="U2" type="float" value="0.15625"/> Right
                     <attribute id="V1" type="float" value="0.03125"/> Top
                     <attribute id="V2" type="float" value="0.0625"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 38 ROW 2 = 6
+                    <attribute id="MapKey" type="FixedString" value="Trips_Harbinger_Aura_Status"/> 38 ROW 2 = 6
                     <attribute id="U1" type="float" value="0.15625"/> Left
                     <attribute id="U2" type="float" value="0.1875"/> Right
                     <attribute id="V1" type="float" value="0.03125"/> Top
                     <attribute id="V2" type="float" value="0.0625"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 39 ROW 2 = 7
+                    <attribute id="MapKey" type="FixedString" value="Trips_Piercing_Resistance_Passive"/> 39 ROW 2 = 7
                     <attribute id="U1" type="float" value="0.1875"/> Left
                     <attribute id="U2" type="float" value="0.21875"/> Right
                     <attribute id="V1" type="float" value="0.03125"/> Top
                     <attribute id="V2" type="float" value="0.0625"/> Bottom
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 40 ROW 2 = 8
+                    <attribute id="MapKey" type="FixedString" value="Trips_Exanimated_Soul_Interrupt"/> 40 ROW 2 = 8
                     <attribute id="U1" type="float" value="0.21875"/> Left
                     <attribute id="U2" type="float" value="0.25"/> Right
                     <attribute id="V1" type="float" value="0.03125"/> Top
                     <attribute id="V2" type="float" value="0.0625"/> Bottom			
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/> 41 ROW 2 = 9
+                    <attribute id="MapKey" type="FixedString" value="Trips_Harbinger_Mark_Passive"/> 41 ROW 2 = 9
                     <attribute id="U1" type="float" value="0.25"/> Left
                     <attribute id="U2" type="float" value="0.28125"/> Right
                     <attribute id="V1" type="float" value="0.03125"/> Top

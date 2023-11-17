@@ -9,7 +9,7 @@
           <attribute id="Level" type="uint8" value="1" />
           <attribute id="Name" type="LSString" value="Trips_Aasimar_1" />
           <attribute id="Boosts" type="LSString" value="" />
-          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Passives;Trips_Aasimar_Smallcast" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Passives" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81" />
@@ -28,8 +28,8 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="1" />
           <attribute id="Name" type="LSString" value="Trips_Protector_1" />
-          <attribute id="Boosts" type="LSString" value="" />
-          <attribute id="PassivesAdded" type="LSString" value="Aasimar_Protector_Resistance;Trips_ProtectorMark" />
+          <attribute id="Boosts" type="LSString" value="ProficiencyBonus(Skill,Medicine)" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Smallcast;Aasimar_Protector_Resistance;Trips_ProtectorMark" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="33223fd6-6eeb-4581-8368-3edef0225e95" />
@@ -59,8 +59,8 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="1" />
           <attribute id="Name" type="LSString" value="Trips_Scourge_1" />
-          <attribute id="Boosts" type="LSString" value="" />
-          <attribute id="PassivesAdded" type="LSString" value="Aasimar_Scourge_Resistance;Trips_ScourgeMark" />
+          <attribute id="Boosts" type="LSString" value="ProficiencyBonus(Skill,Intimidation)" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Smallcast;Aasimar_Scourge_Resistance;Trips_ScourgeMark" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="5ff931a1-6120-4bd6-ba72-cb0864cbad04" />
@@ -90,8 +90,8 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="1" />
           <attribute id="Name" type="LSString" value="Trips_Fallen_1" />
-          <attribute id="Boosts" type="LSString" value="" />
-          <attribute id="PassivesAdded" type="LSString" value="Aasimar_Fallen_Resistance;Trips_FallenMark" />
+          <attribute id="Boosts" type="LSString" value="ProficiencyBonus(Skill,Deception)" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Smallcast;Aasimar_Fallen_Resistance;Trips_FallenMark" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="9fb769b4-b7a1-43d2-bc9b-95bea9d58258" />
@@ -116,6 +116,37 @@
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="9fb769b4-b7a1-43d2-bc9b-95bea9d58258" />
           <attribute id="UUID" type="guid" value="e3c689ff-2513-4b0f-8f2a-b0e6353540af" />
+        </node>
+
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="1" />
+          <attribute id="Name" type="LSString" value="Trips_Harbinger_1" />
+          <attribute id="Boosts" type="LSString" value="ProficiencyBonus(Skill,Religion)" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Smallcast_Harbinger;Aasimar_Harbinger_Resistance;Trips_HarbingerMark" />
+          <attribute id="Selectors" type="LSString" value="" />
+          <attribute id="ProgressionType" type="uint8" value="2" />
+          <attribute id="TableUUID" type="guid" value="54d12c65-ae54-4acf-9e38-66acb975da16" />
+          <attribute id="UUID" type="guid" value="70ed9582-33c5-44c1-8710-2fbf8281543d" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3" />
+          <attribute id="Name" type="LSString" value="Trips_Harbinger_3" />
+          <attribute id="Boosts" type="LSString" value="" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Harbinger_lvl3" />
+          <attribute id="Selectors" type="LSString" value="" />
+          <attribute id="ProgressionType" type="uint8" value="2" />
+          <attribute id="TableUUID" type="guid" value="54d12c65-ae54-4acf-9e38-66acb975da16" />
+          <attribute id="UUID" type="guid" value="c78f3980-bd70-4099-a977-424ed68502ae" />
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10" />
+          <attribute id="Name" type="LSString" value="Trips_Harbinger_10" />
+          <attribute id="Boosts" type="LSString" value="" />
+          <attribute id="PassivesAdded" type="LSString" value="Harbinger_Passive_lvl10" />
+          <attribute id="Selectors" type="LSString" value="" />
+          <attribute id="ProgressionType" type="uint8" value="2" />
+          <attribute id="TableUUID" type="guid" value="54d12c65-ae54-4acf-9e38-66acb975da16" />
+          <attribute id="UUID" type="guid" value="2c018692-ae16-4ef3-8d3a-0cfdcebdad39" />
         </node>
       </children>
     </node>

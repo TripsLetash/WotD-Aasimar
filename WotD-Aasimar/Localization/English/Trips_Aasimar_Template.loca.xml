@@ -9,11 +9,14 @@
 	<content contentuid="hbd053ca5g5678g4239g9abdg4b08e63e676c" version="1">Protector Aasimar</content>
 	<content contentuid="h784431d2g3a49g4f43g81a2g1333eb183a8e" version="1">Descended from fallen angels, or having fallen themselves, Fallen aasimars have damaged their ties to the divine, and experience impulses to destroy good as much as protect it. Their divine abilities are twisted into something darker.</content>
 	<content contentuid="h7c6af3a5ge868g45b8gac01g509380877d9f" version="1">Fallen Aasimar</content>
+	<content contentuid="h8097cf13gaef2g48e4gb34ag7e301ae95f25" version="1">Descended from the most devout of angels and raised in the most strict of ways, Harbinger aasimars have strenghtened their resolve and piousness through penance for the sins of the general populace. Carrying the burdens of the world on their backs, they are a true reckoning.</content>
+	<content contentuid="hbc2c7eb3g8231g4acfga0dfgc41c6479a222" version="1">Harbinger Aasimar</content>
 
 	<!--Passives-->
 	<content contentuid="h18f631efgdfeeg4683gac99g72a7dff7e657" version="1">Darkvision</content>
 	<content contentuid="hb1c0e0d5g1cbag401agb788gc5a4fa133bac" version="1">You can see in ordinary darkness up to a range of [1].</content>
 	<content contentuid="hfcf2eb88g90aeg4562gb506g2df739217cc0" version="1">You can fly.</content>
+	<content contentuid="h8cae7f98g879dg4967g9a22ge121f7804c56" version="1">Take Flight</content>
 
 	<!--Heads-->
 	<!--Yellow-->
@@ -37,45 +40,73 @@
 	<content contentuid="h5f552cfeg0b1eg48ebgbb00gb452526957f9" version="1">Fallen Cracks 04</content>	
 	<content contentuid="h3e4403eagc79fg469agb4c5g9b69090df7aa" version="1">Fallen Cracks 05</content>
 	<content contentuid="hda2f0fdfge8b0g47d0gb6cbgd2aadd99c122" version="1">Fallen Cracks by Engels</content>
+	<!--Harbinger-->
+	<content contentuid="h49e0c12bgcb29g4e08gba71gbf22575b44db" version="1">Harbinger Cracks 01</content>
+	<content contentuid="h31cfed91g510ag437fg9c46ge47790078953" version="1">Harbinger Cracks 02</content>
+	<content contentuid="hcdea0b02g1791g4da2g8f4ag2245d27d174d" version="1">Harbinger Cracks 03</content>
+	<content contentuid="h32e79f2dg2595g4446g9c5egdfea133008cd" version="1">Harbinger Cracks 04</content>	
+	<content contentuid="h05152997g7b21g4ed0ga316g6a2e2e96843c" version="1">Harbinger Cracks 05</content>
+	<content contentuid="h59cc61eeg6236g42cbga191g8a5abd1b6b8b" version="1">Harbinger Cracks by Engels</content>
 
 	<!--Halos-->
 	<!--Crown-->
 	<content contentuid="hd243e29ege7f1g4a9eg99a6g991730d99377" version="1">Divine Crown - Scourge</content>
 	<content contentuid="hb27968f0g364ag4a4fgaadag253a32f2e24d" version="1">Divine Crown - Protector</content>
 	<content contentuid="h52d8d509gb618g4932g92dbg0208e52ff5d0" version="1">Divine Crown - Fallen</content>
+	<content contentuid="h47a58ca7g9275g44c1gb283gdf9eae9b042f" version="1">Divine Crown - Harbinger</content>
 	<!--MoonStar-->
 	<content contentuid="h433b8200g9944g4d1egb127g062bb89ddaae" version="1">Starlight - Scourge</content>
 	<content contentuid="h0dcda976gb52fg44d6g80a3gfe41621bdfc6" version="1">Starlight - Protector</content>
 	<content contentuid="habaeac65g267eg4ddbg9a08g1899c385a376" version="1">Starlight - Fallen</content>
+	<content contentuid="hf2fd68ecg5b71g4b5agb57ag162cd9b553de" version="1">Starlight - Harbinger</content>
 	<!--Eye Wings-->
 	<content contentuid="h548e4fcfg99f8g48cdg8b4fg294669e3990c" version="1">Never See - Protector</content>
 	<content contentuid="h478c625eg59eeg4467ga0c6gb5d15a95a8b8" version="1">Never See - Scourge</content>
 	<content contentuid="h8dad7039g3b15g46eaga1c9g2e4f822984e4" version="1">Never See - Fallen</content>
+	<content contentuid="hfdf2f328gd1e2g4dbfga801g9ea68aeeb741" version="1">Never See - Harbinger</content>
 	<!--Generic Halo-->
 	<content contentuid="h2bbb96a6gc8d1g4625g9566gdf83cf99b56b" version="1">Heritage - Scourge</content>
 	<content contentuid="h0ed0e90eg8f21g43ddga7e4gf0388dadf1c2" version="1">Heritage - Protector</content>
 	<content contentuid="h657a9882g5327g4fd8ga327gcef9913862bd" version="1">Heritage - Fallen</content>
+	<content contentuid="h398c4381gf9a4g4669g9298g86941fa5a3e8" version="1">Heritage - Harbinger</content>
+	<!--Sin Eater's Meridian-->
+	<content contentuid="ha5850445g4bd5g45e8gafb2g9c1903d4ca2e" version="1">Sin Eater's Meridian - Scourge by Dissidia</content>
+	<content contentuid="hc6d45875g5285g47e2gb6b4g9b248dd2ab28" version="1">Sin Eater's Meridian - Protector by Dissidia</content>
+	<content contentuid="h096f9074g47bag4578g8473gd26d1cf2b204" version="1">Sin Eater's Meridian - Fallen by Dissidia</content>
+	<content contentuid="h1fd6410egb326g4e96gae6eg88ab417400ef" version="1">Sin Eater's Meridian - Harbinger by Dissidia</content>
+	<!--Exanimate's Apex-->
+	<content contentuid="h4c8285f9gbd36g4870gb30ege4499e2097ca" version="1">Exanimate's Apex - Scourge by Dissidia</content>
+	<content contentuid="h30beb732g114bg44ccgab6bgcf1fc8b4c72d" version="1">Exanimate's Apex - Protector by Dissidia</content>
+	<content contentuid="h4fd6225ag5000g4085g8b18gd366a3343ec6" version="1">Exanimate's Apex - Fallen by Dissidia</content>
+	<content contentuid="h1c43ee77g0636g4a3egb56cgcd732868ee97" version="1">Exanimate's Apex - Harbinger by Dissidia</content>
 
 	<!--DEBUG-->
 	<content contentuid="h91c77b28g130fg46d8g806ag05f230b564aa" version="1">Level 10 Wings: DEBUG</content>	
-	<content contentuid="h7ec2e0c1ga04cg4f5bg8616g3d33aa16eded" version="1">FALLEN TECHNICAL: DEBUG</content>
-	<content contentuid="h2194c3acg41cag4667gb7cbgbe2683b5d44e" version="1">FALLEN CREATURE: DEBUG</content>
-	<content contentuid="h7d700342gb5c6g4cdfg8c0ag520aeb8b4a49" version="1">FALLEN FEAR: DEBUG</content>
-	<content contentuid="h5c44181cga722g495fgb5c6g7eb7176ad5b0" version="1">FALLEN FEARROLL 1: DEBUG</content>
-	<content contentuid="h8d8c6bb7g7ebeg4521ga545gb90438274953" version="1">FALLEN FEARROLL 2: DEBUG</content>
-	<content contentuid="h2ee15314gb35eg4225g9c97g243ec5d0b3cc" version="1">FALLEN AURA APPLIED: DEBUG</content>
+	<content contentuid="h7ec2e0c1ga04cg4f5bg8616g3d33aa16eded" version="1">HARBINGER TECHNICAL: DEBUG</content>
+	<content contentuid="h2194c3acg41cag4667gb7cbgbe2683b5d44e" version="1">HARBINGER CREATURE: DEBUG</content>
+	<content contentuid="h7d700342gb5c6g4cdfg8c0ag520aeb8b4a49" version="1">HARBINGER DEBUFF: DEBUG</content>
+	<content contentuid="h5c44181cga722g495fgb5c6g7eb7176ad5b0" version="1">HARBINGER FLAGGELANT WOUNDS 1: DEBUG</content>
+	<content contentuid="h8d8c6bb7g7ebeg4521ga545gb90438274953" version="1">HARBINGER VULN 2: DEBUG</content>
+	<content contentuid="h2ee15314gb35eg4225g9c97g243ec5d0b3cc" version="1">FLAGGELANT: DEBUG</content>
 	<content contentuid="hd9e16e71gcc98g40f7g8a5fg7701452ea08d" version="1">WING ABILITIES: DEBUG</content>
 
 	<!--Passives-->
 	<content contentuid="h21a956d9gd655g4936g9540g61b251f7c6ac" version="1">Radiant Resistance</content>	
-	<content contentuid="h6bbb9fe2g905cg4ef2ga543g1b6cbae1696d" version="1">You gain resistance against Radiant damage.</content>		
+	<content contentuid="h6bbb9fe2g905cg4ef2ga543g1b6cbae1696d" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Radiant damage.</content>		
 	<content contentuid="hdd002048ge382g467aga7feg473c03ebaa8a" version="1">Necrotic Resistance</content>	
-	<content contentuid="h0a8879b2gd333g457dg888fg7f34a5af4788" version="1">You gain resistance against Necrotic damage.</content>		
+	<content contentuid="h0a8879b2gd333g457dg888fg7f34a5af4788" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Necrotic damage.</content>		
+	<content contentuid="hdf85bcb4gf35dg4e18gbe7agc9b5ec28c6dc" version="1">Piercing Resistance</content>	
+	<content contentuid="h81ffe134g7d8ag401agba37gd5ea7fb9ed28" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Piercing damage.</content>		
 
 	<!--Wings-->
-	<content contentuid="h5b712fcdg285dg4077g800dg91447da2f552" version="1">Wings of the Protector</content>	
-	<content contentuid="h56d3999fg5af0g49fbgac25g0950ced60a5f" version="1">Wings of the Scourge</content>	
+	<content contentuid="h5b712fcdg285dg4077g800dg91447da2f552" version="1">Wings of the Protector</content>
+	<content contentuid="h117b0532gb0f1g4fefg89c8g931e23013963" version="1">The ardent shield...</content>
+	<content contentuid="h56d3999fg5af0g49fbgac25g0950ced60a5f" version="1">Wings of the Scourge</content>
+	<content contentuid="h60ee6f28gd0d4g411bg9babg73a83f814365" version="1">...and the righteous blade.</content>
 	<content contentuid="hfbcc0df1g829dg489fga7a1g19e7a45b9521" version="1">Wings of the Fallen</content>
+	<content contentuid="hff7d712eg7428g47eeg9e96gd46aaacb513a" version="1">Gives the adults nightmares...</content>
+	<content contentuid="he7b798c6g8b46g4806g8472gd9b7912f7e6c" version="1">Wings of the Harbinger</content>
+	<content contentuid="hf969b80bge4a6g48f4gba52gc45f4861a1f7" version="1">The Sin Eater darkens your door...</content>
 	<content contentuid="h4efdee8bg80c1g4facg96f2g38fe55cbfa96" version="1">Dismiss Manifestation</content>
 	<content contentuid="h443a44b2ge90ag411dg8a55g797715a13836" version="1">Revert back from your celestial form.</content>
 
@@ -83,34 +114,47 @@
 	<content contentuid="h794e5c6fg17d0g4b7eg894dgad4573a18d8a" version="1">Radiant Soul Charge</content>	
 	<content contentuid="h40b7ecf5g8c44g4839g8725g2765a68414bb" version="1">Once per turn, you may call upon your celestial power to deal extra damage on a succesful attack.</content>
 	<content contentuid="h095f9fbeg7213g4ee2ga944g2b25d36b82d7" version="1">Mark Charge</content>	
-	<content contentuid="h32d42a8fg2f00g4c7eg8f6bgefdf60a2b9fe" version="1">You may use this ability once per turn. The amount of times you can use this ability equals your Proficiency Bonus. You regain your charges on a Long Rest.</content>
+	<content contentuid="h32d42a8fg2f00g4c7eg8f6bgefdf60a2b9fe" version="1">The amount of times you can place a Mark.</content>
 
-	<!--Protector Abilities-->
+	<!--Protector Abilities--> 
 	<content contentuid="hc63dd4b1g50f6g4064gad21gb2a5c8e0b84e" version="1">Mark of the Protector</content>	
-	<content contentuid="hb67cf8d2g0323g483fg81aeg46461c2211ba" version="1">You may bless yourself or a target to take reduced damage equal to their Proficiency Bonus times 1d4 the next time they are hurt.</content>
-	<content contentuid="hb6b05e7cgcdbeg425fg9b85g2ea5e38dce5b" version="1">You are blessed by a Vigil to take reduced damage equal to your Proficiency Bonus times 1d4 the next time you are hurt.</content>
+	<content contentuid="hb67cf8d2g0323g483fg81aeg46461c2211ba" version="1">You may bless yourself or a target to take [3] reduced damage the next time they are hurt.</content>
+	<content contentuid="hb6b05e7cgcdbeg425fg9b85g2ea5e38dce5b" version="1">You are blessed by a Vigil to take [3] reduced damage the next time you are hurt.</content>
 	<content contentuid="he0025637gff81g4533gbf11ge84057fcce0d" version="1">Mantle of the Protector</content>
-	<content contentuid="h9ea2caadgf8bag4269ga137gdc14e611491b" version="1">Your need to protect others manifests itself as divine power. You gain flight, and at the end of each turn, you and allies within 10 meters of you that you can see restore health equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage with an attack or spell.</content>
+	<content contentuid="h9ea2caadgf8bag4269ga137gdc14e611491b" version="1">Your need to protect others manifests itself as divine power. You gain flight, and at the end of each turn, you and allies within 10 meters of you that you can see gain [2]. Once per turn, deal an additional [1] to one target when you hit with an attack or spell.</content>
 	<content contentuid="hecf071a6g399dg4a6cgbf4eg422d9bc3473f" version="1">Mantle of the Protector Aura</content>	
-	<content contentuid="h9ea2caadgf8bag4269ga137gdc14e611491b" version="1">At the end of each turn, you and allies within 10 meters of you that you can see restore health equal to your Proficiency Bonus.</content>
+	<content contentuid="h9ea2caadgf8bag4269ga137gdc14e611491b" version="1">At the end of each turn, you and allies within 10 meters of you that you can see gain [2].</content>
 
 	<!--Scourge Abilities-->
 	<content contentuid="h989f2ecage565g4e72ga2c5g81e1d3f265dc" version="1">Mark of the Scourge</content>	
-	<content contentuid="h0babd2c7gea14g4b2egb138g9079abe86152" version="1">You may infuse yourself or a target with divine ire, gaining their Proficiency Bonus times 1d4 as Radiant damage on their next attack or spell.</content>
-	<content contentuid="h058b0fb2g82ecg4967gbcbcgbc9702464e72" version="1">You are infused with divine ire by a Scourge of the Light, gaining your Proficiency Bonus times 1d4 as Radiant damage on your next attack or spell.</content>
+	<content contentuid="h0babd2c7gea14g4b2egb138g9079abe86152" version="1">You may infuse yourself or a target with divine ire, adding an additional [1] to their next attack or spell that hits.</content>
+	<content contentuid="h058b0fb2g82ecg4967gbcbcgbc9702464e72" version="1">You are infused with divine ire by a Scourge of the Light, adding an additional [1] to your next attack or spell that hits.</content>
 	<content contentuid="hcfd55c57g688dg43bdg8f72gfb20137f1c3b" version="1">Fury of the Scourge</content>
-	<content contentuid="hd64be7f7g8461g4eabg8a46g81eefbbfb8e5" version="1">Your righteous fury boils over. You gain flight, shed bright light in a 10-foot radius, and at the end of your turn, you and each enemy creature within 10 meters of you take radiant damage equal to your Proficiency Bonus. Once per turn, deal extra Radiant damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
+	<content contentuid="hd64be7f7g8461g4eabg8a46g81eefbbfb8e5" version="1">Your righteous fury boils over. You gain flight, shed bright light in a 10-foot radius, and at the end of your turn, you and each enemy creature within 10 meters of you take [1]. Once per turn, deal an additional [1] to one target when you hit it with an attack or a spell.</content>
 	<content contentuid="h491254c1ge5c9g47adgab07gf3af7a8c4067" version="1">Fury of the Scourge Aura</content>
-	<content contentuid="h68e765e7gc069g42cega77cg394a0ee9569f" version="1">At the end of your turn, you and each enemy creature within 10 meters of you take radiant damage equal to your Proficiency Bonus. You also shed bright light in a 10 meter radius.</content>
+	<content contentuid="h68e765e7gc069g42cega77cg394a0ee9569f" version="1">At the end of your turn, you and each enemy creature within 10 meters of you take [1]. You also shed bright light in a 10 meter radius.</content>
 
 	<!--Fallen Abilities-->
 	<content contentuid="h828c4101g6508g4daag9055g394f13f47b7d" version="1">Mark of the Fallen</content>	
-	<content contentuid="h20926a3bga055g47f5gae22g6eacb2522321" version="1">You may ward yourself or an ally with your inner darkness, forcing the next enemy who attacks them in melee to make a Charisma save, or become Frightened for a duration equal to their Proficiency Bonus times d4, rounded down.</content>
-	<content contentuid="hcf2d0a4dgd447g4012ga1f8gc2040b90bf12" version="1">You are warded by a Fallen Aasimar's inner darkness, forcing the next enemy who attacks you in melee to make a Charisma save, or become Frightened for a duration equal to your Proficiency Bonus times 1d4.</content>
+	<content contentuid="h20926a3bga055g47f5gae22g6eacb2522321" version="1">You may ward yourself or an ally with your inner darkness, forcing the next enemy who attacks them in melee to make a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, or become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Fearful&lt;/LSTag&gt; for [3] turns.</content>
+	<content contentuid="hcf2d0a4dgd447g4012ga1f8gc2040b90bf12" version="1">You are warded by a Fallen Aasimar's inner darkness, forcing the next enemy who attacks you in melee to make a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, or become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Fearful&lt;/LSTag&gt; for [4] turns.</content>
 	<content contentuid="h42b96546g51ffg453bg9930g4692f957113b" version="1">Embrace of the Fallen</content>
-	<content contentuid="hb9cf9239g6903g4805g9078g991396c2a9b6" version="1">Unleash the darkness inside. You gain flight, and at the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Charisma saving throw (DC8+Proficiency+Spellcasting Modifier) or become frightened of you until the end of your next turn. Once per turn, deal extra Necrotic damage equal to your Proficiency Bonus to one target when you deal damage to it with an attack or a spell.</content>
+	<content contentuid="hb9cf9239g6903g4805g9078g991396c2a9b6" version="1">Unleash the darkness inside. You gain flight, and at the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Fearful&lt;/LSTag&gt; of you until the end of your next turn. Once per turn, deal an additional [1] to one target when you deal damage to it with an attack or a spell.</content>
 	<content contentuid="h112918e9g580fg4ea8g8aecg172048c86aa0" version="1">Embrace of the Fallen Aura</content>
-	<content contentuid="h56721999gf8ffg41e7g87c1g4f8e5c5b577b" version="1">At the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Charisma saving throw or become frightened of you until the end of your next turn.</content>
+	<content contentuid="h56721999gf8ffg41e7g87c1g4f8e5c5b577b" version="1">At the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Fearful&lt;/LSTag&gt; of you until the end of your next turn.</content>
+
+	<!--Harbinger Abilities-->
+	<content contentuid="h6316b9a1ga8c3g46e0gb652g1b21eefb8015" version="1">Mark of the Harbinger</content>	
+	<content contentuid="h4ef10c0fgfb8bg48bfgb7b5g6912cfa35da9" version="1">You may take [1] to ward yourself or an ally. When the warded target is brought below half of their total health, they gain &lt;LSTag Type="Status" Tooltip="TRIPS_MARK_EXANIMATE"&gt;Exanimate's Glory&lt;/LSTag&gt; for two turns.</content>
+	<content contentuid="hac53a6a1gf295g489eg942ag2b7d28e39f36" version="1">You are warded by a Sin Eater's bloody penance, if you go below half of your total max health you gain &lt;LSTag Type="Status" Tooltip="TRIPS_MARK_EXANIMATE"&gt;Exanimate's Glory&lt;/LSTag&gt; for two turns.</content>
+	<content contentuid="h4db9db53gebfcg4044g990ag62ec73dae466" version="1">Exanimate's Glory</content>
+	<content contentuid="h37b630dag3cc7g481fgbbeeg67d7f5770b36" version="1">Deal an additional [1] on attacks or spells, but you take half of [1] yourself when you use this feature. When this effect wears off, restore [2] health.</content>
+	<content contentuid="he3757c2bgdce5g4092gabb2ge7f2da4df8b9" version="1">Penance of the Sin Eater</content>
+	<content contentuid="h94a37e95g1d56g4ccag959cg884a36fdb57f" version="1">You embrace the depths of your sin. You gain flight, and at the end of each turn, you and each enemy that you can see must succeed a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or receive &lt;LSTag Type="Status" Tooltip="TRIPS_FLAGGELANT_WOUNDS"&gt;Flagellant's Wounds&lt;/LSTag&gt; for two turns. Once per turn, deal an extra [2] when you deal damage with an attack or spell, but take [3] in return.</content>
+	<content contentuid="h37ea89aag4aefg499fgb700g76fa359e3e1e" version="1">Penance of the Sin Eater Aura</content>
+	<content contentuid="haf344699gf5efg436dg804dg5e5d45868813" version="1">At the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or receive Flaggelant's Wound for two turns.</content>
+	<content contentuid="h94806a6bgd3e9g45a1gaa29ga6425178049f" version="1">Flagellant's Wounds</content>
+	<content contentuid="h020df2abg03beg4e5dg93c4g598e00223472" version="1">Bleeding for [1] once per turn. Takes an additional [5] when damaged.</content>
 
 	<!--Level 10 Wings Passive-->
 	<content contentuid="h62a92649ge35dg480egba44gb984f394e6bf" version="1">Powerful Connection</content>	
@@ -122,8 +166,9 @@
 
 	<!--Interrupts-->
 	<content contentuid="h285fbd86gc4d6g40e6gaa1dg55ebed3c4e18" version="1">Radiant Soul</content>	
-	<content contentuid="hd02a1981gf6adg4cd9gaf8dgba586ab1d878" version="1">Once per turn, you may call upon your celestial power to deal extra Radiant damage equal to your Proficiency Bonus on a successful attack.</content>	
+	<content contentuid="hd02a1981gf6adg4cd9gaf8dgba586ab1d878" version="1">Once per turn, you may call upon your celestial power to deal an additional [1] on a successful attack.</content>	
 	<content contentuid="hdd751efdg7b9ag49a7g9ce3g23eba4d17245" version="1">Necrotic Soul</content>	
-	<content contentuid="h6455bc6fgd4b1g4b89g8ab9g2541a7df15f4" version="1">Once per turn, you may call upon your celestial power to deal extra Necrotic damage equal to your Proficiency Bonus on a successful attack.</content>	
-
+	<content contentuid="h6455bc6fgd4b1g4b89g8ab9g2541a7df15f4" version="1">Once per turn, you may call upon your celestial power to deal an additional [1] on a successful attack.</content>
+	<content contentuid="hdd751efdg7b9ag49a7g9ce3g23eba4d17245" version="1">Exanimate Soul</content>	
+	<content contentuid="h6455bc6fgd4b1g4b89g8ab9g2541a7df15f4" version="1">Once per turn, you may call upon your flaggelant powers to deal an additional [1] on a successful attack. You also inflict [3] to yourself.</content>
 </contentList>

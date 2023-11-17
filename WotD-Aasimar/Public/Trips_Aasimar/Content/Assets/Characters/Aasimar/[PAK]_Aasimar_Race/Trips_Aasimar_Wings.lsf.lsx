@@ -54,6 +54,35 @@
 					<attribute id="Width" type="int32" value="256" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241709" />
 				</node>
+			<!--Harbinger Glow-->
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="256" />
+					<attribute id="ID" type="FixedString" value="7942beac-4f61-48a9-b84f-a0dcfda1f1f0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_Feathers_Harbinger_Glow_BMA" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Trips_Feathers_Harbinger_Glow_BMA.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />	
+					<attribute id="Template" type="FixedString" value="Trips_Feathers_Harbinger_Glow_BMA" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="256" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241709" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="256" />
+					<attribute id="ID" type="FixedString" value="c7a8e769-5a6d-4196-b686-d8927f31232d" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_Feathers_Harbinger_GM" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Trips_Feathers_Harbinger_GM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />	
+					<attribute id="Template" type="FixedString" value="Trips_Feathers_Harbinger_GM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="256" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241709" />
+				</node>
 			</children>
 		</node>
 	</region>
@@ -570,6 +599,189 @@
 							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Fallen.Trips_FS_Wings_Fallen_Wings_Mesh.1" />
 						</node>
 					</children>
+				</node>
+			<!--Harbinger Wings-->
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="8e812194-346e-54a3-3388-00cf299a0269" />
+					<attribute id="BoundsMax" type="fvec3" value="2.071022 2.467827 0.9452027" />
+					<attribute id="BoundsMin" type="fvec3" value="-2.071022 1.072324 0.05757947" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="e5e6a11f-64a4-418c-9696-260ba980f646" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="Trips_M_Wings_Harbinger" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="f642085d-003d-f7ab-b4ff-59b107a12972" />
+					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc/Trips_M_Wings_Scourge.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc/Trips_M_Wings_Scourge.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
+						</node>
+						<node id="Base" />
+						<node id="ClothProxyMapping" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="8c42e11b-b3a1-4a10-867d-9d4f2cfca203" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_M_Wings_Scourge.Trips_M_Wings_Scourge_Attachment_Mesh.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="8c42e11b-b3a1-4a10-867d-9d4f2cfca203" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_M_Wings_Scourge.Trips_M_Wings_Scourge_Wings_Mesh.1" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="a3b163a7-1fd1-41b7-8e46-4dcb44faba86" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_M_Wings_Scourge.Trips_M_Wings_Scourge_Wings_Mesh_Top.2" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="8e812194-346e-54a3-3388-00cf299a0269" />
+					<attribute id="BoundsMax" type="fvec3" value="2.071022 2.467827 0.9452027" />
+					<attribute id="BoundsMin" type="fvec3" value="-2.071022 1.072324 0.05757947" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="668b3a4a-bffc-4c0e-aa46-213c34363222" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="Trips_F_Wings_Harbinger" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="f642085d-003d-f7ab-b4ff-59b107a12972" />
+					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Fem/Trips_F_Wings_Scourge.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Fem/Trips_F_Wings_Scourge.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
+						</node>
+						<node id="Base" />
+						<node id="ClothProxyMapping" />					
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="8c42e11b-b3a1-4a10-867d-9d4f2cfca203" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_F_Wings_Scourge.Trips_F_Wings_Scourge_Mesh.0" />
+						</node>						
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="a3b163a7-1fd1-41b7-8e46-4dcb44faba86" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_F_Wings_Scourge.Trips_F_Wings_Scourge_Wings_Mesh_Top.1" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="8e812194-346e-54a3-3388-00cf299a0269" />
+					<attribute id="BoundsMax" type="fvec3" value="4.071022 4.467827 0.9452027" />
+					<attribute id="BoundsMin" type="fvec3" value="-2.071022 1.072324 0.05757947" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="85a19d96-12dd-4017-9085-4db55cf3791f" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="Trips_MS_Wings_Harbinger" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="f642085d-003d-f7ab-b4ff-59b107a12972" />
+					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />					
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc_Strong/Trips_MS_Wings_Scourge.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc_Strong/Trips_MS_Wings_Scourge.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
+						</node>
+						<node id="Base" />
+						<node id="ClothProxyMapping" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="8c42e11b-b3a1-4a10-867d-9d4f2cfca203" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_MS_Wings_Scourge.Trips_MS_Wings_Scourge_Attachment_Mesh.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="8c42e11b-b3a1-4a10-867d-9d4f2cfca203" />40b8b2d5-e350-c04a-be79-f02d518dff0f
+							<attribute id="ObjectID" type="FixedString" value="Trips_MS_Wings_Scourge.Trips_MS_Wings_Scourge_Mesh.1" />
+						</node>						
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="a3b163a7-1fd1-41b7-8e46-4dcb44faba86" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_MS_Wings_Scourge.Trips_MS_Wings_Scourge_Mesh_Top.2" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="86c2af56-8ea8-4270-aed8-4b07a7a905be" />
+					<attribute id="BoundsMax" type="fvec3" value="2.174573 2.591218 0.9924628" />
+					<attribute id="BoundsMin" type="fvec3" value="-2.174573 1.12594 0.06045844" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="2debede6-1d80-4ec4-b96d-8c002ec7ac15" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="Trips_FS_Wings_Harbinger" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="3ab16354-81a3-a5af-8b72-e7f3011deb7b" />
+					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
+					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Fem_Strong/Trips_FS_Wings_Scourge.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Fem_Strong/Trips_FS_Wings_Scourge.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="941fa8ff-d19c-85ee-0ca0-b0aa1daf1550" />
+						</node>
+						<node id="Base" />
+						<node id="ClothProxyMapping" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="8c42e11b-b3a1-4a10-867d-9d4f2cfca203" />5e5b7f76-8fa5-16ff-0cf3-33d94f5ea041
+							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Scourge.Trips_FS_Wings_Scourge_Mesh.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="8c42e11b-b3a1-4a10-867d-9d4f2cfca203" />9106a412-4963-2147-914b-838fd337cf43
+							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Scourge.Trips_FS_Wings_Scourge_Attachment_Mesh.1" />
+						</node>						
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="a3b163a7-1fd1-41b7-8e46-4dcb44faba86" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Scourge.Trips_FS_Wings_Scourge_Wings_Mesh_Top.2" />
+						</node>
+					</children>
 				</node>			
 			</children>
 		</node>
@@ -577,6 +789,85 @@
 	<region id="MaterialBank">
 		<node id="MaterialBank">
 			<children>
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="a3b163a7-1fd1-41b7-8e46-4dcb44faba86" />
+					<attribute id="MaterialType" type="uint8" value="13" />
+					<attribute id="Name" type="LSString" value="Aasimar_Harbinger_Wings_Glow" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" /> allows for both alpha and glow?
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ParameterName" type="FixedString" value="PulseSpeed" />
+							<attribute id="Value" type="float" value="0.7"/>
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ParameterName" type="FixedString" value="MinGlow" />
+							<attribute id="Value" type="float" value="2"/>
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="10" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ParameterName" type="FixedString" value="MaxGlow" />
+							<attribute id="Value" type="float" value="4" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="ParameterName" type="FixedString" value="GlowMultiplier" />
+							<attribute id="Value" type="float" value="5" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="7942beac-4f61-48a9-b84f-a0dcfda1f1f0" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="5636e86b-ef9a-b665-9374-f55e8db5df80" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="abc0449c-cba6-414f-970f-09b126844a66" />
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="c7a8e769-5a6d-4196-b686-d8927f31232d" />
+							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.8512517 0.1011452 0.002585825" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Glow" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
+							<attribute id="Value" type="fvec3" value="0.988 0 0" />
+						</node>
+					</children>
+				</node>
 				<node id="Resource">
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<attribute id="ID" type="FixedString" value="6558b644-b8a3-4c9c-8f55-26c9c3760bf0" />
@@ -890,6 +1181,238 @@
 				</node>
 				<node id="Resource">
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="8c42e11b-b3a1-4a10-867d-9d4f2cfca203" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="VFX_Harbinger_Animated" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Effects/OverlayMaterial/VFX_OverlayMaterial_AlphaTest_Unlit_Emissive_AlphaErosion_SphereMask_GradientMap_01.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="WPO" />
+							<attribute id="ParameterName" type="FixedString" value="Switch_WPO_HeightShimmerWave" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="ColorRamp" />
+							<attribute id="ParameterName" type="FixedString" value="Use_LashAlpha" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="ColorRamp" />
+							<attribute id="ParameterName" type="FixedString" value="Use_HairAlpha" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.75" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="BaseColorBlend" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="2" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Triplanar" />
+							<attribute id="ParameterName" type="FixedString" value="Triplanar_Texture_UVTiling" />
+							<attribute id="Value" type="float" value="2" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Triplanar" />
+							<attribute id="ParameterName" type="FixedString" value="Triplanar_Texture_EXP" />
+							<attribute id="Value" type="float" value="6" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Additional_Eye_Mask_Contrast" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Additional_Eye_Mask_Strength" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Normal_Flatness" />
+							<attribute id="Value" type="float" value="0.66" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Fresnel_Power" />
+							<attribute id="Value" type="float" value="1.5" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ParameterName" type="FixedString" value="Switch_DynX_Fresnel_Power" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="ColorRamp" />
+							<attribute id="ParameterName" type="FixedString" value="PreRamp_Intensity" />
+							<attribute id="Value" type="float" value="5" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="ColorRamp" />
+							<attribute id="ParameterName" type="FixedString" value="PostRamp_Intensity" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="ColorRamp" />
+							<attribute id="ParameterName" type="FixedString" value="Switch_ColorRamp" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="8f1f209a-dd37-4531-b1ee-5e81c1d169cc" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="e88ef955-6343-4917-abbc-92ad9ccbb74b" />
+							<attribute id="ParameterName" type="FixedString" value="hairmask" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="e88ef955-6343-4917-abbc-92ad9ccbb74b" />
+							<attribute id="ParameterName" type="FixedString" value="lashmask" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Triplanar" />
+							<attribute id="ID" type="FixedString" value="246a0ca2-f7eb-dab8-343a-15e30efa2d8d" />
+							<attribute id="ParameterName" type="FixedString" value="Triplanar_Texture_Map" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="e0827045-c134-46ef-84d8-d4721ab9d833" />
+							<attribute id="ParameterName" type="FixedString" value="Additional_Eye_Mask" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="15878eae-f547-fdd9-1db3-825152c9c4b0" />
+							<attribute id="ParameterName" type="FixedString" value="NM" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="961d330f-9ca7-4b95-8eeb-d36c573e16a2" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="ColorRamp" />
+							<attribute id="ID" type="FixedString" value="9191a8fe-2483-5def-51e8-78bebdfd98f3" />
+							<attribute id="IgnoreTexelDensity" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="ColorRamp_Texture" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="BaseValue" type="fvec2" value="0 0.2" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Triplanar" />
+							<attribute id="ParameterName" type="FixedString" value="Triplanar_Texture_PanningSpeed" />
+							<attribute id="Value" type="fvec2" value="0 -0.2" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0 0 0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="IsColor" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="WPO" />
+							<attribute id="Value" type="fvec3" value="0 0 0" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.01 0 0.01" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="IsColor" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="WPO_Strenght" />
+							<attribute id="Value" type="fvec3" value="0.01 0 0.01" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="IsColor" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="_WorldExtents" />
+							<attribute id="Value" type="fvec3" value="1 1 1" />
+						</node>
+						<node id="VectorParameters">
+							<attribute id="BaseValue" type="fvec4" value="0 0 0 0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="Other" />
+							<attribute id="IsColor" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="DynamicParameter" />
+							<attribute id="Value" type="fvec4" value="0 0 1 0" />
+						</node>
+						<node id="VectorParameters">
+							<attribute id="BaseValue" type="fvec4" value="1 1 1 1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="IsColor" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Color" />
+							<attribute id="Value" type="fvec4" value="1 0 0 1" />15 0.007751027 0 1
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<attribute id="ID" type="FixedString" value="d9c0fabe-21b9-4539-8573-bcc023096ce6" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="Trips_VFX_Model_AlphaBlend_Unlit_Emissive_Ghost_Cinematics_01" />
@@ -952,6 +1475,83 @@
 							<attribute id="IsColor" type="bool" value="False" />
 							<attribute id="ParameterName" type="FixedString" value="Ghost_Colour" />
 							<attribute id="Value" type="fvec3" value="1 0.882 0.42" />
+						</node>
+						<node id="VectorParameters">
+							<attribute id="BaseValue" type="fvec4" value="1 1 1 1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="False" />
+							<attribute id="GroupName" type="FixedString" value="Other" />
+							<attribute id="IsColor" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="_MeshVertexColor" />
+							<attribute id="Value" type="fvec4" value="1 1 1 1" />
+						</node>
+					</children>
+				</node>
+
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="c9ec69f1-c3d6-4ef2-b470-156715272e4a" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Model_AlphaBlend_Unlit_Emissive_Ghost_Cinematics_01_Harbinger" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Effects/Model/VFX_Model_AlphaBlend_Unlit_Emissive_Ghost_Cinematics_01.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="100" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="DepthDifferenceBlendDistance" />
+							<attribute id="Value" type="float" value="10" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="NearCameraFade_Min" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="2" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="NearCameraFade_Max" />
+							<attribute id="Value" type="float" value="14" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="UseNearCameraFade" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.005" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ParameterName" type="FixedString" value="ClipTest" />
+							<attribute id="Value" type="float" value="0.005" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Opactiy_Intensity" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.85 1 1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="IsColor" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Ghost_Colour" />
+							<attribute id="Value" type="fvec3" value="0.812 0 0" />
 						</node>
 						<node id="VectorParameters">
 							<attribute id="BaseValue" type="fvec4" value="1 1 1 1" />
