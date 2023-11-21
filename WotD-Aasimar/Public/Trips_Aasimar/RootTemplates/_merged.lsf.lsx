@@ -241,7 +241,7 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0f46db8-a4a2-4873-9931-ab267792a941" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="185143c9-6641-4928-a512-ab009d10609e" />
 					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
 					<children>
 						<node id="Tags">
@@ -261,7 +261,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" />
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="912f0a0a-a322-4e65-b197-a49833a130a3" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="fcbb31a4-6996-4205-bdea-be8d6c9b58f9" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
 					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
 					<children>
@@ -283,7 +283,7 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="103af4dd-60f5-4407-aba3-152a00881cef" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d9e366da-fd6a-4641-8273-5f7793657047" />
 					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
 					<children>
 						<node id="Tags">
@@ -303,7 +303,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" />
 					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="c5839104-434c-4c6c-830e-0c6b5f091a33" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="cb233980-0f40-4f05-8e83-89e471727c44" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
 					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
 					<children>
@@ -326,7 +326,7 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0f46db8-a4a2-4873-9931-ab267792a941" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="318ac472-22a0-4ad1-a053-6b0d143f2284" />
 					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
 					<children>
 						<node id="Tags">
@@ -346,7 +346,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" />
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="912f0a0a-a322-4e65-b197-a49833a130a3" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="005735a0-be0d-46d4-a300-6ea644d4ede3" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
 					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
 					<children>
@@ -368,7 +368,7 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="103af4dd-60f5-4407-aba3-152a00881cef" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="58e041d7-72c2-481d-8d94-3ec4cab2c904" />
 					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
 					<children>
 						<node id="Tags">
@@ -388,7 +388,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" />
 					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="c5839104-434c-4c6c-830e-0c6b5f091a33" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="74314ef5-d932-4a08-a58c-0685135a195f" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
 					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
 					<children>
@@ -411,7 +411,7 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0f46db8-a4a2-4873-9931-ab267792a941" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="13b2626d-3af0-4476-b746-65f9f094ebe5" />
 					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
 					<children>
 						<node id="Tags">
@@ -431,7 +431,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" />
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="912f0a0a-a322-4e65-b197-a49833a130a3" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="34de7f15-5ef7-44db-bf4d-8bd77785c637" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
 					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
 					<children>
@@ -453,7 +453,7 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="103af4dd-60f5-4407-aba3-152a00881cef" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="eba48443-354c-4b86-970a-80c1d8150f25" />
 					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
 					<children>
 						<node id="Tags">
@@ -473,7 +473,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" />
 					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="c5839104-434c-4c6c-830e-0c6b5f091a33" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="69cc0339-ac1c-4daf-ab3d-e10276044933" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
 					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
 					<children>

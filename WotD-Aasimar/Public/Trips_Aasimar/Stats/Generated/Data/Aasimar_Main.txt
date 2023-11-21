@@ -1,4 +1,3 @@
-
 <!--------------------- Aasimar Passives --------------------->
 
 new entry "Trips_Aasimar_Passives"
@@ -299,7 +298,6 @@ data "SoundStop" "Misc_Status_KarlachInfernal_End"
 data "StatusEffect" "fe2c066d-2dfc-4070-95fe-715671015504"
 data "StatusEffectOnTurn" "04546e68-7dba-4d99-8366-284b5fcf9cd0"
 
-
 new entry "TRIPS_AURA_OF_SCOURGE_TICK_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -463,7 +461,7 @@ data "StatusType" "BOOST"
 data "StackId" "TRIPS_AURA_FLAGGELANT"
 data "Boosts" ""
 data "RemoveEvents" "OnStatusApplied"
-data "OnApplyRoll" "not SavingThrow(Ability.Constitution,SourceSpellDC())"
+data "OnApplyRoll" "not SavingThrow(Ability.Constitution,SourceSpellDC(10, context.Source,Ability.Constitution))"
 data "OnApplySuccess" "ApplyStatus(TRIPS_FLAGGELANT_WOUNDS,100,2)"
 data "OnApplyFail" ""
 data "OnTickRoll" ""
@@ -541,7 +539,6 @@ data "ValueOverride" "100"
 data "Boosts" "UnlockSpell(SpectralWings_Flight);"
 data "DefaultBoosts" "HiddenDuringCinematic()"
 data "PassivesOnEquip" "Fly_Effect_Wings"
-
 
 <!--------------------- Aasimar STATUS  --------------------->
 
@@ -716,7 +713,7 @@ data "Icon" "Trips_Scourge_Mark_Status"
 data "StatusType" "BOOST"
 data "StackId" "SCOURGE_BLESSING_BUFF"
 data "Passives" "Trips_Scourge_Blessing_Damage"
-data "StatusEffect" "c4227915-5c00-4d1e-a330-b6e8f271dd6e"
+data "StatusEffect" "d970a7c2-2b3b-48b1-8373-b2eccf1cf062"
 
 new entry "Trips_Scourge_Blessing_Damage"
 type "PassiveData"
