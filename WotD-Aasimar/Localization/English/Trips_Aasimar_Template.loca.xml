@@ -18,6 +18,11 @@
 	<content contentuid="hfcf2eb88g90aeg4562gb506g2df739217cc0" version="1">You can fly.</content>
 	<content contentuid="h8cae7f98g879dg4967g9a22ge121f7804c56" version="1">Take Flight</content>
 
+	<!--Hireling Cressa-->
+	<content contentuid="h7965fc46g770bg420cg9dbeg3a3e1b7c240d" version="3">Daybreaker Cressa</content>
+	<content contentuid="h65026c46g2f79g4f35g94f0gbd880e695230" version="3">Cressa Moonfair</content>
+	<content contentuid="hcd11fdefg5b27g44a3g99b6g2fde6935890c" version="3">Raised to be a Harbinger of pure Evil, this Aasimar resisted the brainwashing by a group of silent cultists. She roamed the lands for redemption which she eventually found, reborn as a Vigil and regaining her celestial voice.</content>
+
 	<!--Heads-->
 	<!--Yellow-->
 	<content contentuid="h15662ff8ga9ddg410bg8f01g14dc297f6666" version="1">Scourge Cracks 01</content>

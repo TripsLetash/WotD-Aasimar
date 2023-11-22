@@ -4,6 +4,40 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>
+				<!--Cressa Hireling-->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="cf5ca185-f2f3-46ad-b7fc-f0ddc34d81ec" /> 
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong_Cressa_Hireling" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7965fc46g770bg420cg9dbeg3a3e1b7c240d" version="3" />
+					<attribute id="Faction" type="guid" value="b7b47ac8-8e29-4984-b8c5-f35b66d8265a" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" /> 
+					<attribute id="Icon" type="FixedString" value="fed4b866-2cf1-45fc-8644-108cf9c7d994-_(Icon_Cressa_Female)" />
+					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />			
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="6f5a4cb7-4f3e-4d0a-9cf6-0332d5072299" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="6f5a4cb7-4f3e-4d0a-9cf6-0332d5072299" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="009593a8-50c6-43bc-a5d6-52b72955fbd7" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="25bf5042-5bf6-4360-8df8-ab107ccb0d37" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>				
+				<!--Bases-->
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="62fa124d-75ae-446d-a4d8-7a91bb21cc29" /> must be unique
 					<attribute id="Name" type="LSString" value="BASE_Aasimar_Female" />
@@ -52,6 +86,7 @@
 						<node id="LocomotionParams" />
 					</children>
 				</node>
+				<!--parents-->
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" /> must be unique
 					<attribute id="Name" type="LSString" value="Aasimar_Female_Player" />
@@ -82,7 +117,7 @@
 					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" /> inherits from normal sunelf body
+					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" /> 
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> stronk armour set
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="912f0a0a-a322-4e65-b197-a49833a130a3" /> which models to load
@@ -496,11 +531,19 @@
 					<attribute id="MapKey" type="FixedString" value="812ba0ed-454b-4a3e-84f6-4ec2e2e6eb7b" />
 					<attribute id="Name" type="LSString" value="Protector Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Protector_Wings" />
+					<attribute id="StoryItem" type="bool" value="True" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
 						<node id="Equipment">
 							<attribute id="EquipmentSlots" type="uint32" value="0" />
 							<children>
@@ -560,11 +603,19 @@
 					<attribute id="MapKey" type="FixedString" value="00355696-1c4b-4e0f-a735-071e6eb24762" />
 					<attribute id="Name" type="LSString" value="Scourge Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Scourge_Wings" />
+					<attribute id="StoryItem" type="bool" value="True" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
 						<node id="Equipment">
 							<attribute id="EquipmentSlots" type="uint32" value="0" />
 							<children>
@@ -624,11 +675,19 @@
 					<attribute id="MapKey" type="FixedString" value="20110880-cd92-4c24-9ed1-2c676498d36a" />
 					<attribute id="Name" type="LSString" value="Fallen Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Fallen_Wings" />
+					<attribute id="StoryItem" type="bool" value="True" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
 						<node id="Equipment">
 							<attribute id="EquipmentSlots" type="uint32" value="0" />
 							<children>
@@ -689,10 +748,18 @@
 					<attribute id="Name" type="LSString" value="Harbinger Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Harbinger_Wings" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
+					<attribute id="StoryItem" type="bool" value="True" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
 						<node id="Equipment">
 							<attribute id="EquipmentSlots" type="uint32" value="0" />
 							<children>
