@@ -1615,7 +1615,7 @@
 	<region id="VisualBank">
 		<node id="VisualBank">
 			<children>
-	<!--heads-->
+		<!--heads-->
 		<!--Yellow-->
 				<node id="Resource">
 					<attribute id="AttachBone" type="FixedString" value="" />
@@ -4516,7 +4516,7 @@
 						</node>
 					</children>
 				</node>
-						<!--Body-->
+				<!--Body-->
 				<node id="Resource">
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<attribute id="ID" type="FixedString" value="a0436128-bda7-4348-83c2-761db20df86a" />
@@ -4792,7 +4792,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ID" type="FixedString" value="6b8ee78e-a9ba-44d1-834e-48941d22ea8f" />
+							<attribute id="ID" type="FixedString" value="1f7ee96f-7e96-47ff-91c9-cc92384e78b4" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -4806,7 +4806,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ID" type="FixedString" value="cd96831a-95eb-4114-8655-2823b65f9506" />
+							<attribute id="ID" type="FixedString" value="63265ee3-d362-4c9b-9484-0a323095622b" />
 							<attribute id="ParameterName" type="FixedString" value="CancelMSK" />
 						</node>
 						<node id="Texture2DParameters">
@@ -4834,7 +4834,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ID" type="FixedString" value="5910f7ad-9685-43f6-a9cb-3d6e1bdf4cb9" />
+							<attribute id="ID" type="FixedString" value="80ceeb58-e992-4c22-a9d5-4078af0d87a3" />
 							<attribute id="ParameterName" type="FixedString" value="HMVY" />
 						</node>
 						<node id="Texture2DParameters">
@@ -4855,7 +4855,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ID" type="FixedString" value="2f32f9ba-d7c3-4b12-9c20-6e30ad8f7a3c" />
+							<attribute id="ID" type="FixedString" value="2182642d-699a-4847-9b6c-538bc4a0d4d6" />
 							<attribute id="ParameterName" type="FixedString" value="CLEA" />
 						</node>
 						<node id="Texture2DParameters">
