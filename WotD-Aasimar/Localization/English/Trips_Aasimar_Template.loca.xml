@@ -146,7 +146,7 @@
 	<content contentuid="h42b96546g51ffg453bg9930g4692f957113b" version="1">Embrace of the Fallen</content>
 	<content contentuid="hb9cf9239g6903g4805g9078g991396c2a9b6" version="1">Unleash the darkness inside. You gain flight, and at the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Fearful&lt;/LSTag&gt; of you until the end of your next turn. Once per turn, deal an additional [1] to one target when you deal damage to it with an attack or a spell.</content>
 	<content contentuid="h112918e9g580fg4ea8g8aecg172048c86aa0" version="1">Embrace of the Fallen Aura</content>
-	<content contentuid="h56721999gf8ffg41e7g87c1g4f8e5c5b577b" version="1">At the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Fearful&lt;/LSTag&gt; of you until the end of your next turn.</content>
+	<content contentuid="h56721999gf8ffg41e7g87c1g4f8e5c5b577b" version="1">At the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Fearful&lt;/LSTag&gt; of you until the start of your next turn.</content>
 
 	<!--Harbinger Abilities-->
 	<content contentuid="h6316b9a1ga8c3g46e0gb652g1b21eefb8015" version="1">Mark of the Harbinger</content>	
