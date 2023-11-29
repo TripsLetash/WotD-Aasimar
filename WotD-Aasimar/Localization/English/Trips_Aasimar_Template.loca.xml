@@ -150,16 +150,24 @@
 
 	<!--Harbinger Abilities-->
 	<content contentuid="h6316b9a1ga8c3g46e0gb652g1b21eefb8015" version="1">Mark of the Harbinger</content>	
-	<content contentuid="h4ef10c0fgfb8bg48bfgb7b5g6912cfa35da9" version="1">You may take [1] to ward yourself or an ally. When the warded target is brought below half of their total health, they gain &lt;LSTag Type="Status" Tooltip="TRIPS_MARK_EXANIMATE"&gt;Exanimate's Glory&lt;/LSTag&gt; for two turns.</content>
+	<content contentuid="h4ef10c0fgfb8bg48bfgb7b5g6912cfa35da9" version="1">You take [1] to ward yourself or an ally. When the warded target is brought below half of their total health, they gain &lt;LSTag Type="Status" Tooltip="TRIPS_MARK_EXANIMATE"&gt;Exanimate's Glory&lt;/LSTag&gt; for two turns.</content>
 	<content contentuid="hac53a6a1gf295g489eg942ag2b7d28e39f36" version="1">You are warded by a Sin Eater's bloody penance, if you go below half of your total max health you gain &lt;LSTag Type="Status" Tooltip="TRIPS_MARK_EXANIMATE"&gt;Exanimate's Glory&lt;/LSTag&gt; for two turns.</content>
 	<content contentuid="h4db9db53gebfcg4044g990ag62ec73dae466" version="1">Exanimate's Glory</content>
-	<content contentuid="h37b630dag3cc7g481fgbbeeg67d7f5770b36" version="1">Deal an additional [1] on attacks or spells, but you take half of [1] yourself when you use this feature. When this effect wears off, restore [2] health.</content>
+	<content contentuid="h37b630dag3cc7g481fgbbeeg67d7f5770b36" version="1">Deal an additional [1] on attacks or spells, but you take [3] yourself when you use this feature. When this effect wears off, restore [2] of health.</content>
 	<content contentuid="he3757c2bgdce5g4092gabb2ge7f2da4df8b9" version="1">Penance of the Sin Eater</content>
-	<content contentuid="h94a37e95g1d56g4ccag959cg884a36fdb57f" version="1">You embrace the depths of your sin. You gain flight, and at the end of each turn, you and each enemy that you can see must succeed a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or receive &lt;LSTag Type="Status" Tooltip="TRIPS_FLAGGELANT_WOUNDS"&gt;Flagellant's Wounds&lt;/LSTag&gt; for two turns. Once per turn, deal an extra [2] when you deal damage with an attack or spell, but take [3] in return.</content>
+	<content contentuid="h94a37e95g1d56g4ccag959cg884a36fdb57f" version="1">You repent for the depths of your sins. You gain flight, and at the end of each turn, each enemy that you can see must succeed a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or receive &lt;LSTag Type="Status" Tooltip="TRIPS_FLAGGELANT_WOUNDS"&gt;Flagellant's Wounds&lt;/LSTag&gt; for two turns. You gain &lt;LSTag Type="Passive" Tooltip="Trips_Flaggelant_Vulnerability_Player"&gt;Flagellant's Exhilaration&lt;/LSTag&gt; for the duration of the penance.</content>
 	<content contentuid="h37ea89aag4aefg499fgb700g76fa359e3e1e" version="1">Penance of the Sin Eater Aura</content>
-	<content contentuid="haf344699gf5efg436dg804dg5e5d45868813" version="1">At the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or receive Flaggelant's Wound for two turns.</content>
+	<content contentuid="haf344699gf5efg436dg804dg5e5d45868813" version="1">At the end of each turn, other creatures within 10 meters of you that can see you must each succeed on a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or receive &lt;LSTag Type="Status" Tooltip="TRIPS_FLAGGELANT_WOUNDS"&gt;Flagellant's Wounds&lt;/LSTag&gt; for two turns. You gain &lt;LSTag Type="Passive" Tooltip="Trips_Flaggelant_Vulnerability_Player"&gt;Flagellant's Exhilaration&lt;/LSTag&gt; for the duration of the penance.</content>
 	<content contentuid="h94806a6bgd3e9g45a1gaa29ga6425178049f" version="1">Flagellant's Wounds</content>
-	<content contentuid="h020df2abg03beg4e5dg93c4g598e00223472" version="1">Bleeding for [1] once per turn. Takes an additional [5] when damaged.</content>
+	<content contentuid="h020df2abg03beg4e5dg93c4g598e00223472" version="1">Bleeding for [3] once per turn.</content>
+	<content contentuid="h7bda13eageb63g4469g8867g0872665bc52d" version="1">Flagellant's Exhilaration</content>
+	<content contentuid="h4a683e1fgf9bag4f3cg8028gbc85c8be0f22" version="1">You take [1] and do an additional [1] when you hit those afflicted by &lt;LSTag Type="Status" Tooltip="TRIPS_FLAGGELANT_WOUNDS"&gt;Flagellant's Wounds&lt;/LSTag&gt;.</content>
+	<content contentuid="h5e334490g76cag4206ga9aage6f926169526" version="1">Flagellant's Weakness</content>
+	<content contentuid="h392e18deg8ee0g422dg980dgca8c21ac5577" version="1">You are hurt more deeply by attacks.</content>
+	<content contentuid="hf8b8bb2ag9e5fg4e20g81d8gb580df138c0c" version="1">Bleeding</content>
+	<content contentuid="hf56e0913g958dg4440ga621geb78d06cc2bd" version="1">You are bleeding.</content>	
+	<content contentuid="h9e096080g26fbg47a4ga4a2gdca471643942" version="1">SELF: DEBUG</content>		
+	<content contentuid="h2b6ea711g322ag4652g9229g8e4e86cb26fc" version="1">TARGET: DEBUG</content>	
 
 	<!--Level 10 Wings Passive-->
 	<content contentuid="h62a92649ge35dg480egba44gb984f394e6bf" version="1">Powerful Connection</content>	

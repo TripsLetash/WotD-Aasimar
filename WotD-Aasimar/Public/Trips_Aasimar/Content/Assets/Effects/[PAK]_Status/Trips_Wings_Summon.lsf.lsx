@@ -376,6 +376,27 @@
 						</node>
 					</children>
 				</node>
+			<!--Harbinger Bleed-->
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="6" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Harbinger_Bleed" />
+					<attribute id="ID" type="FixedString" value="69b59e13-f374-4603-bc9c-7e95ab610a37" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Harbinger_Bleed" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Harbinger_Bleed.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Dependencies" />
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>

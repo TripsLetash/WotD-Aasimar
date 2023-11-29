@@ -3,7 +3,7 @@
 	<version major="4" minor="0" revision="4" build="58" lslib_meta="v1,bswap_guids" />
 	<region id="Tags">
 		<node id="Tags">
-			<attribute id="Description" type="LSString" value="|FALLEN AASIMAR|" />
+			<attribute id="Description" type="LSString" value="|HARBINGER AASIMAR|" />
 			<attribute id="DisplayDescription" type="TranslatedString" handle="h8097cf13gaef2g48e4gb34ag7e301ae95f25" version="1" />
 			<attribute id="DisplayName" type="TranslatedString" handle="hbc2c7eb3g8231g4acfga0dfgc41c6479a222" version="1" />
 			<attribute id="Icon" type="FixedString" value="" />

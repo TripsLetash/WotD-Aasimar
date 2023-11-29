@@ -19,6 +19,7 @@
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="6f5a4cb7-4f3e-4d0a-9cf6-0332d5072299" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="6f5a4cb7-4f3e-4d0a-9cf6-0332d5072299" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<children>
 						<node id="Tags">
 							<children>
@@ -45,6 +46,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="df4aee69-40ea-480d-aa96-1abe82c28b66" /> base human reference
 					<attribute id="Icon" type="FixedString" value="65508880-7afc-74cf-97eb-8d85c80b79b4-_(Icon_Human_Female)" />
 					<attribute id="EquipmentRace" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="a888490b-e176-4995-ae04-edceb1fc665a" /> which models to load
 					<attribute id="Race" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> define race as aasimar
 					<children>
@@ -69,6 +71,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="fd7f2707-8f86-4836-bda8-e0db99c389cc" /> base human reference
 					<attribute id="Icon" type="FixedString" value="c0807a07-7e67-6f66-31d8-437c234a42e9-_(Icon_Human_Male)" />
 					<attribute id="EquipmentRace" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="baf3dee0-1493-4f8b-af0a-c35437c5aed7" /> which models to load
 					<attribute id="Race" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> define race as aasimar
 					<children>
@@ -121,7 +124,7 @@
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> stronk armour set
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="912f0a0a-a322-4e65-b197-a49833a130a3" /> which models to load
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<children>
 						<node id="Tags">
 							<children>
@@ -168,7 +171,7 @@
 					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="c5839104-434c-4c6c-830e-0c6b5f091a33" /> which models to load
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<children>
 						<node id="Tags">
 							<children>
@@ -212,7 +215,7 @@
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="912f0a0a-a322-4e65-b197-a49833a130a3" />
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<attribute id="Race" type="guid" value="4738a422-5abd-41a7-a3f8-a35250a73209" />
 					<children>
 						<node id="Tags">
@@ -254,7 +257,7 @@
 					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="c5839104-434c-4c6c-830e-0c6b5f091a33" />
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<attribute id="Race" type="guid" value="4738a422-5abd-41a7-a3f8-a35250a73209" />
 					<children>
 						<node id="Tags">
@@ -297,7 +300,7 @@
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="fcbb31a4-6996-4205-bdea-be8d6c9b58f9" />
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
 					<children>
 						<node id="Tags">
@@ -339,7 +342,7 @@
 					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="cb233980-0f40-4f05-8e83-89e471727c44" />
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
 					<children>
 						<node id="Tags">
@@ -382,7 +385,7 @@
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="005735a0-be0d-46d4-a300-6ea644d4ede3" />
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
 					<children>
 						<node id="Tags">
@@ -424,7 +427,7 @@
 					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="74314ef5-d932-4a08-a58c-0685135a195f" />
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
 					<children>
 						<node id="Tags">
@@ -467,7 +470,7 @@
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="34de7f15-5ef7-44db-bf4d-8bd77785c637" />
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
 					<children>
 						<node id="Tags">
@@ -509,7 +512,7 @@
 					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="69cc0339-ac1c-4daf-ab3d-e10276044933" />
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
 					<children>
 						<node id="Tags">
