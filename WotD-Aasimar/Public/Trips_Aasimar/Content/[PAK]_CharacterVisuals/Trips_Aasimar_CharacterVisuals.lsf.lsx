@@ -669,56 +669,14 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="2c477c0d-15a8-0591-bd94-6acc583666ea" />
 										</node>
 									</children>
+								</node> 
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="1 0.933 0.533" />
 								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -781,56 +739,14 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="4c6e6f0a-1927-33cd-f334-2ebe8580b8d5" />
 										</node>
 									</children>
-								</node>								
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
+								</node>								 
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="1 0.933 0.533" />
+								</node>
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -888,56 +804,14 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="4c6e6f0a-1927-33cd-f334-2ebe8580b8d5" />
 										</node>
 									</children>
+								</node> 
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="1 0.933 0.533" />
 								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -1000,56 +874,14 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="4c6e6f0a-1927-33cd-f334-2ebe8580b8d5" />
 										</node>
 									</children>
+								</node> 
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="1 0.933 0.533" />
 								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -1114,56 +946,14 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="2c477c0d-15a8-0591-bd94-6acc583666ea" />
 										</node>
 									</children>
-								</node>								
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
+								</node>								 
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="0 0.957 1" />
+								</node>
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -1226,56 +1016,14 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="f262fcf6-b76c-0808-b4be-1ceb7558a574" />
 										</node>
 									</children>
+								</node> 
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="0 0.957 1" />
 								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -1333,56 +1081,14 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="f262fcf6-b76c-0808-b4be-1ceb7558a574" />
 										</node>
 									</children>
+								</node> 
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="0 0.957 1" />
 								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -1445,56 +1151,14 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="f262fcf6-b76c-0808-b4be-1ceb7558a574" />
 										</node>
 									</children>
+								</node> 
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="0 0.957 1" />
 								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -1559,56 +1223,14 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="2c477c0d-15a8-0591-bd94-6acc583666ea" />
 										</node>
 									</children>
+								</node> 
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="0 1 0.5" />
 								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -1671,56 +1293,14 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="72f56d86-89a0-d8e3-b3ba-c35c2cee61bc" />
 										</node>
 									</children>
+								</node> 
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="0 1 0.5" />
 								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -1778,56 +1358,14 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="72f56d86-89a0-d8e3-b3ba-c35c2cee61bc" />
 										</node>
 									</children>
+								</node> 
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="0 1 0.5" />
 								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -1890,56 +1428,14 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="72f56d86-89a0-d8e3-b3ba-c35c2cee61bc" />
 										</node>
 									</children>
+								</node> 
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="0 1 0.5" />
 								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -2004,56 +1500,7 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="2c477c0d-15a8-0591-bd94-6acc583666ea" />
 										</node>
 									</children>
-								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
+								</node> 
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -2116,56 +1563,7 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="41a1e5a3-b12b-cf38-a4bf-25cf55a23477" />
 										</node>
 									</children>
-								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
+								</node> 
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -2223,56 +1621,7 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="41a1e5a3-b12b-cf38-a4bf-25cf55a23477" />
 										</node>
 									</children>
-								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
+								</node> 
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
@@ -2335,56 +1684,7 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="41a1e5a3-b12b-cf38-a4bf-25cf55a23477" />
 										</node>
 									</children>
-								</node>
-								<node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="TattooMetalness" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="ScalarParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIndex" />
-                                    <attribute id="Value" type="float" value="0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColor" />
-                                    <attribute id="Value" type="fvec3" value="0 0 0" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorG" />
-                                    <attribute id="Value" type="fvec3" value="0.33 0.33 0.33" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorB" />
-                                    <attribute id="Value" type="fvec3" value="0.66 0.66 0.66" />
-                                </node>
-                                <node id="Vector3Parameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="False" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooColorA" />
-                                    <attribute id="Value" type="fvec3" value="1 1 1" />
-                                </node>
-                                <node id="VectorParameters">
-                                    <attribute id="Color" type="bool" value="False" />
-                                    <attribute id="Custom" type="bool" value="True" />
-                                    <attribute id="Enabled" type="bool" value="True" />
-                                    <attribute id="Parameter" type="FixedString" value="BodyTattooIntensity" />
-                                    <attribute id="Value" type="fvec4" value="1 1 1 0" />
-                                </node>
+								</node> 
 							</children>
 						</node>
 						<node id="RealMaterialOverrides" />
