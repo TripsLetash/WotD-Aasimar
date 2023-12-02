@@ -542,6 +542,7 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 new entry "INTERRUPT_HARBINGER_BLEED_VFX"
 type "StatusData"
 data "StatusType" "EFFECT"
+using "_PASSIVES"
 data "SoundStart" "MAG_Status_Boost_WoundClosure_Start"
 data "StatusEffect" "78699d5f-6aae-4ece-9f1d-37f2c37fcf74"
 

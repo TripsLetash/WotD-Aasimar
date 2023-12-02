@@ -212,6 +212,13 @@
 									<attribute id="Parameter" type="FixedString" value="Custom_2" />
 									<attribute id="Value" type="fvec3" value="0.043137 0.023529 0.003922" />
 								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="1 0.933 0.533" />
+								</node>
 							</children>
 						</node>						
 						<node id="RealMaterialOverrides" />
