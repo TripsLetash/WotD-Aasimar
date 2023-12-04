@@ -415,7 +415,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="9d087230-74a2-4f4b-83d4-495422b6f663" />
+							<attribute id="MaterialID" type="FixedString" value="e7d30d9d-80d3-440f-8924-fa9390573300" />
 							<attribute id="ObjectID" type="FixedString" value="Cressa_Head.Cressa_Head_Remap_Eyes_Mesh.2" />
 						</node>
 						<node id="Objects">
@@ -1388,10 +1388,10 @@
 							<attribute id="ParameterName" type="FixedString" value="" />
 						</node>
 						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ID" type="FixedString" value="2f72fffe-7602-05c4-b005-14bd527391f1" />
+							<attribute id="ID" type="FixedString" value="b1b4f910-ff12-4c53-ab28-db65fc3288ef" />
 							<attribute id="ParameterName" type="FixedString" value="MakeUpAtlas" />
 						</node>
 						<node id="Texture2DParameters">

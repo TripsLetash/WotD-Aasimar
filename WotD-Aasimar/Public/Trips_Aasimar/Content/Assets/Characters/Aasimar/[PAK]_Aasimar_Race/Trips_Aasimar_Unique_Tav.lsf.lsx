@@ -26,14 +26,27 @@
                 <node id="Resource">
                     <attribute id="Depth" type="int32" value="1" />
                     <attribute id="Height" type="int32" value="4096" />
-                    <attribute id="ID" type="FixedString" value="2f72fffe-7602-05c4-b005-ieatpaste666" />
-                    <attribute id="Name" type="LSString" value="Skin_Atlas_Head_SHR_Makeup_A_MSK_unique" />
+                    <attribute id="ID" type="FixedString" value="b1b4f910-ff12-4c53-ab28-db65fc3288ef" />
+                    <attribute id="Name" type="LSString" value="Skin_Atlas_Head_SHR_Makeup_Aasimar_MSK_unique" />
                     <attribute id="SRGB" type="bool" value="False" />
-                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Makeup_A_MSK.DDS" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Makeup_Aasimar_MSK.DDS" />
                     <attribute id="Streaming" type="bool" value="True" />
-                    <attribute id="Template" type="FixedString" value="Skin_Atlas_Head_SHR_Makeup_A_MSK_unique" />
+                    <attribute id="Template" type="FixedString" value="Skin_Atlas_Head_SHR_Makeup_Aasimar_MSK_unique" />
                     <attribute id="Type" type="int32" value="1" />
                     <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="10240" />
+                    <attribute id="ID" type="FixedString" value="dda30b14-3760-4015-b0f6-2b3a66dabe16" />
+                    <attribute id="Name" type="LSString" value="Skin_Atlas_Body_SHR_Makeup_Aasimar_MSK_unique" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Body_SHR_Makeup_Aasimar_MSK.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="Skin_Atlas_Body_SHR_Makeup_Aasimar_MSK_unique" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="8192" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
                 </node>
 				<node id="Resource">

@@ -54,15 +54,36 @@
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
 									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="MakeupRoughness" />
+									<attribute id="Value" type="float" value="0" />
+								</node>
+								<node id="ScalarParameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="MakeupIntensity" />
-									<attribute id="Value" type="float" value="0.7" />
+									<attribute id="Value" type="float" value="1" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="MakeupColor" />
+									<attribute id="Value" type="fvec3" value="0.82 0.706 0.396" />
+								</node>
+								<node id="ScalarParameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="EyesMakeupMetalness" />
+									<attribute id="Value" type="float" value="1" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="True" />
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Parameter" type="FixedString" value="NonSkin_Weight" />
-									<attribute id="Value" type="float" value="1" />
+									<attribute id="Value" type="float" value="0" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Enabled" type="bool" value="True" />
@@ -91,13 +112,6 @@
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="NonSkinColor" />
 									<attribute id="Value" type="fvec3" value="1 1 0.64" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="True" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="MakeupColor" />
-									<attribute id="Value" type="fvec3" value="0.02 0.50 0.66" />
 								</node>
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -246,6 +260,11 @@
 							<attribute id="Bone" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="ModestyLeaf" />
 							<attribute id="VisualResource" type="FixedString" value="333cdac8-1d3c-85f3-8b4c-30e72681d93a" />
+						</node>
+						<node id="Slots">
+							<attribute id="Bone" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="Horns" />
+							<attribute id="VisualResource" type="FixedString" value="bcf28bc6-3eaa-4f54-abae-2584fd0e61cb" />
 						</node>
 					</children>
 				</node>
