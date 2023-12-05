@@ -872,35 +872,35 @@
                     <attribute id="V1" type="float" value="0.073364258"/>
                     <attribute id="V2" type="float" value="0.10974121"/>
                 </node>
-                <!--<node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                <node id="IconUV"> icons lathanders glory
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_c98bf450-eaa4-4a12-ae4b-2ce39b6a608c"/>
                     <attribute id="U1" type="float" value="0.2197876"/>	
                     <attribute id="U2" type="float" value="0.23797607"/>
                     <attribute id="V1" type="float" value="0.073364258"/>
                     <attribute id="V2" type="float" value="0.10974121"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_e3a00b94-6f92-4234-a0bc-3627db2dbe7b"/>
                     <attribute id="U1" type="float" value="0.23809814"/>
                     <attribute id="U2" type="float" value="0.25628662"/>
                     <attribute id="V1" type="float" value="0.073364258"/>
                     <attribute id="V2" type="float" value="0.10974121"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_e20188f1-6ebb-42cf-8fd6-a89eea71cd41"/>
                     <attribute id="U1" type="float" value="0.25640869"/>
                     <attribute id="U2" type="float" value="0.27459717"/>
                     <attribute id="V1" type="float" value="0.073364258"/>
                     <attribute id="V2" type="float" value="0.10974121"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_14825d9e-9503-4573-b9cb-b6c06f5f97e3"/>
                     <attribute id="U1" type="float" value="0.27471924"/>
                     <attribute id="U2" type="float" value="0.29290771"/>
                     <attribute id="V1" type="float" value="0.073364258"/>
                     <attribute id="V2" type="float" value="0.10974121"/>
                 </node>
-                <node id="IconUV">
+                <!--<node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="0_Head_"/>
                     <attribute id="U1" type="float" value="0.29302979"/>
                     <attribute id="U2" type="float" value="0.31121826"/>

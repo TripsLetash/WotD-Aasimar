@@ -84,6 +84,11 @@
 	<content contentuid="h30beb732g114bg44ccgab6bgcf1fc8b4c72d" version="1">Exanimate's Apex - Protector by Dissidia</content>
 	<content contentuid="h4fd6225ag5000g4085g8b18gd366a3343ec6" version="1">Exanimate's Apex - Fallen by Dissidia</content>
 	<content contentuid="h1c43ee77g0636g4a3egb56cgcd732868ee97" version="1">Exanimate's Apex - Harbinger by Dissidia</content>
+	<!--Lathanders Glory-->
+	<content contentuid="h614fcc6dg670ag4442g92bdgcc369e909ff9" version="1">Lathander's Glory - Scourge</content>
+	<content contentuid="h116aac52g5bafg4474g8f35g0bcbbc4eb340" version="1">Lathander's Glory - Protector</content>
+	<content contentuid="h4b81dc11g4843g4382g8c82g3862c4ffc694" version="1">Lathander's Glory - Fallen</content>
+	<content contentuid="hdba7799bgb21fg46dbga9c3ga676429ff793" version="1">Lathander's Glory - Harbinger</content>
 
 	<!--DEBUG-->
 	<content contentuid="h91c77b28g130fg46d8g806ag05f230b564aa" version="1">Level 10 Wings: DEBUG</content>	

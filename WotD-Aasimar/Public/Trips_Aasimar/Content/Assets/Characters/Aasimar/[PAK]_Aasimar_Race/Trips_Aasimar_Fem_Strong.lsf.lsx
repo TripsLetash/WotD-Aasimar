@@ -1573,19 +1573,6 @@
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
-					<attribute id="ID" type="FixedString" value="7cbe0b84-3bd2-4985-b296-31caa1dba8c1" />
-					<attribute id="Name" type="LSString" value="Trips_Engels_Bodytype_3_NM" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Engels/Fem_Strong/Trips_Engels_Bodytype_3_NM.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Trips_Engels_Bodytype_3_NM" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="2048" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="2048" />
 					<attribute id="ID" type="FixedString" value="a1137163-7065-4fb2-a24f-64fc39cb9e66" />
 					<attribute id="Name" type="LSString" value="Trips_Engels_Bodytype_3_HMVY" />
 					<attribute id="SRGB" type="bool" value="False" />
@@ -4304,7 +4291,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
-							<attribute id="ID" type="FixedString" value="7cbe0b84-3bd2-4985-b296-31caa1dba8c1" />
+							<attribute id="ID" type="FixedString" value="26e0d037-603c-4b32-97b3-787733d7bf56" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">

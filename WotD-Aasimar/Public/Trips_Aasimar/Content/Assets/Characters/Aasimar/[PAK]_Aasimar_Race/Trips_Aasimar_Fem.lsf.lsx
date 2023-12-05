@@ -1569,141 +1569,7 @@
 	<region id="TextureBank">
 		<node id="TextureBank">
 			<children>
-				<!--body Female-->
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="2048" />
-					<attribute id="ID" type="FixedString" value="fa1dc24c-f887-4356-96d8-03e604ce43df" />
-					<attribute id="Name" type="LSString" value="Trips_FS_Body_BMA" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Body/Fem_Strong/Textures/Trips_FS_Body_BMA.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Trips_FS_Body_BMA" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="2048" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="2048" />
-					<attribute id="ID" type="FixedString" value="2f897202-7819-453a-a010-2b7bcdd2a996" />
-					<attribute id="Name" type="LSString" value="Trips_FS_Body_GM" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Body/Fem_Strong/Textures/Trips_FS_Body_GM.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Trips_FS_Body_GM" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="2048" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<!--MSK Female-->
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="2048" />
-					<attribute id="ID" type="FixedString" value="82751d53-a83a-484f-9e86-d3f9946ca9d0" />
-					<attribute id="Name" type="LSString" value="Trips_HUM_F_NKD_Head_E_MSK" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Fem/HUM_F_Head_E/Textures/Trips_HUM_F_NKD_Head_E_MSK.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Trips_HUM_F_NKD_Head_E_MSK" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="2048" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<!--NonSkin Metal Map-->
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="4096" />
-					<attribute id="ID" type="FixedString" value="5c8d8af7-d3b3-45f5-944a-b9ed488f3df0" />
-					<attribute id="Name" type="LSString" value="Trips_HUM_F_NKD_Head_E_BMA" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Fem/HUM_F_Head_E/Textures/Trips_HUM_F_NKD_Head_E_BMA.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Trips_HUM_F_NKD_Head_E_BMA" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="4096" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<!--Glowmaps-->
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="4096" />
-					<attribute id="ID" type="FixedString" value="eaeae025-4280-4ab9-b72d-d8ea3af7016e" />
-					<attribute id="Name" type="LSString" value="Trips_HUM_F_Glow_BMA_Yellow" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Fem/HUM_F_Head_E/Textures/Trips_HUM_F_Glow_BMA_Yellow.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Trips_HUM_F_Glow_BMA_Yellow" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="4096" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="4096" />
-					<attribute id="ID" type="FixedString" value="d636ff76-a0ce-446d-81b7-249b14492d7f" />
-					<attribute id="Name" type="LSString" value="Trips_HUM_F_Glow_BMA_Blue" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Fem/HUM_F_Head_E/Textures/Trips_HUM_F_Glow_BMA_Blue.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Trips_HUM_F_Glow_BMA_Blue" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="4096" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="4096" />
-					<attribute id="ID" type="FixedString" value="ec22d27e-adcc-4837-aefe-a00b0c05b530" />
-					<attribute id="Name" type="LSString" value="Trips_HUM_F_Glow_BMA_Green" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Fem/HUM_F_Head_E/Textures/Trips_HUM_F_Glow_BMA_Green.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Trips_HUM_F_Glow_BMA_Green" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="4096" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="4096" />
-					<attribute id="ID" type="FixedString" value="54cc6426-5f7b-42f5-9631-dc08776c70da" />
-					<attribute id="Name" type="LSString" value="Trips_HUM_F_Glow_BMA_Red" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Fem/HUM_F_Head_E/Textures/Trips_HUM_F_Glow_BMA_Red.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Trips_HUM_F_Glow_BMA_Red" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="4096" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="4096" />
-					<attribute id="ID" type="FixedString" value="4ea0efdf-9165-4de5-858d-a3edf49d2571" />
-					<attribute id="Name" type="LSString" value="Trips_HUM_F_Glow_GM" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Fem/HUM_F_Head_E/Textures/Trips_HUM_F_Glow_GM.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Trips_HUM_F_Glow_GM" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="4096" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
 				<!--tex Engels-->
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="2048" />
-					<attribute id="ID" type="FixedString" value="26e0d037-603c-4b32-97b3-787733d7bf56" />
-					<attribute id="Name" type="LSString" value="Trips_Engels_Bodytype_1_NM" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Engels/Fem/Trips_Engels_Bodytype_1_NM.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Trips_Engels_Bodytype_1_NM" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="2048" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
@@ -1734,12 +1600,12 @@
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="2048" />
-					<attribute id="ID" type="FixedString" value="a711776e-36d4-4745-bd1f-d4f12d9ee5bd" />
-					<attribute id="Name" type="LSString" value="Trips_HUM_F_NKD_Head_E_NM" />
+					<attribute id="ID" type="FixedString" value="82751d53-a83a-484f-9e86-d3f9946ca9d0" />
+					<attribute id="Name" type="LSString" value="Trips_HUM_F_NKD_Head_E_MSK" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Fem/HUM_F_Head_E/Textures/Trips_HUM_F_NKD_Head_E_NM.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Heads/Fem/HUM_F_Head_E/Textures/Trips_HUM_F_NKD_Head_E_MSK.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Trips_HUM_F_NKD_Head_E_NM" />
+					<attribute id="Template" type="FixedString" value="Trips_HUM_F_NKD_Head_E_MSK" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
