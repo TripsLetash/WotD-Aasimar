@@ -25,7 +25,7 @@
                     <attribute id="CloseUpB" type="LSString" value="HEL_M_Camera_CompanionCloseup_B"/>
                     <attribute id="Overview" type="LSString" value="HEL_M_Camera_CompanionOverview_A"/>
                     <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e"/>
-                    <attribute id="RootTemplate" type="guid" value="8997e186-d9c8-3295-5b23-d4b0bff23e84"/>
+                    <attribute id="RootTemplate" type="guid" value="9d0e35c1-9d5a-4c42-b5d6-026052827cbf"/>
                     <attribute id="SubRaceUUID" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920"/>
                     <attribute id="UUID" type="guid" value="02ef647c-cf12-4d7e-874d-a2b9160cbab1"/>
                     <attribute id="VOLinesTableUUID" type="guid" value="eec1dacc-91ee-49db-968f-a367faa97f42"/>
