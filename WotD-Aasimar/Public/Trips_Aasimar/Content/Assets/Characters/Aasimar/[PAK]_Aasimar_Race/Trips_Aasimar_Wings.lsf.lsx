@@ -459,7 +459,7 @@
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
 					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc/Trips_M_Wings_Fallen.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
-					<children>
+										<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
@@ -467,13 +467,13 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="bc93f19c-2a61-2636-4bad-88de0576143c" />
-							<attribute id="ObjectID" type="FixedString" value="Trips_M_Wings_Fallen.Trips_M_Wings_Fallen_Attachment_Mesh.0" />
+							<attribute id="MaterialID" type="FixedString" value="a9cf3832-66c3-f8b6-762b-82880ff60224" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_M_Wings_Fallen.Trips_M_Wings_Fallen_Wing_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="571bc787-2911-4c83-85a9-6bd7b98fa493" />
-							<attribute id="ObjectID" type="FixedString" value="Trips_M_Wings_Fallen.Trips_M_Wings_Fallen_Wings_Mesh.1" />
+							<attribute id="MaterialID" type="FixedString" value="bc93f19c-2a61-2636-4bad-88de0576143c" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_M_Wings_Fallen.Trips_M_Wings_Fallen_Attachment_Mesh.1" />
 						</node>
 					</children>
 				</node>
@@ -500,21 +500,21 @@
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
 					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Fem/Trips_F_Wings_Fallen.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
-					<children>
+										<children>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
 						<node id="Base" />
-						<node id="ClothProxyMapping" />					
+						<node id="ClothProxyMapping" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="a9cf3832-66c3-f8b6-762b-82880ff60224" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_F_Wings_Fallen.Trips_F_Wings_Fallen_Wing_Mesh.0" />
+						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="bc93f19c-2a61-2636-4bad-88de0576143c" />
-							<attribute id="ObjectID" type="FixedString" value="Trips_F_Wings_Fallen.Trips_F_Wings_Fallen_Attachment.0" />
-						</node>						
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="571bc787-2911-4c83-85a9-6bd7b98fa493" />
-							<attribute id="ObjectID" type="FixedString" value="Trips_F_Wings_Fallen.Trips_F_Wings_Fallen_Mesh_Top.1" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_F_Wings_Fallen.Trips_F_Wings_Fallen_Attachment_Mesh.1" />
 						</node>
 					</children>
 				</node>
@@ -549,14 +549,14 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="bc93f19c-2a61-2636-4bad-88de0576143c" />
-							<attribute id="ObjectID" type="FixedString" value="Trips_MS_Wings_Fallen.Trips_MS_Wings_Fallen_Attachment_Mesh.0" />
+							<attribute id="MaterialID" type="FixedString" value="a9cf3832-66c3-f8b6-762b-82880ff60224" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_MS_Wings_Fallen.Trips_MS_Wings_Fallen_Wing_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="571bc787-2911-4c83-85a9-6bd7b98fa493" />40b8b2d5-e350-c04a-be79-f02d518dff0f
-							<attribute id="ObjectID" type="FixedString" value="Trips_MS_Wings_Fallen.Trips_MS_Wings_Fallen_Mesh.1" />
-						</node>	
+							<attribute id="MaterialID" type="FixedString" value="bc93f19c-2a61-2636-4bad-88de0576143c" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_MS_Wings_Fallen.Trips_MS_Wings_Fallen_Attachment_Mesh.1" />
+						</node>
 					</children>
 				</node>
 				<node id="Resource">
@@ -590,13 +590,13 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="bc93f19c-2a61-2636-4bad-88de0576143c" />5e5b7f76-8fa5-16ff-0cf3-33d94f5ea041
-							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Fallen.Trips_FS_Wings_Fallen_Attachment_Mesh.0" />
+							<attribute id="MaterialID" type="FixedString" value="a9cf3832-66c3-f8b6-762b-82880ff60224" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Fallen.Trips_FS_Wings_Fallen_Wing_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="571bc787-2911-4c83-85a9-6bd7b98fa493" />9106a412-4963-2147-914b-838fd337cf43
-							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Fallen.Trips_FS_Wings_Fallen_Wings_Mesh.1" />
+							<attribute id="MaterialID" type="FixedString" value="bc93f19c-2a61-2636-4bad-88de0576143c" />
+							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Fallen.Trips_FS_Wings_Fallen_Attachment_Mesh.1" />
 						</node>
 					</children>
 				</node>

@@ -915,7 +915,7 @@
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO_FALLLEN" />
 								</node>
 							</children>
 						</node>
