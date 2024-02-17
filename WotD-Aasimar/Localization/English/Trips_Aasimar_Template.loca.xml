@@ -189,4 +189,62 @@
 	<content contentuid="h6455bc6fgd4b1g4b89g8ab9g2541a7df15f4" version="1">Once per turn, you may call upon your celestial power to deal an additional [1] on a successful attack.</content>
 	<content contentuid="hdd751efdg7b9ag49a7g9ce3g23eba4d17245" version="1">Exanimate Soul</content>	
 	<content contentuid="h6455bc6fgd4b1g4b89g8ab9g2541a7df15f4" version="1">Once per turn, you may call upon your flaggelant powers to deal an additional [1] on a successful attack. You also inflict [3] to yourself.</content>
+
+
+	<content contentuid="hc5c99132g9689g4c2cg96dfg637821a92343" version="1">Aasimar Origin</content>
+	<content contentuid="h01f119a1g7a48g4e48ga58fg469555cbe690" version="1">Aasimar awaken from many different walks of life, choose the origins that most apply to your character.</content>
+
+	<content contentuid="hc6c0ff98g22ddg42fega326g916b051f4292" version="1">Human</content>
+	<content contentuid="hc532cd44g9d67g4353g9e00g2a0f365a091a" version="1">You are a Human.</content>
+
+	<content contentuid="h4ec8cc29gace1g45b9g9fbbg07a6f571d272" version="1">High Elf</content>
+	<content contentuid="h36763cafg53c8g4187gb89fgb7b7123ce4ef" version="1">You are a High Elf.</content>
+	<content contentuid="h753a983cg709cg43f0g815cg63c03f0e588f" version="1">Wood Elf</content>
+	<content contentuid="hce99a233g8b66g440fgbe4dg9af6832fed99" version="1">You are a Wood Elf.</content>
+
+	<content contentuid="h191ca130g29eeg4a88ga485g037351a85e8f" version="1">Lolth-sworn Drow</content>
+	<content contentuid="h111223f0g2f34g4f8cgb63cg7d494b086afa" version="1">You are a Lolth-sworn Drow.</content>
+	<content contentuid="h9c3b126fg253fg45f3g8fadg55c373c90062" version="1">Seldarine Drow</content>
+	<content contentuid="h35529508g49e7g4d5dgb1e6ga78d328d8d1e" version="1">You are a Seldarine Drow.</content>
+
+	<content contentuid="h66b827f7gfb29g4375gb7edg9febd019cbad" version="1">High Half-Elf</content>
+	<content contentuid="h86248c82g1cfcg4cccgb43dgfed8b9e57251" version="1">You are a High Half-Elf.</content>
+	<content contentuid="h33275fb7gfdb2g4bceg85deg6a1c2f6f4dd3" version="1">Wood Half-Elf</content>
+	<content contentuid="hf0e51193gbe5bg437dg856bgbbbaefad5aa5" version="1">You are a Wood Half-Elf.</content>
+	<content contentuid="h47031152g6076g4d29g9257g4826547b5f07" version="1">Drow Half-Elf</content>
+	<content contentuid="h43c9ba38gddcbg4aa4g9c45gcf432fa5ab97" version="1">You are a Drow Half-Elf.</content>
+
+	<content contentuid="h7ee602ddgb883g4a7fg83bag292b41a23ea9" version="1">Asmodeus Tiefling</content>
+	<content contentuid="h9ad091baga205g44afgb49dg26aa743f215f" version="1">You are an Asmodeus Tiefling.</content>
+	<content contentuid="h2365dd3dg200dg455cga7ecgf5ae8a4be255" version="1">Mephistopheles Tiefling</content>
+	<content contentuid="hb5356683gcce8g4cc2gae98g402ff028bc09" version="1">You are a Mephistopheles Tiefling.</content>
+	<content contentuid="hc40a07c0g5d38g43a8g8915g80c4376b6c2f" version="1">Zariel Tiefling</content>
+	<content contentuid="hd1149647g2ba7g48f5g83acg0afb2cd2334e" version="1">You are a Zariel Tiefling.</content>
+
+	<content contentuid="h31fbe248g3266g45f6g93aag4343ba85619a" version="1">Githyanki</content>
+	<content contentuid="h81a0b681g7462g4fe6ga71bg3e3511285279" version="1">You are a Githyanki.</content>
+	<content contentuid="h9f52298cg422dg42f8gba1aga6e7998ee2d8" version="1">Half-Orc</content>
+	<content contentuid="h9679b22dga6edg4058g92d8g866a6528dec2" version="1">You are a Half-Orc.</content>
+
+	<content contentuid="h29fe4064g8cecg41b9gaa12g1d2204f9489e" version="1">Rock Gnome</content>
+	<content contentuid="h57b0fee0g9426g42f7ga74fgb82be37fdb10" version="1">You are a Rock Gnome.</content>
+	<content contentuid="h49470d31g1f4ag4191gbc6agb506816ff4a0" version="1">Forest Gnome</content>
+	<content contentuid="hdb77487fg8c87g44d5gaed9gc8589800da28" version="1">You are a Forest Gnome.</content>
+	<content contentuid="h3dfe725dgbf73g4339gb3d6g1d1eb47db36d" version="1">Deep Gnome</content>
+	<content contentuid="h2e6b16a8g8059g4a4egaa45g3cf88ae37f2e" version="1">You are a Deep Gnome.</content>
+
+	<content contentuid="h6a42bf08g3015g4f2bg8e2eg17349a87bf67" version="1">Gold Dwarf</content>
+	<content contentuid="h7d207a61g3691g4f1cgbe39gade20706f5eb" version="1">You are a Gold Dwarf.</content>
+	<content contentuid="h30d738b5gd06ag4147g93a7g62b2f79cd2b7" version="1">Shield Dwarf</content>
+	<content contentuid="ha99b4072gdbf4g47bcgb562g6ac197f4b206" version="1">You are a Shield Dwarf.</content>
+	<content contentuid="hfe0541f5gb8b1g4c31gab47g14d37ba44b53" version="1">Duergar</content>
+	<content contentuid="hebebd08ag2915g46feg8e60gc713bb2a5a20" version="1">You are a Duergar.</content>
+
+	<content contentuid="h4de11dd0g6b34g4311g86b7gf2bb0e0781e9" version="1">Lightfoot Halfling</content>
+	<content contentuid="ha1939ab7g6f6dg4737gb8c5g1499a80f9a84" version="1">You are a Lightfoot Halfling.</content>
+	<content contentuid="hc3c8bbf6gc4a4g43f0g96a0g817541fe24c0" version="1">Strongheart Halfling</content>
+	<content contentuid="h45317b7ag340fg4cc5g83c3g1e55fbfc7ac6" version="1">You are a Strongheart Halfling.</content>
+
+	<content contentuid="h9bddd57cg9523g41cfg9e5dga95267e2bc72" version="1">No Race</content>
+	<content contentuid="h9b9e92f6gd283g4451ga181gb1c142bc326f" version="1">Whoever you were in life you have long forgotten.</content>
 </contentList>

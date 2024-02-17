@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="307"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList"> <!-- this list contains the names of all the passives defined in the PassiveTags.txt file, each name must be seperated by a comma -->
+                    <attribute id="Passives" type="LSString" value="Trips_Aa_Passive_Tags_Human,Trips_Aa_Passive_Tags_HighElf,Trips_Aa_Passive_Tags_WoodElf,Trips_Aa_Passive_Tags_DrowLolth,Trips_Aa_Passive_Tags_DrowSeldarine,Trips_Aa_Passive_Tags_HalfHighElf,Trips_Aa_Passive_Tags_HalfWoodElf,Trips_Aa_Passive_Tags_HalfDrow,Trips_Aa_Passive_Tags_TieflingAsmodeus,Trips_Aa_Passive_Tags_TieflingMephistopheles,Trips_Aa_Passive_Tags_TieflingZariel,Trips_Aa_Passive_Tags_Githyanki,Trips_Aa_Passive_Tags_HalfOrc,Trips_Aa_Passive_Tags_RockGnome,Trips_Aa_Passive_Tags_ForestGnome,Trips_Aa_Passive_Tags_DeepGnome,Trips_Aa_Passive_Tags_GoldDwarf,Trips_Aa_Passive_Tags_ShieldDwarf,Trips_Aa_Passive_Tags_Duergar,Trips_Aa_Passive_Tags_LightfootHalfling,Trips_Aa_Passive_Tags_StrongheartHalfling,Trips_Aa_Passive_Tags_NoRace"/>
+                    <attribute id="UUID" type="guid" value="c3a8da40-5df9-43f7-ad30-825a7a2068ef"/> <!-- This requires a new UUID -->
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
