@@ -9,7 +9,6 @@
 					<attribute id="MapKey" type="FixedString" value="cf5ca185-f2f3-46ad-b7fc-f0ddc34d81ec" /> 
 					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong_Cressa_Hireling" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h7965fc46g770bg420cg9dbeg3a3e1b7c240d" version="3" />
-					<attribute id="Faction" type="guid" value="b7b47ac8-8e29-4984-b8c5-f35b66d8265a" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" /> 
@@ -19,31 +18,14 @@
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="6f5a4cb7-4f3e-4d0a-9cf6-0332d5072299" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="6f5a4cb7-4f3e-4d0a-9cf6-0332d5072299" />
+					<attribute id="Race" type="guid" value="309b9cc5-0156-4f64-b857-8cf83fa2160b" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<children>
 						<node id="Tags">
 							<children>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="009593a8-50c6-43bc-a5d6-52b72955fbd7" />
-								</node>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" />
-								</node>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="25bf5042-5bf6-4360-8df8-ab107ccb0d37" />
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
-								</node>
+							    <node id="Tag">
+                                    <attribute id="Object" type="guid" value="b94f535a-e9c7-42ac-afd8-f8b078ad9af8"/>
+                                </node>
 							</children>
 						</node>
 						<node id="GameMaster" />

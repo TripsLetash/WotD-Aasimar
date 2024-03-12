@@ -6,7 +6,7 @@
             <children>
                 <!-- Cressa -->
                 <node id="Origin">
-                    <attribute id="AppearanceLocked" type="bool" value="true"/>
+                    <attribute id="AppearanceLocked" type="bool" value="false"/>
                     <attribute id="AvailableInCharacterCreation" type="uint8" value="2"/>
                     <attribute id="BackgroundUUID" type="guid" value="7e820dee-a8fc-43b2-8661-2b404454bade"/>
                     <attribute id="BodyShape" type="uint8" value="2"/>
@@ -21,9 +21,9 @@
                     <attribute id="LockClass" type="bool" value="false"/>
                     <attribute id="LockRace" type="bool" value="true"/>
                     <attribute id="Name" type="FixedString" value="Hireling_Paladin"/>
-                    <attribute id="Passives" type="LSString" value="DeathSavingThrows;Scourge_Passive_lvl10"/>
-                    <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e"/>
-                    <attribute id="SubRaceUUID" type="guid" value="4738a422-5abd-41a7-a3f8-a35250a73209"/>
+                    <attribute id="Passives" type="LSString" value="DeathSavingThrows"/>
+                    <attribute id="RaceUUID" type="guid" value="e7351b45-e18e-4b63-b246-49af554b265a"/>
+                    <attribute id="SubRaceUUID" type="guid" value="309b9cc5-0156-4f64-b857-8cf83fa2160b"/>
                     <attribute id="UUID" type="guid" value="10721afe-d6b6-46f6-975c-828d8de713d3"/>
                     <attribute id="Unique" type="bool" value="true"/>
                     <attribute id="VoiceTableUUID" type="guid" value="4fc93197-eee8-4d47-8495-89afc46ab563"/>
