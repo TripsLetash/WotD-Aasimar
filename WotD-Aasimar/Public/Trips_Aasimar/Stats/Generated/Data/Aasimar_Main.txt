@@ -738,7 +738,8 @@ data "Description" "h058b0fb2g82ecg4967gbcbcgbc9702464e72"
 data "DescriptionParams" "DealDamage(LevelMapValue(Trips_D4ProfBonus),Radiant);DealDamage(LevelMapValue(Trips_D4ProfBonus)+LevelMapValue(Trips_D4ProfBonus),Radiant);ProficiencyBonus;ProficiencyBonus/2"
 data "Conditions" ""
 data "StatsFunctorContext" "OnDamage"
-data "StatsFunctors" "IF(not HasStatus('SCOURGE_WING_ABILITIES')):DealDamage(LevelMapValue(Trips_D4ProfBonus),Radiant);IF(not HasStatus('SCOURGE_WING_ABILITIES')):RemoveStatus(SELF,SCOURGE_BLESSING_BUFF)"
+data "StatsFunctors" "IF(not HasStatus('SCOURGE_WING_ABILITIES')):RemoveStatus(SELF,SCOURGE_BLESSING_BUFF)"
+data "Boosts" "IF(not HasStatus('SCOURGE_WING_ABILITIES')):DamageBonus(LevelMapValue(Trips_D4ProfBonus),Radiant)"
 data "Properties" "IsHidden"
 
 //FALLEN
