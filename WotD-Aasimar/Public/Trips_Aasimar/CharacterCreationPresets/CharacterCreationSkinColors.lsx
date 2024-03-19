@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="328"/>
+    <region id="CharacterCreationSkinColors">
+        <node id="root">
+            <children>
+                <node id="CharacterCreationSkinColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7c91999fg5943g4198gb37egb1251ba2891c" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="2148ddef-d7c5-4fe3-b4f4-97551afacc5c"/>
+                    <attribute id="Name" type="FixedString" value="Trips_Red"/>
+                    <attribute id="UIColor" type="LSString" value="#FFff0000"/>
+                    <attribute id="UUID" type="guid" value="1f62b196-27e3-4bab-92a4-8601b76f629b"/>
+                </node>
+                <node id="CharacterCreationSkinColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h536ebaddge9c8g43c4g9807ge391a3abc08b" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="421387a8-d152-416a-b399-1be61b921d89"/>
+                    <attribute id="Name" type="FixedString" value="Trips_Green"/>
+                    <attribute id="UIColor" type="LSString" value="#FF00fdb0"/>
+                    <attribute id="UUID" type="guid" value="ece099b0-6011-4312-b2cd-92a198b57bda"/>
+                </node>
+                <node id="CharacterCreationSkinColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hee101682ga217g4351ga647g1b312a00ccb9" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="f48b52e4-b328-41fe-89c1-eae70cca809a"/>
+                    <attribute id="Name" type="FixedString" value="Trips_Blue"/>
+                    <attribute id="UIColor" type="LSString" value="#FF00a4fd"/>
+                    <attribute id="UUID" type="guid" value="9e9937f7-cc6e-4ec5-88f3-64287dc165f3"/>
+                </node>
+                <node id="CharacterCreationSkinColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hdb670335g93f2g4ea9g8e12g21b1742973ff" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="3cd5f222-8ed9-42e5-8ca2-372a3d25c2b1"/>
+                    <attribute id="Name" type="FixedString" value="Trips_Yellow"/>
+                    <attribute id="UIColor" type="LSString" value="#FFfdf767"/>
+                    <attribute id="UUID" type="guid" value="8b3899ae-99c6-4cfd-8a00-16939463b66c"/>
+                </node>
+                <node id="CharacterCreationSkinColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h93da3fffgcec5g450dg8351gab48189e5f09" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="13d14c2e-6f65-460e-8e7f-205fa2754e0f"/>
+                    <attribute id="Name" type="FixedString" value="Trips_Pink"/>
+                    <attribute id="UIColor" type="LSString" value="#FFff92f7"/>
+                    <attribute id="UUID" type="guid" value="eeb15707-5abd-4b60-997b-849af4a142ba"/>
+                </node>
+                <node id="CharacterCreationSkinColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7e0d7428g8f13g4f7cg904dg190bfc03fef2" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="202f6672-ade6-4c65-b9da-8c6764f36edb"/>
+                    <attribute id="Name" type="FixedString" value="Trips_Purple"/>
+                    <attribute id="UIColor" type="LSString" value="#FF590b9c"/>
+                    <attribute id="UUID" type="guid" value="5940f9c2-6ad6-4b0d-9981-4a41913c6ec7"/>
+                </node>
+                <node id="CharacterCreationSkinColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7ab90dbcg17f2g4dcagbb2fged42d22c9566" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="fdd2f73d-4120-4a4d-bcac-4d1757549864"/>
+                    <attribute id="Name" type="FixedString" value="Trips_Magenta"/>
+                    <attribute id="UIColor" type="LSString" value="#FFff158f"/>
+                    <attribute id="UUID" type="guid" value="2d0179d1-8f8c-4317-bd12-a6b5de25bf51"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

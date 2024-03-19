@@ -22,6 +22,15 @@
 	<content contentuid="h7965fc46g770bg420cg9dbeg3a3e1b7c240d" version="3">Daybreaker Cressa</content>
 	<content contentuid="h65026c46g2f79g4f35g94f0gbd880e695230" version="3">Cressa Moonfair</content>
 	<content contentuid="hcd11fdefg5b27g44a3g99b6g2fde6935890c" version="3">Raised to be a Harbinger of pure Evil, this Aasimar resisted the brainwashing by a group of silent cultists. She roamed the lands for redemption which she eventually found, reborn as a Vigil and regaining her celestial voice.</content>
+	
+	<!--Glow Colors-->
+	<content contentuid="h7c91999fg5943g4198gb37egb1251ba2891c" version="1">★ Glow: Red</content>
+	<content contentuid="h536ebaddge9c8g43c4g9807ge391a3abc08b" version="1">★ Glow: Green</content>
+	<content contentuid="hee101682ga217g4351ga647g1b312a00ccb9" version="1">★ Glow: Blue</content>
+	<content contentuid="hdb670335g93f2g4ea9g8e12g21b1742973ff" version="1">★ Glow: Yellow</content>	
+	<content contentuid="h93da3fffgcec5g450dg8351gab48189e5f09" version="1">★ Glow: Pink</content>
+	<content contentuid="h7e0d7428g8f13g4f7cg904dg190bfc03fef2" version="1">★ Glow: Purple</content>	
+	<content contentuid="h7ab90dbcg17f2g4dcagbb2fged42d22c9566" version="1">★ Glow: Magenta</content>	
 
 	<!--Heads-->
 	<!--Yellow-->
@@ -250,4 +259,11 @@
 
 	<content contentuid="h9bddd57cg9523g41cfg9e5dga95267e2bc72" version="1">No Race</content>
 	<content contentuid="h9b9e92f6gd283g4451ga181gb1c142bc326f" version="1">Whoever you were in life you have long forgotten.</content>
+    <content contentuid="he3608ef7953f406da3b241134fb426faca84" version="1"></content>
+    <content contentuid="h183e8dc3d63a418c88e97a2335724d520e44" version="1"></content>
+    <content contentuid="hf76aad62957b47708b62568f4a9e885b7fcf" version="1"></content>
+    <content contentuid="h5a16ae6726554cec8534f81da327a6719d47" version="1"></content>
+    <content contentuid="h29db05bd0cc74187a35436b6f7f42773e07b" version="1"></content>
+    <content contentuid="h126509e706e34b2195a98ec5520bcf97d02a" version="1"></content>
+    <content contentuid="h30be32e32da44186b6ebfb495cd3935bd315" version="1"></content>
 </contentList>

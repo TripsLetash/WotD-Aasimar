@@ -15,7 +15,30 @@
                     <attribute id="RaceEquipment" type="FixedString" value="EQ_Underwear_Aasimar" />
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Celestial" />
                     <attribute id="UUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
-                    <children> 
+                    <children>
+                        <!--Glows-->
+                        <node id="SkinColors">
+                            <attribute id="Object" type="guid" value="1f62b196-27e3-4bab-92a4-8601b76f629b" />
+                        </node>
+                        <node id="SkinColors">
+                            <attribute id="Object" type="guid" value="ece099b0-6011-4312-b2cd-92a198b57bda" />
+                        </node>
+                        <node id="SkinColors">
+                            <attribute id="Object" type="guid" value="9e9937f7-cc6e-4ec5-88f3-64287dc165f3" />
+                        </node>
+                        <node id="SkinColors">
+                            <attribute id="Object" type="guid" value="8b3899ae-99c6-4cfd-8a00-16939463b66c" />
+                        </node>
+                        <node id="SkinColors">
+                            <attribute id="Object" type="guid" value="eeb15707-5abd-4b60-997b-849af4a142ba" />
+                        </node>
+                        <node id="SkinColors">
+                            <attribute id="Object" type="guid" value="5940f9c2-6ad6-4b0d-9981-4a41913c6ec7" />
+                        </node>
+                        <node id="SkinColors">
+                            <attribute id="Object" type="guid" value="2d0179d1-8f8c-4317-bd12-a6b5de25bf51" />
+                        </node>
+                        <!--Glows End-->
                         <node id="EyeColors">
                             <attribute id="Object" type="guid" value="af03ef73-41f5-4b9a-b440-85b576806084" />
                         </node>                    
