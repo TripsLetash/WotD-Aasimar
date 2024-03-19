@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="8" build="2" />
 	<region id="SkeletonBank">
@@ -25,7 +25,7 @@
 					<attribute id="Width" type="int32" value="256" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855894" />
 				</node>
-			<!--Scourge Glow-->
+<!--Scourge Glow-->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="256" />
@@ -34,7 +34,7 @@
 					<attribute id="Name" type="LSString" value="Trips_Feathers_Glow_BMA" />
 					<attribute id="SRGB" type="bool" value="True" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Trips_Feathers_Glow_BMA.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />	
+					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Trips_Feathers_Glow_BMA" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="256" />
@@ -48,13 +48,13 @@
 					<attribute id="Name" type="LSString" value="Trips_Feathers_GM" />
 					<attribute id="SRGB" type="bool" value="True" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Trips_Feathers_GM.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />	
+					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Trips_Feathers_GM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="256" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241709" />
 				</node>
-			<!--Harbinger Glow-->
+<!--Harbinger Glow-->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="256" />
@@ -63,7 +63,7 @@
 					<attribute id="Name" type="LSString" value="Trips_Feathers_Harbinger_Glow_BMA" />
 					<attribute id="SRGB" type="bool" value="True" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Trips_Feathers_Harbinger_Glow_BMA.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />	
+					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Trips_Feathers_Harbinger_Glow_BMA" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="256" />
@@ -77,7 +77,7 @@
 					<attribute id="Name" type="LSString" value="Trips_Feathers_Harbinger_GM" />
 					<attribute id="SRGB" type="bool" value="True" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Trips_Feathers_Harbinger_GM.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />	
+					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Trips_Feathers_Harbinger_GM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="256" />
@@ -89,7 +89,7 @@
 	<region id="VisualBank">
 		<node id="VisualBank">
 			<children>
-			<!--Protector wings-->
+<!--Protector wings-->
 				<node id="Resource">
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
@@ -114,6 +114,12 @@
 					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc/Trips_M_Wings_Protector.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
@@ -156,10 +162,16 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
 						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
+						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
 						<node id="Base" />
-						<node id="ClothProxyMapping" />					
+						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="5e5b7f76-8fa5-16ff-0cf3-33d94f5ea041" />
@@ -185,12 +197,18 @@
 					<attribute id="SkeletonResource" type="FixedString" value="f642085d-003d-f7ab-b4ff-59b107a12972" />
 					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
 					<attribute id="Slot" type="FixedString" value="Unassigned" />
-					<attribute id="SoftbodyResourceID" type="FixedString" value="" />					
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc_Strong/Trips_MS_Wings_Protector.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
 					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc_Strong/Trips_MS_Wings_Protector.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
@@ -233,6 +251,12 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
+						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
 						<node id="AnimationWaterfall">
@@ -252,7 +276,7 @@
 						</node>
 					</children>
 				</node>
-			<!--Scourge wings-->
+<!--Scourge wings-->
 				<node id="Resource">
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
@@ -277,6 +301,12 @@
 					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc/Trips_M_Wings_Scourge.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
@@ -324,15 +354,21 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
 						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
+						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
 						<node id="Base" />
-						<node id="ClothProxyMapping" />					
+						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="d9c0fabe-21b9-4539-8573-bcc023096ce6" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_F_Wings_Scourge.Trips_F_Wings_Scourge_Mesh.0" />
-						</node>						
+						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="6558b644-b8a3-4c9c-8f55-26c9c3760bf0" />
@@ -358,12 +394,18 @@
 					<attribute id="SkeletonResource" type="FixedString" value="f642085d-003d-f7ab-b4ff-59b107a12972" />
 					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
 					<attribute id="Slot" type="FixedString" value="Unassigned" />
-					<attribute id="SoftbodyResourceID" type="FixedString" value="" />					
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc_Strong/Trips_MS_Wings_Scourge.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
 					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc_Strong/Trips_MS_Wings_Scourge.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
@@ -378,7 +420,7 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="d9c0fabe-21b9-4539-8573-bcc023096ce6" />40b8b2d5-e350-c04a-be79-f02d518dff0f
 							<attribute id="ObjectID" type="FixedString" value="Trips_MS_Wings_Scourge.Trips_MS_Wings_Scourge_Mesh.1" />
-						</node>						
+						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="6558b644-b8a3-4c9c-8f55-26c9c3760bf0" />
@@ -411,6 +453,12 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
+						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
 						<node id="AnimationWaterfall">
@@ -427,7 +475,7 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="d9c0fabe-21b9-4539-8573-bcc023096ce6" />9106a412-4963-2147-914b-838fd337cf43
 							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Scourge.Trips_FS_Wings_Scourge_Attachment_Mesh.1" />
-						</node>						
+						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="6558b644-b8a3-4c9c-8f55-26c9c3760bf0" />
@@ -435,7 +483,7 @@
 						</node>
 					</children>
 				</node>
-			<!--Fallen Wings-->
+<!--Fallen Wings-->
 				<node id="Resource">
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
@@ -459,7 +507,13 @@
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
 					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc/Trips_M_Wings_Fallen.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
-										<children>
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
@@ -500,7 +554,13 @@
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
 					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Fem/Trips_F_Wings_Fallen.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
-										<children>
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
@@ -536,12 +596,18 @@
 					<attribute id="SkeletonResource" type="FixedString" value="f642085d-003d-f7ab-b4ff-59b107a12972" />
 					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
 					<attribute id="Slot" type="FixedString" value="Unassigned" />
-					<attribute id="SoftbodyResourceID" type="FixedString" value="" />					
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc_Strong/Trips_MS_Wings_Fallen.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
 					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc_Strong/Trips_MS_Wings_Fallen.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
@@ -584,6 +650,12 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
+						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
 						<node id="Base" />
@@ -600,7 +672,7 @@
 						</node>
 					</children>
 				</node>
-			<!--Harbinger Wings-->
+<!--Harbinger Wings-->
 				<node id="Resource">
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
@@ -625,6 +697,12 @@
 					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc/Trips_M_Wings_Scourge.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
@@ -672,15 +750,21 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
 						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
+						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
 						<node id="Base" />
-						<node id="ClothProxyMapping" />					
+						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="8c42e11b-b3a1-4a10-867d-9d4f2cfca203" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_F_Wings_Scourge.Trips_F_Wings_Scourge_Mesh.0" />
-						</node>						
+						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="a3b163a7-1fd1-41b7-8e46-4dcb44faba86" />
@@ -706,12 +790,18 @@
 					<attribute id="SkeletonResource" type="FixedString" value="f642085d-003d-f7ab-b4ff-59b107a12972" />
 					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
 					<attribute id="Slot" type="FixedString" value="Unassigned" />
-					<attribute id="SoftbodyResourceID" type="FixedString" value="" />					
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc_Strong/Trips_MS_Wings_Scourge.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
 					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Masc_Strong/Trips_MS_Wings_Scourge.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
@@ -726,7 +816,7 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="8c42e11b-b3a1-4a10-867d-9d4f2cfca203" />40b8b2d5-e350-c04a-be79-f02d518dff0f
 							<attribute id="ObjectID" type="FixedString" value="Trips_MS_Wings_Scourge.Trips_MS_Wings_Scourge_Mesh.1" />
-						</node>						
+						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="a3b163a7-1fd1-41b7-8e46-4dcb44faba86" />
@@ -759,6 +849,12 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="c8252e2d-de1d-2c03-e8d4-aba64b6425af" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
+						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="10df8058-2072-4229-a980-949b095f8a32" />
 						</node>
 						<node id="AnimationWaterfall">
@@ -775,14 +871,14 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="8c42e11b-b3a1-4a10-867d-9d4f2cfca203" />9106a412-4963-2147-914b-838fd337cf43
 							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Scourge.Trips_FS_Wings_Scourge_Attachment_Mesh.1" />
-						</node>						
+						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="a3b163a7-1fd1-41b7-8e46-4dcb44faba86" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Scourge.Trips_FS_Wings_Scourge_Wings_Mesh_Top.2" />
 						</node>
 					</children>
-				</node>			
+				</node>
 			</children>
 		</node>
 	</region>
