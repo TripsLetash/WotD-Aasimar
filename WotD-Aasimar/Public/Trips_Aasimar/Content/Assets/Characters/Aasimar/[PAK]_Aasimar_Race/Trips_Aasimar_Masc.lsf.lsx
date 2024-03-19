@@ -3664,6 +3664,11 @@
 					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/unique_tav/BODY/AASIMAR/MALE/UNIQUE_M_NKD_Body_A.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 					<children>
+						<node id="AnimationSetOverrides">
+							<attribute id="PairElement1" type="guid" value="3b88d330-2c28-452c-bf4d-967b61a8ef69" />
+							<attribute id="PairElement2" type="FixedString" value="65a8cb57-94b0-474c-8d6f-d49af34e7dc3" />
+							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
+						</node>
 						<node id="Base" />
 						<node id="ClothProxyMapping" />
 						<node id="Objects">

@@ -1350,3 +1350,11 @@ data "Description" "DEBUGDescr"
 data "StackId" "WINGS_PASSIVE_DISMISS"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnRemoveFunctors" "Unsummon()" 
+
+new entry "DAT_DEVA_LOCO_FLOATING"
+    type "StatusData"
+    data "StatusType" "BOOST"
+    data "StackId" "DAT_DEVA_LOCO_FLOATING"
+    data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+    data "DynamicAnimationTag" "3b88d330-2c28-452c-bf4d-967b61a8ef69"
+
