@@ -18,7 +18,7 @@
 							<attribute id="MaterialResource" type="FixedString" value="" />
 							<children>
 								<node id="ColorPreset">
-									<attribute id="ForcePresetValues" type="bool" value="True" />
+									<attribute id="ForcePresetValues" type="bool" value="False" />
 									<attribute id="GroupName" type="FixedString" value="" />
 									<attribute id="MaterialPresetResource" type="FixedString" value="" />
 								</node>
@@ -28,13 +28,13 @@
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="efa7dedf-4ccc-a711-c8c2-b2b0ad8a4421" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
-											<attribute id="ForcePresetValues" type="bool" value="True" />
+											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="d897e75f-7f14-02a7-4a49-eeec89ecedc6" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="46af45ec-35c4-49a7-b02d-6d9e2de12b7b" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="False" />
@@ -49,6 +49,27 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="7d64a27e-6be3-775e-5be3-3bbf9dc67db2" />
 										</node>
 									</children>
+								</node>
+								<node id="Texture2DParameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="basecolor" />
+									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColor" />
+									<attribute id="Value" type="fvec3" value="0.02978199 0.3559639 0.4744193" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="GlowColour" />
+									<attribute id="Value" type="fvec3" value="0.02978199 0.3559639 0.4744193" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -225,27 +246,6 @@
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="Custom_2" />
 									<attribute id="Value" type="fvec3" value="0.043137 0.023529 0.003922" />
-								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.00 0.64 0.99" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.00 0.64 0.99" />
 								</node>
 							</children>
 						</node>						

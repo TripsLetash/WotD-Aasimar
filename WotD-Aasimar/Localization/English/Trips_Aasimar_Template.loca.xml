@@ -24,13 +24,25 @@
 	<content contentuid="hcd11fdefg5b27g44a3g99b6g2fde6935890c" version="3">Raised to be a Harbinger of pure Evil, this Aasimar resisted the brainwashing by a group of silent cultists. She roamed the lands for redemption which she eventually found, reborn as a Vigil and regaining her celestial voice.</content>
 	
 	<!--Glow Colors-->
-	<content contentuid="h7c91999fg5943g4198gb37egb1251ba2891c" version="1">★ Glow: Red</content>
-	<content contentuid="h536ebaddge9c8g43c4g9807ge391a3abc08b" version="1">★ Glow: Green</content>
-	<content contentuid="hee101682ga217g4351ga647g1b312a00ccb9" version="1">★ Glow: Blue</content>
-	<content contentuid="hdb670335g93f2g4ea9g8e12g21b1742973ff" version="1">★ Glow: Yellow</content>	
-	<content contentuid="h93da3fffgcec5g450dg8351gab48189e5f09" version="1">★ Glow: Pink</content>
-	<content contentuid="h7e0d7428g8f13g4f7cg904dg190bfc03fef2" version="1">★ Glow: Purple</content>	
-	<content contentuid="h7ab90dbcg17f2g4dcagbb2fged42d22c9566" version="1">★ Glow: Magenta</content>	
+	<content contentuid="h7c91999fg5943g4198gb37egb1251ba2891c" version="1">★ Glow Aasimar: Gold ★</content>
+	<content contentuid="h536ebaddge9c8g43c4g9807ge391a3abc08b" version="1">★ Glow Aasimar: Dark Violet ★</content>
+	<content contentuid="hee101682ga217g4351ga647g1b312a00ccb9" version="1">★ Glow Aasimar: Orange ★</content>
+	<content contentuid="hdb670335g93f2g4ea9g8e12g21b1742973ff" version="1">★ Glow Aasimar: Dark Green ★</content>	
+	<content contentuid="h93da3fffgcec5g450dg8351gab48189e5f09" version="1">★ Glow Aasimar: Seagreen ★</content>
+	<content contentuid="h7e0d7428g8f13g4f7cg904dg190bfc03fef2" version="1">★ Glow Aasimar: Light Green ★</content>	
+	<content contentuid="h7ab90dbcg17f2g4dcagbb2fged42d22c9566" version="1">★ Glow Aasimar: Brown ★</content>
+	<content contentuid="hc4d1c551g69f3g47acg8961g64cf754f1a08" version="1">★ Glow Aasimar: Purple ★</content>	
+	<content contentuid="h2b13a4d9g194eg4ccdgafb3g70146289cd33" version="1">★ Glow Aasimar: White ★</content>	
+	<content contentuid="h4e723639g177dg439dga1d2g26c82c56cf0b" version="1">★ Glow Aasimar: Fallen Green ★</content>	
+	<content contentuid="h678d49f1g62a7g404cgb622gfe8a5087fd85" version="1">★ Glow Aasimar: Scourge Yellow ★</content>	
+	<content contentuid="h43eb0385gead8g4166ga7f7ga6a0a74aa8e5" version="1">★ Glow Aasimar: Pink ★</content>	
+	<content contentuid="h8fd1036eg926dg435fga0dagcfba1e0b8783" version="1">★ Glow Aasimar: Egg White ★</content>	
+	<content contentuid="h0551e995g6712g4fe6ga3cegc8628db2cc1b" version="1">★ Glow Aasimar: Dark Blue ★</content>	
+	<content contentuid="ha6973d70g8086g4b81g8ec9g25c7abf7d036" version="1">★ Glow Aasimar: Protector Blue ★</content>	
+	<content contentuid="h12045cbag26c8g4d39g8718gd22740963c44" version="1">★ Glow Aasimar: Black ★</content>	
+	<content contentuid="hff77c78fg24ecg4068g97cfga512bb5d2bf7" version="1">★ Glow Aasimar: Harbinger Red ★</content>	
+	<content contentuid="h7cc3fb57g7f27g43c9ga752gb59c12e12c6c" version="1">★ Glow Aasimar: Gray ★</content>	
+	<content contentuid="hc99a7861g27e8g47dcgb863gf590ff7cc031" version="1">★ Glow Aasimar: Light Seagreen ★</content>		
 
 	<!--Heads-->
 	<!--Yellow-->

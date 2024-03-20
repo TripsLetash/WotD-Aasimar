@@ -890,7 +890,7 @@
 					<attribute id="ID" type="FixedString" value="a3b163a7-1fd1-41b7-8e46-4dcb44faba86" />
 					<attribute id="MaterialType" type="uint8" value="13" />
 					<attribute id="Name" type="LSString" value="Aasimar_Harbinger_Wings_Glow" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" /> allows for both alpha and glow?
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="ScalarParameters">
@@ -969,7 +969,7 @@
 					<attribute id="ID" type="FixedString" value="6558b644-b8a3-4c9c-8f55-26c9c3760bf0" />
 					<attribute id="MaterialType" type="uint8" value="13" />
 					<attribute id="Name" type="LSString" value="Aasimar_Scourge_Wings_Glow" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" /> allows for both alpha and glow?
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="ScalarParameters">
@@ -1271,7 +1271,7 @@
 							<attribute id="GroupName" type="FixedString" value="" />
 							<attribute id="IsColor" type="bool" value="False" />
 							<attribute id="ParameterName" type="FixedString" value="Color" />
-							<attribute id="Value" type="fvec4" value="0 0.6 0.5 1" />15 0.007751027 0 1
+							<attribute id="Value" type="fvec4" value="0 0.6 0.5 1" />
 						</node>
 					</children>
 				</node>

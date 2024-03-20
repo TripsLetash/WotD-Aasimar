@@ -1609,7 +1609,7 @@
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
 					<attribute id="BoundsMax" type="fvec3" value="0.8777174 1.762768 0.1630875" />
 					<attribute id="BoundsMin" type="fvec3" value="-0.8777169 -0.009218405 -0.2189182" />
-					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="3a2117ae-6a3b-3afb-1249-8d894e45f6b6" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
 					<attribute id="ID" type="FixedString" value="3acb589c-08d1-4d1b-9cfa-4689b73b46f8" />

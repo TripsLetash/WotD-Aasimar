@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="328"/>
+    <region id="CharacterCreationEyeColors">
+        <node id="root">
+            <children>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7c91999fg5943g4198gb37egb1251ba2891c" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="4d84089a-937f-4683-93a3-71c5136599b1"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Yellow B"/>
+                    <attribute id="UIColor" type="LSString" value="#FF97881f"/>
+                    <attribute id="UUID" type="guid" value="13f87b8c-91af-442e-81af-8dbe6f81f623"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h536ebaddge9c8g43c4g9807ge391a3abc08b" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="46af45ec-35c4-49a7-b02d-6d9e2de12b7b"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Black C"/>
+                    <attribute id="UIColor" type="LSString" value="#FF45547b"/>
+                    <attribute id="UUID" type="guid" value="ba646cfe-18f2-4ef5-9bc1-8d437b833690"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hee101682ga217g4351ga647g1b312a00ccb9" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="5f5e8acf-5d14-4a5a-8ec0-ba5e8211edef"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Red B"/>
+                    <attribute id="UIColor" type="LSString" value="#FFd2691e"/>
+                    <attribute id="UUID" type="guid" value="83cb8319-6369-465c-88e2-03d9da961f94"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hdb670335g93f2g4ea9g8e12g21b1742973ff" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="29fdd325-86aa-4678-9776-09d7c0adcfe5"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Purple B"/>
+                    <attribute id="UIColor" type="LSString" value="#FF008000"/>
+                    <attribute id="UUID" type="guid" value="1fb818c5-f63a-4589-a6af-202bdedef6cf"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h93da3fffgcec5g450dg8351gab48189e5f09" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="cee020d4-09e7-455e-8749-3cafa1e11f44"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Blue A"/>
+                    <attribute id="UIColor" type="LSString" value="#FF20b2aa"/>
+                    <attribute id="UUID" type="guid" value="02f1d600-43ff-48e7-a543-f6d5a8ef22ff"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7e0d7428g8f13g4f7cg904dg190bfc03fef2" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="786a4412-13a2-44e6-9936-62966548f3fa"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Green B"/>
+                    <attribute id="UIColor" type="LSString" value="#FF32cd32"/>
+                    <attribute id="UUID" type="guid" value="2fe259f1-2c4b-40dd-ac0c-1713d4a1490d"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7ab90dbcg17f2g4dcagbb2fged42d22c9566" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="17f05ac8-df17-4f87-9ade-1f90093459f5"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Yellow A"/>
+                    <attribute id="UIColor" type="LSString" value="#FF733211"/>
+                    <attribute id="UUID" type="guid" value="17fa26a0-9cff-4379-9ad4-6dd3fb3e388f"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc4d1c551g69f3g47acg8961g64cf754f1a08" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="087d40c0-185e-4629-b337-31169240e645"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Purple A"/>
+                    <attribute id="UIColor" type="LSString" value="#FF4065e7"/>
+                    <attribute id="UUID" type="guid" value="8b5190f4-629b-4d7a-b041-c157fc0f7c65"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2b13a4d9g194eg4ccdgafb3g70146289cd33" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="074959c7-77ea-42bb-96fa-d4803315adee"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic White A"/>
+                    <attribute id="UIColor" type="LSString" value="#FFffffff"/>
+                    <attribute id="UUID" type="guid" value="88e791c1-99d2-48e7-bc7e-25697161fe10"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4e723639g177dg439dga1d2g26c82c56cf0b" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="28ac75a3-613a-4e6b-8b4a-f9ea22f395e8"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Green A"/>
+                    <attribute id="UIColor" type="LSString" value="#FF1ab77d"/>
+                    <attribute id="UUID" type="guid" value="2aeacf5d-02f0-4f69-a7c5-35adec360b77"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h678d49f1g62a7g404cgb622gfe8a5087fd85" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="f20f59df-e7c8-49ab-b21f-608ddfcc633c"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Yellow Scourge"/>
+                    <attribute id="UIColor" type="LSString" value="#FFfdff00"/>
+                    <attribute id="UUID" type="guid" value="0ef83534-f8c9-4984-b2cc-bceba1730d9a"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h43eb0385gead8g4166ga7f7ga6a0a74aa8e5" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="cca8c268-4366-4872-8937-6030a7899b08"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Black D"/>
+                    <attribute id="UIColor" type="LSString" value="#FFe642ff"/>
+                    <attribute id="UUID" type="guid" value="20637d37-3a87-4fb0-a55f-84b31bf64763"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8fd1036eg926dg435fga0dagcfba1e0b8783" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="100f3446-6869-4cf5-a40c-02248a59cac2"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic White D"/>
+                    <attribute id="UIColor" type="LSString" value="#FFf2faef"/>
+                    <attribute id="UUID" type="guid" value="0fecab7a-0b57-4516-845b-b9cf7f583496"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0551e995g6712g4fe6ga3cegc8628db2cc1b" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="e7d49679-c41b-4197-be47-01ca93f7bea6"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Blue C"/>
+                    <attribute id="UIColor" type="LSString" value="#FF007ea8"/>
+                    <attribute id="UUID" type="guid" value="0ebedef8-c618-4a35-97d9-3c5c4ef064a6"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha6973d70g8086g4b81g8ec9g25c7abf7d036" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="618d630b-8f3a-497c-943c-5df7345ba657"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Blue Protector"/>
+                    <attribute id="UIColor" type="LSString" value="#FF01bbef"/>
+                    <attribute id="UUID" type="guid" value="560c6f30-c6b0-4e36-835d-130cba4d96ce"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h12045cbag26c8g4d39g8718gd22740963c44" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="9b3b7305-861b-4db2-bea6-d0bc07acbd9b"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Black B"/>
+                    <attribute id="UIColor" type="LSString" value="#FF000000"/>
+                    <attribute id="UUID" type="guid" value="737696a1-5ccd-49e0-a412-7f89bae6ecbd"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hff77c78fg24ecg4068g97cfga512bb5d2bf7" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="f9e32605-c711-455d-b2f6-b23fa6c2a20a"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Red Harbinger"/>
+                    <attribute id="UIColor" type="LSString" value="#FFff0000"/>
+                    <attribute id="UUID" type="guid" value="b33a2a8e-311c-4800-8a81-4647f5e0480c"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7cc3fb57g7f27g43c9ga752gb59c12e12c6c" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="e2f8f387-0ce0-408e-b5ae-17aad6323300"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic White C"/>
+                    <attribute id="UIColor" type="LSString" value="#FFc9c9c9"/>
+                    <attribute id="UUID" type="guid" value="5ab38f70-e587-4625-b585-874bfcad76ce"/>
+                </node>
+                <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc99a7861g27e8g47dcgb863gf590ff7cc031" version="1"/>
+                    <attribute id="MaterialPresetUUID" type="guid" value="a774907a-ffa7-4295-81c2-943767b472bb"/>
+                    <attribute id="Name" type="FixedString" value="Trips Demonic Green Fallen"/>
+                    <attribute id="UIColor" type="LSString" value="#FF1dd3af"/>
+                    <attribute id="UUID" type="guid" value="93bcc214-e4b5-435c-aa97-63f36193fbe1"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

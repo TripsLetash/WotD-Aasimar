@@ -654,13 +654,13 @@
 											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="f959db91-6da4-191f-279f-02f8c04dae21" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="705e94bf-4126-f1f3-313a-387ff409c62d" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="f20f59df-e7c8-49ab-b21f-608ddfcc633c" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -676,27 +676,6 @@
 										</node>
 									</children>
 								</node> 
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.99 0.97 0.40" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.99 0.97 0.40" />
-								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
@@ -769,16 +748,16 @@
 								<node id="MaterialPresets">
 									<children>
 										<node id="Object">
-											<attribute id="ForcePresetValues" type="bool" value="True" />
+											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="f959db91-6da4-191f-279f-02f8c04dae21" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="705e94bf-4126-f1f3-313a-387ff409c62d" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="f20f59df-e7c8-49ab-b21f-608ddfcc633c" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -793,27 +772,6 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="2c477c0d-15a8-0591-bd94-6acc583666ea" />
 										</node>
 									</children>
-								</node>								 
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.99 0.97 0.40" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.99 0.97 0.40" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -885,13 +843,13 @@
 											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="f959db91-6da4-191f-279f-02f8c04dae21" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="705e94bf-4126-f1f3-313a-387ff409c62d" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="f20f59df-e7c8-49ab-b21f-608ddfcc633c" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -907,27 +865,6 @@
 										</node>
 									</children>
 								</node> 
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.99 0.97 0.40" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.99 0.97 0.40" />
-								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
@@ -1000,16 +937,16 @@
 								<node id="MaterialPresets">
 									<children>
 										<node id="Object">
-											<attribute id="ForcePresetValues" type="bool" value="True" />
+											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="f959db91-6da4-191f-279f-02f8c04dae21" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="705e94bf-4126-f1f3-313a-387ff409c62d" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="f20f59df-e7c8-49ab-b21f-608ddfcc633c" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -1025,27 +962,6 @@
 										</node>
 									</children>
 								</node> 
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.99 0.97 0.40" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.99 0.97 0.40" />
-								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
@@ -1117,13 +1033,13 @@
 											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="42f29250-7881-07ef-f41a-3f405f97d411" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="18c55ea2-3826-0c87-07f3-074befd0b0da" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="618d630b-8f3a-497c-943c-5df7345ba657" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -1138,28 +1054,7 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="2c477c0d-15a8-0591-bd94-6acc583666ea" />
 										</node>
 									</children>
-								</node>								 
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.00 0.64 0.99" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.00 0.64 0.99" />
-								</node>
+								</node>	
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
@@ -1232,16 +1127,16 @@
 								<node id="MaterialPresets">
 									<children>
 										<node id="Object">
-											<attribute id="ForcePresetValues" type="bool" value="True" />
+											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="42f29250-7881-07ef-f41a-3f405f97d411" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="18c55ea2-3826-0c87-07f3-074befd0b0da" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="618d630b-8f3a-497c-943c-5df7345ba657" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -1257,27 +1152,6 @@
 										</node>
 									</children>
 								</node> 
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.00 0.64 0.99" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.00 0.64 0.99" />
-								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
@@ -1348,13 +1222,13 @@
 											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="42f29250-7881-07ef-f41a-3f405f97d411" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="18c55ea2-3826-0c87-07f3-074befd0b0da" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="618d630b-8f3a-497c-943c-5df7345ba657" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -1370,27 +1244,6 @@
 										</node>
 									</children>
 								</node> 
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.00 0.64 0.99" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.00 0.64 0.99" />
-								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
@@ -1463,16 +1316,16 @@
 								<node id="MaterialPresets">
 									<children>
 										<node id="Object">
-											<attribute id="ForcePresetValues" type="bool" value="True" />
+											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="42f29250-7881-07ef-f41a-3f405f97d411" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="18c55ea2-3826-0c87-07f3-074befd0b0da" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="618d630b-8f3a-497c-943c-5df7345ba657" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -1488,27 +1341,6 @@
 										</node>
 									</children>
 								</node> 
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.00 0.64 0.99" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.00 0.64 0.99" />
-								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
@@ -1580,13 +1412,13 @@
 											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="53996c04-fd05-df25-bc64-b284ba2066a4" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="a70d5f44-7370-20a0-2689-7b426dbedfd2" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="a774907a-ffa7-4295-81c2-943767b472bb" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -1601,27 +1433,6 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="2c477c0d-15a8-0591-bd94-6acc583666ea" />
 										</node>
 									</children>
-								</node> 
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.00 0.99 0.69" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.00 0.99 0.69" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -1695,16 +1506,16 @@
 								<node id="MaterialPresets">
 									<children>
 										<node id="Object">
-											<attribute id="ForcePresetValues" type="bool" value="True" />
+											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="53996c04-fd05-df25-bc64-b284ba2066a4" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="a70d5f44-7370-20a0-2689-7b426dbedfd2" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="a774907a-ffa7-4295-81c2-943767b472bb" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -1719,27 +1530,6 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="2c477c0d-15a8-0591-bd94-6acc583666ea" />
 										</node>
 									</children>
-								</node> 
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.00 0.99 0.69" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.00 0.99 0.69" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -1811,13 +1601,13 @@
 											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="53996c04-fd05-df25-bc64-b284ba2066a4" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="a70d5f44-7370-20a0-2689-7b426dbedfd2" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="a774907a-ffa7-4295-81c2-943767b472bb" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -1832,27 +1622,6 @@
 											<attribute id="MaterialPresetResource" type="FixedString" value="2c477c0d-15a8-0591-bd94-6acc583666ea" />
 										</node>
 									</children>
-								</node> 
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.00 0.99 0.69" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.00 0.99 0.69" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -1926,16 +1695,16 @@
 								<node id="MaterialPresets">
 									<children>
 										<node id="Object">
-											<attribute id="ForcePresetValues" type="bool" value="True" />
+											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="53996c04-fd05-df25-bc64-b284ba2066a4" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="a70d5f44-7370-20a0-2689-7b426dbedfd2" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="a774907a-ffa7-4295-81c2-943767b472bb" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -1951,27 +1720,6 @@
 										</node>
 									</children>
 								</node> 
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="0.00 0.99 0.69" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="0.00 0.99 0.69" />
-								</node>
 									<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
@@ -2043,13 +1791,13 @@
 											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="73d00e6d-d66e-8a39-e1ae-5f6e47ab5a2e" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="c2b154af-d286-2d6b-f02f-28b7af97454f" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="f9e32605-c711-455d-b2f6-b23fa6c2a20a" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -2092,27 +1840,6 @@
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="EyesMakeupMetalness" />
 									<attribute id="Value" type="float" value="1" />
-								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="1 0 0" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="1 0 0" />
 								</node>
 							</children>
 						</node>
@@ -2158,16 +1885,16 @@
 								<node id="MaterialPresets">
 									<children>
 										<node id="Object">
-											<attribute id="ForcePresetValues" type="bool" value="True" />
+											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="73d00e6d-d66e-8a39-e1ae-5f6e47ab5a2e" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="c2b154af-d286-2d6b-f02f-28b7af97454f" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="f9e32605-c711-455d-b2f6-b23fa6c2a20a" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -2210,27 +1937,6 @@
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="EyesMakeupMetalness" />
 									<attribute id="Value" type="float" value="1" />
-								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="1 0 0" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="1 0 0" />
 								</node>
 							</children>
 						</node>
@@ -2274,13 +1980,13 @@
 											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="73d00e6d-d66e-8a39-e1ae-5f6e47ab5a2e" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="c2b154af-d286-2d6b-f02f-28b7af97454f" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="f9e32605-c711-455d-b2f6-b23fa6c2a20a" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -2323,27 +2029,6 @@
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="EyesMakeupMetalness" />
 									<attribute id="Value" type="float" value="1" />
-								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="1 0 0" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="1 0 0" />
 								</node>
 							</children>
 						</node>
@@ -2389,16 +2074,16 @@
 								<node id="MaterialPresets">
 									<children>
 										<node id="Object">
-											<attribute id="ForcePresetValues" type="bool" value="True" />
+											<attribute id="ForcePresetValues" type="bool" value="False" />
 											<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
 											<attribute id="MapKey" type="FixedString" value="02Skin Properties" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="73d00e6d-d66e-8a39-e1ae-5f6e47ab5a2e" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="c7916e67-39ee-478f-a741-98156bbb7164" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="c2b154af-d286-2d6b-f02f-28b7af97454f" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="f9e32605-c711-455d-b2f6-b23fa6c2a20a" />
 										</node>
 										<node id="Object">
 											<attribute id="ForcePresetValues" type="bool" value="True" />
@@ -2441,27 +2126,6 @@
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="EyesMakeupMetalness" />
 									<attribute id="Value" type="float" value="1" />
-								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColor" />
-									<attribute id="Value" type="fvec3" value="1 0 0" />
-								</node>
-								<node id="Vector3Parameters">
-									<attribute id="Color" type="bool" value="True" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="GlowColour" />
-									<attribute id="Value" type="fvec3" value="1 0 0" />
 								</node>
 							</children>
 						</node>
