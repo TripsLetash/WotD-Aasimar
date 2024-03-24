@@ -6,7 +6,6 @@
             <children>
     <!--Halo 01 halo n crown-->
         <!--Fem Smol-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -18,7 +17,6 @@
                     <attribute id="VisualResource" type="guid" value="7c6c539c-68bb-4f89-ad8d-24e9a6151eb8"/>
                 </node>
         <!--Fem Strong-->            
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -30,7 +28,6 @@
                     <attribute id="VisualResource" type="guid" value="3ecbd389-8d75-43ea-a415-ed985db53199"/>
                 </node>
         <!--Masc Smol-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -42,7 +39,6 @@
                     <attribute id="VisualResource" type="guid" value="24b08720-319d-46a5-a9ba-7ce73d91ac9f"/>
                 </node>
         <!--Masc beeg-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -55,7 +51,6 @@
                 </node>
     <!--Halo 02 - Star n orbs-->
         <!--Fem Smol-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -67,7 +62,6 @@
                     <attribute id="VisualResource" type="guid" value="039cfa92-3974-4caf-9a76-4b83f66adfdd"/>
                 </node>   
         <!--Fem Strong-->            
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -79,7 +73,6 @@
                     <attribute id="VisualResource" type="guid" value="ca8c230e-6375-489d-88a1-a7b3dd4aa1bf"/>
                 </node>
         <!--Masc Smol-->  
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -91,7 +84,6 @@
                     <attribute id="VisualResource" type="guid" value="34998baa-1f27-459b-8037-2a7619090721"/>
                 </node>       
         <!--Masc beeg-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -269,7 +261,6 @@
                 </node>
     <!--Halo 04 Generic-->
         <!--fem smol-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -281,7 +272,6 @@
                     <attribute id="VisualResource" type="guid" value="e84569b1-ca49-4e53-b6ff-1291641b0c5d"/>
                 </node>
         <!--fem strong-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -293,7 +283,6 @@
                     <attribute id="VisualResource" type="guid" value="37a14f67-f916-4b27-bccf-49ff28de43f0"/>
                 </node>
         <!--masc smol-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -305,7 +294,6 @@
                     <attribute id="VisualResource" type="guid" value="fec76454-9fa0-46b3-82d8-7373e3f08650"/>
                 </node>
         <!--Masc strong-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -318,7 +306,6 @@
                 </node>
     <!--Halo 05 Sin Eaters Meridian-->
         <!--Fem smol-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -352,7 +339,6 @@
                     <attribute id="VisualResource" type="guid" value="02d9fc3f-db06-466b-a13d-d7cc71963a54"/>
                 </node>
         <!--MAsc strong-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -365,7 +351,6 @@
                 </node>
     <!--Halo 06 Exanimates Apex-->
         <!--Fem smol-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -377,7 +362,6 @@
                     <attribute id="VisualResource" type="guid" value="8d34655e-3228-4361-a28e-e5f6f0cf0ced"/>
                 </node>
         <!--Fem strong-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -389,7 +373,6 @@
                     <attribute id="VisualResource" type="guid" value="c35d1255-8b5f-4d1e-aa60-af641a221f95"/>
                 </node>
         <!--MAsc smol-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -401,7 +384,6 @@
                     <attribute id="VisualResource" type="guid" value="d2ed1e42-7173-4d62-bc18-9117052501c3"/>
                 </node>
         <!--MAsc strong-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -426,7 +408,6 @@
                     <attribute id="VisualResource" type="guid" value="78b1533b-154e-4235-89d8-7e2c02e43f38"/>
                 </node>
         <!--Fem strong-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -438,7 +419,6 @@
                     <attribute id="VisualResource" type="guid" value="b56a178d-fc04-4871-a117-a6e109894c2e"/>
                 </node>
         <!--Masc Smol-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -450,7 +430,6 @@
                     <attribute id="VisualResource" type="guid" value="8071fbae-e3fa-456c-9136-6b3ddad8f041"/>
                 </node>
         <!--Masc Strong-->
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
