@@ -11,6 +11,20 @@
                     <attribute id="SelectorId" type="FixedString" value="Trips_ProgressionDescriptionOrigins"/> <!-- this must match the name at the end of your passive selector in your Progressions file -->
                     <attribute id="UUID" type="guid" value="6e23aaf0-7939-4bbc-a1a2-0b6a4518e4f3"/> <!-- replace this UUID -->
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hb10a7437g34b3g429ag92d2g041cdab3c8e3" version="1"/> <!-- determines the small description under your passive selector title in CC -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2bb13e05ge956g4e26gb8d8ga7e6cce0593e" version="1"/> <!-- determines the title of your passive selector tab in CC -->
+                    <attribute id="ProgressionTableId" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81"/> <!-- must match table UUID in progressions file -->
+                    <attribute id="SelectorId" type="FixedString" value="Trips_WingsModelSelector"/> <!-- this must match the name at the end of your passive selector in your Progressions file -->
+                    <attribute id="UUID" type="guid" value="1905bc81-7730-489a-9df1-10f1b377d249"/> <!-- replace this UUID -->
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hb0239388g634ag4518ga1d3g18a3ebd6a5e5" version="1"/> <!-- determines the small description under your passive selector title in CC -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd4f4bedeg45ceg4f35gad01ga40aa0365d1a" version="1"/> <!-- determines the title of your passive selector tab in CC -->
+                    <attribute id="ProgressionTableId" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81"/> <!-- must match table UUID in progressions file -->
+                    <attribute id="SelectorId" type="FixedString" value="Trips_WingsLevelSelector"/> <!-- this must match the name at the end of your passive selector in your Progressions file -->
+                    <attribute id="UUID" type="guid" value="be4a6d99-3b66-4fb6-ae3f-836189098f1b"/> <!-- replace this UUID -->
+                </node>
             </children>
         </node>
     </region>

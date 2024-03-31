@@ -1,0 +1,178 @@
+local __util = require 'larian.util'
+
+function IsAuraProt(entity)
+    entity = entity or context.Source
+    local auras = {
+        'TRIPS_AURA_OF_PROTECTION',
+        'TRIPS_AURA_OF_SCOURGE',
+        'TRIPS_AURA_OF_FALLEN',
+        'TRIPS_AURA_OF_HARBINGER'
+    }
+    local hasAura = false
+    for _, aura in ipairs(auras) do
+        if GetStatusDuration(aura, entity) > 0.1 then
+            hasAura = true
+            break
+        end
+    end
+    local isAuraProt = hasAura and not HasStatus('AASIMAR_PASSIVE_WINGS_10', entity) and Tagged('WOTD_PROT', entity)
+    return ConditionResult(isAuraProt, {ConditionError("IsAuraProt")})
+end
+
+function IsAuraSco(entity)
+    entity = entity or context.Source
+    local auras = {
+        'TRIPS_AURA_OF_PROTECTION',
+        'TRIPS_AURA_OF_SCOURGE',
+        'TRIPS_AURA_OF_FALLEN',
+        'TRIPS_AURA_OF_HARBINGER'
+    }
+    local hasAura = false
+    for _, aura in ipairs(auras) do
+        if GetStatusDuration(aura, entity) > 0.1 then
+            hasAura = true
+            break
+        end
+    end
+    local isAuraSco = hasAura and not HasStatus('AASIMAR_PASSIVE_WINGS_10', entity) and Tagged('WOTD_SCOURGE', entity)
+    return ConditionResult(isAuraSco, {ConditionError("IsAuraSco")})
+end
+
+function IsAuraFal(entity)
+    entity = entity or context.Source
+    local auras = {
+        'TRIPS_AURA_OF_PROTECTION',
+        'TRIPS_AURA_OF_SCOURGE',
+        'TRIPS_AURA_OF_FALLEN',
+        'TRIPS_AURA_OF_HARBINGER'
+    }
+    local hasAura = false
+    for _, aura in ipairs(auras) do
+        if GetStatusDuration(aura, entity) > 0.1 then
+            hasAura = true
+            break
+        end
+    end
+    local isAuraFal = hasAura and not HasStatus('AASIMAR_PASSIVE_WINGS_10', entity) and Tagged('WOTD_FALLEN', entity)
+    return ConditionResult(isAuraFal, {ConditionError("IsAuraFal")})
+end
+
+function IsAuraHarb(entity)
+    entity = entity or context.Source
+    local auras = {
+        'TRIPS_AURA_OF_PROTECTION',
+        'TRIPS_AURA_OF_SCOURGE',
+        'TRIPS_AURA_OF_FALLEN',
+        'TRIPS_AURA_OF_HARBINGER'
+    }
+    local hasAura = false
+    for _, aura in ipairs(auras) do
+        if GetStatusDuration(aura, entity) > 0.1 then
+            hasAura = true
+            break
+        end
+    end
+    local isAuraHarb = hasAura and not HasStatus('AASIMAR_PASSIVE_WINGS_10', entity) and Tagged('WOTD_HARB', entity)
+    return ConditionResult(isAuraHarb, {ConditionError("IsAuraHarb")})
+end
+
+function IsAuraPassive(entity)
+    entity = entity or context.Source
+    local auras = {
+        'TRIPS_AURA_OF_PROTECTION',
+        'TRIPS_AURA_OF_SCOURGE',
+        'TRIPS_AURA_OF_FALLEN',
+        'TRIPS_AURA_OF_HARBINGER'
+    }
+    local hasAura = false
+    for _, aura in ipairs(auras) do
+        if HasStatus(aura, entity) then
+            hasAura = true
+            break
+        end
+    end
+    local isAuraPassive = hasAura and not HasStatus('AASIMAR_PASSIVE_WINGS_10', entity)
+    return ConditionResult(isAuraPassive, {ConditionError("IsAuraPassive")})
+end
+
+function IsNoAuraProt(entity)
+    entity = entity or context.Source
+    local auras = {
+        'TRIPS_AURA_OF_PROTECTION',
+        'TRIPS_AURA_OF_SCOURGE',
+        'TRIPS_AURA_OF_FALLEN',
+        'TRIPS_AURA_OF_HARBINGER'
+    }
+    local hasAura = false
+    for _, aura in ipairs(auras) do
+        if HasStatus(aura, entity) then
+            hasAura = true
+            break
+        end
+    end
+    local isNoAuraProt = not hasAura and HasStatus('AASIMAR_PASSIVE_WINGS_10', entity) and Tagged('WOTD_HARB', entity)
+    return ConditionResult(isNoAuraProt, {ConditionError("IsNoAuraProt")})
+end
+
+function IsNoAuraSco(entity)
+    entity = entity or context.Source
+    local auras = {
+        'TRIPS_AURA_OF_PROTECTION',
+        'TRIPS_AURA_OF_SCOURGE',
+        'TRIPS_AURA_OF_FALLEN',
+        'TRIPS_AURA_OF_HARBINGER'
+    }
+    local hasAura = false
+    for _, aura in ipairs(auras) do
+        if HasStatus(aura, entity) then
+            hasAura = true
+            break
+        end
+    end
+    local isNoAuraSco = not hasAura and HasStatus('AASIMAR_PASSIVE_WINGS_10', entity) and Tagged('WOTD_SCOURGE', entity)
+    return ConditionResult(isNoAuraSco, {ConditionError("IsNoAuraSco")})
+end
+
+function IsNoAuraFal(entity)
+    entity = entity or context.Source
+    local auras = {
+        'TRIPS_AURA_OF_PROTECTION',
+        'TRIPS_AURA_OF_SCOURGE',
+        'TRIPS_AURA_OF_FALLEN',
+        'TRIPS_AURA_OF_HARBINGER'
+    }
+    local hasAura = false
+    for _, aura in ipairs(auras) do
+        if HasStatus(aura, entity) then
+            hasAura = true
+            break
+        end
+    end
+    local isNoAuraFal = not hasAura and HasStatus('AASIMAR_PASSIVE_WINGS_10', entity) and Tagged('WOTD_FALLEN', entity)
+    return ConditionResult(isNoAuraFal, {ConditionError("IsNoAuraFal")})
+end
+
+function IsNoAuraHarb(entity)
+    entity = entity or context.Source
+    local auras = {
+        'TRIPS_AURA_OF_PROTECTION',
+        'TRIPS_AURA_OF_SCOURGE',
+        'TRIPS_AURA_OF_FALLEN',
+        'TRIPS_AURA_OF_HARBINGER'
+    }
+    local hasAura = false
+    for _, aura in ipairs(auras) do
+        if HasStatus(aura, entity) then
+            hasAura = true
+            break
+        end
+    end
+    local isNoAuraHarb = not hasAura and HasStatus('AASIMAR_PASSIVE_WINGS_10', entity) and Tagged('WOTD_HARB', entity)
+    return ConditionResult(isNoAuraHarb, {ConditionError("IsNoAuraHarb")})
+end
+
+function HasPWingsTen(entity)
+    entity = entity or context.Source
+
+    return ConditionResult(not HasStatus('AASIMAR_PASSIVE_WINGS_10',entity))
+end

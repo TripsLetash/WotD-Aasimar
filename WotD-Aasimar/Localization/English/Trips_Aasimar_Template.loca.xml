@@ -43,7 +43,25 @@
 	<content contentuid="hff77c78fg24ecg4068g97cfga512bb5d2bf7" version="1">★ Glow Aasimar: Harbinger Red ★</content>	
 	<content contentuid="h7cc3fb57g7f27g43c9ga752gb59c12e12c6c" version="1">★ Glow Aasimar: Gray ★</content>	
 	<content contentuid="hc99a7861g27e8g47dcgb863gf590ff7cc031" version="1">★ Glow Aasimar: Light Seagreen ★</content>		
-
+	
+	<!--Selector Wings-->
+	<content contentuid="h2bb13e05ge956g4e26gb8d8ga7e6cce0593e" version="1">Wings</content>
+	<content contentuid="hb10a7437g34b3g429ag92d2g041cdab3c8e3" version="1">Select which style of wings you manifest.</content>
+	<content contentuid="h908d9876g961ag42c1ga492gfa0fa91a6627" version="1">Armored Wings (Protector)</content>
+	<content contentuid="hbaaa22f4g7b2cg4d00g9b75g6e90ba560e41" version="1">Crystal Wings (Scourge)</content>	
+	<content contentuid="h83425655g1bcdg412cgaba6g3c5bbd3d8b41" version="1">Rotten Wings (Fallen)</content>
+	<content contentuid="hb199bd42g378bg46b5ga096gd4ffa0a4d5bf" version="1">Bound Wings (Harbinger)</content>	
+	<content contentuid="hb2afbedfg0f71g4ef1gbb63g5799e305aafe" version="1">Wings armored to rebuke any hurt and harm.</content>
+	<content contentuid="h66e74765g11adg4b44g89d6g71e7088defad" version="1">Made of pure light, crystalized into solid form.</content>	
+	<content contentuid="hc8c1b5b7ga21ag4a4fg8ea6gc892b79f6398" version="1">Fetid and ghastly wings.</content>	
+	<content contentuid="h89e6b561gb69dg406cg908cg5de4450bcdde" version="1">The bird of Hermes is my name, eating my wings to make me tame...</content>
+	<!--Selector Wings LEVEL-->
+	<content contentuid="hd4f4bedeg45ceg4f35gad01ga40aa0365d1a" version="1">Wings Level</content>
+	<content contentuid="hb0239388g634ag4518ga1d3g18a3ebd6a5e5" version="1">Select when you manifest your permanent wings.</content>
+	<content contentuid="h84b0be6bgc107g4a48gbf03g8f2e544632fc" version="1">Level 1</content>
+	<content contentuid="h91523410gff81g4e6cg9d13g1672e5bd6ead" version="1">You unlock the ability to manifest your wings at an earlier time than normal.</content>	
+	<content contentuid="hd712da8ag425fg4e0ag8349g6942953c551f" version="1">Level 10</content>
+	<content contentuid="h9407f71fgfc96g4b89g823ag78276513b6cd" version="1">You follow the intended progression.</content>	
 	<!--Heads-->
 	<!--Yellow-->
 	<!--Blue-->

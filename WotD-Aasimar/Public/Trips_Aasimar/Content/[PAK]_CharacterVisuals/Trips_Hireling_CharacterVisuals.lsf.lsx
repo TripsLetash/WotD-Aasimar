@@ -71,6 +71,13 @@
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
 									<attribute id="Value" type="fvec3" value="0.02978199 0.3559639 0.4744193" />
 								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
+									<attribute id="Value" type="fvec3" value="0.02978199 0.3559639 0.4744193" />
+								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />

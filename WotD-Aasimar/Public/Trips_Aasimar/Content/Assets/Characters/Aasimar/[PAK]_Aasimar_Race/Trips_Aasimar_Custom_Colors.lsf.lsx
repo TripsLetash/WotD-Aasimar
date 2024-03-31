@@ -125,6 +125,13 @@
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
 									<attribute id="Value" type="fvec3" value="0.02978199 0.3559639 0.4744193" />
 								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
+									<attribute id="Value" type="fvec3" value="0.02978199 0.3559639 0.4744193" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -233,6 +240,13 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
+									<attribute id="Value" type="fvec3" value="0.4891208 0.356965 0.08643389" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
 									<attribute id="Value" type="fvec3" value="0.4891208 0.356965 0.08643389" />
 								</node>
 							</children>
@@ -345,6 +359,13 @@
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
 									<attribute id="Value" type="fvec3" value="0.02978199 0.3559639 0.4744193" />
 								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
+									<attribute id="Value" type="fvec3" value="0.02978199 0.3559639 0.4744193" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -453,6 +474,13 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
+									<attribute id="Value" type="fvec3" value="0.4891208 0.09250967 0" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
 									<attribute id="Value" type="fvec3" value="0.4891208 0.09250967 0" />
 								</node>
 							</children>
@@ -565,6 +593,13 @@
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
 									<attribute id="Value" type="fvec3" value="0.2025679 0.4707439 0.0952976" />
 								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
+									<attribute id="Value" type="fvec3" value="0.2025679 0.4707439 0.0952976" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -673,6 +708,13 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
+									<attribute id="Value" type="fvec3" value="0 0.3825346 0.3603802" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
 									<attribute id="Value" type="fvec3" value="0 0.3825346 0.3603802" />
 								</node>
 							</children>
@@ -785,6 +827,13 @@
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
 									<attribute id="Value" type="fvec3" value="0.4055081 0.7463981 0.1538445" />
 								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
+									<attribute id="Value" type="fvec3" value="0.4055081 0.7463981 0.1538445" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -893,6 +942,13 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
+									<attribute id="Value" type="fvec3" value="0.4891208 0.09250967 0" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
 									<attribute id="Value" type="fvec3" value="0.4891208 0.09250967 0" />
 								</node>
 							</children>
@@ -1005,6 +1061,13 @@
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
 									<attribute id="Value" type="fvec3" value="0.3266351 0.2241243 0.9228168" />
 								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
+									<attribute id="Value" type="fvec3" value="0.3266351 0.2241243 0.9228168" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -1113,6 +1176,13 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
+									<attribute id="Value" type="fvec3" value="1 1 1" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
 									<attribute id="Value" type="fvec3" value="1 1 1" />
 								</node>
 							</children>
@@ -1225,6 +1295,13 @@
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
 									<attribute id="Value" type="fvec3" value="0.10 0.72 0.49" />
 								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
+									<attribute id="Value" type="fvec3" value="0.10 0.72 0.49" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -1333,6 +1410,13 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
+									<attribute id="Value" type="fvec3" value="0.99 1.00 0.00" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
 									<attribute id="Value" type="fvec3" value="0.99 1.00 0.00" />
 								</node>
 							</children>
@@ -1445,6 +1529,13 @@
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
 									<attribute id="Value" type="fvec3" value="0.7905028 0.09030001 0.7715783" />
 								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
+									<attribute id="Value" type="fvec3" value="0.7905028 0.09030001 0.7715783" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -1553,6 +1644,13 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
+									<attribute id="Value" type="fvec3" value="0.95 0.98 0.94" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
 									<attribute id="Value" type="fvec3" value="0.95 0.98 0.94" />
 								</node>
 							</children>
@@ -1665,6 +1763,13 @@
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
 									<attribute id="Value" type="fvec3" value="0.00 0.49 0.66" />
 								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
+									<attribute id="Value" type="fvec3" value="0.00 0.49 0.66" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -1773,6 +1878,13 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
+									<attribute id="Value" type="fvec3" value="0.00 0.73 0.94" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
 									<attribute id="Value" type="fvec3" value="0.00 0.73 0.94" />
 								</node>
 							</children>
@@ -1885,6 +1997,13 @@
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
 									<attribute id="Value" type="fvec3" value="0.05542487 0.05542487 0.05542487" />
 								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
+									<attribute id="Value" type="fvec3" value="0.05542487 0.05542487 0.05542487" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -1993,6 +2112,13 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
+									<attribute id="Value" type="fvec3" value="1 0 0" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
 									<attribute id="Value" type="fvec3" value="1 0 0" />
 								</node>
 							</children>
@@ -2105,6 +2231,13 @@
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
 									<attribute id="Value" type="fvec3" value="0.79 0.79 0.79" />
 								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
+									<attribute id="Value" type="fvec3" value="0.79 0.79 0.79" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -2112,7 +2245,7 @@
 				<node id="Resource">
 					<attribute id="ID" type="FixedString" value="a774907a-ffa7-4295-81c2-943767b472bb" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="EYES_Aasimar_White_B" />
+					<attribute id="Name" type="LSString" value="EYES_Aasimar_Green_Fallen" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855929" />
 					<children>
 						<node id="Presets">
@@ -2213,6 +2346,13 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowColour" />
+									<attribute id="Value" type="fvec3" value="0.11 0.83 0.69" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="True" />
+									<attribute id="Custom" type="bool" value="False" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Ghost_Colour" />
 									<attribute id="Value" type="fvec3" value="0.11 0.83 0.69" />
 								</node>
 							</children>

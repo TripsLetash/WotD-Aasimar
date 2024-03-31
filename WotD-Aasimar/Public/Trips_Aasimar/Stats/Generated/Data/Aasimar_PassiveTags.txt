@@ -8,7 +8,6 @@ data "Icon" "Spell_Illusion_DisguiseSelf_Human_Male"
 data "Properties" "Highlighted;ForceShowInCC;IsHidden"
 data "Boosts" "Tag(HUMAN);Tag(REALLY_HUMAN)"
 
-
 new entry "Trips_Aa_Passive_Tags_HighElf"
 type "PassiveData"
 data "DisplayName" "h4ec8cc29gace1g45b9g9fbbg07a6f571d272;1"
@@ -170,7 +169,6 @@ data "Icon" "Spell_Illusion_DisguiseSelf_Halfling_Male"
 data "Properties" "Highlighted;ForceShowInCC;IsHidden"
 data "Boosts" "Tag(HALFLING);Tag(REALLY_HALFLING);Tag(STOUTHALFLING);Tag(REALLY_STOUTHALFLING)"
 
-
 new entry "Trips_Aa_Passive_Tags_NoRace"
 type "PassiveData"
 data "DisplayName" "h9bddd57cg9523g41cfg9e5dga95267e2bc72;1"
@@ -178,3 +176,54 @@ data "Description" "h9b9e92f6gd283g4451ga181gb1c142bc326f;1"
 data "Icon" "PassiveFeature_MistyEscape"
 data "Properties" "Highlighted;ForceShowInCC;IsHidden"
 
+//Tags for which wings to use
+
+new entry "Trips_Model_Wings_Protector"
+type "PassiveData"
+data "DisplayName" "h908d9876g961ag42c1ga492gfa0fa91a6627;1"
+data "Description" "hb2afbedfg0f71g4ef1gbb63g5799e305aafe;1"
+data "Icon" "Trips_Protector_Wings_Skill"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(WOTD_PROT)"
+
+new entry "Trips_Model_Wings_Scourge"
+type "PassiveData"
+data "DisplayName" "hbaaa22f4g7b2cg4d00g9b75g6e90ba560e41;1"
+data "Description" "h66e74765g11adg4b44g89d6g71e7088defad;1"
+data "Icon" "Trips_Scourge_Wings_Skill"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(WOTD_SCOURGE)"
+
+new entry "Trips_Model_Wings_Fallen"
+type "PassiveData"
+data "DisplayName" "h83425655g1bcdg412cgaba6g3c5bbd3d8b41;1"
+data "Description" "hc8c1b5b7ga21ag4a4fg8ea6gc892b79f6398;1"
+data "Icon" "Trips_Fallen_Wings_Skill"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(WOTD_FALLEN)"
+
+new entry "Trips_Model_Wings_Harbinger"
+type "PassiveData"
+data "DisplayName" "hb199bd42g378bg46b5ga096gd4ffa0a4d5bf;1"
+data "Description" "h89e6b561gb69dg406cg908cg5de4450bcdde;1"
+data "Icon" "Trips_Harbinger_Wings_Skill"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(WOTD_HARB)"
+
+//Tags for which level the wings spawn
+
+new entry "Trips_Passive_Level_One_Wings"
+type "PassiveData"
+data "DisplayName" "h84b0be6bgc107g4a48gbf03g8f2e544632fc;1"
+data "Description" "h91523410gff81g4e6cg9d13g1672e5bd6ead;1"
+data "Icon" "Trips_Aasimar_Flight_Skill"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(WINGS_LEVELONE)"
+
+new entry "Trips_Passive_Level_Ten_Wings"
+type "PassiveData"
+data "DisplayName" "hd712da8ag425fg4e0ag8349g6942953c551f;1"
+data "Description" "h9407f71fgfc96g4b89g823ag78276513b6cd;1"
+data "Icon" "Trips_Aasimar_Flight_Skill"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(WINGS_LEVELTEN)"
