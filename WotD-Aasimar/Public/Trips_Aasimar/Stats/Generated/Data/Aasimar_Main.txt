@@ -1250,6 +1250,7 @@ data "Icon" "Trips_Protector_Wings_Skill"
 data "StatusType" "BOOST"
 data "OnApplyFunctors" "IF(HasPWingsTen()):ApplyEquipmentStatus(Underwear,WINGS_DURATION_ITEM,100,10);IF(HasPWingsTen()):ApplyEquipmentStatus(Underwear,WINGS_DURATION_ITEM,100,-1)"
 data "OnRemoveFunctors" "IF(Tagged('WOTD_PROT')):ApplyStatus(UNS_PROT,100,0);IF(Tagged('WOTD_SCOURGE')):ApplyStatus(UNS_SCO,100,0);IF(Tagged('WOTD_FALLEN')):ApplyStatus(UNS_FAL,100,0);IF(Tagged('WOTD_HARB')):ApplyStatus(UNS_HARB,100,0);IF(Tagged('WOTD_POLD')):ApplyStatus(UNS_POLD,100,0);IF(Tagged('WOTD_FOLD')):ApplyStatus(UNS_FOLD,100,0);RemoveStatus(DEVA_LOCO);RemoveStatus(AASIMAR_PASSIVE_WINGS_10)"
+data "StatusPropertyFlags" "IgnoreResting;ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
 
 new entry "UNS_PROT"
 type "StatusData"
