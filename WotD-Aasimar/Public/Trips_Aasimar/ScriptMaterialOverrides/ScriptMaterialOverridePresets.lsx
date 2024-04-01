@@ -38,6 +38,9 @@
                         <node id="ParameterUUIDs">
                             <attribute id="Object" type="guid" value="e771a814-126b-4944-9c71-40122464c256"/>
                         </node>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="dc0b577d-16c8-4082-916a-35da15fe57c3"/>
+                        </node>
                     </children>
                 </node>
             </children>

@@ -16,6 +16,12 @@
                     <attribute id="ParameterValue" type="LSString" value="0.38;0;0.69"/>
                     <attribute id="UUID" type="guid" value="e771a814-126b-4944-9c71-40122464c256"/>
                 </node>
+                <node id="ScriptMaterialOverrideParameter">
+                    <attribute id="ParameterName" type="FixedString" value="Ghost_Colour"/>
+                    <attribute id="ParameterType" type="FixedString" value="Float3"/>
+                    <attribute id="ParameterValue" type="LSString" value="0.38;0;0.69"/>
+                    <attribute id="UUID" type="guid" value="dc0b577d-16c8-4082-916a-35da15fe57c3"/>
+                </node>
             </children>
         </node>
     </region>
