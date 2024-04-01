@@ -9,7 +9,7 @@
                     <attribute id="UUID" type="guid" value="c3a8da40-5df9-43f7-ad30-825a7a2068ef"/> <!-- This requires a new UUID -->
                 </node>
                 <node id="PassiveList"> <!-- this list contains the names of all the passives defined in the PassiveTags.txt file, each name must be seperated by a comma -->
-                    <attribute id="Passives" type="LSString" value="Trips_Model_Wings_Protector,Trips_Model_Wings_Scourge,Trips_Model_Wings_Fallen,Trips_Model_Wings_Harbinger"/>
+                    <attribute id="Passives" type="LSString" value="Trips_Model_Wings_Protector,Trips_Model_Wings_Scourge,Trips_Model_Wings_Fallen,Trips_Model_Wings_Harbinger,Trips_Model_Wings_Protector_Old,Trips_Model_Wings_Fallen_Old"/>
                     <attribute id="UUID" type="guid" value="54ee2b8b-7647-4db5-86e0-97a994d79959"/> <!-- This requires a new UUID -->
                 </node>
                 <node id="PassiveList"> <!-- this list contains the names of all the passives defined in the PassiveTags.txt file, each name must be seperated by a comma -->
