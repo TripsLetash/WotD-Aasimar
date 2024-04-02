@@ -876,6 +876,75 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
+				<!--Protector Wings OLD-->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h60ee6f28gd0d4g411bg9babg73a83f814365" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h56d3999fg5af0g49fbgac25g0950ced60a5f" version="1" />
+					<attribute id="Icon" type="FixedString" value="Trips_Scourge_Item" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="e92cf0a1-9658-45cc-bbc0-52f9c060aaf3" />
+					<attribute id="Name" type="LSString" value="Scourge Wings Old" />
+					<attribute id="Stats" type="FixedString" value="Trips_Scourge_Wings_Old" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a09273ba-6549-4cf9-ba47-615a962baf9f" /> <!--base_Armor parent ID-->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> hum male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2d6e84e6-97fb-49d2-862f-8811531652b1" /> custom
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> hum fem
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0c25c152-9a03-4bf0-b0e0-fb0f12e20c08" /> custom
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" /> hum MS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="49e9d7fb-af1c-4d3e-9111-a8d8bccc4ed6" /> custom
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> hum FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="aa75ebe1-0ee7-46fd-8f66-1499b5d3dbaa" /> custom
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
 			<!--Scourge Wings-->
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h60ee6f28gd0d4g411bg9babg73a83f814365" version="1" />
@@ -1020,7 +1089,7 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
-				<!--Fallen Wings OLD-->
+			<!--Fallen Wings OLD-->
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h117b0532gb0f1g4fefg89c8g931e23013963" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h5b712fcdg285dg4077g800dg91447da2f552" version="1" />
@@ -1081,7 +1150,79 @@
 											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> hum FS
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="2f95ced0-6b27-4e7f-9340-118ec47b2895" /> custom
+													<attribute id="Object" type="FixedString" value="2f95ced0-6b27-4e7f-9340-118ec47b2895" /> custom 
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+			<!--New Flame Double Wings-->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h117b0532gb0f1g4fefg89c8g931e23013963" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5b712fcdg285dg4077g800dg91447da2f552" version="1" />
+					<attribute id="Icon" type="FixedString" value="Trips_Protector_Item" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="3d75fc44-d618-4330-a43d-e1fbf8c95228" />
+					<attribute id="Name" type="LSString" value="Flame Wings" />
+					<attribute id="Stats" type="FixedString" value="Trips_Flame_Wings" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ParentRace" />
+								<node id="ShortHair" />
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Wings" />
+								</node>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="7d73f501-f65e-46af-a13b-2cacf3985d05" /> hum male
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="b7fe70f9-97d5-43df-99a0-39d70a9a3b4e" /> custom
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="71180b76-5752-4a97-b71f-911a69197f58" /> hum fem
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2787d90d-f3cf-40df-b5bb-38a36d80e898" /> custom
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" /> hum MS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="924b803e-dfaf-473c-8601-f33ac21de570" /> custom
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" /> hum FS
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="db81761d-4b94-4225-8037-606279460f36" /> custom 
 												</node>
 											</children>
 										</node>

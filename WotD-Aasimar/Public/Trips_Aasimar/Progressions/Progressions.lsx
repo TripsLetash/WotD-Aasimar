@@ -9,8 +9,8 @@
         <node id="Progression">
           <attribute id="Level" type="uint8" value="1" />
           <attribute id="Name" type="LSString" value="Trips_Aasimar_1_Hireling" />
-          <attribute id="Boosts" type="LSString" value="Tag(WINGS_LEVELONE);Tag(WOTD_SCOURGE)" />
-          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Passives;Aasimar_Passive_lvl1" />
+          <attribute id="Boosts" type="LSString" value="Tag(WINGS_LEVELONE);Tag(WOTD_PROT)" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Passives;Aasimar_Hireling_Passive_lvl1" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="aa7fc5d2-3ab6-4354-8c19-adc7e404a0fa" />

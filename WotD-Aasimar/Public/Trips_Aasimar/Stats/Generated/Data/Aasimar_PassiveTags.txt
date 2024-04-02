@@ -210,6 +210,14 @@ data "Icon" "Trips_Harbinger_Wings_Skill"
 data "Properties" "Highlighted;ForceShowInCC;IsHidden"
 data "Boosts" "Tag(WOTD_HARB)"
 
+new entry "Trips_Model_Wings_Flame"
+type "PassiveData"
+data "DisplayName" "hdb731d16g0bd7g415agbb1bgb9ca52a0bfef;1"
+data "Description" "h6836e1edge050g44fbga42bg10d8cf0c6dfc;1"
+data "Icon" "Trips_Protector_Wings_Skill"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(WOTD_FLAME)"
+
 new entry "Trips_Model_Wings_Protector_Old"
 type "PassiveData"
 data "DisplayName" "hd9a61c4egcc01g4417g81bbg6827607db3da;1"
@@ -225,6 +233,16 @@ data "Description" "h6c50432agf3a2g4cacga36ag6eaed946d75b;1"
 data "Icon" "Trips_Fallen_Wings_Skill"
 data "Properties" "Highlighted;ForceShowInCC;IsHidden"
 data "Boosts" "Tag(WOTD_FOLD)"
+
+new entry "Trips_Model_Wings_Scourge_Old"
+type "PassiveData"
+data "DisplayName" "h584313fbgd9ceg4a71gac9age7d3ca3ccc22;1"
+data "Description" "h00ffbfabgafe0g45f3g85dbg3dbdbe48e679;1"
+data "Icon" "Trips_Scourge_Wings_Skill"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(WOTD_SCOLD)"
+
+
 
 //Tags for which level the wings spawn
 
