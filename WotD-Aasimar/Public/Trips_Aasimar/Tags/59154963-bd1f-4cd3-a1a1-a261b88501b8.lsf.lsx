@@ -24,9 +24,6 @@
 						<node id="Category">
 							<attribute id="Name" type="LSString" value="PlayerRace" />
 						</node>
-						<node id="Category">
-							<attribute id="Name" type="LSString" value="CharacterSheet" />
-						</node>
 					</children>
 				</node>
 			</children>
