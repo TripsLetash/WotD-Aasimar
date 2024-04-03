@@ -152,7 +152,7 @@
           <attribute id="Name" type="LSString" value="Trips_Aasimar_1" />
           <attribute id="Boosts" type="LSString" value="" />
           <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Passives;Aasimar_Passive_lvl1" />
-          <attribute id="Selectors" type="LSString" value="SelectPassives(c3a8da40-5df9-43f7-ad30-825a7a2068ef,1,Trips_ProgressionDescriptionOrigins);SelectPassives(54ee2b8b-7647-4db5-86e0-97a994d79959,1,Trips_WingsModelSelector);SelectPassives(ad69d480-fa49-4666-91b2-5e64d4ef4ef5,1,Trips_WingsLevelSelector)" />
+          <attribute id="Selectors" type="LSString" value="SelectPassives(c3a8da40-5df9-43f7-ad30-825a7a2068ef,1,Trips_ProgressionDescriptionOrigins);SelectPassives(54ee2b8b-7647-4db5-86e0-97a994d79959,1,Trips_WingsModelSelector);SelectPassives(22d0d78e-b359-4a0b-b306-e3df6483e2d2,1,Trips_WingsShowSelector);SelectPassives(ad69d480-fa49-4666-91b2-5e64d4ef4ef5,1,Trips_WingsLevelSelector)" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81" />
           <attribute id="UUID" type="guid" value="459fe764-6f12-4533-9b84-a69d16a8832e" />

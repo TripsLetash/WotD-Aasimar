@@ -13,6 +13,10 @@
                     <attribute id="UUID" type="guid" value="54ee2b8b-7647-4db5-86e0-97a994d79959"/> <!-- This requires a new UUID -->
                 </node>
                 <node id="PassiveList"> <!-- this list contains the names of all the passives defined in the PassiveTags.txt file, each name must be seperated by a comma -->
+                    <attribute id="Passives" type="LSString" value="Trips_Wings_Show,Trips_Wings_Not_Show"/>
+                    <attribute id="UUID" type="guid" value="22d0d78e-b359-4a0b-b306-e3df6483e2d2"/> <!-- This requires a new UUID -->
+                </node>
+                <node id="PassiveList"> <!-- this list contains the names of all the passives defined in the PassiveTags.txt file, each name must be seperated by a comma -->
                     <attribute id="Passives" type="LSString" value="Trips_Passive_Level_One_Wings,Trips_Passive_Level_Ten_Wings"/>
                     <attribute id="UUID" type="guid" value="ad69d480-fa49-4666-91b2-5e64d4ef4ef5"/> <!-- This requires a new UUID -->
                 </node>

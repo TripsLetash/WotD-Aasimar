@@ -1,5 +1,3 @@
-
-
 new entry "Trips_Aa_Passive_Tags_Human"
 type "PassiveData"
 data "DisplayName" "hc6c0ff98g22ddg42fega326g916b051f4292;1"
@@ -242,7 +240,23 @@ data "Icon" "Trips_Lumi_Wings_Item"
 data "Properties" "Highlighted;ForceShowInCC;IsHidden"
 data "Boosts" "Tag(WOTD_SCOLD)"
 
+//Tag to show wings in cutscenes
 
+new entry "Trips_Wings_Show"
+type "PassiveData"
+data "DisplayName" "h509ddc29g7018g4468ga17bgb114dcf93986;1"
+data "Description" "hbf90eb8eg2d57g4e4eg978fgcb1e312018c5;1"
+data "Icon" "Trips_Aasimar_Flight_Skill"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(WINGS_SHOW)"
+
+new entry "Trips_Wings_Not_Show"
+type "PassiveData"
+data "DisplayName" "he2a7a517gfa32g4b66g87dfg1b8c8b9e3f86;1"
+data "Description" "hd3e32b2bg6b0eg48d4g854ag106597e4fbce;1"
+data "Icon" "Trips_Aasimar_Flight_Skill"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" ""
 
 //Tags for which level the wings spawn
 

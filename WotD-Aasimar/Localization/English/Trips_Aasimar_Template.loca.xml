@@ -63,12 +63,19 @@
 	<content contentuid="h00ffbfabgafe0g45f3g85dbg3dbdbe48e679" version="1">Brighter than the sun.</content>
 	<content contentuid="hdb731d16g0bd7g415agbb1bgb9ca52a0bfef" version="1">Double Honest Wings (Seraph)</content>	
 	<content contentuid="h6836e1edge050g44fbga42bg10d8cf0c6dfc" version="1">Be not afraid...</content>
+	<!--Selector Wings Show/Hide-->
+	<content contentuid="h95dd3ee4g9c6bg4b49gace9gb4fe7cf7ed1f" version="1">Wings in Cutscenes</content>
+	<content contentuid="h07d09ab1g4d47g464bg9d18gba7888647f3c" version="1">Select whether your wings show in cutscenes.</content>
+	<content contentuid="h509ddc29g7018g4468ga17bgb114dcf93986" version="1">Show Wings</content>
+	<content contentuid="hbf90eb8eg2d57g4e4eg978fgcb1e312018c5" version="1">Wings are visible during cutscenes.</content>	
+	<content contentuid="he2a7a517gfa32g4b66g87dfg1b8c8b9e3f86" version="1">Hide Wings (Default)</content>
+	<content contentuid="hd3e32b2bg6b0eg48d4g854ag106597e4fbce" version="1">Wings are hidden during cutscenes.</content>		
 	<!--Selector Wings LEVEL-->
 	<content contentuid="hd4f4bedeg45ceg4f35gad01ga40aa0365d1a" version="1">Wings Level</content>
 	<content contentuid="hb0239388g634ag4518ga1d3g18a3ebd6a5e5" version="1">Select when you manifest your permanent wings.</content>
 	<content contentuid="h84b0be6bgc107g4a48gbf03g8f2e544632fc" version="1">Level 1</content>
 	<content contentuid="h91523410gff81g4e6cg9d13g1672e5bd6ead" version="1">You unlock the ability to manifest your wings at an earlier time than normal.</content>	
-	<content contentuid="hd712da8ag425fg4e0ag8349g6942953c551f" version="1">Level 10</content>
+	<content contentuid="hd712da8ag425fg4e0ag8349g6942953c551f" version="1">Level 10 (Default)</content>
 	<content contentuid="h9407f71fgfc96g4b89g823ag78276513b6cd" version="1">You follow the intended progression.</content>	
 	<!--Heads-->
 	<!--Yellow-->
