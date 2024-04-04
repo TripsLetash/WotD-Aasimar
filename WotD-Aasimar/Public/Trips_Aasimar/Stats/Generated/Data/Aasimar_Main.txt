@@ -142,8 +142,21 @@ data "Properties" ""
 //Fallen 20110880-cd92-4c24-9ed1-2c676498d36a
 //Harbinger 526f7821-d442-429b-8b70-9aae14fac463
 
-//lvl 10
 new entry "Aasimar_Passive_lvl10"
+type "PassiveData"
+data "StatsFunctorContext" "OnMovedDistance;OnStatusRemoved;OnStatusApplied"
+data "StatsFunctors" "IF(not HasStatus('TOGGLE_WINGS_LEVELTEN',context.Source) and WingLvlTen()):ApplyStatus(SELF,TOGGLE_WINGS_LEVELTEN,100,-1)
+data "Properties" "IsHidden"
+
+new entry "TOGGLE_WINGS_LEVELTEN" 
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Aasimar_Get_Toggle_LevelTen"
+data "StackId" "TOGGLE_WINGS_LEVELTEN"
+data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//lvl 10
+new entry "Aasimar_Get_Toggle_LevelTen"
 type "PassiveData"
 data "Icon" "Trips_Protector_Ten_Passive"
 data "DisplayName" "h62a92649ge35dg480egba44gb984f394e6bf"
@@ -152,36 +165,60 @@ data "StatsFunctorContext" ""
 data "ToggleOnFunctors" "ApplyStatus(SELF,DEVA_LOCO,100,-1);ApplyStatus(SELF,AASIMAR_PASSIVE_WINGS_10,100,-1);IF(IsSco()):ApplyStatus(SUM_SCO,100,0);IF(IsProt()):ApplyStatus(SUM_PROT,100,0);IF(IsFal()):ApplyStatus(SUM_FAL,100,0);IF(IsHarb()):ApplyStatus(SUM_HARB,100,0);IF(IsPold()):ApplyStatus(SUM_POLD,100,0);IF(IsFold()):ApplyStatus(SUM_FOLD,100,0);IF(IsScold()):ApplyStatus(SUM_SCOLD,100,0);IF(IsFlame()):ApplyStatus(SUM_FLAME,100,0)"
 data "ToggleOffFunctors" "RemoveStatus(SELF,DEVA_LOCO);RemoveStatus(SELF,AASIMAR_PASSIVE_WINGS_10);IF(IsProt()):ApplyStatus(UNS_PROT,100,0);IF(IsSco()):ApplyStatus(UNS_SCO,100,0);IF(IsFal()):ApplyStatus(UNS_FAL,100,0);IF(IsHarb()):ApplyStatus(UNS_HARB,100,0);IF(IsPold()):ApplyStatus(UNS_POLD,100,0);IF(IsFold()):ApplyStatus(UNS_FOLD,100,0);IF(IsScold()):ApplyStatus(UNS_SCOLD,100,0);IF(IsFlame()):ApplyStatus(UNS_FLAME,100,0);RemoveStatus(SELF,AASIMAR_PASSIVE_WINGS)"
 data "EnabledConditions" "WingLvlTen(context.Source)"
-data "EnabledContext" "OnCreate;OnStatusRemoved;OnStatusApplied"
+data "EnabledContext" "OnCreate"
 data "StatsFunctors" ""
-data "Properties" "IsToggled;ToggledDefaultAddToHotbar;Highlighted;ForceShowInCC"
+data "Properties" "ToggledDefaultOn;IsToggled;ToggledDefaultAddToHotbar;Highlighted;ForceShowInCC"
 //lvl 1
+
 new entry "Aasimar_Passive_lvl1"
 type "PassiveData"
+data "StatsFunctorContext" "OnMovedDistance;OnStatusRemoved;OnStatusApplied"
+data "StatsFunctors" "IF(not HasStatus('TOGGLE_WINGS_LEVELONE',context.Source) and WingLvlOne()):ApplyStatus(SELF,TOGGLE_WINGS_LEVELONE,100,-1)
+data "Properties" "IsHidden"
+
+new entry "TOGGLE_WINGS_LEVELONE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Aasimar_Get_Toggle_LevelOne"
+data "StackId" "TOGGLE_WINGS_LEVELONE"
+data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "Aasimar_Get_Toggle_LevelOne"
+type "PassiveData"
 data "Icon" "Trips_Protector_Ten_Passive"
-data "DisplayName" "h62a92649ge35dg480egba44gb984f394e6bf"
+data "DisplayName" "he98de66e8eb84a6997327245384035532beg"
 data "Description" "hbed6bfddg8353g4199gb7e1g02cd8f65c7df"
-data "StatsFunctorContext" ""
 data "ToggleOnFunctors" "ApplyStatus(SELF,DEVA_LOCO,100,-1);ApplyStatus(SELF,AASIMAR_PASSIVE_WINGS_10,100,-1);IF(IsSco()):ApplyStatus(SUM_SCO,100,0);IF(IsProt()):ApplyStatus(SUM_PROT,100,0);IF(IsFal()):ApplyStatus(SUM_FAL,100,0);IF(IsHarb()):ApplyStatus(SUM_HARB,100,0);IF(IsPold()):ApplyStatus(SUM_POLD,100,0);IF(IsFold()):ApplyStatus(SUM_FOLD,100,0);IF(IsScold()):ApplyStatus(SUM_SCOLD,100,0);IF(IsFlame()):ApplyStatus(SUM_FLAME,100,0)"
 data "ToggleOffFunctors" "RemoveStatus(SELF,DEVA_LOCO);RemoveStatus(SELF,AASIMAR_PASSIVE_WINGS_10);IF(IsProt()):ApplyStatus(UNS_PROT,100,0);IF(IsSco()):ApplyStatus(UNS_SCO,100,0);IF(IsFal()):ApplyStatus(UNS_FAL,100,0);IF(IsHarb()):ApplyStatus(UNS_HARB,100,0);IF(IsPold()):ApplyStatus(UNS_POLD,100,0);IF(IsFold()):ApplyStatus(UNS_FOLD,100,0);IF(IsScold()):ApplyStatus(UNS_SCOLD,100,0);IF(IsFlame()):ApplyStatus(UNS_FLAME,100,0);RemoveStatus(SELF,AASIMAR_PASSIVE_WINGS)"
-data "EnabledConditions" "WingLvlOne(context.Source)"
-data "EnabledContext" "OnCreate;OnStatusRemoved;OnStatusApplied"
-data "StatsFunctors" ""
-data "Properties" "IsToggled;ToggledDefaultAddToHotbar;Highlighted;ForceShowInCC"
+data "Properties" "ToggledDefaultOn;IsToggled;ToggledDefaultAddToHotbar"
+
 
 new entry "Aasimar_Hireling_Passive_lvl1"
 type "PassiveData"
+data "StatsFunctorContext" "OnMovedDistance;OnStatusRemoved;OnStatusApplied"
+data "StatsFunctors" "IF(not HasStatus('TOGGLE_WINGS_LEVELONE_HIRELING',context.Source) and WingLvlOne()):ApplyStatus(SELF,TOGGLE_WINGS_LEVELONE_HIRELING,100,-1)
+data "Properties" "IsHidden"
+
+new entry "TOGGLE_WINGS_LEVELONE_HIRELING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Aasimar_Get_Toggle_LevelOne_Hireling"
+data "StackId" "TOGGLE_WINGS_LEVELONE"
+data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "Aasimar_Get_Toggle_LevelOne_Hireling"
+type "PassiveData"
 data "Icon" "Trips_Protector_Ten_Passive"
-data "DisplayName" "h62a92649ge35dg480egba44gb984f394e6bf"
+data "DisplayName" "he98de66e8eb84a6997327245384035532beg"
 data "Description" "hbed6bfddg8353g4199gb7e1g02cd8f65c7df"
 data "StatsFunctorContext" ""
 data "ToggleOnFunctors" "ApplyStatus(SELF,DEVA_LOCO,100,-1);ApplyStatus(SELF,AASIMAR_PASSIVE_WINGS_10,100,-1);IF(IsSco()):ApplyStatus(SUM_SCO,100,0);IF(IsProt()):ApplyStatus(SUM_PROT,100,0);IF(IsFal()):ApplyStatus(SUM_FAL,100,0);IF(IsHarb()):ApplyStatus(SUM_HARB,100,0);
 IF(IsPold()):ApplyStatus(SUM_POLD,100,0);IF(IsFold()):ApplyStatus(SUM_FOLD,100,0);IF(IsScold()):ApplyStatus(SUM_SCOLD,100,0);IF(IsFlame()):ApplyStatus(SUM_FLAME,100,0)"
 data "ToggleOffFunctors" "RemoveStatus(SELF,DEVA_LOCO);RemoveStatus(SELF,AASIMAR_PASSIVE_WINGS_10);IF(IsProt()):ApplyStatus(UNS_PROT,100,0);IF(IsSco()):ApplyStatus(UNS_SCO,100,0);IF(IsFal()):ApplyStatus(UNS_FAL,100,0);IF(IsHarb()):ApplyStatus(UNS_HARB,100,0);IF(IsPold()):ApplyStatus(UNS_POLD,100,0);IF(IsFold()):ApplyStatus(UNS_FOLD,100,0);IF(IsScold()):ApplyStatus(UNS_SCOLD,100,0);IF(IsFlame()):ApplyStatus(UNS_FLAME,100,0);RemoveStatus(SELF,AASIMAR_PASSIVE_WINGS)"
 data "EnabledConditions" "WingLvlOne(context.Source)"
-data "EnabledContext" "OnCreate;OnStatusRemoved;OnStatusApplied"
+data "EnabledContext" "OnCreate"
 data "StatsFunctors" ""
-data "Properties" "IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar;Highlighted;ForceShowInCC"
+data "Properties" "ToggledDefaultOn;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
 
 new entry "CelestialRevelation"
 type "PassiveData"
