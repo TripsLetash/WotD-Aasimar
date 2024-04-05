@@ -63,13 +63,9 @@
 	<content contentuid="h00ffbfabgafe0g45f3g85dbg3dbdbe48e679" version="1">Brighter than the sun.</content>
 	<content contentuid="hdb731d16g0bd7g415agbb1bgb9ca52a0bfef" version="1">Double Honest Wings (Seraph)</content>	
 	<content contentuid="h6836e1edge050g44fbga42bg10d8cf0c6dfc" version="1">Be not afraid...</content>
-	<!--Selector Wings Show/Hide-->
-	<content contentuid="h95dd3ee4g9c6bg4b49gace9gb4fe7cf7ed1f" version="1">Wings in Cutscenes</content>
-	<content contentuid="h07d09ab1g4d47g464bg9d18gba7888647f3c" version="1">Select whether your wings show in cutscenes.</content>
-	<content contentuid="h509ddc29g7018g4468ga17bgb114dcf93986" version="1">Show Wings</content>
-	<content contentuid="hbf90eb8eg2d57g4e4eg978fgcb1e312018c5" version="1">Wings are visible during cutscenes.</content>	
-	<content contentuid="he2a7a517gfa32g4b66g87dfg1b8c8b9e3f86" version="1">Hide Wings (Default)</content>
-	<content contentuid="hd3e32b2bg6b0eg48d4g854ag106597e4fbce" version="1">Wings are hidden during cutscenes.</content>		
+	<!--Wings Show/Hide-->
+    <content contentuid="he6777d7f5a1d41589cd316dfb87cc59cge08" version="1">Show Wings in Cutscenes</content>
+    <content contentuid="h5c33ee2876664b0598815d0ac175cf73a6a8" version="1">Toggles whether wings are shown in cutscenes.</content>	
 	<!--Selector Wings LEVEL-->
 	<content contentuid="hd4f4bedeg45ceg4f35gad01ga40aa0365d1a" version="1">Wings Level</content>
 	<content contentuid="hb0239388g634ag4518ga1d3g18a3ebd6a5e5" version="1">Select when you manifest your permanent wings.</content>
@@ -266,6 +262,6 @@
 	<content contentuid="hc3c8bbf6gc4a4g43f0g96a0g817541fe24c0" version="1">Strongheart Halfling</content>
 	<content contentuid="h45317b7ag340fg4cc5g83c3g1e55fbfc7ac6" version="1">You are a Strongheart Halfling.</content>
 
-	<content contentuid="h9bddd57cg9523g41cfg9e5dga95267e2bc72" version="1">No Race</content>
+	<content contentuid="h9bddd57cg9523g41cfg9e5dga95267e2bc72" version="1">No Origin (Pure Aasimar)</content>
 	<content contentuid="h9b9e92f6gd283g4451ga181gb1c142bc326f" version="1">Whoever you were in life you have long forgotten.</content>
 </contentList>

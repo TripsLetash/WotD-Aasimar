@@ -168,6 +168,15 @@ data "Properties" "ToggledDefaultOn;IsToggled;ToggledDefaultAddToHotbar"
 
 //lvl 1
 
+new entry "Aasimar_Get_Toggle_WingsShow"
+type "PassiveData"
+data "Icon" "Trips_Wings_Toggle"
+data "DisplayName" "he6777d7f5a1d41589cd316dfb87cc59cge08"
+data "Description" "h5c33ee2876664b0598815d0ac175cf73a6a8"
+data "ToggleOnFunctors" "ApplyStatus(AASIMAR_WINGS_SHOW, 100,-1);IF(HasWings()):ApplyEquipmentStatus(Underwear,WINGS_HIDDEN,100,0)"
+data "ToggleOffFunctors" "RemoveStatus(AASIMAR_WINGS_SHOW);IF(HasWings()):ApplyEquipmentStatus(Underwear,WINGS_HIDDEN,100,-1)"
+data "Properties" "ToggledDefaultOn;IsToggled;ToggledDefaultAddToHotbar"
+
 new entry "Aasimar_Passive_lvl1"
 type "PassiveData"
 data "StatsFunctorContext" "OnMovedDistance"
@@ -179,6 +188,12 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "Passives" "Aasimar_Get_Toggle_LevelOne"
 data "StackId" "TOGGLE_WINGS_LEVELONE"
+data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "AASIMAR_WINGS_SHOW"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "AASIMAR_WINGS_SHOW"
 data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
 new entry "TOGGLE_HAS_WINGS"

@@ -308,6 +308,13 @@
                     <attribute id="U2" type="float" value="0.28125"/> Right
                     <attribute id="V1" type="float" value="0.03125"/> Top
                     <attribute id="V2" type="float" value="0.0625"/> Bottom			
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Wings_Toggle"/> 42 ROW 2 = 10
+                    <attribute id="U1" type="float" value="0.28125"/> Left
+                    <attribute id="U2" type="float" value="0.3125"/> Right
+                    <attribute id="V1" type="float" value="0.03125"/> Top
+                    <attribute id="V2" type="float" value="0.0625"/> Bottom			
                 </node>	
             </children>
         </node>
