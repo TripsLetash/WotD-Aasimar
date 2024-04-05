@@ -181,7 +181,7 @@
           <attribute id="Level" type="uint8" value="1" />
           <attribute id="Name" type="LSString" value="Trips_Protector_1" />
           <attribute id="Boosts" type="LSString" value="ProficiencyBonus(Skill,Medicine)" />
-          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Smallcast;Aasimar_Protector_Resistance;Trips_ProtectorMark;Aasimar_Get_Toggle_WingsShow" />
+          <attribute id="PassivesAdded" type="LSString" value="Trips_Aasimar_Smallcast;Aasimar_Protector_Resistance;Trips_ProtectorMark" />
           <attribute id="Selectors" type="LSString" value="" />
           <attribute id="ProgressionType" type="uint8" value="2" />
           <attribute id="TableUUID" type="guid" value="33223fd6-6eeb-4581-8368-3edef0225e95" />

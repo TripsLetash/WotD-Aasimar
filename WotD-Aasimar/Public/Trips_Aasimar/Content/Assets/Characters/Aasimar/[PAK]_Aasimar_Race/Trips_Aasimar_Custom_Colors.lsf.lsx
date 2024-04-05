@@ -104,13 +104,6 @@
 									<attribute id="Parameter" type="FixedString" value="YellowingColor" />
 									<attribute id="Value" type="fvec3" value="0.1275298 1 0.7969165" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -221,13 +214,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -280,7 +267,7 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowBrightness" />
-									<attribute id="Value" type="float" value="20" />
+									<attribute id="Value" type="float" value="30" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -338,13 +325,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -455,13 +436,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -514,7 +489,7 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowBrightness" />
-									<attribute id="Value" type="float" value="20" />
+									<attribute id="Value" type="float" value="30" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -572,13 +547,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -631,7 +600,7 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowBrightness" />
-									<attribute id="Value" type="float" value="20" />
+									<attribute id="Value" type="float" value="30" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -689,13 +658,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -806,13 +769,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0 0 0" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -923,13 +880,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -982,7 +933,7 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowBrightness" />
-									<attribute id="Value" type="float" value="20" />
+									<attribute id="Value" type="float" value="30" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -1040,13 +991,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -1156,13 +1101,6 @@
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
-								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
 								</node>
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
@@ -1274,13 +1212,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0 0 0" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -1391,13 +1323,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -1450,7 +1376,7 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowBrightness" />
-									<attribute id="Value" type="float" value="20" />
+									<attribute id="Value" type="float" value="30" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -1508,13 +1434,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -1567,7 +1487,7 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowBrightness" />
-									<attribute id="Value" type="float" value="20" />
+									<attribute id="Value" type="float" value="30" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -1625,13 +1545,6 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -1684,21 +1597,21 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowBrightness" />
-									<attribute id="Value" type="float" value="20" />
+									<attribute id="Value" type="float" value="30" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="IrisEdgeStrength" />
-									<attribute id="Value" type="float" value="0.3" />
+									<attribute id="Value" type="float" value="0.4" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="Redness" />
-									<attribute id="Value" type="float" value="1" />
+									<attribute id="Value" type="float" value="1.5" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -1742,13 +1655,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -1859,13 +1766,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0 0 0" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -1918,7 +1819,7 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowBrightness" />
-									<attribute id="Value" type="float" value="20" />
+									<attribute id="Value" type="float" value="30" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -1976,13 +1877,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -2093,13 +1988,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -2152,7 +2041,7 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowBrightness" />
-									<attribute id="Value" type="float" value="20" />
+									<attribute id="Value" type="float" value="30" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -2210,13 +2099,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
@@ -2269,7 +2152,7 @@
 									<attribute id="Custom" type="bool" value="False" />
 									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Parameter" type="FixedString" value="GlowBrightness" />
-									<attribute id="Value" type="float" value="20" />
+									<attribute id="Value" type="float" value="30" />
 								</node>
 								<node id="ScalarParameters">
 									<attribute id="Color" type="bool" value="False" />
@@ -2327,13 +2210,7 @@
 									<attribute id="Parameter" type="FixedString" value="Eyes_ScleraColour" />
 									<attribute id="Value" type="fvec3" value="0.00268507 0.00268507 0.00268507" />
 								</node>
-								<node id="Texture2DParameters">
-									<attribute id="Color" type="bool" value="False" />
-									<attribute id="Custom" type="bool" value="False" />
-									<attribute id="Enabled" type="bool" value="True" />
-									<attribute id="Parameter" type="FixedString" value="basecolor" />
-									<attribute id="Value" type="FixedString" value="2786ca60-7b17-4802-8110-3e91e608434b" />
-								</node>
+
 								<node id="Vector3Parameters">
 									<attribute id="Color" type="bool" value="True" />
 									<attribute id="Custom" type="bool" value="False" />
