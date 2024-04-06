@@ -1385,6 +1385,7 @@
 											<children>
 												<node id="MapValue">
 													<attribute id="Object" type="FixedString" value="db81761d-4b94-4225-8037-606279460f36" />
+												</node>	
 											</children>
 										</node>
 									</children>
