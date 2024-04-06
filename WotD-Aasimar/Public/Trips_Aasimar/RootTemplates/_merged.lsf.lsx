@@ -34,23 +34,23 @@
 				</node>				
 				<!--Bases-->
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="62fa124d-75ae-446d-a4d8-7a91bb21cc29" /> must be unique
+					<attribute id="MapKey" type="FixedString" value="62fa124d-75ae-446d-a4d8-7a91bb21cc29" /> 
 					<attribute id="Name" type="LSString" value="BASE_Aasimar_Female" />
 					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="df4aee69-40ea-480d-aa96-1abe82c28b66" /> base human reference
+					<attribute id="ParentTemplateId" type="FixedString" value="df4aee69-40ea-480d-aa96-1abe82c28b66" /> 
 					<attribute id="Icon" type="FixedString" value="65508880-7afc-74cf-97eb-8d85c80b79b4-_(Icon_Human_Female)" />
 					<attribute id="EquipmentRace" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="a888490b-e176-4995-ae04-edceb1fc665a" /> which models to load
-					<attribute id="Race" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> define race as aasimar
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="a888490b-e176-4995-ae04-edceb1fc665a" /> 
+					<attribute id="Race" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> 
 					<children>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
-									<attribute id="Object" type="guid" value="59154963-bd1f-4cd3-a1a1-a261b88501b8" /> aasimar tag
+									<attribute id="Object" type="guid" value="59154963-bd1f-4cd3-a1a1-a261b88501b8" /> 
 								</node>
 								<node id="Tag">
-									<attribute id="Object" type="guid" value="d2f86ec3-c41f-47e1-8acd-984872a4d7d5" /> Aasimar tag
+									<attribute id="Object" type="guid" value="d2f86ec3-c41f-47e1-8acd-984872a4d7d5" /> 
 								</node>
 								<node id="Tags">
 									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
@@ -71,23 +71,23 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="9d30f2ab-6dcd-42c5-b293-5dd6e98aefec" /> must be unique
+					<attribute id="MapKey" type="FixedString" value="9d30f2ab-6dcd-42c5-b293-5dd6e98aefec" /> 
 					<attribute id="Name" type="LSString" value="BASE_Aasimar_Male" />
 					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="fd7f2707-8f86-4836-bda8-e0db99c389cc" /> base human reference
+					<attribute id="ParentTemplateId" type="FixedString" value="fd7f2707-8f86-4836-bda8-e0db99c389cc" /> 
 					<attribute id="Icon" type="FixedString" value="c0807a07-7e67-6f66-31d8-437c234a42e9-_(Icon_Human_Male)" />
 					<attribute id="EquipmentRace" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="baf3dee0-1493-4f8b-af0a-c35437c5aed7" /> which models to load
-					<attribute id="Race" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> define race as aasimar
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="baf3dee0-1493-4f8b-af0a-c35437c5aed7" /> 
+					<attribute id="Race" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> 
 					<children>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
-									<attribute id="Object" type="guid" value="59154963-bd1f-4cd3-a1a1-a261b88501b8" /> Aasimar tag
+									<attribute id="Object" type="guid" value="59154963-bd1f-4cd3-a1a1-a261b88501b8" /> 
 								</node>
 								<node id="Tag">
-									<attribute id="Object" type="guid" value="d2f86ec3-c41f-47e1-8acd-984872a4d7d5" /> Aasimar tag
+									<attribute id="Object" type="guid" value="d2f86ec3-c41f-47e1-8acd-984872a4d7d5" /> 
 								</node>
 								<node id="Tags">
 									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
@@ -109,15 +109,15 @@
 				</node>
 				<!--parents-->
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" /> must be unique
+					<attribute id="MapKey" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" /> 
 					<attribute id="Name" type="LSString" value="Aasimar_Female_Player" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="62fa124d-75ae-446d-a4d8-7a91bb21cc29" />
 					<attribute id="Flag" type="int32" value="0" />
-					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" /> dont change
-					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" /> dont change
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0f46db8-a4a2-4873-9931-ab267792a941" /> which models to load
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" /> 
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" /> 
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0f46db8-a4a2-4873-9931-ab267792a941" /> 
 					<children>
 						<node id="SpeakerGroupList">
 							<children>
@@ -134,20 +134,20 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" /> must be unique
+					<attribute id="MapKey" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" /> 
 					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" /> 
 					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
-					<attribute id="EquipmentRace" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> stronk armour set
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="912f0a0a-a322-4e65-b197-a49833a130a3" /> which models to load
+					<attribute id="EquipmentRace" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="912f0a0a-a322-4e65-b197-a49833a130a3" /> 
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<children>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
-									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" /> tag for stronk
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" /> 
 								</node>
 							</children>
 						</node>
@@ -156,15 +156,15 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" /> must be unique
+					<attribute id="MapKey" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" /> 
 					<attribute id="Name" type="LSString" value="Aasimar_Male_Player" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="9d30f2ab-6dcd-42c5-b293-5dd6e98aefec" />
 					<attribute id="Flag" type="int32" value="0" />
-					<attribute id="Stats" type="FixedString" value="HeroHumanMale" /> dont change
-					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" /> dont change
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="103af4dd-60f5-4407-aba3-152a00881cef" /> which models to load
+					<attribute id="Stats" type="FixedString" value="HeroHumanMale" /> 
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" /> 
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="103af4dd-60f5-4407-aba3-152a00881cef" /> 
 					<children>
 						<node id="SpeakerGroupList">
 							<children>
@@ -181,20 +181,20 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" /> must be unique
+					<attribute id="MapKey" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" /> 
 					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Strong" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" /> inherits from normal body sun elf
+					<attribute id="ParentTemplateId" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" /> 
 					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
 					<attribute id="EquipmentRace" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="c5839104-434c-4c6c-830e-0c6b5f091a33" /> which models to load
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c5839104-434c-4c6c-830e-0c6b5f091a33" /> 
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
 					<children>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
-									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" /> tag for stronk
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" /> 
 								</node>
 							</children>
 						</node>
@@ -794,7 +794,7 @@
 											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="c898b8aa-a35c-48ed-91dc-d2cbe7179caf" /> custom
+													<attribute id="Object" type="FixedString" value="c898b8aa-a35c-48ed-91dc-d2cbe7179caf" /> 
 												</node>
 											</children>
 										</node>
@@ -802,7 +802,7 @@
 											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="fe2f2958-edc0-4f56-9505-c600189f5073" /> custom
+													<attribute id="Object" type="FixedString" value="fe2f2958-edc0-4f56-9505-c600189f5073" /> 
 												</node>
 											</children>
 										</node>
@@ -810,7 +810,7 @@
 											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="de3e0f87-061b-47d4-9283-5ecb32b55482" /> custom
+													<attribute id="Object" type="FixedString" value="de3e0f87-061b-47d4-9283-5ecb32b55482" /> 
 												</node>
 											</children>
 										</node>
@@ -818,7 +818,7 @@
 											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="644ec99c-4faa-4ca1-8b23-da8126e6d5de" /> custom
+													<attribute id="Object" type="FixedString" value="644ec99c-4faa-4ca1-8b23-da8126e6d5de" /> 
 												</node>
 											</children>
 										</node>
@@ -884,34 +884,34 @@
 								<node id="Visuals">
 									<children>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" /> hum male
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" /> 
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="72232ed4-00de-43cf-97e8-3413df575cb8" /> custom
+													<attribute id="Object" type="FixedString" value="72232ed4-00de-43cf-97e8-3413df575cb8" /> 
 												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" /> hum fem
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" /> 
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="d000ce74-2986-47d3-b545-08d806760448" /> custom
+													<attribute id="Object" type="FixedString" value="d000ce74-2986-47d3-b545-08d806760448" /> 
 												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" /> hum MS
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" /> 
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="dc2690af-e421-44d2-823e-198c570d9fc2" /> custom
+													<attribute id="Object" type="FixedString" value="dc2690af-e421-44d2-823e-198c570d9fc2" /> 
 												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> hum FS
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="fb9a7e3f-154b-4416-bfb5-1d7ed9ba01b4" /> custom
+													<attribute id="Object" type="FixedString" value="fb9a7e3f-154b-4416-bfb5-1d7ed9ba01b4" /> 
 												</node>
 											</children>
 										</node>
@@ -977,34 +977,34 @@
 								<node id="Visuals">
 									<children>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" /> hum male
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" /> 
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="2d6e84e6-97fb-49d2-862f-8811531652b1" /> custom
+													<attribute id="Object" type="FixedString" value="2d6e84e6-97fb-49d2-862f-8811531652b1" /> 
 												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" /> hum fem
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" /> 
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="0c25c152-9a03-4bf0-b0e0-fb0f12e20c08" /> custom
+													<attribute id="Object" type="FixedString" value="0c25c152-9a03-4bf0-b0e0-fb0f12e20c08" /> 
 												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" /> hum MS
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" /> 
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="49e9d7fb-af1c-4d3e-9111-a8d8bccc4ed6" /> custom
+													<attribute id="Object" type="FixedString" value="49e9d7fb-af1c-4d3e-9111-a8d8bccc4ed6" /> 
 												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> hum FS
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="aa75ebe1-0ee7-46fd-8f66-1499b5d3dbaa" /> custom
+													<attribute id="Object" type="FixedString" value="aa75ebe1-0ee7-46fd-8f66-1499b5d3dbaa" /> 
 												</node>
 											</children>
 										</node>
@@ -1075,7 +1075,7 @@
 											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e6e8b8df-bae6-49ac-a020-c2759e5324ad" /> custom
+													<attribute id="Object" type="FixedString" value="e6e8b8df-bae6-49ac-a020-c2759e5324ad" /> 
 												</node>
 											</children>
 										</node>
@@ -1083,7 +1083,7 @@
 											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="23ae7ce0-c1fe-4e0b-9481-e31471d201c2" /> custom
+													<attribute id="Object" type="FixedString" value="23ae7ce0-c1fe-4e0b-9481-e31471d201c2" /> 
 												</node>
 											</children>
 										</node>
@@ -1091,7 +1091,7 @@
 											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="2d863342-34ad-4a09-b50d-32fb907b7cd1" /> custom
+													<attribute id="Object" type="FixedString" value="2d863342-34ad-4a09-b50d-32fb907b7cd1" /> 
 												</node>
 											</children>
 										</node>
@@ -1099,7 +1099,7 @@
 											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="19ce82fa-7f72-41f5-bbfe-b2c75baf575e" /> custom
+													<attribute id="Object" type="FixedString" value="19ce82fa-7f72-41f5-bbfe-b2c75baf575e" /> 
 												</node>
 											</children>
 										</node>
@@ -1357,35 +1357,34 @@
 								<node id="Visuals">
 									<children>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" /> hum male
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="b7fe70f9-97d5-43df-99a0-39d70a9a3b4e" /> custom
+													<attribute id="Object" type="FixedString" value="b7fe70f9-97d5-43df-99a0-39d70a9a3b4e" />
 												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" /> hum fem
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="2787d90d-f3cf-40df-b5bb-38a36d80e898" /> custom
+													<attribute id="Object" type="FixedString" value="2787d90d-f3cf-40df-b5bb-38a36d80e898" />
 												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" /> hum MS
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="924b803e-dfaf-473c-8601-f33ac21de570" /> custom
+													<attribute id="Object" type="FixedString" value="924b803e-dfaf-473c-8601-f33ac21de570" />
 												</node>
 											</children>
 										</node>
 										<node id="Object">
-											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> hum FS
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="db81761d-4b94-4225-8037-606279460f36" /> custom 
-												</node>
+													<attribute id="Object" type="FixedString" value="db81761d-4b94-4225-8037-606279460f36" />
 											</children>
 										</node>
 									</children>
@@ -1455,7 +1454,7 @@
 											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="e5e6a11f-64a4-418c-9696-260ba980f646" /> custom
+													<attribute id="Object" type="FixedString" value="e5e6a11f-64a4-418c-9696-260ba980f646" />
 												</node>
 											</children>
 										</node>
@@ -1463,7 +1462,7 @@
 											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="668b3a4a-bffc-4c0e-aa46-213c34363222" /> custom
+													<attribute id="Object" type="FixedString" value="668b3a4a-bffc-4c0e-aa46-213c34363222" />
 												</node>
 											</children>
 										</node>
@@ -1471,7 +1470,7 @@
 											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="85a19d96-12dd-4017-9085-4db55cf3791f" /> custom
+													<attribute id="Object" type="FixedString" value="85a19d96-12dd-4017-9085-4db55cf3791f" />
 												</node>
 											</children>
 										</node>
@@ -1479,7 +1478,7 @@
 											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
 											<children>
 												<node id="MapValue">
-													<attribute id="Object" type="FixedString" value="2debede6-1d80-4ec4-b96d-8c002ec7ac15" /> custom
+													<attribute id="Object" type="FixedString" value="2debede6-1d80-4ec4-b96d-8c002ec7ac15" />
 												</node>
 											</children>
 										</node>
