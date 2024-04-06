@@ -5919,7 +5919,7 @@
                                     <children>
                                         <node id="AnimationSubSets">
                                             <children>
-												<!-- WeaponAnimationSet Sword2H -->
+											<!-- WeaponAnimationSet Sword2H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="808afd36-6e32-4b3f-a762-bdfb53bc8d52" />
@@ -5962,7 +5962,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet MH Slashing1H OH Shield1H -->
+											<!-- WeaponAnimationSet MH Slashing1H OH Shield1H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="fbddf847-9b06-4913-aca1-38932d01fe60" />
@@ -6005,7 +6005,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet Generic2H -->
+											<!-- WeaponAnimationSet Generic2H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="c8082637-b99d-4c3e-b235-8ef902ce1bea" />
@@ -6048,7 +6048,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet Polearm2H -->
+											<!-- WeaponAnimationSet Polearm2H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="fcc344b8-b7f1-4b4f-be1d-2267ad7a040c" />
@@ -6091,7 +6091,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet Small1H -->
+											<!-- WeaponAnimationSet Small1H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="8ec7e57c-d445-43de-8606-db413bc8a6da" />
@@ -6134,7 +6134,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet Crossbow2H -->
+											<!-- WeaponAnimationSet Crossbow2H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="32bbe70b-19ef-4ca2-9bc9-7beef24c06e0" />
@@ -6177,7 +6177,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet Crossbow1H -->
+											<!-- WeaponAnimationSet Crossbow1H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="e5090d4e-e4d0-46ea-925e-a1d3f78ac6b7" />
@@ -6220,7 +6220,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet Javelin1H -->
+											<!-- WeaponAnimationSet Javelin1H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="3a08ada3-1499-4fcd-b714-53b1691a549c" />
@@ -6263,7 +6263,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet MH Small1H OH Slashing1H -->
+											<!-- WeaponAnimationSet MH Small1H OH Slashing1H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="ce24030f-8351-4c47-b46d-0c45f2f6e2f5" />
@@ -6306,7 +6306,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet MH Crossbow1H OH Crossbow1H -->
+											<!-- WeaponAnimationSet MH Crossbow1H OH Crossbow1H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="f491b41b-c173-43f7-ae34-9c426de2307e" />
@@ -6349,7 +6349,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet MH Piercing1H OH Small1H -->
+											<!-- WeaponAnimationSet MH Piercing1H OH Small1H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="0b503a44-3e2c-4499-9f10-6f7d9f6c12fc" />
@@ -6392,7 +6392,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet OH Shield1H -->
+											<!-- WeaponAnimationSet OH Shield1H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="406b8be4-c409-441f-9335-e6b719770949" />
@@ -6435,7 +6435,523 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet Bow2H -->
+											<!-- WeaponAnimationSet smallMH piercingOH -->
+												<node id="Object">
+													<attribute id="FallBackSubSet" type="FixedString" value="" />
+													<attribute id="MapKey" type="FixedString" value="0ed1b9c4-6dd7-4a92-be99-d2ccee0d21c5" />
+													<children>
+														<node id="Animation">
+															<children>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="db0c8bad-7936-408c-9b8c-0378c96e2713" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="a10ede4b-6b1f-46d3-b52f-2dde06d738d1" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="99115bc1-ee80-4060-b74e-7a0583a13345" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="079e0116-ea7f-4a9d-9aee-7ac7fd9211cf" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="2956cc61-828f-e255-623d-4cdef4d1d29b" />
+																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="42ebade3-36bf-247d-fcb0-4a7029b62650" />
+																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="b18fe171-d5ff-4ec9-87d3-5ad5493e841e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="696e513e-9524-4c35-90e8-8b66f7b7bad9" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											<!-- WeaponAnimationSet PiercingMH shieldOH -->
+												<node id="Object">
+													<attribute id="FallBackSubSet" type="FixedString" value="" />
+													<attribute id="MapKey" type="FixedString" value="9f6580cf-20d4-4603-a80b-47ae036bae59" />
+													<children>
+														<node id="Animation">
+															<children>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="db0c8bad-7936-408c-9b8c-0378c96e2713" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="a10ede4b-6b1f-46d3-b52f-2dde06d738d1" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="99115bc1-ee80-4060-b74e-7a0583a13345" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="079e0116-ea7f-4a9d-9aee-7ac7fd9211cf" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="2956cc61-828f-e255-623d-4cdef4d1d29b" />
+																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="42ebade3-36bf-247d-fcb0-4a7029b62650" />
+																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="b18fe171-d5ff-4ec9-87d3-5ad5493e841e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="696e513e-9524-4c35-90e8-8b66f7b7bad9" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											<!-- WeaponAnimationSet smallMH smallOH -->
+												<node id="Object">
+													<attribute id="FallBackSubSet" type="FixedString" value="" />
+													<attribute id="MapKey" type="FixedString" value="c9521594-0e07-43d9-b6d1-e76272b2b2ad" />
+													<children>
+														<node id="Animation">
+															<children>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="db0c8bad-7936-408c-9b8c-0378c96e2713" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="a10ede4b-6b1f-46d3-b52f-2dde06d738d1" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="99115bc1-ee80-4060-b74e-7a0583a13345" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="079e0116-ea7f-4a9d-9aee-7ac7fd9211cf" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="2956cc61-828f-e255-623d-4cdef4d1d29b" />
+																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="42ebade3-36bf-247d-fcb0-4a7029b62650" />
+																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="b18fe171-d5ff-4ec9-87d3-5ad5493e841e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="696e513e-9524-4c35-90e8-8b66f7b7bad9" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											<!-- WeaponAnimationSet Slashing1H -->
+												<node id="Object">
+													<attribute id="FallBackSubSet" type="FixedString" value="" />
+													<attribute id="MapKey" type="FixedString" value="f6fa9d34-e804-4dd2-819b-5fbc9bcd8364" />
+													<children>
+														<node id="Animation">
+															<children>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="db0c8bad-7936-408c-9b8c-0378c96e2713" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="a10ede4b-6b1f-46d3-b52f-2dde06d738d1" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="99115bc1-ee80-4060-b74e-7a0583a13345" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="079e0116-ea7f-4a9d-9aee-7ac7fd9211cf" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="2956cc61-828f-e255-623d-4cdef4d1d29b" />
+																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="42ebade3-36bf-247d-fcb0-4a7029b62650" />
+																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="b18fe171-d5ff-4ec9-87d3-5ad5493e841e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="696e513e-9524-4c35-90e8-8b66f7b7bad9" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											<!-- WeaponAnimationSet smallMH shieldOH -->
+												<node id="Object">
+													<attribute id="FallBackSubSet" type="FixedString" value="" />
+													<attribute id="MapKey" type="FixedString" value="3bfdfbfe-4bc4-45c9-b663-400555d13eb4" />
+													<children>
+														<node id="Animation">
+															<children>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="db0c8bad-7936-408c-9b8c-0378c96e2713" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="a10ede4b-6b1f-46d3-b52f-2dde06d738d1" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="99115bc1-ee80-4060-b74e-7a0583a13345" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="079e0116-ea7f-4a9d-9aee-7ac7fd9211cf" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="2956cc61-828f-e255-623d-4cdef4d1d29b" />
+																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="42ebade3-36bf-247d-fcb0-4a7029b62650" />
+																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="b18fe171-d5ff-4ec9-87d3-5ad5493e841e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="696e513e-9524-4c35-90e8-8b66f7b7bad9" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											<!-- WeaponAnimationSet slashingMH slashingOH -->
+												<node id="Object">
+													<attribute id="FallBackSubSet" type="FixedString" value="" />
+													<attribute id="MapKey" type="FixedString" value="4a5c721d-8478-4d2d-bb27-982bff9c8f68" />
+													<children>
+														<node id="Animation">
+															<children>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="db0c8bad-7936-408c-9b8c-0378c96e2713" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="a10ede4b-6b1f-46d3-b52f-2dde06d738d1" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="99115bc1-ee80-4060-b74e-7a0583a13345" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="079e0116-ea7f-4a9d-9aee-7ac7fd9211cf" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="2956cc61-828f-e255-623d-4cdef4d1d29b" />
+																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="42ebade3-36bf-247d-fcb0-4a7029b62650" />
+																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="b18fe171-d5ff-4ec9-87d3-5ad5493e841e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="696e513e-9524-4c35-90e8-8b66f7b7bad9" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											<!-- WeaponAnimationSet slashingMH smallOH -->
+												<node id="Object">
+													<attribute id="FallBackSubSet" type="FixedString" value="" />
+													<attribute id="MapKey" type="FixedString" value="56ca5794-fd29-4a52-90fc-fc0ba54a06ed" />
+													<children>
+														<node id="Animation">
+															<children>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="db0c8bad-7936-408c-9b8c-0378c96e2713" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="a10ede4b-6b1f-46d3-b52f-2dde06d738d1" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="99115bc1-ee80-4060-b74e-7a0583a13345" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="079e0116-ea7f-4a9d-9aee-7ac7fd9211cf" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="2956cc61-828f-e255-623d-4cdef4d1d29b" />
+																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="42ebade3-36bf-247d-fcb0-4a7029b62650" />
+																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="b18fe171-d5ff-4ec9-87d3-5ad5493e841e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="696e513e-9524-4c35-90e8-8b66f7b7bad9" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+	 										<!-- WeaponAnimationSet?????-->
+												<node id="Object">
+													<attribute id="FallBackSubSet" type="FixedString" value="" />
+													<attribute id="MapKey" type="FixedString" value="5aa86d03-9acd-4218-8dff-a3715135771d" />
+													<children>
+														<node id="Animation">
+															<children>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="22045875-d1be-65cc-f3d4-a1fc097f5815" />
+																	<attribute id="MapKey" type="FixedString" value="696e513e-9524-4c35-90e8-8b66f7b7bad9" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="22045875-d1be-65cc-f3d4-a1fc097f5815" />
+																	<attribute id="MapKey" type="FixedString" value="b18fe171-d5ff-4ec9-87d3-5ad5493e841e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="42ebade3-36bf-247d-fcb0-4a7029b62650" />
+																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="b4925bf8-1897-1fba-b284-6c8e739867a8" />
+																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="46bc3a92-4929-71ec-d45e-66468dd23d07" />
+																	<attribute id="MapKey" type="FixedString" value="079e0116-ea7f-4a9d-9aee-7ac7fd9211cf" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="46bc3a92-4929-71ec-d45e-66468dd23d07" />
+																	<attribute id="MapKey" type="FixedString" value="99115bc1-ee80-4060-b74e-7a0583a13345" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="46bc3a92-4929-71ec-d45e-66468dd23d07" />
+																	<attribute id="MapKey" type="FixedString" value="a10ede4b-6b1f-46d3-b52f-2dde06d738d1" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="46bc3a92-4929-71ec-d45e-66468dd23d07" />
+																	<attribute id="MapKey" type="FixedString" value="db0c8bad-7936-408c-9b8c-0378c96e2713" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+	 										<!-- WeaponAnimationSet?????-->
+												<node id="Object">
+													<attribute id="FallBackSubSet" type="FixedString" value="" />
+													<attribute id="MapKey" type="FixedString" value="59ebd355-c925-4ebc-9383-40ec35831724" />
+													<children>
+														<node id="Animation">
+															<children>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="22045875-d1be-65cc-f3d4-a1fc097f5815" />
+																	<attribute id="MapKey" type="FixedString" value="696e513e-9524-4c35-90e8-8b66f7b7bad9" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="22045875-d1be-65cc-f3d4-a1fc097f5815" />
+																	<attribute id="MapKey" type="FixedString" value="b18fe171-d5ff-4ec9-87d3-5ad5493e841e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="42ebade3-36bf-247d-fcb0-4a7029b62650" />
+																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="b4925bf8-1897-1fba-b284-6c8e739867a8" />
+																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="46bc3a92-4929-71ec-d45e-66468dd23d07" />
+																	<attribute id="MapKey" type="FixedString" value="079e0116-ea7f-4a9d-9aee-7ac7fd9211cf" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="46bc3a92-4929-71ec-d45e-66468dd23d07" />
+																	<attribute id="MapKey" type="FixedString" value="99115bc1-ee80-4060-b74e-7a0583a13345" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="46bc3a92-4929-71ec-d45e-66468dd23d07" />
+																	<attribute id="MapKey" type="FixedString" value="a10ede4b-6b1f-46d3-b52f-2dde06d738d1" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="46bc3a92-4929-71ec-d45e-66468dd23d07" />
+																	<attribute id="MapKey" type="FixedString" value="db0c8bad-7936-408c-9b8c-0378c96e2713" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+	 										<!-- WeaponAnimationSet Spear2H-->
+												<node id="Object">
+													<attribute id="FallBackSubSet" type="FixedString" value="" />
+													<attribute id="MapKey" type="FixedString" value="ac3f0da3-0af0-4637-8d5a-06ea063e0860" />
+													<children>
+														<node id="Animation">
+															<children>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="22045875-d1be-65cc-f3d4-a1fc097f5815" />
+																	<attribute id="MapKey" type="FixedString" value="696e513e-9524-4c35-90e8-8b66f7b7bad9" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="22045875-d1be-65cc-f3d4-a1fc097f5815" />
+																	<attribute id="MapKey" type="FixedString" value="b18fe171-d5ff-4ec9-87d3-5ad5493e841e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="42ebade3-36bf-247d-fcb0-4a7029b62650" />
+																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="b4925bf8-1897-1fba-b284-6c8e739867a8" />
+																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="46bc3a92-4929-71ec-d45e-66468dd23d07" />
+																	<attribute id="MapKey" type="FixedString" value="079e0116-ea7f-4a9d-9aee-7ac7fd9211cf" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="46bc3a92-4929-71ec-d45e-66468dd23d07" />
+																	<attribute id="MapKey" type="FixedString" value="99115bc1-ee80-4060-b74e-7a0583a13345" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="46bc3a92-4929-71ec-d45e-66468dd23d07" />
+																	<attribute id="MapKey" type="FixedString" value="a10ede4b-6b1f-46d3-b52f-2dde06d738d1" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="46bc3a92-4929-71ec-d45e-66468dd23d07" />
+																	<attribute id="MapKey" type="FixedString" value="db0c8bad-7936-408c-9b8c-0378c96e2713" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											<!-- WeaponAnimationSet javelinMH javelinOH-->
+												<node id="Object">
+													<attribute id="FallBackSubSet" type="FixedString" value="" />
+													<attribute id="MapKey" type="FixedString" value="1a1b8d62-6b9a-477d-8e07-3c4ac65f13d9" />
+													<children>
+														<node id="Animation">
+															<children>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="db0c8bad-7936-408c-9b8c-0378c96e2713" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="a10ede4b-6b1f-46d3-b52f-2dde06d738d1" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="99115bc1-ee80-4060-b74e-7a0583a13345" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="079e0116-ea7f-4a9d-9aee-7ac7fd9211cf" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="2956cc61-828f-e255-623d-4cdef4d1d29b" />
+																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="42ebade3-36bf-247d-fcb0-4a7029b62650" />
+																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="b18fe171-d5ff-4ec9-87d3-5ad5493e841e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="696e513e-9524-4c35-90e8-8b66f7b7bad9" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											<!-- WeaponAnimationSet Sling!H -->
+												<node id="Object">
+													<attribute id="FallBackSubSet" type="FixedString" value="" />
+													<attribute id="MapKey" type="FixedString" value="9e6dcda1-bb21-4906-a868-8693f28a1a66" />
+													<children>
+														<node id="Animation">
+															<children>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="db0c8bad-7936-408c-9b8c-0378c96e2713" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="a10ede4b-6b1f-46d3-b52f-2dde06d738d1" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="99115bc1-ee80-4060-b74e-7a0583a13345" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dca3e9e0-7511-46c1-327b-e692ebb95b55" />
+																	<attribute id="MapKey" type="FixedString" value="079e0116-ea7f-4a9d-9aee-7ac7fd9211cf" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="2956cc61-828f-e255-623d-4cdef4d1d29b" />
+																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="42ebade3-36bf-247d-fcb0-4a7029b62650" />
+																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="b18fe171-d5ff-4ec9-87d3-5ad5493e841e" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="ecf4484f-d255-38cb-c4ab-7baf519a123e" />
+																	<attribute id="MapKey" type="FixedString" value="696e513e-9524-4c35-90e8-8b66f7b7bad9" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											<!-- WeaponAnimationSet Bow2H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="f709f223-f46c-44ff-8212-87ca9a2aa5dd" />
@@ -6478,7 +6994,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet Staff2H -->
+											<!-- WeaponAnimationSet Staff2H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="b9c982a6-27a5-4f46-9ad0-7a08f41d2385" />
@@ -6521,7 +7037,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet MH Javelin1H OH Shield1H -->
+											<!-- WeaponAnimationSet MH Javelin1H OH Shield1H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="7d722c10-83dd-4c67-96df-6103c88ab593" />
@@ -6564,7 +7080,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet Piercing1H -->
+											<!-- WeaponAnimationSet Piercing1H -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="8c360b6c-0d4b-48be-bc94-a6ac7c8b5a52" />
@@ -6607,7 +7123,7 @@
 														</node>
 													</children>
 												</node>
-												<!-- WeaponAnimationSet None -->
+											<!-- WeaponAnimationSet None -->
 												<node id="Object">
 													<attribute id="FallBackSubSet" type="FixedString" value="" />
 													<attribute id="MapKey" type="FixedString" value="" />

@@ -166,7 +166,7 @@ data "DisplayName" "he6777d7f5a1d41589cd316dfb87cc59cge08"
 data "Description" "h5c33ee2876664b0598815d0ac175cf73a6a8"
 data "ToggleOnFunctors" "ApplyStatus(AASIMAR_WINGS_SHOW, 100,-1);IF(HasWings()):ApplyEquipmentStatus(Underwear,WINGS_HIDDEN,100,0)"
 data "ToggleOffFunctors" "RemoveStatus(AASIMAR_WINGS_SHOW);IF(HasWings()):ApplyEquipmentStatus(Underwear,WINGS_HIDDEN,100,-1)"
-data "Properties" "ToggledDefaultOn;IsToggled;ToggledDefaultAddToHotbar"
+data "Properties" "ToggledDefaultOn;IsToggled;ToggledDefaultAddToHotbar;IsHidden"
 
 new entry "Aasimar_Passive_lvl1"
 type "PassiveData"
