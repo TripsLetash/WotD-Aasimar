@@ -744,6 +744,7 @@
 					<attribute id="Name" type="LSString" value="Protector Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Protector_Wings" />
 					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="True" />
@@ -837,6 +838,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="8bc82dd5-e636-492a-81bf-75bf4a7142ad" />
 					<attribute id="Name" type="LSString" value="Protector Wings Old" />
+					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="Stats" type="FixedString" value="Trips_Protector_Wings_Old" />
 					<attribute id="StoryItem" type="bool" value="True" />
 					<attribute id="ParentTemplateId" type="FixedString" value="a09273ba-6549-4cf9-ba47-615a962baf9f" /> <!--base_Armor parent ID-->
@@ -931,6 +933,7 @@
 					<attribute id="MapKey" type="FixedString" value="e92cf0a1-9658-45cc-bbc0-52f9c060aaf3" />
 					<attribute id="Name" type="LSString" value="Scourge Wings Old" />
 					<attribute id="Stats" type="FixedString" value="Trips_Scourge_Wings_Old" />
+					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="StoryItem" type="bool" value="True" />
 					<attribute id="ParentTemplateId" type="FixedString" value="a09273ba-6549-4cf9-ba47-615a962baf9f" /> <!--base_Armor parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
@@ -1025,6 +1028,7 @@
 					<attribute id="Name" type="LSString" value="Scourge Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Scourge_Wings" />
 					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="True" />
@@ -1120,6 +1124,7 @@
 					<attribute id="Name" type="LSString" value="Fallen Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Fallen_Wings" />
 					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="True" />
@@ -1215,6 +1220,7 @@
 					<attribute id="Name" type="LSString" value="Fallen Wings Old" />
 					<attribute id="Stats" type="FixedString" value="Trips_Fallen_Wings_Old" />
 					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="True" />
@@ -1310,6 +1316,7 @@
 					<attribute id="Name" type="LSString" value="Flame Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Flame_Wings" />
 					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="True" />
@@ -1404,6 +1411,7 @@
 					<attribute id="MapKey" type="FixedString" value="526f7821-d442-429b-8b70-9aae14fac463" />
 					<attribute id="Name" type="LSString" value="Harbinger Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Harbinger_Wings" />
+					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
 					<attribute id="StoryItem" type="bool" value="True" />
 					<attribute id="Type" type="FixedString" value="item" />
