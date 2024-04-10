@@ -1299,7 +1299,7 @@ data "DisplayName" "ha6002a5fg21adg4fadg9b4cg716fe81edb7f"
 data "Description" "h150ca34cg2f46g4b96gb94dga19ac9438efa"
 data "Icon" "Trips_Protector_Wings_Skill"
 data "StatusType" "BOOST"
-data "OnApplyFunctors" "IF(HasWings() and WingLvlTen() and not CharacterLevelGreaterThan(9,context.Source)):ApplyEquipmentStatus(Underwear,WINGS_DURATION_ITEM,100,10);IF(HasWings() and WingLevelOne() or WingLvlTen() and CharacterLevelGreaterThan(9,context.Source)):ApplyEquipmentStatus(Underwear,WINGS_DURATION_ITEM,100,-1);IF(not WingsShow()):ApplyEquipmentStatus(Underwear,WINGS_HIDDEN,100,-1)"
+data "OnApplyFunctors" "IF(WingLvlTen() and not CharacterLevelGreaterThan(9,context.Source)):ApplyEquipmentStatus(Underwear,WINGS_DURATION_ITEM,100,10);IF(WingLevelOne()):ApplyEquipmentStatus(Underwear,WINGS_DURATION_ITEM,100,-1);IF(WingLvlTen() and CharacterLevelGreaterThan(9,context.Source)):ApplyEquipmentStatus(Underwear,WINGS_DURATION_ITEM,100,-1);IF(not WingsShow()):ApplyEquipmentStatus(Underwear,WINGS_HIDDEN,100,-1)"
 data "OnRemoveFunctors" "ApplyStatus(UNS_WINGS,100,0)"
 data "StatusPropertyFlags" "ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
 
@@ -1379,7 +1379,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "OnApplyFunctors" "Unsummon()"
 data "StackId" "WINGS_ACTIVE_DISMISS_BUTTON"
-data "StatusPropertyFlags" "IgnoreResting"
+data "StatusPropertyFlags" "IgnoreResting;TickingWithSource;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
 new entry "WINGS_DURATION_ITEM"
 type "StatusData"
@@ -1387,8 +1387,8 @@ data "StatusType" "BOOST"
 data "OnRemoveFunctors" "Unsummon()"
 data "StackId" "WINGS_ACTIVE_DISMISS"
 data "TickType" "EndTurn"
-data "StatusPropertyFlags" "IgnoreResting;TickingWithSource"
-//;DisableOverhead;DisableCombatlog;DisablePortraitIndicator
+data "StatusPropertyFlags" "IgnoreResting;TickingWithSource;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
 
 new entry "DEVA_LOCO"
 type "StatusData"
