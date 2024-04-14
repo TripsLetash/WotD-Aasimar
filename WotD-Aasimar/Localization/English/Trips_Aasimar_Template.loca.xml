@@ -73,16 +73,6 @@
 	<content contentuid="h91523410gff81g4e6cg9d13g1672e5bd6ead" version="1">You unlock the ability to manifest your wings at an earlier time than normal.</content>	
 	<content contentuid="hd712da8ag425fg4e0ag8349g6942953c551f" version="1">Level 10 (Default)</content>
 	<content contentuid="h9407f71fgfc96g4b89g823ag78276513b6cd" version="1">You follow the intended progression.</content>	
-	<!--Heads-->
-	<!--Yellow-->
-	<!--Blue-->
-	<content contentuid="h2b1cc186g04b7g49edga7c6gac1c997f5e93" version="1">Aasimar Cracks 01</content>
-	<content contentuid="h253e0d9dgcb71g4b13g9639ga608fb6cbe67" version="1">Aasimar Cracks 02</content>
-	<content contentuid="h6508367ag8bb9g4fa4ga92egc201bd8ad897" version="1">Aasimar Cracks 03</content>
-	<content contentuid="h24629ff1gcba5g40edg92e5gfe654be9a233" version="1">Aasimar Cracks 04</content>	
-	<content contentuid="hd5d4b206g3e60g4409g89b3gf427a7e953ba" version="1">Aasimar Cracks 05</content>
-	<content contentuid="haf43243cge15ag4922g9e83ga0652f9a4d86" version="1">Aasimar Cracks by Engels</content>
-	<!--Green-->
 	<!--Harbinger-->
 	<!--Halos-->
 	<!--Crown-->
@@ -264,4 +254,32 @@
 
 	<content contentuid="h9bddd57cg9523g41cfg9e5dga95267e2bc72" version="1">No Origin (Pure Aasimar)</content>
 	<content contentuid="h9b9e92f6gd283g4451ga181gb1c142bc326f" version="1">Whoever you were in life you have long forgotten.</content>
+	<!--Heads-->
+	<content contentuid="h2b1cc186g04b7g49edga7c6gac1c997f5e93" version="1">Aasimar Cracks 01</content>
+	<content contentuid="h253e0d9dgcb71g4b13g9639ga608fb6cbe67" version="1">Aasimar Cracks 02</content>
+	<content contentuid="h6508367ag8bb9g4fa4ga92egc201bd8ad897" version="1">Aasimar Cracks 03</content>
+	<content contentuid="h24629ff1gcba5g40edg92e5gfe654be9a233" version="1">Aasimar Cracks 04</content>	
+	<content contentuid="hd5d4b206g3e60g4409g89b3gf427a7e953ba" version="1">Aasimar Cracks 05</content>
+	<content contentuid="haf43243cge15ag4922g9e83ga0652f9a4d86" version="1">Aasimar Cracks by Engels</content>
+
+	<content contentuid="h8b9f12ba67c2453db79e28d9230359e19606" version="1">Elf Cracks 01</content>
+	<content contentuid="h43f6e970dc51496f811d0f0275744f3b241f" version="1">Elf Cracks 02</content>
+	<content contentuid="hccaf2091ff364e1994711545bd99bd2dfc33" version="1">Elf Cracks 03</content>
+	<content contentuid="h828c0b53a0d84c208de10ef2262f156f2f6a" version="1">Elf Cracks 04</content>	
+	<content contentuid="h56f8c2dc1d1a4fed86c9527b64231f1cbg6b" version="1">Elf Cracks 05</content>
+	<content contentuid="h055b066e90a8432ab452f820f6798b4f2c41" version="1">Elf Cracks 06</content>
+	<content contentuid="h901b617982bb47ea9810ed0c75ca16e62ac4" version="1">Elf Cracks 07</content>	
+	<content contentuid="h69445d079a984aa198b3df8323460076411b" version="1">Elf Cracks 08</content>
+
+	<content contentuid="hf6a8594d7a3f4468a19bdace66e3fd06aggd" version="1">Half-Elf Cracks 01</content>
+	<content contentuid="h985e4cd32535409f87852cc1bcf56d08708c" version="1">Half-Elf Cracks 02</content>
+	<content contentuid="h1c88316026624452a193e5f28322cf4efd26" version="1">Half-Elf Cracks 03</content>
+	<content contentuid="h67e6b8cd95c04f0898b56b809a3d777c80e0" version="1">Half-Elf Cracks 04</content>	
+	<content contentuid="hdb63e36142004bdca68531b36530f7464a0d" version="1">Half-Elf Cracks 05</content>
+	<content contentuid="hf081f0ce9d3448cca5ea85fe4bcd4a1d7de5" version="1">Half-Elf Cracks 06</content>
+	<content contentuid="hc79c59f3067d477488b990254f84b85de747" version="1">Half-Elf Cracks 07</content>	
+	<content contentuid="h2440644ba2f541e2b878b351cdf382aab8ca" version="1">Half-Elf Cracks 08</content>
+
+    <content contentuid="hb2edfdbe72ed4586aa55f98070cb5446e8d9" version="1">Half-Orc Cracks 01</content>
+    <content contentuid="hb656c50b05214a2d8eeef29008f61a25cfg1" version="1">Half-Orc Cracks 02</content>
 </contentList>
