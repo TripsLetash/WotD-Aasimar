@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="58" lslib_meta="v1,bswap_guids" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="WOTD_SCOURGE" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h3b50a476g26b0g46ffgb876g239463c0367a" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="haf93d995g7905g4663g9f14g1b95579af9f2" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="WOTD_SCOURGE" />
+			<attribute id="UUID" type="guid" value="64285a34-9823-4879-9883-c61240b0e952" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

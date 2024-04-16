@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+    <region id="TextureAtlasInfo">
+        <node id="root">
+            <children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int64" value="64"/>
+                    <attribute id="Width" type="int64" value="64"/>
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="LSString" value="Assets/Textures/Icons/Trips_Aasimar_Race_Icons.dds"/>
+                    <attribute id="UUID" type="FixedString" value="c75ae412-7ce3-4a0c-bec6-296afcf23afd"/>
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int64" value="2048"/>
+                    <attribute id="Width" type="int64" value="2048"/>
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="IconUVList">
+        <node id="root">
+            <children>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Scourge_Item"/>
+                    <attribute id="U1" type="float" value="0.0"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.03125"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>			
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Protector_Item"/>
+                    <attribute id="U1" type="float" value="0.03125"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.0625"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>							
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Fallen_Item"/>
+                    <attribute id="U1" type="float" value="0.0625"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.09375"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>							
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Protector_Mark_Status"/>
+                    <attribute id="U1" type="float" value="0.09375"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.125"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>				
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Scourge_Mark_Status"/>
+                    <attribute id="U1" type="float" value="0.125"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.15625"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>	
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Fallen_Mark_Status"/>
+                    <attribute id="U1" type="float" value="0.15625"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.1875"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Protector_Mark_Skill"/>
+                    <attribute id="U1" type="float" value="0.1875"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.21875"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Scourge_Mark_Skill"/> 
+                    <attribute id="U1" type="float" value="0.21875"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.25"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>				
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Fallen_Mark_Skill"/> 
+                    <attribute id="U1" type="float" value="0.25"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.28125"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>				
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Protector_Wings_Skill"/> 
+                    <attribute id="U1" type="float" value="0.28125"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.3125"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>				
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Scourge_Wings_Skill"/>
+                    <attribute id="U1" type="float" value="0.3125"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.34375"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>				
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Fallen_Wings_Skill"/>
+                    <attribute id="U1" type="float" value="0.34375"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.375"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>				
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Dismiss_Wings_Skill"/> 
+                    <attribute id="U1" type="float" value="0.375"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.40625"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>				
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Aasimar_Flight_Skill"/>
+                    <attribute id="U1" type="float" value="0.40625"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.4375"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>				
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Radiant_Resistance_Passive"/>
+                    <attribute id="U1" type="float" value="0.4375"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.46875"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>	
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Necrotic_Resistance_Passive"/>
+                    <attribute id="U1" type="float" value="0.46875"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.5"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>				
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Protector_Mark_Passive"/> 
+                    <attribute id="U1" type="float" value="0.5"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.53125"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>				
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Scourge_Mark_Passive"/>
+                    <attribute id="U1" type="float" value="0.53125"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.5625"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Fallen_Mark_Passive"/> 
+                    <attribute id="U1" type="float" value="0.5625"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.59375"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Protector_Three_Passive"/>
+                    <attribute id="U1" type="float" value="0.59375"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.625"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Scourge_Three_Passive"/>
+                    <attribute id="U1" type="float" value="0.625"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.65625"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Fallen_Three_Passive"/>
+                    <attribute id="U1" type="float" value="0.65625"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.6875"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Protector_Ten_Passive"/> 
+                    <attribute id="U1" type="float" value="0.6875"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.71875"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Scourge_Ten_Passive"/>
+                    <attribute id="U1" type="float" value="0.71875"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.75"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Fallen_Ten_Passive"/>
+                    <attribute id="U1" type="float" value="0.75"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.78125"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_CelestialRevelation_Passive"/>
+                    <attribute id="U1" type="float" value="0.78125"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.8125"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Radiant_Soul_Interrupt"/> 
+                    <attribute id="U1" type="float" value="0.8125"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.84375"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Desecrated_Soul_Interrupt"/> 
+                    <attribute id="U1" type="float" value="0.84375"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.875"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Protector_Aura_Status"/> 
+                    <attribute id="U1" type="float" value="0.875"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.90625"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>					
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Scourge_Aura_Status"/>
+                    <attribute id="U1" type="float" value="0.90625"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.9375"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>							
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Fallen_Aura_Status"/>
+                    <attribute id="U1" type="float" value="0.9375"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.96875"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Harbinger_Mark_Skill"/>
+                    <attribute id="U1" type="float" value="0.96875"/><!--Left-->
+                    <attribute id="U2" type="float" value="1.0"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.0"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.03125"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Harbinger_Wings_Skill"/>
+                    <attribute id="U1" type="float" value="0.0"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.03125"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.03125"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.0625"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Harbinger_Item"/>
+                    <attribute id="U1" type="float" value="0.03125"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.0625"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.03125"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.0625"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Flagellant_Wounds_Status"/>
+                    <attribute id="U1" type="float" value="0.0625"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.09375"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.03125"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.0625"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Exanimate_Glory_Status"/>
+                    <attribute id="U1" type="float" value="0.09375"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.125"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.03125"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.0625"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Harbinger_Mark_Status"/>
+                    <attribute id="U1" type="float" value="0.125"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.15625"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.03125"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.0625"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Harbinger_Aura_Status"/>
+                    <attribute id="U1" type="float" value="0.15625"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.1875"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.03125"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.0625"/><!--Bottom-->
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Piercing_Resistance_Passive"/>
+                    <attribute id="U1" type="float" value="0.1875"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.21875"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.03125"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.0625"/><!--Bottom-->
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Exanimated_Soul_Interrupt"/>
+                    <attribute id="U1" type="float" value="0.21875"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.25"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.03125"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.0625"/><!--Bottom-->			
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Harbinger_Mark_Passive"/>
+                    <attribute id="U1" type="float" value="0.25"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.28125"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.03125"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.0625"/><!--Bottom-->			
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Trips_Wings_Toggle"/> <!--42-->
+                    <attribute id="U1" type="float" value="0.28125"/><!--Left-->
+                    <attribute id="U2" type="float" value="0.3125"/><!--Right-->
+                    <attribute id="V1" type="float" value="0.03125"/><!--Top-->
+                    <attribute id="V2" type="float" value="0.0625"/><!--Bottom-->			
+                </node>	
+            </children>
+        </node>
+    </region>
+</save>

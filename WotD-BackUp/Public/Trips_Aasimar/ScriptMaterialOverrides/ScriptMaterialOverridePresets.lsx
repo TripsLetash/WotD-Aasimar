@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="302"/>
+    <region id="ScriptMaterialOverridePresets">
+        <node id="root">
+            <children>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="HalfIllithid"/>
+                    <attribute id="UUID" type="guid" value="398ca8ae-c3c0-47f5-8e45-d9402e198389"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="aa05de4f-c4d7-48ab-8618-2616d78f0e37"/>
+                        </node>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="967beb97-7fb8-4f89-9c93-ef5981da56c5"/>
+                        </node>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="3a4dd6a7-8d44-4089-9ea2-682bb6b76d57"/>
+                        </node>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="e9b87370-28ab-47d1-a455-798dc8b9785d"/>
+                        </node>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="e56ee0a4-6f45-4da1-a57b-dc78f82d9cfd"/>
+                        </node>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="086d7e58-7dd0-4151-89e1-d1857fa03e69"/>
+                        </node>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="e0509587-7930-45db-aac7-1004530728fb"/>
+                        </node>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="adf6bc37-d3ff-4225-b0e4-081d9ff3743f"/>
+                        </node>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="277d36fe-9aef-45a7-a9f0-3ce83b8c6f21"/>
+                        </node>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="e771a814-126b-4944-9c71-40122464c256"/>
+                        </node>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="dc0b577d-16c8-4082-916a-35da15fe57c3"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

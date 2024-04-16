@@ -1300,70 +1300,70 @@
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="CC_Icons_Scourge"/>
                     <attribute id="U1" type="float" value="0.32965088"/>
                     <attribute id="U2" type="float" value="0.34783936"/>
                     <attribute id="V1" type="float" value="0.110229492"/>
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="CC_Icons_Protector"/>
                     <attribute id="U1" type="float" value="0.34796143"/>
                     <attribute id="U2" type="float" value="0.3661499"/>
                     <attribute id="V1" type="float" value="0.110229492"/>
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="CC_Icons_Fallen"/>
                     <attribute id="U1" type="float" value="0.36627197"/>
                     <attribute id="U2" type="float" value="0.38446045"/>
                     <attribute id="V1" type="float" value="0.110229492"/>
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="CC_Icons_Harbinger"/>
                     <attribute id="U1" type="float" value="0.38458252"/>
                     <attribute id="U2" type="float" value="0.402771"/>
                     <attribute id="V1" type="float" value="0.110229492"/>
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="CC_Icons_Protector_Old"/>
                     <attribute id="U1" type="float" value="0.40289307"/>
                     <attribute id="U2" type="float" value="0.42108154"/>
                     <attribute id="V1" type="float" value="0.110229492"/>
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="CC_Icons_Fallen_Old"/>
                     <attribute id="U1" type="float" value="0.42120361"/>
                     <attribute id="U2" type="float" value="0.43939209"/>
                     <attribute id="V1" type="float" value="0.110229492"/>
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="CC_Icons_Scourge_Old"/>
                     <attribute id="U1" type="float" value="0.43951416"/>
                     <attribute id="U2" type="float" value="0.45770264"/>
                     <attribute id="V1" type="float" value="0.110229492"/>
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="CC_Icons_Flame"/>
                     <attribute id="U1" type="float" value="0.45782471"/>
                     <attribute id="U2" type="float" value="0.47601318"/>
                     <attribute id="V1" type="float" value="0.110229492"/>
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="CC_Icons_Protector_Black"/>
                     <attribute id="U1" type="float" value="0.47613525"/>
                     <attribute id="U2" type="float" value="0.49432373"/>
                     <attribute id="V1" type="float" value="0.110229492"/>
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="CC_Icons_Protector_Black_Old"/>
                     <attribute id="U1" type="float" value="0.4944458"/>	
                     <attribute id="U2" type="float" value="0.51263428"/>
                     <attribute id="V1" type="float" value="0.110229492"/>

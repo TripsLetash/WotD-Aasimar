@@ -737,7 +737,7 @@
 						</node>
 					</children>
 				</node>
-			<!--Protector Wings-->
+			<!--Protector Wings: 1-->
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h117b0532gb0f1g4fefg89c8g931e23013963" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h5b712fcdg285dg4077g800dg91447da2f552" version="1" />
@@ -746,7 +746,7 @@
 					<attribute id="MapKey" type="FixedString" value="812ba0ed-454b-4a3e-84f6-4ec2e2e6eb7b" />
 					<attribute id="Name" type="LSString" value="Protector Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Protector_Wings" />
-					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="StoryItem" type="bool" value="False" />
 					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
@@ -755,9 +755,6 @@
 					<children>
 						<node id="StatusList">
 							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
-								</node>
 							</children>
 						</node>
 						<node id="Equipment">
@@ -833,7 +830,7 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
-				<!--Protector Wings OLD-->
+				<!--Protector Wings OLD : 2-->
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h117b0532gb0f1g4fefg89c8g931e23013963" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h5b712fcdg285dg4077g800dg91447da2f552" version="1" />
@@ -843,7 +840,7 @@
 					<attribute id="Name" type="LSString" value="Protector Wings Old" />
 					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="Stats" type="FixedString" value="Trips_Protector_Wings_Old" />
-					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="StoryItem" type="bool" value="False" />
 					<attribute id="ParentTemplateId" type="FixedString" value="a09273ba-6549-4cf9-ba47-615a962baf9f" /> <!--base_Armor parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="True" />
@@ -851,9 +848,6 @@
 					<children>
 						<node id="StatusList">
 							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
-								</node>
 							</children>
 						</node>
 						<node id="Equipment">
@@ -927,7 +921,7 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
-				<!--Protector Wings OLD-->
+				<!--scourge Wings OLD: 3-->
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h60ee6f28gd0d4g411bg9babg73a83f814365" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h56d3999fg5af0g49fbgac25g0950ced60a5f" version="1" />
@@ -937,7 +931,7 @@
 					<attribute id="Name" type="LSString" value="Scourge Wings Old" />
 					<attribute id="Stats" type="FixedString" value="Trips_Scourge_Wings_Old" />
 					<attribute id="Flag" type="int32" value="128" />
-					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="StoryItem" type="bool" value="False" />
 					<attribute id="ParentTemplateId" type="FixedString" value="a09273ba-6549-4cf9-ba47-615a962baf9f" /> <!--base_Armor parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="True" />
@@ -945,9 +939,6 @@
 					<children>
 						<node id="StatusList">
 							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
-								</node>
 							</children>
 						</node>
 						<node id="Equipment">
@@ -1021,7 +1012,7 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
-			<!--Scourge Wings-->
+			<!--Scourge Wings 4-->
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h60ee6f28gd0d4g411bg9babg73a83f814365" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h56d3999fg5af0g49fbgac25g0950ced60a5f" version="1" />
@@ -1030,7 +1021,7 @@
 					<attribute id="MapKey" type="FixedString" value="00355696-1c4b-4e0f-a735-071e6eb24762" />
 					<attribute id="Name" type="LSString" value="Scourge Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Scourge_Wings" />
-					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="StoryItem" type="bool" value="False" />
 					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
@@ -1039,9 +1030,6 @@
 					<children>
 						<node id="StatusList">
 							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
-								</node>
 							</children>
 						</node>
 						<node id="Equipment">
@@ -1117,7 +1105,7 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
-			<!--Fallen Wings-->
+			<!--Fallen Wings 5-->
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="hff7d712eg7428g47eeg9e96gd46aaacb513a" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hfbcc0df1g829dg489fga7a1g19e7a45b9521" version="1" />
@@ -1126,7 +1114,7 @@
 					<attribute id="MapKey" type="FixedString" value="20110880-cd92-4c24-9ed1-2c676498d36a" />
 					<attribute id="Name" type="LSString" value="Fallen Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Fallen_Wings" />
-					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="StoryItem" type="bool" value="False" />
 					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
@@ -1135,9 +1123,6 @@
 					<children>
 						<node id="StatusList">
 							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
-								</node>
 							</children>
 						</node>
 						<node id="Equipment">
@@ -1213,7 +1198,7 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
-			<!--Fallen Wings OLD-->
+			<!--Fallen Wings OLD 6-->
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h117b0532gb0f1g4fefg89c8g931e23013963" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h5b712fcdg285dg4077g800dg91447da2f552" version="1" />
@@ -1222,7 +1207,7 @@
 					<attribute id="MapKey" type="FixedString" value="1615a35d-ae69-4e5e-b5ce-6fe1ff852992" />
 					<attribute id="Name" type="LSString" value="Fallen Wings Old" />
 					<attribute id="Stats" type="FixedString" value="Trips_Fallen_Wings_Old" />
-					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="StoryItem" type="bool" value="False" />
 					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
 					<attribute id="Type" type="FixedString" value="item" />
@@ -1231,9 +1216,6 @@
 					<children>
 						<node id="StatusList">
 							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
-								</node>
 							</children>
 						</node>
 						<node id="Equipment">
@@ -1309,7 +1291,7 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
-			<!--New Flame Double Wings-->
+			<!--New Flame Double Wings 7-->
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h117b0532gb0f1g4fefg89c8g931e23013963" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h5b712fcdg285dg4077g800dg91447da2f552" version="1" />
@@ -1318,7 +1300,7 @@
 					<attribute id="MapKey" type="FixedString" value="3d75fc44-d618-4330-a43d-e1fbf8c95228" />
 					<attribute id="Name" type="LSString" value="Flame Wings" />
 					<attribute id="Stats" type="FixedString" value="Trips_Flame_Wings" />
-					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="StoryItem" type="bool" value="False" />
 					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" />
 					<attribute id="Type" type="FixedString" value="item" />
@@ -1327,9 +1309,6 @@
 					<children>
 						<node id="StatusList">
 							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
-								</node>
 							</children>
 						</node>
 						<node id="Equipment">
@@ -1405,7 +1384,7 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
-			<!--Harbinger Wings-->
+			<!--Harbinger Wings 8-->
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="hf969b80bge4a6g48f4gba52gc45f4861a1f7" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="he7b798c6g8b46g4806g8472gd9b7912f7e6c" version="1" />
@@ -1416,16 +1395,13 @@
 					<attribute id="Stats" type="FixedString" value="Trips_Harbinger_Wings" />
 					<attribute id="Flag" type="int32" value="128" />
 					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
-					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="StoryItem" type="bool" value="False" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
-								</node>
 							</children>
 						</node>
 						<node id="Equipment">
