@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="322"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h01f119a1g7a48g4e48ga58fg469555cbe690" version="1"/> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc5c99132g9689g4c2cg96dfg637821a92343" version="1"/> 
+                    <attribute id="ProgressionTableId" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81"/> 
+                    <attribute id="SelectorId" type="FixedString" value="Trips_ProgressionDescriptionOrigins"/> 
+                    <attribute id="UUID" type="guid" value="6e23aaf0-7939-4bbc-a1a2-0b6a4518e4f3"/> 
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hb10a7437g34b3g429ag92d2g041cdab3c8e3" version="1"/> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2bb13e05ge956g4e26gb8d8ga7e6cce0593e" version="1"/> 
+                    <attribute id="ProgressionTableId" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81"/> 
+                    <attribute id="SelectorId" type="FixedString" value="Trips_WingsModelSelector"/> 
+                    <attribute id="UUID" type="guid" value="1905bc81-7730-489a-9df1-10f1b377d249"/> 
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h07d09ab1g4d47g464bg9d18gba7888647f3c" version="1"/> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="h95dd3ee4g9c6bg4b49gace9gb4fe7cf7ed1f" version="1"/> 
+                    <attribute id="ProgressionTableId" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81"/> 
+                    <attribute id="SelectorId" type="FixedString" value="Trips_WingsShowSelector"/> 
+                    <attribute id="UUID" type="guid" value="ebed66e6-d270-4ef6-b76b-2fcbf8483c32"/> 
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hb0239388g634ag4518ga1d3g18a3ebd6a5e5" version="1"/> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd4f4bedeg45ceg4f35gad01ga40aa0365d1a" version="1"/> 
+                    <attribute id="ProgressionTableId" type="guid" value="829a8a20-3d8f-4b69-b9bc-97d1e99f2f81"/> 
+                    <attribute id="SelectorId" type="FixedString" value="Trips_WingsLevelSelector"/> 
+                    <attribute id="UUID" type="guid" value="be4a6d99-3b66-4fb6-ae3f-836189098f1b"/> 
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

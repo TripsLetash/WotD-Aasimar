@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="307"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList"> 
+                    <attribute id="Passives" type="LSString" value="Trips_Aa_Passive_Tags_NoRace,Trips_Aa_Passive_Tags_Human,Trips_Aa_Passive_Tags_HighElf,Trips_Aa_Passive_Tags_WoodElf,Trips_Aa_Passive_Tags_DrowLolth,Trips_Aa_Passive_Tags_DrowSeldarine,Trips_Aa_Passive_Tags_HalfHighElf,Trips_Aa_Passive_Tags_HalfWoodElf,Trips_Aa_Passive_Tags_HalfDrow,Trips_Aa_Passive_Tags_TieflingAsmodeus,Trips_Aa_Passive_Tags_TieflingMephistopheles,Trips_Aa_Passive_Tags_TieflingZariel,Trips_Aa_Passive_Tags_Githyanki,Trips_Aa_Passive_Tags_HalfOrc,Trips_Aa_Passive_Tags_RockGnome,Trips_Aa_Passive_Tags_ForestGnome,Trips_Aa_Passive_Tags_DeepGnome,Trips_Aa_Passive_Tags_GoldDwarf,Trips_Aa_Passive_Tags_ShieldDwarf,Trips_Aa_Passive_Tags_Duergar,Trips_Aa_Passive_Tags_LightfootHalfling,Trips_Aa_Passive_Tags_StrongheartHalfling"/>
+                    <attribute id="UUID" type="guid" value="c3a8da40-5df9-43f7-ad30-825a7a2068ef"/> 
+                </node>
+                <node id="PassiveList"> 
+                    <attribute id="Passives" type="LSString" value="Trips_Model_Wings_Protector,Trips_Model_Wings_Scourge,Trips_Model_Wings_Fallen,Trips_Model_Wings_Harbinger,Trips_Model_Wings_Flame,Trips_Model_Wings_Protector_Old,Trips_Model_Wings_Fallen_Old,Trips_Model_Wings_Scourge_Old"/>
+                    <attribute id="UUID" type="guid" value="54ee2b8b-7647-4db5-86e0-97a994d79959"/> 
+                </node>
+                <node id="PassiveList"> 
+                    <attribute id="Passives" type="LSString" value="Trips_Wings_Show,Trips_Wings_Not_Show"/>
+                    <attribute id="UUID" type="guid" value="22d0d78e-b359-4a0b-b306-e3df6483e2d2"/> 
+                </node>
+                <node id="PassiveList"> 
+                    <attribute id="Passives" type="LSString" value="Trips_Passive_Level_One_Wings,Trips_Passive_Level_Ten_Wings"/>
+                    <attribute id="UUID" type="guid" value="ad69d480-fa49-4666-91b2-5e64d4ef4ef5"/> 
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="323"/>
+    <region id="LevelMapValues">
+        <node id="root">
+            <children>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d4"/>
+                    <attribute id="Level10" type="LSString" value="4d4"/>
+                    <attribute id="Level11" type="LSString" value="4d4"/>
+                    <attribute id="Level12" type="LSString" value="4d4"/>
+                    <attribute id="Level2" type="LSString" value="2d4"/>
+                    <attribute id="Level3" type="LSString" value="2d4"/>
+                    <attribute id="Level4" type="LSString" value="2d4"/>
+                    <attribute id="Level5" type="LSString" value="3d4"/>
+                    <attribute id="Level6" type="LSString" value="3d4"/>
+                    <attribute id="Level7" type="LSString" value="3d4"/>
+                    <attribute id="Level8" type="LSString" value="3d4"/>
+                    <attribute id="Level9" type="LSString" value="4d4"/>
+                    <attribute id="Name" type="FixedString" value="Trips_D4ProfBonus"/>
+                    <attribute id="UUID" type="guid" value="139e147c-f93c-4c20-a949-02d9166d302a"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

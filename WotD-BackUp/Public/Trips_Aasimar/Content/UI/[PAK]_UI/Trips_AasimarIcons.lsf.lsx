@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="602" lslib_meta="v1,bswap_guids" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="c75ae412-7ce3-4a0c-bec6-296afcf23afd" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_Aasimar_Race_Icons" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Textures/Icons/Trips_Aasimar_Race_Icons.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Aasimar" />
+					<attribute id="Type" type="int64" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

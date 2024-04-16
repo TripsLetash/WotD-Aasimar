@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="1" time="0" />
+    <version major="1" minor="0" revision="0" build="0" />
+    <region id="EquipmentRaces">
+        <node id="root">
+          <children>
+						<node id="EquipmentRace">
+							<attribute id="Name" value="Aasimar Male" type="22" />
+              <attribute id="Guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" type="31" />
+              <attribute id="DefaultParent" value="7d73f501-f65e-46af-a13b-2cacf3985d05" type="31" />
+              <attribute id="CharacterVisual" value="a7c8b4df-9604-406e-ad2c-13a7774ad1e9" type="31" />
+            </node>
+						<node id="EquipmentRace">
+							<attribute id="Name" value="Aasimar Female" type="22" />
+              <attribute id="Guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" type="31" />
+              <attribute id="DefaultParent" value="71180b76-5752-4a97-b71f-911a69197f58" type="31" />
+              <attribute id="CharacterVisual" value="bf056339-846d-4606-a0d0-3faa88f82a60" type="31" />
+            </node>
+            <node id="EquipmentRace">
+              <attribute id="Name" value="Aasimar Strong Male" type="22" />
+              <attribute id="Guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" type="31" />
+              <attribute id="DefaultParent" value="e39505f7-f576-4e70-a99e-8e29cd381a11" type="31" />
+              <attribute id="CharacterVisual" value="7c543898-7d11-495f-ace6-0b81a20840e3" type="31" />
+            </node>
+            <node id="EquipmentRace">
+              <attribute id="Name" value="Aasimar Strong Female" type="22" />
+              <attribute id="Guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" type="31" />
+              <attribute id="DefaultParent" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" type="31" />
+              <attribute id="CharacterVisual" value="c570f441-33f1-4067-8147-6d9fbffe7743" type="31" />
+            </node>
+          </children>
+        </node>
+    </region>
+</save>

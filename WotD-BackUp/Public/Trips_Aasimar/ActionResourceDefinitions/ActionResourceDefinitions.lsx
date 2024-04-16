@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="5" build="300"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>            
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h40b7ecf5g8c44g4839g8725g2765a68414bb" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h794e5c6fg17d0g4b7eg894dgad4573a18d8a" version="1"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="Trips_Aasimar_Bigcast"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+                    <attribute id="UUID" type="guid" value="4ce87102-3616-4d6b-b7b1-b166ee4ae6de"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h32d42a8fg2f00g4c7eg8f6bgefdf60a2b9fe" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h095f9fbeg7213g4ee2ga944g2b25d36b82d7" version="1"/>
+                    <attribute id="DiceType" type="uint32" value="0"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="MaxValue" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="Trips_Aasimar_Smallcast"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="969e03bd-7f4b-4737-9ea7-002726faea95"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

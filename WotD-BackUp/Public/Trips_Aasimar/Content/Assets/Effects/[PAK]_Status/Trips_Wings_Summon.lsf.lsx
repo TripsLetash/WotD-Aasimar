@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>
+	<!--Protector Wings-->
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Protector_Wings_Perma" />
+					<attribute id="ID" type="FixedString" value="67ce92f2-6217-44bd-bc0f-1da7e3b2f47c" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Protector_Wings_Perma" />
+					<attribute id="Radius" type="float" value="3.464102" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Protector_Wings_Perma.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403208705" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Protector_Wings" />
+					<attribute id="ID" type="FixedString" value="8d31b75a-c573-4e08-99fc-c0b02460444f" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Protector_Wings" />
+					<attribute id="Radius" type="float" value="3.464102" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Protector_Wings.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403208705" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 3.5 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -0.5 -2" />
+					<attribute id="Center" type="fvec3" value="0 1.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Protector_Feathers" />
+					<attribute id="ID" type="FixedString" value="24728de3-67b0-4189-a555-1ca82cdfb5c4" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="20" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Protector_Feathers" />
+					<attribute id="Radius" type="float" value="10" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Protector_Feathers.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 3.5 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -0.5 -2" />
+					<attribute id="Center" type="fvec3" value="0 1.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Protector_Eclipse" />
+					<attribute id="ID" type="FixedString" value="f7ba42cd-fd5d-4182-aedd-1fde102e27bd" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="20" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Protector_Eclipse" />
+					<attribute id="Radius" type="float" value="10" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Protector_Eclipse.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+	<!--Scourge Wings-->
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cinematic_NightsongPrison_NightsongFreed_HolyAura_01" />
+					<attribute id="ID" type="FixedString" value="28e05a67-b593-4912-8fad-1440bf0a25db" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Cinematic_NightsongPrison_NightsongFreed_HolyAura_01" />
+					<attribute id="Radius" type="float" value="5.196152" />
+					<attribute id="SourceFile" type="LSString" value="Public/SharedDev/Assets/Effects/Effects_Banks/Cinematic/VFX_Cinematic_NightsongPrison_NightsongFreed_HolyAura_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209009" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Scourge_Wings_Perma" />
+					<attribute id="ID" type="FixedString" value="3e368abd-f90d-47ac-acd5-d74cdf3038f9" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Scourge_Wings_Perma" />
+					<attribute id="Radius" type="float" value="3.464102" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Scourge_Wings_Perma.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403208705" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Scourge_Wings" />
+					<attribute id="ID" type="FixedString" value="d51b5eac-514a-432f-bc4c-27046f7e5778" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Scourge_Wings" />
+					<attribute id="Radius" type="float" value="3.464102" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Scourge_Wings.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403208705" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 3.5 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -0.5 -2" />
+					<attribute id="Center" type="fvec3" value="0 1.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Scourge_Feathers" />
+					<attribute id="ID" type="FixedString" value="2a076fd2-8b4c-404f-ad32-9bf95d922d58" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="20" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Scourge_Feathers" />
+					<attribute id="Radius" type="float" value="10" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Scourge_Feathers.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 3.5 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -0.5 -2" />
+					<attribute id="Center" type="fvec3" value="0 1.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Scourge_Eclipse" />
+					<attribute id="ID" type="FixedString" value="55b0dc23-5c28-4568-8bb0-bb752e263e8e" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="20" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Scourge_Eclipse" />
+					<attribute id="Radius" type="float" value="10" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Scourge_Eclipse.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+	<!--Fallen Wings-->
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="9 10 9" />
+					<attribute id="BoundsMin" type="fvec3" value="-9 -8 -9" />
+					<attribute id="Center" type="fvec3" value="0 1 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="7" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Fallen_Eclipse_01" />
+					<attribute id="ID" type="FixedString" value="fb2b033b-3d9b-45bd-835d-812eb2b780cf" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="20" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Fallen_Eclipse_01" />
+					<attribute id="Radius" type="float" value="15.58846" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Fallen_Eclipse_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241808" />
+					<children>
+						<node id="Dependencies">
+							<children>						
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="9 9 9" />
+					<attribute id="BoundsMin" type="fvec3" value="-9 -9 -9" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="6.999999" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Fallen_Eclipse_02" />
+					<attribute id="ID" type="FixedString" value="237ca042-6fc3-4f6d-8f28-5a426ec6cd77" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Fallen_Eclipse_02" />
+					<attribute id="Radius" type="float" value="9" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Fallen_Eclipse_02.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241710" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="10" />
+					<attribute id="EffectName" type="FixedString" value="Trips_VFX_Fallen_Smoke_Big" />
+					<attribute id="ID" type="FixedString" value="6670b8d2-d59b-4aea-9bfc-c7f5f3fc8698" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_VFX_Fallen_Smoke_Big" />
+					<attribute id="Radius" type="float" value="10" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Fallen_Smoke_Big.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>							
+							</children>
+						</node>
+					</children>
+				</node>
+	<!--Harbinger wings-->
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Effects_Test_01" />
+					<attribute id="ID" type="FixedString" value="d9d90e59-4e33-42cd-9c6f-1d636e121fc5" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Effects_Test_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/VFX_Effects_Test_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Dependencies" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="7 7 6.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -0.5" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Effects_Test_02" />
+					<attribute id="ID" type="FixedString" value="f0496c1f-4282-40c3-bc4c-b635c08c44bd" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Effects_Test_02" />
+					<attribute id="Radius" type="float" value="7" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/VFX_Effects_Test_02.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies" />							
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Effects_Test_03.lsfx" />
+					<attribute id="ID" type="FixedString" value="bc8056a7-90ad-4a52-a7b1-58f114c9f608" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Effects_Test_03.lsfx" />
+					<attribute id="Radius" type="float" value="6" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/VFX_Effects_Test_03.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+					<attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Harbinger_Aura_1.lsfx" />
+					<attribute id="ID" type="FixedString" value="f8e7ada0-1467-4d3c-84db-3eb82c158078" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Harbinger_Aura_1.lsfx" />
+					<attribute id="Radius" type="float" value="25" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/VFX_Harbinger_Aura_1.lsfx.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Harbinger_Aura" />
+					<attribute id="ID" type="FixedString" value="11a93cc5-66be-422b-8190-4b9e9174a9ee" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Harbinger_Aura" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/VFX_Harbinger_Aura.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+			<!--Harbinger Bleed-->
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="6" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Harbinger_Bleed" />
+					<attribute id="ID" type="FixedString" value="69b59e13-f374-4603-bc9c-7e95ab610a37" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Harbinger_Bleed" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Effects/Effects_Banks/Trips_VFX_Harbinger_Bleed.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Dependencies" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,91 @@
+local __util = require 'larian.util'
+
+function WingsShow(entity)
+    entity = entity or context.Source
+    
+    return HasStatus('AASIMAR_WINGS_SHOW',entity)
+end
+
+function HasPWingsTen(entity)
+    entity = entity or context.Source
+
+    return HasStatus('AASIMAR_PASSIVE_WINGS_10',entity)
+end
+
+function HasNoWings(entity)
+    entity = entity or context.Source
+    
+    return HasStatus('TOGGLE_NO_WINGS',entity)
+end
+
+function HasWings(entity)
+    entity = entity or context.Source
+    
+    return HasStatus('TOGGLE_HAS_WINGS',entity)
+end
+
+function HasNoWingsOrPassive(entity)
+    entity = entity or context.Source
+    local result = ~HasWings(entity) & ~HasPWingsTen(entity)
+    return ConditionResult(result.Result)
+end
+
+function WingLvlOne(entity)
+    entity = entity or context.Source
+
+    return Tagged('WINGS_LEVELONE',entity)
+end
+
+function WingLvlTen(entity)
+    entity = entity or context.Source
+
+    return Tagged('WINGS_LEVELTEN',entity)
+end
+
+function IsProt(entity)
+    entity = entity or context.Source
+
+    return Tagged('WOTD_PROT',entity)
+end
+
+function IsSco(entity)
+    entity = entity or context.Source
+
+    return Tagged('WOTD_SCOURGE',entity)
+end
+
+function IsFal(entity)
+    entity = entity or context.Source
+
+    return Tagged('WOTD_FALLEN',entity)
+end
+
+function IsHarb(entity)
+    entity = entity or context.Source
+
+    return Tagged('WOTD_HARB',entity)
+end
+
+function IsFold(entity)
+    entity = entity or context.Source
+
+    return Tagged('WOTD_FOLD',entity)
+end
+
+function IsPold(entity)
+    entity = entity or context.Source
+
+    return Tagged('WOTD_POLD',entity)
+end
+
+function IsScold(entity)
+    entity = entity or context.Source
+
+    return Tagged('WOTD_SCOLD',entity)
+end
+
+function IsFlame(entity)
+    entity = entity or context.Source
+
+    return Tagged('WOTD_FLAME',entity)
+end

@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="330" lslib_meta="v1,bswap_guids"/>
+  <region id="Templates">
+    <node id="Templates">
+     	<children>
+			<!--Protector-->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4fad9633-f171-47bd-99dc-81cc99d1add5" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="dfc50ccb-820a-2715-4fff-cf0f4eb95c0e" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Protector_Daisy" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="Icon" type="FixedString" value="2380562d-ec10-4679-a44e-5fbe16853337-EQP_Daisy_(Icon_Githyanki_Male)" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="185143c9-6641-4928-a512-ab009d10609e" />
+					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="0b378e99-5830-da47-9614-7c4aae3a1e27" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="17c2405e-5771-4150-ad00-b1ef8d1dd5ae" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="14c6c268-fa85-4add-b0f3-4d5619835ac8" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="480f4da3-8e32-ce07-5a00-a233bcf602d9" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong_Protector_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" />
+					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="fcbb31a4-6996-4205-bdea-be8d6c9b58f9" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="0b378e99-5830-da47-9614-7c4aae3a1e27" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="17c2405e-5771-4150-ad00-b1ef8d1dd5ae" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9d0e35c1-9d5a-4c42-b5d6-026052827cbf" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="8997e186-d9c8-3295-5b23-d4b0bff23e84" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Protector_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="Icon" type="FixedString" value="2380562d-ec10-4679-a44e-5fbe16853337-EQP_Daisy_(Icon_Githyanki_Male)" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d9e366da-fd6a-4641-8273-5f7793657047" />
+					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="9817eece-ccb2-7f70-ce27-1e10bf08efa5" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="807af8f5-0183-42d9-8d40-6e93d5236cc2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="714a37c2-ca9d-43af-a166-ea9e35602378" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="e9355d67-3b96-f538-a836-81ad0b09d87e" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Strong_Protector_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" />
+					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="cb233980-0f40-4f05-8e83-89e471727c44" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="9817eece-ccb2-7f70-ce27-1e10bf08efa5" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="807af8f5-0183-42d9-8d40-6e93d5236cc2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			<!--Scourge-->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e88c80c3-cc9c-4402-8fed-638c698d61f3" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="dfc50ccb-820a-2715-4fff-cf0f4eb95c0e" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Scourge_Daisy" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="Icon" type="FixedString" value="2380562d-ec10-4679-a44e-5fbe16853337-EQP_Daisy_(Icon_Githyanki_Male)" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0f46db8-a4a2-4873-9931-ab267792a941" />
+					<attribute id="Race" type="guid" value="4738a422-5abd-41a7-a3f8-a35250a73209" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="0b378e99-5830-da47-9614-7c4aae3a1e27" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="17c2405e-5771-4150-ad00-b1ef8d1dd5ae" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="0a33e6c5-cb35-47bf-a394-c1eb220e84d6" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="480f4da3-8e32-ce07-5a00-a233bcf602d9" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong_Scourge_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" />
+					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="912f0a0a-a322-4e65-b197-a49833a130a3" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="Race" type="guid" value="4738a422-5abd-41a7-a3f8-a35250a73209" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="0b378e99-5830-da47-9614-7c4aae3a1e27" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="17c2405e-5771-4150-ad00-b1ef8d1dd5ae" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="AnimationSetResourceID" type="FixedString" value="8997e186-d9c8-3295-5b23-d4b0bff23e84" />
+					<attribute id="MapKey" type="FixedString" value="8686c2f3-e170-4ae9-936e-2df057250294" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Scourge_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="Icon" type="FixedString" value="2380562d-ec10-4679-a44e-5fbe16853337-EQP_Daisy_(Icon_Githyanki_Male)" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="103af4dd-60f5-4407-aba3-152a00881cef" />
+					<attribute id="Race" type="guid" value="4738a422-5abd-41a7-a3f8-a35250a73209" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="9817eece-ccb2-7f70-ce27-1e10bf08efa5" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="807af8f5-0183-42d9-8d40-6e93d5236cc2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="de35747f-fc2d-403f-9782-89713e4e22cd" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="e9355d67-3b96-f538-a836-81ad0b09d87e" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Strong_Scourge_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" />
+					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c5839104-434c-4c6c-830e-0c6b5f091a33" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="Race" type="guid" value="4738a422-5abd-41a7-a3f8-a35250a73209" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="9817eece-ccb2-7f70-ce27-1e10bf08efa5" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="807af8f5-0183-42d9-8d40-6e93d5236cc2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			<!--Fallen-->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a6e84fe4-aa68-44be-9f62-73db79da59b3" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="dfc50ccb-820a-2715-4fff-cf0f4eb95c0e" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Fallen_Daisy" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="Icon" type="FixedString" value="2380562d-ec10-4679-a44e-5fbe16853337-EQP_Daisy_(Icon_Githyanki_Male)" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="318ac472-22a0-4ad1-a053-6b0d143f2284" />
+					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="0b378e99-5830-da47-9614-7c4aae3a1e27" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="17c2405e-5771-4150-ad00-b1ef8d1dd5ae" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a477bb98-1908-45a8-bfcd-2af84df0790f" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="480f4da3-8e32-ce07-5a00-a233bcf602d9" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong_Fallen_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" />
+					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="005735a0-be0d-46d4-a300-6ea644d4ede3" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="0b378e99-5830-da47-9614-7c4aae3a1e27" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="17c2405e-5771-4150-ad00-b1ef8d1dd5ae" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3b5287bf-c65d-4ec3-b40b-6b7b1e9630ff" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="8997e186-d9c8-3295-5b23-d4b0bff23e84" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Fallen_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="Icon" type="FixedString" value="2380562d-ec10-4679-a44e-5fbe16853337-EQP_Daisy_(Icon_Githyanki_Male)" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="58e041d7-72c2-481d-8d94-3ec4cab2c904" />
+					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="9817eece-ccb2-7f70-ce27-1e10bf08efa5" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="807af8f5-0183-42d9-8d40-6e93d5236cc2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="12b2bebe-9a74-4ec3-952d-f1bf93fb435c" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="e9355d67-3b96-f538-a836-81ad0b09d87e" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Strong_Fallen_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" />
+					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="74314ef5-d932-4a08-a58c-0685135a195f" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="9817eece-ccb2-7f70-ce27-1e10bf08efa5" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="807af8f5-0183-42d9-8d40-6e93d5236cc2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>	
+			<!--Harbinger-->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="fb36d2c1-895c-4b5f-baed-3f6c2309650e" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="dfc50ccb-820a-2715-4fff-cf0f4eb95c0e" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Harbinger_Daisy" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="Icon" type="FixedString" value="2380562d-ec10-4679-a44e-5fbe16853337-EQP_Daisy_(Icon_Githyanki_Male)" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="13b2626d-3af0-4476-b746-65f9f094ebe5" />
+					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="0b378e99-5830-da47-9614-7c4aae3a1e27" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="17c2405e-5771-4150-ad00-b1ef8d1dd5ae" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="01fae3df-5779-4f21-afdb-f7a20fb61fef" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="480f4da3-8e32-ce07-5a00-a233bcf602d9" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong_Harbinger_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" />
+					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="34de7f15-5ef7-44db-bf4d-8bd77785c637" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="0b378e99-5830-da47-9614-7c4aae3a1e27" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="17c2405e-5771-4150-ad00-b1ef8d1dd5ae" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7dc4ec6e-a7e9-4a1a-ab6f-759f3458e3a1" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="8997e186-d9c8-3295-5b23-d4b0bff23e84" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Harbinger_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="Icon" type="FixedString" value="2380562d-ec10-4679-a44e-5fbe16853337-EQP_Daisy_(Icon_Githyanki_Male)" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="eba48443-354c-4b86-970a-80c1d8150f25" />
+					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="9817eece-ccb2-7f70-ce27-1e10bf08efa5" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="807af8f5-0183-42d9-8d40-6e93d5236cc2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ebe78169-9b29-4d7f-8621-88c18f5f90bc" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="e9355d67-3b96-f538-a836-81ad0b09d87e" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Strong_Harbinger_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f5d212fg190fg4bebg8f44g60a648623226" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" />
+					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="69cc0339-ac1c-4daf-ab3d-e10276044933" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="9817eece-ccb2-7f70-ce27-1e10bf08efa5" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="807af8f5-0183-42d9-8d40-6e93d5236cc2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>			
+		</children>
+	</node>
+  </region>
+</save>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" lslib_meta="v1,bswap_guids" />
+	<region id="config">
+		<node id="config">
+			<children>
+				<node id="entries">
+					<children>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/Portraits/fed4b866-2cf1-45fc-8644-108cf9c7d994-_(Icon_Cressa_Female).png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="152" />
+									<attribute id="mipcount" type="int8" value="8" />
+									<attribute id="w" type="int16" value="152" />
+								</node>
+							</children>
+						</node>						
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

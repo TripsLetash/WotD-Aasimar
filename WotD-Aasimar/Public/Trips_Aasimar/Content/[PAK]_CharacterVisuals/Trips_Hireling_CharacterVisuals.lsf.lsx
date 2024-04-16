@@ -287,6 +287,11 @@
 							<attribute id="Slot" type="FixedString" value="Horns" />
 							<attribute id="VisualResource" type="FixedString" value="45022e48-9535-49a5-84df-74237cb90e30" />
 						</node>
+						<node id="Slots">
+							<attribute id="Bone" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="Tail" />
+							<attribute id="VisualResource" type="FixedString" value="19ce82fa-7f72-41f5-bbfe-b2c75baf575e" />
+						</node>
 					</children>
 				</node>
 			</children>

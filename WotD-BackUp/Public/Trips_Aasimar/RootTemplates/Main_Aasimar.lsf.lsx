@@ -1,0 +1,1507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<!--Cressa Hireling-->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="cf5ca185-f2f3-46ad-b7fc-f0ddc34d81ec" /> 
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong_Cressa_Hireling" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7965fc46g770bg420cg9dbeg3a3e1b7c240d" version="3" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" /> 
+					<attribute id="Icon" type="FixedString" value="fed4b866-2cf1-45fc-8644-108cf9c7d994-_(Icon_Cressa_Female)" />
+					<attribute id="EquipmentRace" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />			
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="6f5a4cb7-4f3e-4d0a-9cf6-0332d5072299" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="6f5a4cb7-4f3e-4d0a-9cf6-0332d5072299" />
+					<attribute id="Race" type="guid" value="309b9cc5-0156-4f64-b857-8cf83fa2160b" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<children>
+						<node id="Tags">
+							<children>
+							    <node id="Tag">
+                                    <attribute id="Object" type="guid" value="b94f535a-e9c7-42ac-afd8-f8b078ad9af8"/>
+                                </node>
+								<node id="Tag">
+                                    <attribute id="Object" type="guid" value="009593a8-50c6-43bc-a5d6-52b72955fbd7"/>
+                                </node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>				
+				<!--Bases-->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="62fa124d-75ae-446d-a4d8-7a91bb21cc29" /> 
+					<attribute id="Name" type="LSString" value="BASE_Aasimar_Female" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="df4aee69-40ea-480d-aa96-1abe82c28b66" /> 
+					<attribute id="Icon" type="FixedString" value="65508880-7afc-74cf-97eb-8d85c80b79b4-_(Icon_Human_Female)" />
+					<attribute id="EquipmentRace" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="a888490b-e176-4995-ae04-edceb1fc665a" /> 
+					<attribute id="Race" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> 
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="59154963-bd1f-4cd3-a1a1-a261b88501b8" /> 
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d2f86ec3-c41f-47e1-8acd-984872a4d7d5" /> 
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9d30f2ab-6dcd-42c5-b293-5dd6e98aefec" /> 
+					<attribute id="Name" type="LSString" value="BASE_Aasimar_Male" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fd7f2707-8f86-4836-bda8-e0db99c389cc" /> 
+					<attribute id="Icon" type="FixedString" value="c0807a07-7e67-6f66-31d8-437c234a42e9-_(Icon_Human_Male)" />
+					<attribute id="EquipmentRace" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="baf3dee0-1493-4f8b-af0a-c35437c5aed7" /> 
+					<attribute id="Race" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" /> 
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="59154963-bd1f-4cd3-a1a1-a261b88501b8" /> 
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d2f86ec3-c41f-47e1-8acd-984872a4d7d5" /> 
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<!--parents-->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" /> 
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62fa124d-75ae-446d-a4d8-7a91bb21cc29" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" /> 
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" /> 
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0f46db8-a4a2-4873-9931-ab267792a941" /> 
+					<children>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" /> 
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" /> 
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" /> 
+					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="912f0a0a-a322-4e65-b197-a49833a130a3" /> 
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" /> 
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" /> 
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9d30f2ab-6dcd-42c5-b293-5dd6e98aefec" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanMale" /> 
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" /> 
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="103af4dd-60f5-4407-aba3-152a00881cef" /> 
+					<children>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" /> 
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" /> 
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Strong" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" /> 
+					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c5839104-434c-4c6c-830e-0c6b5f091a33" /> 
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" /> 
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			<!--Scourge-->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="439d4ebd-160b-48d3-8fe2-862a9976cf95" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Scourge" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0f46db8-a4a2-4873-9931-ab267792a941" />
+					<attribute id="Race" type="guid" value="4738a422-5abd-41a7-a3f8-a35250a73209" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5853d4eb-11b6-467e-aa54-a1748f42e325" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong_Scourge" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" />
+					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="912f0a0a-a322-4e65-b197-a49833a130a3" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<attribute id="Race" type="guid" value="4738a422-5abd-41a7-a3f8-a35250a73209" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e579fb23-199e-4c0c-84d1-146fecabb41c" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Scourge" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="103af4dd-60f5-4407-aba3-152a00881cef" />
+					<attribute id="Race" type="guid" value="4738a422-5abd-41a7-a3f8-a35250a73209" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="73e9ec62-fc22-4ce1-99de-18bd8643c7d2" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Strong_Scourge" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" />
+					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c5839104-434c-4c6c-830e-0c6b5f091a33" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<attribute id="Race" type="guid" value="4738a422-5abd-41a7-a3f8-a35250a73209" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			<!--Protector-->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a3dcd910-70f3-45d5-834e-7a9fb45762e5" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Protector" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="185143c9-6641-4928-a512-ab009d10609e" />
+					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="3ea6f061-6eb2-48ef-9ad3-c0afdbb21a26" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="c981ece2-bab9-4535-8d89-b77b70f23ddf" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong_Protector" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" />
+					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="fcbb31a4-6996-4205-bdea-be8d6c9b58f9" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="3ea6f061-6eb2-48ef-9ad3-c0afdbb21a26" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="750194ec-8359-4176-9b66-6a4de312a3c9" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Protector" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d9e366da-fd6a-4641-8273-5f7793657047" />
+					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="3ea6f061-6eb2-48ef-9ad3-c0afdbb21a26" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b26620ce-a2bd-4425-ae8d-d0736d1113bb" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Strong_Protector" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" />
+					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="cb233980-0f40-4f05-8e83-89e471727c44" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<attribute id="Race" type="guid" value="dd21fb84-2d6a-4d7d-a418-ca96991d3920" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="3ea6f061-6eb2-48ef-9ad3-c0afdbb21a26" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			<!--Fallen-->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="49d3d54a-f2cf-4e23-9ea4-053d4a2a4c97" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Fallen" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="318ac472-22a0-4ad1-a053-6b0d143f2284" />
+					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="39bc17c6-300d-4c18-8095-bf7a12d8722e" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="6e77eb74-f13f-494b-83dc-740dd49ecde9" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong_Fallen" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" />
+					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="005735a0-be0d-46d4-a300-6ea644d4ede3" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="39bc17c6-300d-4c18-8095-bf7a12d8722e" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="50e9ad26-1806-4a5d-a467-805e73bd8eac" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Fallen" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="58e041d7-72c2-481d-8d94-3ec4cab2c904" />
+					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="39bc17c6-300d-4c18-8095-bf7a12d8722e" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="65f0750b-5398-44bc-bbc6-ea8d35203d1f" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Strong_Fallen" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" />
+					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="74314ef5-d932-4a08-a58c-0685135a195f" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<attribute id="Race" type="guid" value="f40da0bb-58e0-4b53-8ec5-805bc1533c8c" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="39bc17c6-300d-4c18-8095-bf7a12d8722e" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			<!--Harbinger-->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="92c3dfa2-d170-441d-b5b6-cc6dadaf108f" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Harbinger" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f6ecbd47-4f23-429e-b271-ee682c3f552d" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="13b2626d-3af0-4476-b746-65f9f094ebe5" />
+					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="3e2e1c74-9efd-4837-9088-890ba7331491" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="70ed6311-4bb6-41e0-813d-c71529f4235d" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_Strong_Harbinger" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1eb00106-c350-4dc8-9bca-2492b01877fd" />
+					<attribute id="Icon" type="FixedString" value="eb370ddf-f7a4-4349-116e-f489556bab1d-_(Icon_Human_Female_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="34de7f15-5ef7-44db-bf4d-8bd77785c637" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="3e2e1c74-9efd-4837-9088-890ba7331491" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9ec1cf27-4354-4010-930c-96efb979709c" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Harbinger" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3ea0e8c8-a2c7-46fa-9ccc-f2f145e46b24" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="eba48443-354c-4b86-970a-80c1d8150f25" />
+					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="3e2e1c74-9efd-4837-9088-890ba7331491" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="624f31a2-ea22-4fe2-ac52-ca2584f3a603" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player_Strong_Harbinger" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9982fc55-f86b-407d-973b-f517b6afe532" />
+					<attribute id="Icon" type="FixedString" value="dbe45e58-e009-91ae-91f1-e5311cbef090-_(Icon_Human_Male_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="69cc0339-ac1c-4daf-ab3d-e10276044933" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Origin_Karlach" />
+					<attribute id="Race" type="guid" value="449f93dd-817f-4870-be6d-fbdb8f0dfb1d" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="3e2e1c74-9efd-4837-9088-890ba7331491" />
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+								</node>
+								<node id="Tags">
+									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			<!--Protector Wings-->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h117b0532gb0f1g4fefg89c8g931e23013963" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5b712fcdg285dg4077g800dg91447da2f552" version="1" />
+					<attribute id="Icon" type="FixedString" value="Trips_Protector_Item" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="812ba0ed-454b-4a3e-84f6-4ec2e2e6eb7b" />
+					<attribute id="Name" type="LSString" value="Protector Wings" />
+					<attribute id="Stats" type="FixedString" value="Trips_Protector_Wings" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="128" />
+					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ShortHair" />
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Wings" />
+								</node>
+								<node id="ParentRace">
+									<children>
+										<!-- masc -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- masc strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="c898b8aa-a35c-48ed-91dc-d2cbe7179caf" /> 
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="fe2f2958-edc0-4f56-9505-c600189f5073" /> 
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="de3e0f87-061b-47d4-9283-5ecb32b55482" /> 
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="644ec99c-4faa-4ca1-8b23-da8126e6d5de" /> 
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<!--Protector Wings OLD-->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h117b0532gb0f1g4fefg89c8g931e23013963" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5b712fcdg285dg4077g800dg91447da2f552" version="1" />
+					<attribute id="Icon" type="FixedString" value="Trips_Protector_Item" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="8bc82dd5-e636-492a-81bf-75bf4a7142ad" />
+					<attribute id="Name" type="LSString" value="Protector Wings Old" />
+					<attribute id="Flag" type="int32" value="128" />
+					<attribute id="Stats" type="FixedString" value="Trips_Protector_Wings_Old" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a09273ba-6549-4cf9-ba47-615a962baf9f" /> <!--base_Armor parent ID-->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+								<node id="ParentRace">
+									<children>
+										<!-- masc -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- masc strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" /> 
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="72232ed4-00de-43cf-97e8-3413df575cb8" /> 
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" /> 
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d000ce74-2986-47d3-b545-08d806760448" /> 
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" /> 
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="dc2690af-e421-44d2-823e-198c570d9fc2" /> 
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="fb9a7e3f-154b-4416-bfb5-1d7ed9ba01b4" /> 
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<!--Protector Wings OLD-->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h60ee6f28gd0d4g411bg9babg73a83f814365" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h56d3999fg5af0g49fbgac25g0950ced60a5f" version="1" />
+					<attribute id="Icon" type="FixedString" value="Trips_Scourge_Item" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="e92cf0a1-9658-45cc-bbc0-52f9c060aaf3" />
+					<attribute id="Name" type="LSString" value="Scourge Wings Old" />
+					<attribute id="Stats" type="FixedString" value="Trips_Scourge_Wings_Old" />
+					<attribute id="Flag" type="int32" value="128" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a09273ba-6549-4cf9-ba47-615a962baf9f" /> <!--base_Armor parent ID-->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Body" />
+								</node>
+								<node id="ParentRace">
+									<children>
+										<!-- masc -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- masc strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" /> 
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2d6e84e6-97fb-49d2-862f-8811531652b1" /> 
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" /> 
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="0c25c152-9a03-4bf0-b0e0-fb0f12e20c08" /> 
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" /> 
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="49e9d7fb-af1c-4d3e-9111-a8d8bccc4ed6" /> 
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="aa75ebe1-0ee7-46fd-8f66-1499b5d3dbaa" /> 
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+			<!--Scourge Wings-->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h60ee6f28gd0d4g411bg9babg73a83f814365" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h56d3999fg5af0g49fbgac25g0950ced60a5f" version="1" />
+					<attribute id="Icon" type="FixedString" value="Trips_Scourge_Item" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="00355696-1c4b-4e0f-a735-071e6eb24762" />
+					<attribute id="Name" type="LSString" value="Scourge Wings" />
+					<attribute id="Stats" type="FixedString" value="Trips_Scourge_Wings" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="128" />
+					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ShortHair" />
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Wings" />
+								</node>
+								<node id="ParentRace">
+									<children>
+										<!-- masc -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- masc strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e6e8b8df-bae6-49ac-a020-c2759e5324ad" /> 
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="23ae7ce0-c1fe-4e0b-9481-e31471d201c2" /> 
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2d863342-34ad-4a09-b50d-32fb907b7cd1" /> 
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="19ce82fa-7f72-41f5-bbfe-b2c75baf575e" /> 
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+			<!--Fallen Wings-->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hff7d712eg7428g47eeg9e96gd46aaacb513a" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hfbcc0df1g829dg489fga7a1g19e7a45b9521" version="1" />
+					<attribute id="Icon" type="FixedString" value="Trips_Fallen_Item" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="20110880-cd92-4c24-9ed1-2c676498d36a" />
+					<attribute id="Name" type="LSString" value="Fallen Wings" />
+					<attribute id="Stats" type="FixedString" value="Trips_Fallen_Wings" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="128" />
+					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ShortHair" />
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Wings" />
+								</node>
+								<node id="ParentRace">
+									<children>
+										<!-- masc -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- masc strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="ba7e80c2-c08c-4f00-914f-dbb0dbb13838" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="480f1b94-8032-4271-8ad4-0a1553bc4e8f" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="34482a6b-128d-4dce-bbd5-3777e463b83a" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="81c89e10-df02-4524-aa8c-6d066f0ef6be" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+			<!--Fallen Wings OLD-->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h117b0532gb0f1g4fefg89c8g931e23013963" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5b712fcdg285dg4077g800dg91447da2f552" version="1" />
+					<attribute id="Icon" type="FixedString" value="Trips_Fallen_Item" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="1615a35d-ae69-4e5e-b5ce-6fe1ff852992" />
+					<attribute id="Name" type="LSString" value="Fallen Wings Old" />
+					<attribute id="Stats" type="FixedString" value="Trips_Fallen_Wings_Old" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="128" />
+					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ShortHair" />
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Wings" />
+								</node>
+								<node id="ParentRace">
+									<children>
+										<!-- masc -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- masc strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="d789d2e7-de4c-4cd4-82f5-7d4324fa608a" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="78cb6029-4347-4c58-b3b5-9b59c212377f" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="5c963375-2c8d-495c-bd5a-f832c1bbca56" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2f95ced0-6b27-4e7f-9340-118ec47b2895" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+			<!--New Flame Double Wings-->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h117b0532gb0f1g4fefg89c8g931e23013963" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5b712fcdg285dg4077g800dg91447da2f552" version="1" />
+					<attribute id="Icon" type="FixedString" value="Trips_Protector_Item" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="3d75fc44-d618-4330-a43d-e1fbf8c95228" />
+					<attribute id="Name" type="LSString" value="Flame Wings" />
+					<attribute id="Stats" type="FixedString" value="Trips_Flame_Wings" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="128" />
+					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ShortHair" />
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Wings" />
+								</node>
+								<node id="ParentRace">
+									<children>
+										<!-- masc -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- masc strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="b7fe70f9-97d5-43df-99a0-39d70a9a3b4e" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2787d90d-f3cf-40df-b5bb-38a36d80e898" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="924b803e-dfaf-473c-8601-f33ac21de570" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="db81761d-4b94-4225-8037-606279460f36" />
+												</node>	
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+			<!--Harbinger Wings-->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf969b80bge4a6g48f4gba52gc45f4861a1f7" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he7b798c6g8b46g4806g8472gd9b7912f7e6c" version="1" />
+					<attribute id="Icon" type="FixedString" value="Trips_Harbinger_Item" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="526f7821-d442-429b-8b70-9aae14fac463" />
+					<attribute id="Name" type="LSString" value="Harbinger Wings" />
+					<attribute id="Stats" type="FixedString" value="Trips_Harbinger_Wings" />
+					<attribute id="Flag" type="int32" value="128" />
+					<attribute id="ParentTemplateId" type="FixedString" value="465340b0-523f-48ac-a832-4db4a1183c74" /> <!--cloak parent ID-->
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AASIMAR_WINGS_BOUNDEDTO" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="LongHair" />
+								<node id="ShortHair" />
+								<node id="Slot">
+									<attribute id="Object" type="FixedString" value="Wings" />
+								</node>
+								<node id="ParentRace">
+									<children>
+										<!-- masc -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- masc strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+										<!-- femme strong -->
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" /> 
+											<attribute id="MapValue" type="guid" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+								<node id="Visuals">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="ce87a9e7-5bd9-4bec-869b-76f7bd5dc31d" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="e5e6a11f-64a4-418c-9696-260ba980f646" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="601d6a6a-8869-4244-ae6f-d5a58d55c239" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="668b3a4a-bffc-4c0e-aa46-213c34363222" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="b8d9bde7-7ba3-4534-a206-d7cf7f6fee41" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="85a19d96-12dd-4017-9085-4db55cf3791f" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="guid" value="45bcd156-615f-444b-bdd9-194a02a13e91" />
+											<children>
+												<node id="MapValue">
+													<attribute id="Object" type="FixedString" value="2debede6-1d80-4ec4-b96d-8c002ec7ac15" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

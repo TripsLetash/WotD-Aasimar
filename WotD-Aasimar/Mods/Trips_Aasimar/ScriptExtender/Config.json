@@ -1,0 +1,5 @@
+{
+    "RequiredVersion": 12,
+    "ModTable": "WotD:Aasimar Definitive Edition",
+    "FeatureFlags": [ "Lua" ]
+}
