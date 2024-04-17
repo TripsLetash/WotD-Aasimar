@@ -45,8 +45,6 @@
 	<content contentuid="hc99a7861g27e8g47dcgb863gf590ff7cc031" version="1">★ Glow Aasimar: Light Seagreen ★</content>		
 	
 	<!--Selector Wings-->
-	<content contentuid="h2bb13e05ge956g4e26gb8d8ga7e6cce0593e" version="1">Wings</content>
-	<content contentuid="hb10a7437g34b3g429ag92d2g041cdab3c8e3" version="1">Select which style of wings you manifest.</content>
 	<content contentuid="h908d9876g961ag42c1ga492gfa0fa91a6627" version="1">Armored Wings (Protector)</content>
 	<content contentuid="hbaaa22f4g7b2cg4d00g9b75g6e90ba560e41" version="1">Crystal Wings (Scourge)</content>	
 	<content contentuid="h83425655g1bcdg412cgaba6g3c5bbd3d8b41" version="1">Rotten Wings (Fallen)</content>
@@ -286,4 +284,8 @@
 
     <content contentuid="hb2edfdbe72ed4586aa55f98070cb5446e8d9" version="1">Half-Orc Cracks 01</content>
     <content contentuid="hb656c50b05214a2d8eeef29008f61a25cfg1" version="1">Half-Orc Cracks 02</content>
+<!--Credits-->
+	<content contentuid="h2bb13e05ge956g4e26gb8d8ga7e6cce0593e" version="1">Credits</content>
+	<content contentuid="hb10a7437g34b3g429ag92d2g041cdab3c8e3" version="1">Huge thanks to these creators:</content>
+	<content contentuid="h8e0a9774665f48c79a7f77f4e0855df569d7" version="1">Norbyte for ScriptExtender</content>
 </contentList>
