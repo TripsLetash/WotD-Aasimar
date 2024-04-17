@@ -1,19 +1,4 @@
-new entry "TRIPS_Wings"
-type "Armor"
-data "ValueScale" "0.4"
-data "Weight" "0.1"
-data "Slot" "Underwear"
-data "Level" "1"
-data "UseCosts" "ActionPoint:1"
-data "ValueLevel" "1"
-data "ValueUUID" "9495e96a-7e7c-4e3a-8d81-51611908908c"
-data "ValueRounding" "1"
-data "InventoryTab" "Hidden"
-data "ComboCategory" "DyableArmor"
-data "ArmorType" "None"
-data "Boosts" "UnlockSpell(Projectile_Fly)"
-data "Shield" "No"
-data "Armor Class Ability" "None"
+
 
 //<!--------------------- Aasimar Passives --------------------->
 
@@ -133,8 +118,21 @@ data "Description" "hb9cf9239g6903g4805g9078g991396c2a9b6"
 data "Boosts" "UnlockSpell(Trips_Harbinger_Wings_Summon)"
 
 ////////////RootTemplates Wings/////////////////
+new entry "Aasimar_Passive_lvl10"
+type "PassiveData"
+data "Properties" "IsHidden"
 
+new entry "TOGGLE_WINGS_LEVELTEN" 
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Aasimar_Get_Toggle_LevelTen"
+data "StackId" "TOGGLE_WINGS_LEVELTEN"
+data "StatusPropertyFlags" "IsHidden"
 
+//lvl 10
+new entry "Aasimar_Get_Toggle_LevelTen"
+type "PassiveData"
+ata "Properties" "IsHidden"
 
 new entry "Aasimar_Get_Toggle_WingsShow"
 type "PassiveData"
@@ -144,6 +142,17 @@ data "Description" "h5c33ee2876664b0598815d0ac175cf73a6a8"
 data "ToggleOnFunctors" "ApplyStatus(SELF,AASIMAR_WINGS_SHOW, 100,-1)"
 data "ToggleOffFunctors" "RemoveStatus(SELF,AASIMAR_WINGS_SHOW)"
 data "Properties" "ToggledDefaultOn;IsToggled;ToggledDefaultAddToHotbar;IsHidden"
+
+new entry "Aasimar_Passive_lvl1"
+type "PassiveData"
+data "Properties" "IsHidden"
+
+new entry "TOGGLE_WINGS_LEVELONE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Aasimar_Get_Toggle_LevelOne"
+data "StackId" "TOGGLE_WINGS_LEVELONE"
+data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
 new entry "AASIMAR_WINGS_SHOW"
 type "StatusData"
@@ -162,6 +171,26 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "StackId" "TOGGLE_NO_WINGS"
 data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "Aasimar_Get_Toggle_LevelOne"
+type "PassiveData"
+data "Properties" "IsHidden"
+
+new entry "Aasimar_Hireling_Passive_lvl1"
+type "PassiveData"
+data "Properties" "IsHidden"
+
+new entry "TOGGLE_WINGS_LEVELONE_HIRELING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Aasimar_Get_Toggle_LevelOne_Hireling"
+data "StackId" "TOGGLE_WINGS_LEVELONE"
+data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "Aasimar_Get_Toggle_LevelOne_Hireling"
+type "PassiveData"
+data "Icon" "Trips_Protector_Ten_Passive"
+data "Properties" "IsHidden"
 
 new entry "Aasimar_Get_Toggle"
 type "PassiveData"
@@ -1170,6 +1199,21 @@ data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog;DisableOverhead;Disab
 data "StatusGroups" "SG_RemoveOnRespec"
 
 //<!--------------------- Aasimar - Deprecated Wing Items to Delete  --------------------->
+new entry "TRIPS_Wings"
+type "Armor"
+data "ValueScale" "0.4"
+data "Weight" "0.1"
+data "Slot" "Underwear"
+data "Level" "1"
+data "UseCosts" "ActionPoint:1"
+data "ValueLevel" "1"
+data "ValueUUID" "9495e96a-7e7c-4e3a-8d81-51611908908c"
+data "ValueRounding" "1"
+data "InventoryTab" "Hidden"
+data "ComboCategory" "DyableArmor"
+data "ArmorType" "None"
+data "Shield" "No"
+data "Armor Class Ability" "None"
 
 new entry "Trips_Protector_Wings"
 type "Armor"

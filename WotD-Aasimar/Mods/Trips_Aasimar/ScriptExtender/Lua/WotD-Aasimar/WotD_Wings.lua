@@ -5,7 +5,9 @@
 --												applied and converted to WotD: Aasimar by Trips
 -- 
 ----------------------------------------------------------------------------------------------------
-
+--TODO
+--*Fix wing toggle effect to be Harbinger to mask nakedness
+--*
 
 -- Constants
 
@@ -160,12 +162,17 @@ end
 -- @param newWing	- ID of CharacterCreationAppearaceVisual of type Tail
 -- @param uuid 	     	- uuid of entity that will receive the wing
 local function overrideWing(newWing, uuid, summon)
-
+	local player = Ext.Entity.Get(uuid)
 	if summon == false then
-		local player = Ext.Entity.Get(uuid)
-		Osi.RemoveCustomVisualOvirride(uuid, player.Vars.AAS_WingsChosen) 
+		Osi.RemoveCustomVisualOvirride(uuid, player.Vars.AAS_WingsChosen)
+		Osi.AddCustomVisualOverride(uuid, "c4484e9e-0991-43b8-b6d3-e505bd55340f") 
 	elseif summon then
-		Osi.AddCustomVisualOverride(uuid, newWing)
+		if 	newWing == nil then
+			_P("WOTD: newWing is nil")
+		else
+			Osi.RemoveCustomVisualOvirride(uuid, "c4484e9e-0991-43b8-b6d3-e505bd55340f")
+			Osi.AddCustomVisualOverride(uuid, newWing)
+		end
 	end
 end
 ----------------------------------------------------------------------------------------------------
@@ -212,11 +219,19 @@ end
 -- @param permission		- whether the entity may have wings
 -- @param uuid 	     		- uuid of entity that will receive the wing
 function MayHaveWings(uuid, permission)
+	SyncWings(Ext.Entity.Get(uuid))
 	if permission == true then
 		Osi.ApplyStatus(uuid,"SUM_WINGS",0)
 	else
 		Osi.ApplyStatus(uuid,"UNS_WINGS",0)
 	end	
+end
+-- Sync the valuess
+-- @param playerEntity		- player entity
+function SyncWings(playerEntity)
+	if playerEntity ~= nill then
+		Ext.Vars.SyncUserVariables()
+	end
 end
 ----------------------------------------------------------------------------------------------------
 -- 
@@ -224,7 +239,6 @@ end
 -- 
 ----------------------------------------------------------------------------------------------------
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
-	Ext.Vars.SyncUserVariables()	
 	if status == "SUM_WINGS" then
 		local player = Ext.Entity.Get(object)
 		overrideWing(player.Vars.AAS_WingsChosen, player.Uuid.EntityUuid, true)
@@ -246,7 +260,6 @@ Ext.Osiris.RegisterListener("StatusRemoved", 4, "after", function(object, status
 	end
 end)
 Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelName, isEditorMode) 
-	_P("WOTD: Level loaded")
 	local oldWingItem = ""
 	local newUnderwear = ""
 	local newUnderwearRoot = "82c84433-0464-442a-8e5a-0891d829f99a"
@@ -256,12 +269,11 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelNa
 		if raceTable[race.Race] then
 			local WingOptions = getPermittedWings(uuid)
 			oldWingItem = GetEquippedItem(uuid, "Underwear")
-			if oldWingItem == nil then
+			if oldWingItem == nil  or entity == nil then
 			else
 				Osi.ApplyStatus(uuid, "OLDWINGSDESTROY", 0)
 				if entity.Vars.AAS_WingsChosen == nil then
 					entity.Vars.AAS_WingsChosen = WingOptions[1]
-					Ext.Vars.SyncUserVariables()
 				end
 				if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
 					ToggleWings(uuid, true)
@@ -278,13 +290,40 @@ Ext.Osiris.RegisterListener("CharacterJoinedParty", 1, "after", function(charact
 	if raceTable["309b9cc5-0156-4f64-b857-8cf83fa2160b"] then
 		_P("WOTD: Aasimar Hireling joined the party.")
 		Entity.Vars.AAS_WingsChosen = "19ce82fa-7f72-41f5-bbfe-b2c75baf575e"
-		Ext.Vars.SyncUserVariables()
 		if Osi.HasActiveStatus(character, "IS_WINGING") == 1 then
 			ToggleWings(character, true)
 		else
 			ToggleWings(character, false)
 		end
 	end
+end)
+Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "after", function(uuid, itemroot, item, _)
+    if (itemroot == "UNI_MagicMirror_72ae7a39-d0ce-4cb6-8d74-ebdf7cdccf91") then
+        local player = Ext.Entity.Get(uuid)
+		_P("WOTD: Left Mirror")
+		local race = player.Race.Race
+		if raceTable[race] then
+			local CurrentWing = getCurrentWing(uuid)
+			if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
+				player.Vars.AAS_WingsChosen = CurrentWing
+			end
+			ToggleWings(uuid, false)
+		end
+    end
+end)
+Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "before", function(uuid, itemroot, item, _)
+    if (itemroot == "UNI_MagicMirror_72ae7a39-d0ce-4cb6-8d74-ebdf7cdccf91") then
+        local player = Ext.Entity.Get(uuid)
+		_P("WOTD: Left Mirror")
+		local race = player.Race.Race
+		if raceTable[race] then
+			local CurrentWing = getCurrentWing(uuid)
+			if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
+				player.Vars.AAS_WingsChosen = CurrentWing
+			end
+			ToggleWings(uuid, false)
+		end
+    end
 end)
 Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function()
 	_P("WOTD: CharacterCreation Finished")
@@ -299,10 +338,8 @@ Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function()
 				if raceTable[race.Race] then
 					if (entity.Vars.AAS_WingsChosen == nil) then
 						entity.Vars.AAS_WingsChosen = WingOptions[1]
-						Ext.Vars.SyncUserVariables()
 					end
 					entity.Vars.AAS_WingsChosen = getCurrentWing(uuid)
-					Ext.Vars.SyncUserVariables()
 					if JustOnce == false then
 						Osi.ApplyStatus(uuid,"UNS_WINGS",0)
 						ToggleWings(uuid, false)
@@ -315,14 +352,12 @@ Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function()
 end)
 Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(character) 
 	local player = Ext.Entity.Get(character)
-	_P("WOTD: Left Mirror")
 	local uuid = character
 	local race = player.Race.Race
 	if raceTable[race] then
 		local CurrentWing = getCurrentWing(uuid)
 		if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
 			player.Vars.AAS_WingsChosen = CurrentWing
-			Ext.Vars.SyncUserVariables()
 		end
 		ToggleWings(uuid, false)
 	end
