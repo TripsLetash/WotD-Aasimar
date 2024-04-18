@@ -1,3 +1,0 @@
-new equipment "EQ_Underwear_Aasimar"
-add equipmentgroup
-add equipment entry "ARM_Underwear_Incubus"
