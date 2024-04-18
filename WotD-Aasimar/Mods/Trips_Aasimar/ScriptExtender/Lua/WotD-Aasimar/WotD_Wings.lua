@@ -5,9 +5,9 @@
 --												applied and converted to WotD: Aasimar by Trips
 -- 
 ----------------------------------------------------------------------------------------------------
---TODO
---*Fix wing toggle effect to be Harbinger to mask nakedness
---*
+--
+--
+--
 
 -- Constants
 
@@ -16,7 +16,6 @@ BODYTYPE = {
 	MALE = 0,
 	FEMALE = 1
 } 
-
 -- Strong is only for humanoids
 BODYSHAPE = {
 	NORMAL = 0,
@@ -34,7 +33,27 @@ local raceTable={
 	["449f93dd-817f-4870-be6d-fbdb8f0dfb1d"]=true,
 	["309b9cc5-0156-4f64-b857-8cf83fa2160b"]=true
 }
-
+local classTable ={
+	"dd21fb84-2d6a-4d7d-a418-ca96991d3920",
+	"4738a422-5abd-41a7-a3f8-a35250a73209",
+	"f40da0bb-58e0-4b53-8ec5-805bc1533c8c",
+	"449f93dd-817f-4870-be6d-fbdb8f0dfb1d",
+	"309b9cc5-0156-4f64-b857-8cf83fa2160b"
+}
+local classVfxTable ={
+	"SUM_VFX_PROT",
+	"SUM_VFX_SCO",
+	"SUM_VFX_FAL",
+	"SUM_VFX_HARB",
+	"SUM_VFX_CRESSA"
+}
+local dummyTable={
+	["S_GLO_CharacterCreationDummy_001_e2badbf0-159a-4ef5-9e73-7bbeb3d1015a"]=true,
+	["S_GLO_CharacterCreationDummy_002_aa772968-b5e0-4441-8d86-2d0506b4aab5"]=true,
+	["S_GLO_CharacterCreationDummy_003_81c48711-d7cc-4a3d-9e49-665eb915c15c"]=true,
+	["S_GLO_CharacterCreationDummy_004_6bff5419-5a9e-4839-acd4-cac4f6e41bd7"]=true
+}
+local invisWing = "c4484e9e-0991-43b8-b6d3-e505bd55340f"
 local oldWingsTable={
 	"812ba0ed-454b-4a3e-84f6-4ec2e2e6eb7b",
 	"00355696-1c4b-4e0f-a735-071e6eb24762",
@@ -45,7 +64,6 @@ local oldWingsTable={
 	"e92cf0a1-9658-45cc-bbc0-52f9c060aaf3",
 	"3d75fc44-d618-4330-a43d-e1fbf8c95228"
 }
-
 local SaveLoaded = false
 local CharacterCreated
 
@@ -66,8 +84,6 @@ local function contains(list, item)
     end
     return false
 end
-
-
 -- Checks if the substring 'sub' is present within the string 'str'.
 -- @param str string 	-  The string to search within.
 -- @param sub string 	- The substring to look for.
@@ -75,14 +91,62 @@ end
 local function stringContains(str, sub)
     return (string.find(str, sub) ~= nil)
 end
-
+function Wait(delayInMs, func)
+    local startTime = Ext.Utils.MonotonicTime()
+    local handlerId;
+    handlerId = Ext.Events.Tick:Subscribe(function()
+        local endTime = Ext.Utils.MonotonicTime()
+        if (endTime - startTime > delayInMs) then
+            Ext.Events.Tick:Unsubscribe(handlerId)
+            func()
+        end
+    end) 
+end
+--By Fararagi/FallenStar
+---Applies a rainbow color effect to a given string.
+---The ANSI color codes are used to achieve the rainbow effect.
+---@param text string The input text to be colored with a rainbow effect.
+---@return string coloredText input text with rainbow colors applied.
+function GetRainbowText(text)
+    local colors = { "31", "33", "32", "36", "35", "34" } -- Red, Yellow, Green, Cyan, Magenta, Blue
+    local coloredText = ""
+    for i = 1, #text do
+        local char = text:sub(i, i)
+        local color = colors[i % #colors + 1]
+        coloredText = coloredText .. string.format("\x1b[%sm%s\x1b[0m", color, char)
+    end
+    return coloredText
+end
+function GetMagentaText(text)
+	local coloredText = ""
+		local color = "35"
+		coloredText = string.format("\x1b[%sm%s\x1b[0m", color, text)
+return coloredText
+end
+function GetYellowText(text)
+    local coloredText = ""
+        local color = "33"
+        coloredText = string.format("\x1b[%sm%s\x1b[0m", color, text)
+    return coloredText
+end
+function GetGreenText(text)
+    local coloredText = ""
+        local color = "32"
+        coloredText = string.format("\x1b[%sm%s\x1b[0m", color, text)
+    return coloredText
+end
+function GetBlueText(text)
+    local coloredText = ""
+        local color = "34"
+        coloredText = string.format("\x1b[%sm%s\x1b[0m", color, text)
+    return coloredText
+end
 ----------------------------------------------------------------------------------------------------
 -- 
 -- 									XML Handling
 -- 				 read information saved in xml files from game
 -- 
 ----------------------------------------------------------------------------------------------------
-
 -- Get all CharacterCreationAppearaceVisuals of type Tail loaded in the game
 ---return 				- list of CharacterCreationAppearaceVisual IDs for all Tails
 local function getAllWings()
@@ -97,45 +161,33 @@ local function getAllWings()
 	end
 	return allWings
 end
-
-
 -- Get all allowed genitals for entity (Ex: all Tail for Aasimar)
 -- @param uuis 	    - uuid of entity that will receive the wing
 ---return 			- List of IDs of CharacterCreationAppearaceVisuals
 local function getPermittedWings(uuid)
-
 	local permittedWings = {}
-
 	-- Get entities body
 	local allWings = getAllWings()
 	local E = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats
-
 	local race = E.Race 
-
 	-- get Tails/Wings with same stats
 	for _, wing in pairs(allWings) do
-
-		local G = Ext.StaticData.Get(wing, "CharacterCreationAppearanceVisual")
-		
+		local G = Ext.StaticData.Get(wing, "CharacterCreationAppearanceVisual")	
 		if (E.BodyType == G.BodyType) and (E.BodyShape == G.BodyShape) and (race == G.RaceUUID) then
 			table.insert(permittedWings, wing)
 		end
 	end
 	return permittedWings
 end
-
 local function getCurrentWing(uuid)
 	local allWings = getAllWings()
-
 	local characterVisuals =  Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationAppearance.Visuals
-	
 	for _, visual in pairs(characterVisuals)do
 		if contains(allWings, visual) then
 		return visual
 		end
 	end
 end
-
 ----------------------------------------------------------------------------------------------------
 -- 
 -- 										Spell Handling
@@ -155,9 +207,6 @@ end
 -- 									Transformations
 -- 
 ----------------------------------------------------------------------------------------------------
-
-
-
 -- Override the current wing with the new one
 -- @param newWing	- ID of CharacterCreationAppearaceVisual of type Tail
 -- @param uuid 	     	- uuid of entity that will receive the wing
@@ -165,12 +214,12 @@ local function overrideWing(newWing, uuid, summon)
 	local player = Ext.Entity.Get(uuid)
 	if summon == false then
 		Osi.RemoveCustomVisualOvirride(uuid, player.Vars.AAS_WingsChosen)
-		Osi.AddCustomVisualOverride(uuid, "c4484e9e-0991-43b8-b6d3-e505bd55340f") 
+		Osi.AddCustomVisualOverride(uuid, invisWing) 
 	elseif summon then
 		if 	newWing == nil then
-			_P("WOTD: newWing is nil")
+			_P(GetYellowText("WOTD [WARNING]: newWing is nil"))
 		else
-			Osi.RemoveCustomVisualOvirride(uuid, "c4484e9e-0991-43b8-b6d3-e505bd55340f")
+			Osi.RemoveCustomVisualOvirride(uuid, invisWing)
 			Osi.AddCustomVisualOverride(uuid, newWing)
 		end
 	end
@@ -194,25 +243,42 @@ end
 -- @param uuid 	     		- uuid of entity that will receive the wing
 function ToggleWings(uuid, IsPlayerWinging)
 	local allTags = Ext.Entity.Get(uuid):GetAllComponents().Tag.Tags
-	if contains(allTags, TagLevelOne) then
-		Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
-		MayHaveWings(uuid, true)
-	elseif contains(allTags, TagLevelTen) then
-		if GetLevel(uuid) >= 10 then
-			Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
-			MayHaveWings(uuid, true)
+	local entity = Ext.Entity.Get(uuid)
+	local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
+	if raceTable[race] then
+		if stringContains(uuid, "Dummy") then
+			_P(GetBlueText("WOTD [DEBUG]: Supressed the toggling of " .. uuid .. ", they are a DUMMY."))
 		else
-			if IsPlayerWinging then
+			_P(GetBlueText("WOTD [DEBUG]: Tried to Toggle active object " .. uuid))
+			if contains(allTags, TagLevelOne) then
 				Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
+				_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL ONE TOGGLE"))
 				MayHaveWings(uuid, true)
-			elseif IsPlayerWinging == false then
-				Osi.RemovePassive(uuid,"Aasimar_Get_Toggle")
-				MayHaveWings(uuid, false)
-			end
+			elseif contains(allTags, TagLevelTen) then
+				if GetLevel(uuid) >= 10 then
+					Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
+					_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL ONE TEN HIGHER THAN LEVEL TEN"))
+					MayHaveWings(uuid, true)
+				else
+					if IsPlayerWinging then
+						Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
+						_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL ONE TEN LOWER THAN LEVEL TEN AND WINGING"))
+						MayHaveWings(uuid, true)
+					elseif IsPlayerWinging == false then
+						_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL ONE TEN LOWER THAN LEVEL TEN AND NOT WINGING"))
+						MayHaveWings(uuid, false)
+					end
+				end
+			elseif contains(allTags, TagCressa) then
+				_P(GetBlueText("WOTD [DEBUG]: SYNCING CRESSA"))
+				MayHaveWings(uuid, true)
+				Osi.RemovePassive(uuid,"Aasimar_Get_Toggle_WingsShow")
+			end		
 		end
-	elseif contains(allTags, TagCressa) then
-		MayHaveWings(uuid, true)
-		Osi.RemovePassive(uuid,"Aasimar_Get_Toggle_WingsShow")
+	else
+		_P(GetBlueText("WOTD [DEBUG]: Supressed the toggling of " .. uuid .. ", they are a NOT an Aasimar, clearing Vars."))
+		entity.Vars.AAS_WingsChosen = nil
+		Ext.Vars.SyncUserVariables()
 	end
 end
 -- Decides if the player can have wings
@@ -220,53 +286,96 @@ end
 -- @param uuid 	     		- uuid of entity that will receive the wing
 function MayHaveWings(uuid, permission)
 	SyncWings(Ext.Entity.Get(uuid))
+	local currentWings = getCurrentWing(uuid)
 	if permission == true then
-		Osi.ApplyStatus(uuid,"SUM_WINGS",0)
+		if currentWings == invisWing then
+			_P(GetBlueText("WOTD [DEBUG]: Summoning wings, currently hidden"))
+			Osi.ApplyStatus(uuid,"SUM_WINGS",0)
+		else
+			_P(GetBlueText("WOTD [DEBUG]: Tried to show wings, but already showing"))
+		end
 	else
-		Osi.ApplyStatus(uuid,"UNS_WINGS",0)
+		if currentWings ~= invisWing then
+			_P(GetBlueText("WOTD [DEBUG]: Hiding wings, currently showing"))
+			Osi.ApplyStatus(uuid,"UNS_WINGS",0)
+		else
+			_P(GetBlueText("WOTD [DEBUG]: Tried to hide wings, but already hidden"))
+		end
 	end	
 end
 -- Sync the valuess
 -- @param playerEntity		- player entity
 function SyncWings(playerEntity)
 	if playerEntity ~= nill then
-		Ext.Vars.SyncUserVariables()
+		local race = playerEntity:GetAllComponents().CharacterCreationStats.Race
+		if raceTable[race] then
+			Ext.Vars.SyncUserVariables()
+		end
 	end
 end
 ----------------------------------------------------------------------------------------------------
 -- 
 -- 									Event Listener
--- 
+--
 ----------------------------------------------------------------------------------------------------
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
 	if status == "SUM_WINGS" then
+		local delay = 600
 		local player = Ext.Entity.Get(object)
-		overrideWing(player.Vars.AAS_WingsChosen, player.Uuid.EntityUuid, true)
+		local uuid = player.Uuid.EntityUuid
+		local eRace = Ext.Entity.Get(object):GetAllComponents().CharacterCreationStats
+		_P(GetMagentaText("WOTD [INFO]: Race is " .. eRace.SubRace))
+		for index, SubClass in pairs(classTable) do
+			if eRace.SubRace == SubClass then
+			Osi.ApplyStatus(uuid, classVfxTable[index], 0)
+			Wait(delay, function()
+				overrideWing(player.Vars.AAS_WingsChosen, uuid, true)
+				end)	
+			end 
+		end
 	end
 	if status == "UNS_WINGS" then
+		local delay = 600
 		local player = Ext.Entity.Get(object)
-		overrideWing(player.Vars.AAS_WingsChosen, player.Uuid.EntityUuid, false)	
+		local uuid = player.Uuid.EntityUuid
+		local eRace = Ext.Entity.Get(object):GetAllComponents().CharacterCreationStats
+		_P(GetMagentaText("WOTD [INFO]: SubRace is " .. eRace.SubRace))
+		for index, SubClass in pairs(classTable) do
+			if eRace.SubRace == SubClass then
+			Osi.ApplyStatus(uuid, classVfxTable[index], 0)
+			Wait(delay, function()
+				overrideWing(player.Vars.AAS_WingsChosen, uuid, false)
+				end)	
+			end 
+		end
 	end	
 	if status == "IS_WINGING" then
-		ToggleWings(causee, true)
+		local race = Ext.Entity.Get(object):GetAllComponents().CharacterCreationStats.Race
+		if raceTable[race] then
+			ToggleWings(causee, true)
+		end
 	end
 	if status == "WOTD_RESET_CHAR" then
-		ToggleWings(causee, false)
+		local race = Ext.Entity.Get(object):GetAllComponents().CharacterCreationStats.Race
+		if raceTable[race] then
+			ToggleWings(causee, false)
+		end
 	end
 end)
 Ext.Osiris.RegisterListener("StatusRemoved", 4, "after", function(object, status, causee, applyStoryActionID)
 	if status == "IS_WINGING" then
-		ToggleWings(causee, false)
+		local race = Ext.Entity.Get(object):GetAllComponents().CharacterCreationStats.Race
+		if raceTable[race] then
+			ToggleWings(causee, false)
+		end
 	end
 end)
 Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelName, isEditorMode) 
 	local oldWingItem = ""
-	local newUnderwear = ""
-	local newUnderwearRoot = "82c84433-0464-442a-8e5a-0891d829f99a"
 	for _, uuid in pairs(GetPartyWotD()) do
 		local entity = Ext.Entity.Get(uuid)
-		local race = entity.Race
-		if raceTable[race.Race] then
+		local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
+		if raceTable[race] then
 			local WingOptions = getPermittedWings(uuid)
 			oldWingItem = GetEquippedItem(uuid, "Underwear")
 			if oldWingItem == nil  or entity == nil then
@@ -276,8 +385,10 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelNa
 					entity.Vars.AAS_WingsChosen = WingOptions[1]
 				end
 				if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
+					_P("WOTD: ".. uuid .. " is WINGING on GAMESTART")
 					ToggleWings(uuid, true)
 				else
+					_P("WOTD: ".. uuid .. " is NOT WINGING on GAMESTART")
 					ToggleWings(uuid, false)
 				end
 			end		
@@ -286,36 +397,25 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelNa
 end)
 Ext.Osiris.RegisterListener("CharacterJoinedParty", 1, "after", function(character) 
 	local Entity = Ext.Entity.Get(character)
-	local race = character.Race
-	if raceTable["309b9cc5-0156-4f64-b857-8cf83fa2160b"] then
-		_P("WOTD: Aasimar Hireling joined the party.")
-		Entity.Vars.AAS_WingsChosen = "19ce82fa-7f72-41f5-bbfe-b2c75baf575e"
-		if Osi.HasActiveStatus(character, "IS_WINGING") == 1 then
-			ToggleWings(character, true)
-		else
-			ToggleWings(character, false)
-		end
+	--local race = Ext.Entity.Get(character):GetAllComponents().CharacterCreationStats.Race
+	if stringContains(character, "Dummy") then
+		--_P(GetBlueText("WOTD: Found a dummy: " .. character))
+	else
+		--if raceTable[race] then
+			Entity.Vars.AAS_WingsChosen = "19ce82fa-7f72-41f5-bbfe-b2c75baf575e"
+			if Osi.HasActiveStatus(character, "IS_WINGING") == 1 then
+				ToggleWings(character, true)
+			else
+				ToggleWings(character, false)
+			end
+		--end
 	end
 end)
 Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "after", function(uuid, itemroot, item, _)
     if (itemroot == "UNI_MagicMirror_72ae7a39-d0ce-4cb6-8d74-ebdf7cdccf91") then
         local player = Ext.Entity.Get(uuid)
-		_P("WOTD: Left Mirror")
-		local race = player.Race.Race
-		if raceTable[race] then
-			local CurrentWing = getCurrentWing(uuid)
-			if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
-				player.Vars.AAS_WingsChosen = CurrentWing
-			end
-			ToggleWings(uuid, false)
-		end
-    end
-end)
-Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "before", function(uuid, itemroot, item, _)
-    if (itemroot == "UNI_MagicMirror_72ae7a39-d0ce-4cb6-8d74-ebdf7cdccf91") then
-        local player = Ext.Entity.Get(uuid)
-		_P("WOTD: Left Mirror")
-		local race = player.Race.Race
+		_P(GetYellowText("WOTD [WARN]: Left Magic Mirror"))
+		local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
 		if raceTable[race] then
 			local CurrentWing = getCurrentWing(uuid)
 			if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
@@ -326,16 +426,16 @@ Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "before", function(uuid, i
     end
 end)
 Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function()
-	_P("WOTD: CharacterCreation Finished")
+	_P(GetYellowText("WOTD [WARN]: Character Creation Finished"))
 	local JustOnce = false
 	for _, character in pairs(GetPartyWotD()) do
 		local charactersEntity = Ext.Entity.Get(character)
 		Ext.Entity.Subscribe("CCState", function(entity, _, _)
 			if entity.CCState.HasDummy == false then
 				local uuid = entity.Uuid.EntityUuid
-				local race = entity.Race
+				local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
 				local WingOptions = getPermittedWings(uuid)
-				if raceTable[race.Race] then
+				if raceTable[race] then
 					if (entity.Vars.AAS_WingsChosen == nil) then
 						entity.Vars.AAS_WingsChosen = WingOptions[1]
 					end
@@ -351,9 +451,10 @@ Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function()
 	end
 end)
 Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(character) 
+	_P(GetYellowText("WOTD [WARN]: Appearance Changed"))
 	local player = Ext.Entity.Get(character)
 	local uuid = character
-	local race = player.Race.Race
+	local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
 	if raceTable[race] then
 		local CurrentWing = getCurrentWing(uuid)
 		if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
@@ -363,10 +464,11 @@ Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(ch
 	end
 end)
 Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function()
+	_P(GetYellowText("WOTD [WARN]: Long Rest Finished"))
 	for _, uuid in pairs(GetPartyWotD()) do
 		local entity = Ext.Entity.Get(uuid)
-		local race = entity.Race
-		if raceTable[race.Race] then
+		local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
+		if raceTable[race] then
 			local toggleShowWings =  SHOWWINGS
 			if toggleShowWings == false then				
 				overrideWing(entity.Vars.AAS_WingsChosen, uuid, false)
@@ -377,30 +479,32 @@ Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function()
 	end
 end)
 Ext.Osiris.RegisterListener("RequestEndTheDaySuccess", 0, "before", function()
+	_P(GetYellowText("WOTD [WARN]: End of Day Requested"))
 	for _, uuid in pairs(GetPartyWotD()) do
 		local entity = Ext.Entity.Get(uuid)
-		local race = entity.Race
-		if raceTable[race.Race] then
+		local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
+		if raceTable[race] then
 			local toggleShowWings =  Osi.HasActiveStatus(uuid, "AASIMAR_WINGS_SHOW")
 			if toggleShowWings == 0 then
 				overrideWing(entity.Vars.AAS_WingsChosen, uuid, false)
-			elseif toggleShowWings == 1 then
 			end
 		end
 	end
 end)
 Ext.Osiris.RegisterListener("DialogStartRequested", 2, "before", function(target, player)
+	_P(GetYellowText("WOTD [WARN]: Dialog Start Requested"))
 	local uuid = player
 	local entity = Ext.Entity.Get(uuid)
-	local race = entity.Race
-	if raceTable[race.Race] then
+	local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
+	if raceTable[race] then
 		local toggleShowWings =  Osi.HasActiveStatus(uuid, "AASIMAR_WINGS_SHOW")
 		if toggleShowWings == 0 then
 			overrideWing(entity.Vars.AAS_WingsChosen, uuid, false)
 		end
 	end
 end)
-Ext.Osiris.RegisterListener("DialogEnded", 2, "after", function(dialog, instanceID) 
+Ext.Osiris.RegisterListener("DialogEnded", 2, "before", function(dialog, instanceID)
+	_P(GetYellowText("WOTD [WARN]: Dialog Ended"))
 	local DialogInvolved = 1
 	local dialogIndex = 1
 	local characters = GetPartyWotD()
@@ -411,12 +515,12 @@ Ext.Osiris.RegisterListener("DialogEnded", 2, "after", function(dialog, instance
 		if DialogPlayer ~= nil then
 			dialogIndex = dialogIndex + 1
 			table.insert(dialogCharacters, DialogPlayer)
-		end		
+		end
 	end
 	for _, uuid in pairs(dialogCharacters) do
 		local entity = Ext.Entity.Get(uuid)
-		local race = entity.Race
-		if raceTable[race.Race] then
+		local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
+		if raceTable[race] then
 			if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
 				ToggleWings(uuid, true)
 			else

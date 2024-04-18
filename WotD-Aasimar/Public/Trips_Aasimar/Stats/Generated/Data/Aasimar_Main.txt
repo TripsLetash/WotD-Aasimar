@@ -617,8 +617,6 @@ data "StackId" "AASIMAR_PASSIVE_WINGS"
 data "Boosts" ""
 data "Passives" ""
 data "IsUnique" "1"
-data "ApplyEffect" "59568c4c-f2ff-475c-8ece-8e7e6a4c01aa"
-data "EndEffect" "59568c4c-f2ff-475c-8ece-8e7e6a4c01aa"
 data "AnimationSetOverride" ""
 data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
@@ -1197,6 +1195,43 @@ data "Icon" "statIcons_Levitating"
 data "StackId" "AASIMAR_LEVITATE"
 data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
 data "StatusGroups" "SG_RemoveOnRespec"
+
+//<!--------------------- Aasimar - Wing Spawn VFX  --------------------->
+
+new entry "SUM_VFX_PROT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "WOTD_VFX"
+data "ApplyEffect" "6f9dbecf-904f-4a7e-8a17-330bf97ee808"
+data "StatusPropertyFlags" "ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "SUM_VFX_SCO"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "WOTD_VFX"
+data "ApplyEffect" "90cf38b5-20c9-4675-9bbb-e2d0de66ede7"
+data "StatusPropertyFlags" "ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "SUM_VFX_FAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "WOTD_VFX"
+data "ApplyEffect" "d310a56b-acda-42c9-9aaf-c901373ec35e"
+data "StatusPropertyFlags" "ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "SUM_VFX_HARB"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "WOTD_VFX"
+data "ApplyEffect" "45e88dfd-69b6-4ed0-850a-3a11b0a4ae8f"
+data "StatusPropertyFlags" "ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+
+new entry "SUM_VFX_CRESSA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "WOTD_VFX"
+data "ApplyEffect" "6f9dbecf-904f-4a7e-8a17-330bf97ee808"
+data "StatusPropertyFlags" "ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
 
 //<!--------------------- Aasimar - Deprecated Wing Items to Delete  --------------------->
 new entry "TRIPS_Wings"
