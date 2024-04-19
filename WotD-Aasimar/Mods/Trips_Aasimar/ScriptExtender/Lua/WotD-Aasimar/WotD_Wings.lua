@@ -269,16 +269,22 @@ function ToggleWings(uuid, IsPlayerWinging)
 						MayHaveWings(uuid, false)
 					end
 				end
-			elseif contains(allTags, TagCressa) then
-				_P(GetBlueText("WOTD [DEBUG]: SYNCING CRESSA"))
+			else
+				Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
+				_P(GetBlueText("WOTD [DEBUG]: Old savegame detected, giving them wings at level one"))
 				MayHaveWings(uuid, true)
-				Osi.RemovePassive(uuid,"Aasimar_Get_Toggle_WingsShow")
-			end		
+			end	
 		end
 	else
-		_P(GetBlueText("WOTD [DEBUG]: Supressed the toggling of " .. uuid .. ", they are a NOT an Aasimar, clearing Vars."))
-		entity.Vars.AAS_WingsChosen = nil
-		Ext.Vars.SyncUserVariables()
+		if contains(allTags, TagCressa) then
+			_P(GetBlueText("WOTD [DEBUG]: SYNCING CRESSA"))
+			MayHaveWings(uuid, true)
+			Osi.AddPassive(uuid,"Aasimar_Get_Toggle_WingsShow")
+		else
+			_P(GetBlueText("WOTD [DEBUG]: Surpressed the toggling of " .. uuid .. ", they are a NOT an Aasimar, clearing Vars."))
+			entity.Vars.AAS_WingsChosen = nil
+			Ext.Vars.SyncUserVariables()
+		end
 	end
 end
 -- Decides if the player can have wings
@@ -328,9 +334,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
 		for index, SubClass in pairs(classTable) do
 			if eRace.SubRace == SubClass then
 			Osi.ApplyStatus(uuid, classVfxTable[index], 0)
-			Wait(delay, function()
-				overrideWing(player.Vars.AAS_WingsChosen, uuid, true)
-				end)	
+			Wait(delay, function() overrideWing(player.Vars.AAS_WingsChosen, uuid, true) end)	
 			end 
 		end
 	end
@@ -343,9 +347,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
 		for index, SubClass in pairs(classTable) do
 			if eRace.SubRace == SubClass then
 			Osi.ApplyStatus(uuid, classVfxTable[index], 0)
-			Wait(delay, function()
-				overrideWing(player.Vars.AAS_WingsChosen, uuid, false)
-				end)	
+			Wait(delay, function() overrideWing(player.Vars.AAS_WingsChosen, uuid, false) end)	
 			end 
 		end
 	end	
@@ -377,38 +379,59 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelNa
 		local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
 		if raceTable[race] then
 			local WingOptions = getPermittedWings(uuid)
-			oldWingItem = GetEquippedItem(uuid, "Underwear")
-			if oldWingItem == nil  or entity == nil then
-			else
-				Osi.ApplyStatus(uuid, "OLDWINGSDESTROY", 0)
-				if entity.Vars.AAS_WingsChosen == nil then
-					entity.Vars.AAS_WingsChosen = WingOptions[1]
+			for i, deprecatedWing in pairs(oldWingsTable) do
+				local deprecatedWingItem = Osi.GetItemByTemplateInUserInventory(deprecatedWing, uuid)
+				if deprecatedWingItem ~= nil then
+					_P(GetMagentaText("WOTD: [CLEANUP] ".. deprecatedWing .. " found on " .. uuid .. ". Applying Status OLDWINGSDESTROYININV" .. i))
+					Osi.ApplyStatus(uuid, "OLDWINGSDESTROYININV" .. i, 0)
+					if entity.Vars.AAS_WingsChosen == nil then
+						entity.Vars.AAS_WingsChosen = WingOptions[1]
+						SyncWings(entity)
+					end
+					if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
+						ToggleWings(uuid, true)
+					else
+						ToggleWings(uuid, false)
+					end
 				end
-				if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
-					_P("WOTD: ".. uuid .. " is WINGING on GAMESTART")
-					ToggleWings(uuid, true)
-				else
-					_P("WOTD: ".. uuid .. " is NOT WINGING on GAMESTART")
-					ToggleWings(uuid, false)
+			end
+			for _,item in pairs(entity:GetAllComponents().InventoryOwner.PrimaryInventory.InventoryContainer.Items) do
+				local itemRoot  = item.Item.GameObjectVisual.RootTemplateId
+				local itemUuid = item.Item.Uuid.EntityUuid
+				if contains(oldWingsTable, itemRoot) then
+					_P(GetMagentaText("WOTD: [CLEANUP] Illegally spawned wings: [ROOT] (".. itemRoot .. ") found. Deleting copy. Item [UUID] " .. itemUuid))
+					Osi.RequestDelete(itemUuid)
 				end
-			end		
+			end
+			itemDeprecatedEquipped = GetEquippedItem(uuid, "Underwear")
+			itemDeprecatedEquippedRoot = Ext.Entity.Get(itemDeprecatedEquipped):GetAllComponents().GameObjectVisual.RootTemplateId
+			for i, deprecatedWing in pairs(oldWingsTable) do
+				if deprecatedWing == itemDeprecatedEquippedRoot then
+					_P(GetMagentaText("WOTD: [CLEANUP] Illegally spawned and equipped wings: [ROOT] (".. itemDeprecatedEquippedRoot .. ") found. Deleting copy. Item [UUID] " .. itemDeprecatedEquipped))
+					Osi.RequestDelete(itemDeprecatedEquipped)
+				end
+			end
 		end
 	end
 end)
+
+Osi.IterateInventory(Osi.GetHostCharacter(), "OnItem", "InventoryDone")
 Ext.Osiris.RegisterListener("CharacterJoinedParty", 1, "after", function(character) 
 	local Entity = Ext.Entity.Get(character)
-	--local race = Ext.Entity.Get(character):GetAllComponents().CharacterCreationStats.Race
+	local allTags = Ext.Entity.Get(character):GetAllComponents().Tag.Tags
+	_P(GetMagentaText("WOTD [HIRELING]: " .. character .. " joined the party."))
 	if stringContains(character, "Dummy") then
-		--_P(GetBlueText("WOTD: Found a dummy: " .. character))
-	else
-		--if raceTable[race] then
+	elseif stringContains(character, "Hirelings") then
+		if contains(allTags, TagCressa) then
+			_P(GetMagentaText("WOTD [HIRELING]: Saving Scourge wings for Cressa,  " .. character))
 			Entity.Vars.AAS_WingsChosen = "19ce82fa-7f72-41f5-bbfe-b2c75baf575e"
+			Ext.Vars.SyncUserVariables()
 			if Osi.HasActiveStatus(character, "IS_WINGING") == 1 then
 				ToggleWings(character, true)
 			else
 				ToggleWings(character, false)
 			end
-		--end
+		end
 	end
 end)
 Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "after", function(uuid, itemroot, item, _)

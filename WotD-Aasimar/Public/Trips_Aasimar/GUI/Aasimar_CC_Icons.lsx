@@ -1370,28 +1370,28 @@
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_83b0025a-eb35-4e57-a16f-416e25cba460"/>
                     <attribute id="U1" type="float" value="0.51275635"/>
                     <attribute id="U2" type="float" value="0.53094482"/>
                     <attribute id="V1" type="float" value="0.110229492"/>
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_c9b0955a-805d-4642-9110-d2db1e307690"/>
                     <attribute id="U1" type="float" value="0.53106689"/>
                     <attribute id="U2" type="float" value="0.54925537"/>
                     <attribute id="V1" type="float" value="0.110229492"/>
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_2028ae26-c3bd-4b6c-993c-231345f73cb0"/>
                     <attribute id="U1" type="float" value="0.54937744"/>
                     <attribute id="U2" type="float" value="0.56756592"/>
                     <attribute id="V1" type="float" value="0.110229492"/>
                     <attribute id="V2" type="float" value="0.146728515"/>
                 </node>
                 <node id="IconUV"> 
-                    <attribute id="MapKey" type="FixedString" value="0_Head_"/>
+                    <attribute id="MapKey" type="FixedString" value="0_Horns_d4a761d9-fd11-46cf-b238-5bc5afd1c8cc"/>
                     <attribute id="U1" type="float" value="0.56768799"/>
                     <attribute id="U2" type="float" value="0.58587646"/>
                     <attribute id="V1" type="float" value="0.110229492"/>

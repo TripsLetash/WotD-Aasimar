@@ -29,6 +29,9 @@
 								<node id="Tag">
                                     <attribute id="Object" type="guid" value="009593a8-50c6-43bc-a5d6-52b72955fbd7"/>
                                 </node>
+								<node id="Tag">
+                                    <attribute id="Object" type="guid" value="34db36a2-51c3-4cd6-83c4-39221c6d52b2"/>
+                                </node>
 							</children>
 						</node>
 						<node id="GameMaster" />

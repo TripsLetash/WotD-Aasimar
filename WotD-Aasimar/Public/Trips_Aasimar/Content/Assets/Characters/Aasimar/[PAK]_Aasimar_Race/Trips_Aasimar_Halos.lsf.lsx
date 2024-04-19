@@ -4,6 +4,495 @@
 	<region id="SkeletonBank">
 		<node id="SkeletonBank">
 			<children>
+				<node id="Resource">
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="DynamicPhysicsResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="ID" type="FixedString" value="9bb66990-d8f3-45c4-8d5f-9da24676160d" /> // Piscis_Base head armature
+					<attribute id="IKRigResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Name" type="LSString" value="lyn_piscis_Base" />
+					<attribute id="PreviewAnimationResource" type="FixedString" value="" />
+					<attribute id="PreviewVisualResource" type="FixedString" value="588b3a58-bcf1-b2be-ba70-98bc821c64d3" />
+					<attribute id="RagdollResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/lyn_piscis_Base.GR2" />
+					<attribute id="SpringResourceID" type="FixedString" value="d0f9cfcb-2476-dd34-3638-7fb231f14347" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/lyn_piscis_Base.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209017" />
+					<children>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Dummy_Root" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Root_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Spine1_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Spine2_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Chest_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Scapula_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Scapula2_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Scapula2_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Scapula1_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Scapula1_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Chest1_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Chest1_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Chest2_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Chest2_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Scapula_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Neck_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Head_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Crown_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Hair_FemStraight_Long_C_0" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Hair_FemStraight_Long_C_1" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Hair_FemStraight_Long_C_2" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Hair_FemStraight_Long_C_3" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Hair_FemStraight_Long_C_4" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Hair_FemStraight_Long_C_5" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Hair_FemStraight_Long_C_6" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="HeadEnd_M_endBone" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Neck1_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Back_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Top1_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Top1_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Top2_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Top2_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Temple_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Temple_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_LowerEar_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_LowerEar_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Ear_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Ear_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Ear_Adjust_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Ear_Adjust_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Back_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Back_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Sideburn_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Sideburn_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Forehead_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Forehead_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Top_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Forehead_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_FrontTop_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_CrownTop_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Crown_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Crown_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_CrownTop_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_CrownTop_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Neck2_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Neck2_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Neck_L" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Neck_R" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="Bones">
+							<attribute id="MapKey" type="FixedString" value="Socket_Hair_Neck2_M" />
+							<children>
+								<node id="MapValue">
+									<attribute id="SoundObjectActivationRange" type="float" value="-1" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>
@@ -101,7 +590,252 @@
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="256" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>				
+				</node>	
+			<!-- lyn_piscis_halo -->
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="lyn_piscis_halo_BMA" /> 
+					<attribute id="ID" type="FixedString" value="b5a4186d-24eb-4e30-ab1f-0ba34e14c680" /> 
+					<!-- Matches the UUID in the MaterialBank -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_piscis_halo_BMA.DDS" /> 
+					<attribute id="Format" type="uint32" value="64" /> 
+					<attribute id="Width" type="int32" value="128" />
+					<attribute id="Height" type="int32" value="128" />				
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="lyn_piscis_halo_NM" />
+					<attribute id="ID" type="FixedString" value="50969268-ba34-486b-883d-de0ad2fa9535" />
+					<!-- Matches the UUID in the MaterialBank -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_piscis_halo_NM.DDS" />
+					<attribute id="Format" type="uint32" value="64" /> 
+					<attribute id="Width" type="int32" value="128" />
+					<attribute id="Height" type="int32" value="128" />				
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="lyn_piscis_halo_PM" />
+					<attribute id="ID" type="FixedString" value="49e19fd3-b247-4a42-9564-21226b1a004f" /> 
+					<!-- Matches the UUID in the MaterialBank -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_piscis_halo_PM.DDS" />
+					<attribute id="Format" type="uint32" value="64" /> 
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="Height" type="int32" value="2048" />				
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="ID" type="FixedString" value="edd4ce98-f130-4f4c-b962-177ec6dee1e1" />
+					<!-- Matches the UUID in the MaterialBank -->
+                    <attribute id="Localized" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="lyn_piscis_halo_MSK" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_piscis_halo_MSK.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="lyn_piscis_halo_MSK" />
+                    <attribute id="Type" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+                    <attribute id="Width" type="int32" value="2048" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+                </node>
+			<!-- lyn_piscis_string -->
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="lyn_piscis_string_PM" />
+					<attribute id="ID" type="FixedString" value="0ab3f29f-c5bd-49f3-97e4-869ad6a467cb" /> 
+					<!-- Matches the UUID in the MaterialBank -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_piscis_string_PM.DDS" />
+					<attribute id="Format" type="uint32" value="64" /> 
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="Height" type="int32" value="2048" />				
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="ID" type="FixedString" value="74d8a797-55bc-4aaa-8e8b-56cd1a0e01e1" />
+					<!-- Matches the UUID in the MaterialBank -->
+                    <attribute id="Localized" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="lyn_piscis_string_MSK" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_piscis_string_MSK.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="lyn_piscis_string_MSK" />
+                    <attribute id="Type" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+                    <attribute id="Width" type="int32" value="2048" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+                </node>
+			<!-- invisible mat -->
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="invis_BMA" /> 
+					<attribute id="ID" type="FixedString" value="c8ecc864-2327-4ce9-a85b-aeb4f1e05735" /> 
+					<!-- Matches the UUID in the MaterialBank -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/invis_BMA.DDS" /> 
+					<attribute id="Format" type="uint32" value="64" /> 
+					<attribute id="Width" type="int32" value="128" />
+					<attribute id="Height" type="int32" value="128" />				
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="invis_NM" />
+					<attribute id="ID" type="FixedString" value="cbc1cbe5-126c-441b-9c28-df3758179710" />
+					<!-- Matches the UUID in the MaterialBank -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/invis_NM.DDS" />
+					<attribute id="Format" type="uint32" value="64" /> 
+					<attribute id="Width" type="int32" value="128" />
+					<attribute id="Height" type="int32" value="128" />				
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="invis_PM" />
+					<attribute id="ID" type="FixedString" value="11fe17dd-6fac-4c2d-9f6e-2702d3609acb" /> 
+					<!-- Matches the UUID in the MaterialBank -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/invis_PM.DDS" />
+					<attribute id="Format" type="uint32" value="64" /> 
+					<attribute id="Width" type="int32" value="128" />
+					<attribute id="Height" type="int32" value="128" />				
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+			<!-- lyn_squalus_halo -->
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="lyn_squalus_halo_NM" />
+					<attribute id="ID" type="FixedString" value="0919b5a1-470b-4611-a4f4-2bb77ee63a42" />
+					<!-- Matches the UUID in the MaterialBank -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_squalus_halo_NM.DDS" />
+					<attribute id="Format" type="uint32" value="64" /> 
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="Height" type="int32" value="2048" />				
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="lyn_squalus_halo_PM" />
+					<attribute id="ID" type="FixedString" value="938edcd1-c2f5-4c9d-99ec-4c9645d0bacc" /> 
+					<!-- Matches the UUID in the MaterialBank -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_squalus_halo_PM.DDS" />
+					<attribute id="Format" type="uint32" value="64" /> 
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="Height" type="int32" value="2048" />				
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="ID" type="FixedString" value="88a42fdb-abb6-42b1-b233-7696c74dd9a2" />
+					<!-- Matches the UUID in the MaterialBank -->
+                    <attribute id="Localized" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="lyn_squalus_halo_MSK" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_squalus_halo_MSK.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="lyn_squalus_halo_MSK" />
+                    <attribute id="Type" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+                    <attribute id="Width" type="int32" value="2048" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+                </node>
+			<!-- lyn_squalus_string -->
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="lyn_squalus_string_BMA" /> 
+					<attribute id="ID" type="FixedString" value="2ad2e8b0-c51c-4fe6-a2b9-1f80ff81b310" /> 
+					<!-- Matches the UUID in the MaterialBank -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_squalus_string_BMA.DDS" /> 
+					<attribute id="Format" type="uint32" value="64" /> 
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="Height" type="int32" value="2048" />				
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="lyn_squalus_string_NM" />
+					<attribute id="ID" type="FixedString" value="548581e3-30a1-4e46-b1bb-3c948ba02bb7" />
+					<!-- Matches the UUID in the MaterialBank -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_squalus_string_NM.DDS" />
+					<attribute id="Format" type="uint32" value="64" /> 
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="Height" type="int32" value="2048" />				
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource">
+					<attribute id="Name" type="LSString" value="lyn_squalus_string_PM" />
+					<attribute id="ID" type="FixedString" value="560b8d2c-7753-4594-8057-a1408d27190a" /> 
+					<!-- Matches the UUID in the MaterialBank -->
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_squalus_string_PM.DDS" />
+					<attribute id="Format" type="uint32" value="64" /> 
+					<attribute id="Width" type="int32" value="128" />
+					<attribute id="Height" type="int32" value="128" />				
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="" />
+					<attribute id="Type" type="int32" value="1" />
+				</node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="ID" type="FixedString" value="8cc422f5-2bed-4689-bd4e-b86273c9bb9e" />
+					<!-- Matches the UUID in the MaterialBank -->
+                    <attribute id="Localized" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="lyn_squalus_string_MSK" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/Textures/lyn_squalus_string_MSK.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="lyn_squalus_string_MSK" />
+                    <attribute id="Type" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+                    <attribute id="Width" type="int32" value="2048" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+                </node>
 			</children>
 		</node>
 	</region>
@@ -4848,12 +5582,486 @@
 						</node>
 					</children>
 				</node>
+			<!--Lynia's Halos-->
+			<!-- Piscis -->
+				<node id="Resource"> 
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.2241342 1.923792 0.08434314" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.2241358 1.752886 -0.09472436" />
+					<attribute id="Center" type="fvec3" value="-7.748604E-07 1.838339 -0.005190611" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="a95b304c-ae43-44e0-8810-30dcd6560417" /> // Piscis
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="lyn_piscis" /> 
+					<attribute id="NeedsSkeletonRemap" type="bool" value="True" />
+					<attribute id="Radius" type="float" value="0.2560371" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="9bb66990-d8f3-45c4-8d5f-9da24676160d" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Horns" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/lyn_piscis.GR2" /> 
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/lyn_piscis.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="538a1ed6-c78f-4aa6-8307-8a765dea0de7" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.halo_Mesh.0" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b8e2b54b-e637-41fb-8e4c-8408e297cc95" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.1" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b8e2b54b-e637-41fb-8e4c-8408e297cc95" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.2" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b8e2b54b-e637-41fb-8e4c-8408e297cc95" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.3" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b8e2b54b-e637-41fb-8e4c-8408e297cc95" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.4" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+			<!-- Piscis - No strings attached -->
+				<node id="Resource"> 
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.2241342 1.923792 0.08434314" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.2241358 1.752886 -0.09472436" />
+					<attribute id="Center" type="fvec3" value="-7.748604E-07 1.838339 -0.005190611" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="89d98b65-c94f-4b2e-a996-f694ec227f85" /> // Piscis No Strings Attached
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="lyn_piscis" /> 
+					<attribute id="NeedsSkeletonRemap" type="bool" value="True" />
+					<attribute id="Radius" type="float" value="0.2560371" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="9bb66990-d8f3-45c4-8d5f-9da24676160d" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Horns" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/lyn_piscis.GR2" /> 
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/lyn_piscis.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="538a1ed6-c78f-4aa6-8307-8a765dea0de7" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.halo_Mesh.0" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="invismat-3015-47a1-979b-54689782d60f" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.1" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="invismat-3015-47a1-979b-54689782d60f" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.2" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="invismat-3015-47a1-979b-54689782d60f" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.3" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="invismat-3015-47a1-979b-54689782d60f" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.4" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+			<!-- Squalus -->
+				<node id="Resource"> 
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.2241342 1.923792 0.08434314" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.2241358 1.752886 -0.09472436" />
+					<attribute id="Center" type="fvec3" value="-7.748604E-07 1.838339 -0.005190611" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="9f515b7a-f1f5-4083-afc5-c9d5f745d473" /> // Squalus
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="lyn_squalus" /> 
+					<attribute id="NeedsSkeletonRemap" type="bool" value="True" />
+					<attribute id="Radius" type="float" value="0.2560371" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="9bb66990-d8f3-45c4-8d5f-9da24676160d" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Horns" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/lyn_piscis.GR2" /> 
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/lyn_piscis.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="fa460887-713b-431a-bb93-f1cd35f394c4" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.halo_Mesh.0" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="10052f7b-1c5e-4b3d-86d0-dc0195431f83" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.1" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="10052f7b-1c5e-4b3d-86d0-dc0195431f83" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.2" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="10052f7b-1c5e-4b3d-86d0-dc0195431f83" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.3" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="10052f7b-1c5e-4b3d-86d0-dc0195431f83" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.4" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+			<!-- Squalus - No strings attached -->
+				<node id="Resource"> 
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.2241342 1.923792 0.08434314" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.2241358 1.752886 -0.09472436" />
+					<attribute id="Center" type="fvec3" value="-7.748604E-07 1.838339 -0.005190611" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="bb86c082-5134-4661-8a37-7f6fa396fc3a" /> // Squalus No Strings Attached
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="lyn_piscis" /> 
+					<attribute id="NeedsSkeletonRemap" type="bool" value="True" />
+					<attribute id="Radius" type="float" value="0.2560371" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="9bb66990-d8f3-45c4-8d5f-9da24676160d" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Horns" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/lyn_piscis.GR2" /> 
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Halos/lyn_piscis.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241509" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="fa460887-713b-431a-bb93-f1cd35f394c4" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.halo_Mesh.0" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="invismat-3015-47a1-979b-54689782d60f" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.1" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="invismat-3015-47a1-979b-54689782d60f" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.2" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="invismat-3015-47a1-979b-54689782d60f" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.3" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="invismat-3015-47a1-979b-54689782d60f" /> 
+							<attribute id="ObjectID" type="FixedString" value="lyn_piscis.string_Mesh.4" /> 
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>
 	<region id="MaterialBank">
 		<node id="MaterialBank">
 			<children>
+				<!-- lyn_piscis_halo Material-->
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="538a1ed6-c78f-4aa6-8307-8a765dea0de7" /> // lyn_piscis_halo mat
+					<attribute id="MaterialType" type="uint8" value="13" />
+					<attribute id="Name" type="LSString" value="lyn_piscis_halo Mat" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Horns.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274414" />
+					<children>				
+					<!-- Texture parameters -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="b5a4186d-24eb-4e30-ab1f-0ba34e14c680" /> // lyn_piscis_halo BMA
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="50969268-ba34-486b-883d-de0ad2fa9535" /> // lyn_piscis_halo NM
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="49e19fd3-b247-4a42-9564-21226b1a004f" /> // lyn_piscis_halo PM
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+						</node>
+						<node id="Texture2DParameters">
+                            <attribute id="Enabled" type="bool" value="True" />
+                            <attribute id="ExportAsPreset" type="bool" value="True" />
+                            <attribute id="GroupName" type="FixedString" value="Texture Map" />
+                            <attribute id="ID" type="FixedString" value="edd4ce98-f130-4f4c-b962-177ec6dee1e1" /> // lyn_piscis_halo MSK
+                            <attribute id="ParameterName" type="FixedString" value="SkinGradientHorn_MSK" />
+                        </node>
+					</children>
+				</node>
+			
+			<!-- lyn_piscis_string Material-->
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="b8e2b54b-e637-41fb-8e4c-8408e297cc95" /> // lyn_piscis_string mat
+					<attribute id="MaterialType" type="uint8" value="13" />
+					<attribute id="Name" type="LSString" value="lyn_piscis_string Mat" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Horns.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274414" />
+					<children>				
+					<!-- Texture parameters -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="b5a4186d-24eb-4e30-ab1f-0ba34e14c680" /> // lyn_piscis_string BMA
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="50969268-ba34-486b-883d-de0ad2fa9535" /> // lyn_piscis_string NM
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="0ab3f29f-c5bd-49f3-97e4-869ad6a467cb" /> // lyn_piscis_string PM
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+						</node>
+						<node id="Texture2DParameters">
+                            <attribute id="Enabled" type="bool" value="True" />
+                            <attribute id="ExportAsPreset" type="bool" value="True" />
+                            <attribute id="GroupName" type="FixedString" value="Texture Map" />
+                            <attribute id="ID" type="FixedString" value="74d8a797-55bc-4aaa-8e8b-56cd1a0e01e1" /> // lyn_piscis_string MSK
+                            <attribute id="ParameterName" type="FixedString" value="SkinGradientHorn_MSK" />
+                        </node>
+					</children>
+				</node>
+			
+			<!-- invisible Material-->
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="invismat-3015-47a1-979b-54689782d60f" /> // invisible mat 
+					<attribute id="MaterialType" type="uint8" value="13" />
+					<attribute id="Name" type="LSString" value="Invisible Mat" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_BASE_AlphaTest_2S.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274414" />
+					<children>				
+					<!-- Texture parameters -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="c8ecc864-2327-4ce9-a85b-aeb4f1e05735" /> // Invisible BMA
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="cbc1cbe5-126c-441b-9c28-df3758179710" /> // Invisible NM
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="11fe17dd-6fac-4c2d-9f6e-2702d3609acb" /> // Invisible PM
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+						</node>
+					</children>
+				</node>
+
+			<!-- lyn_squalus_halo Material-->
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="fa460887-713b-431a-bb93-f1cd35f394c4" /> // lyn_squalus_halo mat
+					<attribute id="MaterialType" type="uint8" value="13" />
+					<attribute id="Name" type="LSString" value="lyn_squalus_halo Mat" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Horns.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274414" />
+					<children>				
+					<!-- Texture parameters -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="b5a4186d-24eb-4e30-ab1f-0ba34e14c680" /> // lyn_squalus_halo BMA
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="0919b5a1-470b-4611-a4f4-2bb77ee63a42" /> // lyn_squalus_halo NM
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="938edcd1-c2f5-4c9d-99ec-4c9645d0bacc" /> // lyn_squalus_halo PM
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+						</node>
+						<node id="Texture2DParameters">
+                            <attribute id="Enabled" type="bool" value="True" />
+                            <attribute id="ExportAsPreset" type="bool" value="True" />
+                            <attribute id="GroupName" type="FixedString" value="Texture Map" />
+                            <attribute id="ID" type="FixedString" value="88a42fdb-abb6-42b1-b233-7696c74dd9a2" /> // lyn_squalus_halo MSK
+                            <attribute id="ParameterName" type="FixedString" value="SkinGradientHorn_MSK" />
+                        </node>
+					</children>
+				</node>
+			<!-- lyn_squalus_string Material-->
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="10052f7b-1c5e-4b3d-86d0-dc0195431f83" /> // lyn_squalus_string mat
+					<attribute id="MaterialType" type="uint8" value="13" />
+					<attribute id="Name" type="LSString" value="lyn_squalus_string Mat" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Horns.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274414" />
+					<children>				
+					<!-- Texture parameters -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="2ad2e8b0-c51c-4fe6-a2b9-1f80ff81b310" /> // lyn_squalus_string BMA
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="548581e3-30a1-4e46-b1bb-3c948ba02bb7" /> // lyn_squalus_string NM
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
+							<attribute id="ID" type="FixedString" value="560b8d2c-7753-4594-8057-a1408d27190a" /> // lyn_squalus_string PM
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+						</node>
+						<node id="Texture2DParameters">
+                            <attribute id="Enabled" type="bool" value="True" />
+                            <attribute id="ExportAsPreset" type="bool" value="True" />
+                            <attribute id="GroupName" type="FixedString" value="Texture Map" />
+                            <attribute id="ID" type="FixedString" value="8cc422f5-2bed-4689-bd4e-b86273c9bb9e" /> // lyn_squalus_string MSK
+                            <attribute id="ParameterName" type="FixedString" value="SkinGradientHorn_MSK" />
+                        </node>
+					</children>
+				</node>
+
 				<!--Halo 05 06 body-->
 				<node id="Resource">
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />

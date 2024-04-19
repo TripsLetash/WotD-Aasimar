@@ -3355,6 +3355,218 @@
                     <attribute id="UUID" type="guid" value="9422a6e8-e514-434b-b6e3-14e38ed4e079"/>
                     <attribute id="VisualResource" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                 </node>
+    <!-- Piscis -->
+        <!-- Aasimar T1 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="0" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="1" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h62f8cd8960e846f7ba377958c9d43131ada0" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="66ec2b9e-b1bf-456a-9393-47bb08002150" />
+                <attribute id="VisualResource" type="guid" value="a95b304c-ae43-44e0-8810-30dcd6560417" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_83b0025a-eb35-4e57-a16f-416e25cba460"/>
+            </node>
+        <!-- Aasimar T2 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="0" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="0" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h62f8cd8960e846f7ba377958c9d43131ada0" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="2b71a4d3-f75c-4a70-99ea-d14bc0ccb0a0" />
+                <attribute id="VisualResource" type="guid" value="a95b304c-ae43-44e0-8810-30dcd6560417" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_83b0025a-eb35-4e57-a16f-416e25cba460"/>
+            </node>
+        <!-- Aasimar T3 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="1" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="1" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h62f8cd8960e846f7ba377958c9d43131ada0" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="132a6661-501a-4d14-b268-dfc5d5f36e98" />
+                <attribute id="VisualResource" type="guid" value="a95b304c-ae43-44e0-8810-30dcd6560417" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_83b0025a-eb35-4e57-a16f-416e25cba460"/>
+            </node>
+        <!-- Aasimar T4 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="1" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="0" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h62f8cd8960e846f7ba377958c9d43131ada0" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="7638d2b4-09ea-4be0-b4fc-392193f56959" />
+                <attribute id="VisualResource" type="guid" value="a95b304c-ae43-44e0-8810-30dcd6560417" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_83b0025a-eb35-4e57-a16f-416e25cba460"/>
+            </node>
+    <!-- Piscis - No strings attached -->
+        <!-- Aasimar T1 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="0" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="1" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h62f8cd8960e846f7ba377958c9d43131ada0" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="e5c20e66-b5cd-4b72-abcf-24abca774088" />
+                <attribute id="VisualResource" type="guid" value="89d98b65-c94f-4b2e-a996-f694ec227f85" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_c9b0955a-805d-4642-9110-d2db1e307690"/>
+            </node>
+        <!-- Aasimar T2 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="0" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="0" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h62f8cd8960e846f7ba377958c9d43131ada0" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="061d4527-056e-41b7-9f76-cffb9e67e3d8" />
+                <attribute id="VisualResource" type="guid" value="89d98b65-c94f-4b2e-a996-f694ec227f85" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_c9b0955a-805d-4642-9110-d2db1e307690"/>
+            </node>
+        <!-- Aasimar T3 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="1" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="1" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h62f8cd8960e846f7ba377958c9d43131ada0" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="e9749975-5894-4320-bad0-aaf893e6df9b" />
+                <attribute id="VisualResource" type="guid" value="89d98b65-c94f-4b2e-a996-f694ec227f85" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_c9b0955a-805d-4642-9110-d2db1e307690"/>
+            </node>
+        <!-- Aasimar T4 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="1" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="0" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h62f8cd8960e846f7ba377958c9d43131ada0" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="22b140ea-2b75-4153-8ee4-03608e2ca2db" />
+                <attribute id="VisualResource" type="guid" value="89d98b65-c94f-4b2e-a996-f694ec227f85" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_c9b0955a-805d-4642-9110-d2db1e307690"/>
+            </node>
+    <!-- Squalus -->
+        <!-- Aasimar T1 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="0" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="1" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h6348cdf551af4668a136e665490d021e6a4d" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="2f9fa48a-3994-4447-b726-e6920dd6b79a" />
+                <attribute id="VisualResource" type="guid" value="9f515b7a-f1f5-4083-afc5-c9d5f745d473" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_2028ae26-c3bd-4b6c-993c-231345f73cb0"/>
+            </node>
+        <!-- Aasimar T2 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="0" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="0" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h6348cdf551af4668a136e665490d021e6a4d" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="13bb1040-5607-4441-9ee3-bd8f7cb813fd" />
+                <attribute id="VisualResource" type="guid" value="9f515b7a-f1f5-4083-afc5-c9d5f745d473" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_2028ae26-c3bd-4b6c-993c-231345f73cb0"/>
+            </node>
+        <!-- Aasimar T3 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="1" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="1" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h6348cdf551af4668a136e665490d021e6a4d" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="43b99577-60ad-4248-9ca6-1478f1a4c242" />
+                <attribute id="VisualResource" type="guid" value="9f515b7a-f1f5-4083-afc5-c9d5f745d473" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_2028ae26-c3bd-4b6c-993c-231345f73cb0"/>
+            </node>
+        <!-- Aasimar T4 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="1" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="0" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h6348cdf551af4668a136e665490d021e6a4d" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="be90766b-e2d1-47f2-9ec2-129770e56a9b" />
+                <attribute id="VisualResource" type="guid" value="9f515b7a-f1f5-4083-afc5-c9d5f745d473" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_2028ae26-c3bd-4b6c-993c-231345f73cb0"/>
+            </node>
+    <!-- Squalus - No strings attached  -->
+        <!-- Aasimar T1 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="0" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="1" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h6348cdf551af4668a136e665490d021e6a4d" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="a116d73c-006f-45cc-99cd-78d19cc9edc3" />
+                <attribute id="VisualResource" type="guid" value="bb86c082-5134-4661-8a37-7f6fa396fc3a" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_d4a761d9-fd11-46cf-b238-5bc5afd1c8cc"/>
+            </node>
+        <!-- Aasimar T2 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="0" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="0" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h6348cdf551af4668a136e665490d021e6a4d" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="edc82464-c81c-4153-8caf-fa00b3b19319" />
+                <attribute id="VisualResource" type="guid" value="bb86c082-5134-4661-8a37-7f6fa396fc3a" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_d4a761d9-fd11-46cf-b238-5bc5afd1c8cc"/>
+            </node>
+        <!-- Aasimar T3 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="1" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="1" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h6348cdf551af4668a136e665490d021e6a4d" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="866fa36e-e2f2-4846-8daa-4e1415057c9f" />
+                <attribute id="VisualResource" type="guid" value="bb86c082-5134-4661-8a37-7f6fa396fc3a" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_d4a761d9-fd11-46cf-b238-5bc5afd1c8cc"/>
+            </node>
+        <!-- Aasimar T4 -->
+            <node id="CharacterCreationAppearanceVisual">
+                <attribute id="BodyShape" type="uint8" value="1" />
+                <!-- Default = 0 ; Strong = 1 -->
+                <attribute id="BodyType" type="uint8" value="0" />
+                <!-- Masc = 0 ; Fem = 1 -->
+                <attribute id="DisplayName" type="TranslatedString" handle="h6348cdf551af4668a136e665490d021e6a4d" version="1" />
+                <attribute id="RaceUUID" type="guid" value="ff2b6894-b03e-4bc6-a3b4-ce16ce405e7e" />
+                <attribute id="SlotName" type="FixedString" value="Horns" />
+                <attribute id="UUID" type="guid" value="574fdd1a-137c-47d5-b01a-ae0cc3028165" />
+                <attribute id="VisualResource" type="guid" value="bb86c082-5134-4661-8a37-7f6fa396fc3a" />
+                <attribute id="IconIdOverride" type="FixedString" value="0_Horns_d4a761d9-fd11-46cf-b238-5bc5afd1c8cc"/>
+            </node>
             </children>
         </node>
     </region>
