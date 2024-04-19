@@ -10,6 +10,68 @@
 	<region id="TextureBank">
 		<node id="TextureBank">
 			<children>
+			<!--Wings Armor Text-->
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Format" type="uint32" value="67" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="ID" type="FixedString" value="4722365b-a2e1-464f-8ec4-c36d031abfde" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_Armor_BM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Trips_Armor_BM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Trips_Armor_BM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855894" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Format" type="uint32" value="67" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="ID" type="FixedString" value="fa53ffc8-0e25-4ac6-8629-9f16942c5f66" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_Armor_NM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Trips_Armor_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Trips_Armor_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855894" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Format" type="uint32" value="67" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="ID" type="FixedString" value="ac6ed6a7-2aaf-402c-8eb1-54193ce7baf8" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_Armor_PM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Trips_Armor_PM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Trips_Armor_PM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855894" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Format" type="uint32" value="67" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="ID" type="FixedString" value="9a9e87df-a284-4fd9-9a9d-a6dee85cd6c7" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Trips_Armor_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Trips_Aasimar/[PAK]_Aasimar_Race/Wings/Trips_Armor_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Trips_Armor_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855894" />
+				</node>
+			<!--random shizz-->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Format" type="uint32" value="67" />
@@ -319,7 +381,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="ffbc802b-702c-4df1-b5a5-7fd7897ba790" />
+							<attribute id="MaterialID" type="FixedString" value="eb09765c-49d7-45e3-8e3f-41bd2feeddf5" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_M_Wings_Protector_Black.Trips_M_Wings_Protector_Black_Ornament_Mesh.1" />
 						</node>
 						<node id="Objects">
@@ -368,7 +430,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="ffbc802b-702c-4df1-b5a5-7fd7897ba790" />
+							<attribute id="MaterialID" type="FixedString" value="eb09765c-49d7-45e3-8e3f-41bd2feeddf5" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_F_Wings_Protector_Black.Trips_F_Wings_Protector_Black_Ornament_Mesh.1" />
 						</node>
 						<node id="Objects">
@@ -417,7 +479,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="ffbc802b-702c-4df1-b5a5-7fd7897ba790" />
+							<attribute id="MaterialID" type="FixedString" value="eb09765c-49d7-45e3-8e3f-41bd2feeddf5" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_MS_Wings_Protector_Black.Trips_MS_Wings_Protector_Black_Ornament_Mesh.1" />
 						</node>
 						<node id="Objects">
@@ -466,7 +528,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="ffbc802b-702c-4df1-b5a5-7fd7897ba790" />
+							<attribute id="MaterialID" type="FixedString" value="eb09765c-49d7-45e3-8e3f-41bd2feeddf5" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Protector_Black.Trips_FS_Wings_Protector_Black_Ornament_Mesh.1" />
 						</node>
 						<node id="Objects">
@@ -1037,7 +1099,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="ffbc802b-702c-4df1-b5a5-7fd7897ba790" />
+							<attribute id="MaterialID" type="FixedString" value="eb09765c-49d7-45e3-8e3f-41bd2feeddf5" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_M_Wings_Protector.Trips_M_Wings_Protector_Ornament_Mesh.1" />
 						</node>
 						<node id="Objects">
@@ -1086,7 +1148,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="ffbc802b-702c-4df1-b5a5-7fd7897ba790" />
+							<attribute id="MaterialID" type="FixedString" value="eb09765c-49d7-45e3-8e3f-41bd2feeddf5" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_F_Wings_Protector.Trips_F_Wings_Protector_Ornament_Mesh.1" />
 						</node>
 						<node id="Objects">
@@ -1135,7 +1197,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="ffbc802b-702c-4df1-b5a5-7fd7897ba790" />
+							<attribute id="MaterialID" type="FixedString" value="eb09765c-49d7-45e3-8e3f-41bd2feeddf5" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_MS_Wings_Protector.Trips_MS_Wings_Protector_Ornament_Mesh.1" />
 						</node>
 						<node id="Objects">
@@ -1184,7 +1246,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="ffbc802b-702c-4df1-b5a5-7fd7897ba790" />
+							<attribute id="MaterialID" type="FixedString" value="eb09765c-49d7-45e3-8e3f-41bd2feeddf5" />
 							<attribute id="ObjectID" type="FixedString" value="Trips_FS_Wings_Protector.Trips_FS_Wings_Protector_Ornament_Mesh.1" />
 						</node>
 						<node id="Objects">
@@ -1980,9 +2042,83 @@
 			</children>
 		</node>
 	</region>
+<!--Materialbank-->
 	<region id="MaterialBank">
 		<node id="MaterialBank">
 			<children>
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="eb09765c-49d7-45e3-8e3f-41bd2feeddf5" />
+					<attribute id="MaterialType" type="uint8" value="18" />
+					<attribute id="Name" type="LSString" value="AAS_Armor_Wings" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Horns.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.5" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="Value" type="float" value="0.5" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="fa53ffc8-0e25-4ac6-8629-9f16942c5f66" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="4722365b-a2e1-464f-8ec4-c36d031abfde" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="9a9e87df-a284-4fd9-9a9d-a6dee85cd6c7" />
+							<attribute id="ParameterName" type="FixedString" value="SkinGradientHorn_MSK" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="ac6ed6a7-2aaf-402c-8eb1-54193ce7baf8" />
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.16862746 0.13725491 0.11372549" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="NonSkinColor" />
+							<attribute id="Value" type="fvec3" value="0.16862746 0.13725491 0.11372549" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.09411765 0.07058824 0.05490196" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="NonSkinTipColor" />
+							<attribute id="Value" type="fvec3" value="0.09411765 0.07058824 0.05490196" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.5699794 0.11318714 0.10072263" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="SkinApproxColor" />
+							<attribute id="Value" type="fvec3" value="0.5699794 0.11318714 0.10072263" />
+						</node>
+					</children>
+				</node>
 				<node id="Resource">
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<attribute id="ID" type="FixedString" value="ffbc802b-702c-4df1-b5a5-7fd7897ba790" />
