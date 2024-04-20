@@ -1,0 +1,20 @@
+{
+    "Mappings": [
+        {
+            "GTexName": "3b669770cfd742e4b2b2f3a3218ef195",
+            "GTS": "Public/Trips_Body_Textures/Assets/VirtualTextures/AAS_VT_Tileset_NC.gts"
+        },
+        {
+            "GTexName": "f69356986c7a4e178b63d295d07b59c9",
+            "GTS": "Public/Trips_Body_Textures/Assets/VirtualTextures/AAS_VT_Tileset_NC.gts"
+        },
+        {
+            "GTexName": "3423f0f48a8f481a9abd72bc5972dd28",
+            "GTS": "Public/Trips_Body_Textures/Assets/VirtualTextures/AAS_VT_Tileset_NC.gts"
+        },
+        {
+            "GTexName": "fb3fa330cc8942d09f2ba51609740fa7",
+            "GTS": "Public/Trips_Body_Textures/Assets/VirtualTextures/AAS_VT_Tileset_NC.gts"
+        }
+    ]
+}
