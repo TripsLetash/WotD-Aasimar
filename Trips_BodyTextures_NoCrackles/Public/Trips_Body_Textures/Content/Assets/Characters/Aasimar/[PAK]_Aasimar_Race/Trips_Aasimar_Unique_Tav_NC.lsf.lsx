@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="2" />
+	<region id="SkeletonBank">
+		<node id="SkeletonBank">
+			<children>
+			</children>
+		</node>
+	</region>
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>				
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="37ff7f61-b86b-4206-927b-1edaf8cc6e8b" />
+					<attribute id="Name" type="LSString" value="UNIQUE_BODY_NONSKIN" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav_nc/HEAD/AASIMAR/GLOWS/UNIQUE_BODY_NONSKIN.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_BODY_NONSKIN" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
+				</node>
+			<!--Glows-->
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="2f897202-7819-453a-a010-2b7bcdd2a996" />
+					<attribute id="Name" type="LSString" value="UNIQUE_Body_GM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav_nc/BODY/AASIMAR/GLOWS/UNIQUE_BODY_GM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_Body_GM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
+				</node>
+			
+			<!--fem-->
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="bfe9de3a-4cd3-482e-9b89-792f17612094" />
+					<attribute id="Name" type="LSString" value="UNIQUE_F_NKD_BODY_A_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav_nc/BODY/AASIMAR/FEMALE/UNIQUE_F_NKD_BODY_A_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_F_NKD_BODY_A_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209033" />
+				</node>
+            <!--MAsc-->
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="ce385406-86f8-4181-9e08-6d7bba306dbb" />
+					<attribute id="Name" type="LSString" value="UNIQUE_M_NKD_BODY_A_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav_nc/BODY/AASIMAR/MALE/UNIQUE_M_NKD_BODY_A_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_M_NKD_BODY_A_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+				</node>
+            <!--Fem strong-->              
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="16313041-a6ae-470d-8ece-c237de387605" />
+					<attribute id="Name" type="LSString" value="UNIQUE_FS_NKD_BODY_A_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav_nc/BODY/AASIMAR/FEMALE/UNIQUE_FS_NKD_BODY_A_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_FS_NKD_BODY_A_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
+            <!--MAsc strong-->
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="63265ee3-d362-4c9b-9484-0a323095622b" />
+					<attribute id="Name" type="LSString" value="UNIQUE_MS_NKD_BODY_A_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav_nc/BODY/AASIMAR/MALE/UNIQUE_MS_NKD_BODY_A_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="UNIQUE_MS_NKD_BODY_A_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
+			</children>
+		</node>
+	</region>
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+			</children>
+		</node>
+	</region>
+	<region id="MaterialBank">
+		<node id="MaterialBank">
+			<children>
+			</children>
+		</node>
+	</region>
+	<region id="AnimationSetBank">
+		<node id="AnimationSetBank">
+			<children>
+			</children>
+		</node>
+	</region>
+</save>

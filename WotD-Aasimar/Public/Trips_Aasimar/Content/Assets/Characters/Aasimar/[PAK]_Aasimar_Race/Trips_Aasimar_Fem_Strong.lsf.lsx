@@ -1595,19 +1595,6 @@
 					<attribute id="Width" type="int32" value="4096" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
 				</node>
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="4096" />
-					<attribute id="ID" type="FixedString" value="37ff7f61-b86b-4206-927b-1edaf8cc6e8b" />
-					<attribute id="Name" type="LSString" value="UNIQUE_BODY_NONSKIN" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/HEAD/AASIMAR/GLOWS/UNIQUE_BODY_NONSKIN.DDS" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="UNIQUE_BODY_NONSKIN" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="4096" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
-				</node>
 				<!--tex Engels-->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
