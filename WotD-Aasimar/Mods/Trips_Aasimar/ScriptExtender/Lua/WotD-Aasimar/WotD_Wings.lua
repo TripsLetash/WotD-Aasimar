@@ -212,16 +212,26 @@ end
 -- @param uuid 	     	- uuid of entity that will receive the wing
 local function overrideWing(newWing, uuid, summon)
 	local player = Ext.Entity.Get(uuid)
-	if summon == false then
-		Osi.RemoveCustomVisualOvirride(uuid, player.Vars.AAS_WingsChosen)
+	if summon == false and summon ~= nil then
+		if player.Vars.AAS_WingsChosen ~= nil then
+			Osi.RemoveCustomVisualOvirride(uuid, player.Vars.AAS_WingsChosen)
+		end
 		Osi.AddCustomVisualOverride(uuid, invisWing) 
-	elseif summon then
+	elseif summon and summon ~= nil then
 		if 	newWing == nil then
 			_P(GetYellowText("WOTD [WARNING]: newWing is nil"))
+			local dummyWing = invisWing
+			Osi.RemoveCustomVisualOvirride(uuid, invisWing)
+			Osi.AddCustomVisualOverride(uuid, dummyWing)
 		else
 			Osi.RemoveCustomVisualOvirride(uuid, invisWing)
 			Osi.AddCustomVisualOverride(uuid, newWing)
 		end
+	elseif summon == nil then
+		_P(GetYellowText("WOTD [WARNING]: newWing is nil, overridewing fallback reached."))
+		local dummyWing = invisWing
+		Osi.RemoveCustomVisualOvirride(uuid, invisWing)
+		Osi.AddCustomVisualOverride(uuid, dummyWing)
 	end
 end
 ----------------------------------------------------------------------------------------------------
@@ -269,10 +279,12 @@ function ToggleWings(uuid, IsPlayerWinging)
 						MayHaveWings(uuid, false)
 					end
 				end
-			else
+			elseif contains(allTags, TagLevelTen) == false and contains(allTags, TagLevelOne) == false then
 				Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
 				_P(GetBlueText("WOTD [DEBUG]: Old savegame detected, giving them wings at level one"))
-				MayHaveWings(uuid, true)
+				--Osi.AddCustomVisualOverride(uuid, invisWing)
+				entity.Vars.AAS_WingsChosen = getCurrentWing(uuid)
+				MayHaveWings(uuid, true)				
 			end	
 		end
 	else
@@ -312,7 +324,7 @@ end
 -- Sync the valuess
 -- @param playerEntity		- player entity
 function SyncWings(playerEntity)
-	if playerEntity ~= nill then
+	if playerEntity ~= nil then
 		local race = playerEntity:GetAllComponents().CharacterCreationStats.Race
 		if raceTable[race] then
 			Ext.Vars.SyncUserVariables()
@@ -385,13 +397,9 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelNa
 					_P(GetMagentaText("WOTD: [CLEANUP] ".. deprecatedWing .. " found on " .. uuid .. ". Applying Status OLDWINGSDESTROYININV" .. i))
 					Osi.ApplyStatus(uuid, "OLDWINGSDESTROYININV" .. i, 0)
 					if entity.Vars.AAS_WingsChosen == nil then
-						entity.Vars.AAS_WingsChosen = WingOptions[1]
+						entity.Vars.AAS_WingsChosen = WingOptions[i]
+						_P(GetYellowText("WOTD: [CLEANUP] Setting player uuid " .. uuid .. " to wings ".. WingOptions[i]))
 						SyncWings(entity)
-					end
-					if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
-						ToggleWings(uuid, true)
-					else
-						ToggleWings(uuid, false)
 					end
 				end
 			end
@@ -400,22 +408,31 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelNa
 				local itemUuid = item.Item.Uuid.EntityUuid
 				if contains(oldWingsTable, itemRoot) then
 					_P(GetMagentaText("WOTD: [CLEANUP] Illegally spawned wings: [ROOT] (".. itemRoot .. ") found. Deleting copy. Item [UUID] " .. itemUuid))
+					Osi.Drop(itemUuid)
 					Osi.RequestDelete(itemUuid)
 				end
 			end
-			itemDeprecatedEquipped = GetEquippedItem(uuid, "Underwear")
-			itemDeprecatedEquippedRoot = Ext.Entity.Get(itemDeprecatedEquipped):GetAllComponents().GameObjectVisual.RootTemplateId
-			for i, deprecatedWing in pairs(oldWingsTable) do
-				if deprecatedWing == itemDeprecatedEquippedRoot then
-					_P(GetMagentaText("WOTD: [CLEANUP] Illegally spawned and equipped wings: [ROOT] (".. itemDeprecatedEquippedRoot .. ") found. Deleting copy. Item [UUID] " .. itemDeprecatedEquipped))
-					Osi.RequestDelete(itemDeprecatedEquipped)
-				end
+			if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
+				ToggleWings(uuid, true)
+			else
+				ToggleWings(uuid, false)
 			end
+			--Wait for legally spawned wings to resolve
+			Wait(3000, function()
+				itemDeprecatedEquipped = GetEquippedItem(uuid, "Underwear")
+				if itemDeprecatedEquipped ~= nil then
+					itemDeprecatedEquippedRoot = Ext.Entity.Get(itemDeprecatedEquipped):GetAllComponents().GameObjectVisual.RootTemplateId
+					for i, deprecatedWing in pairs(oldWingsTable) do
+						if deprecatedWing == itemDeprecatedEquippedRoot then
+							_P(GetMagentaText("WOTD: [CLEANUP] Illegally spawned and equipped wings: [ROOT] (".. itemDeprecatedEquippedRoot .. ") found. Deleting copy. Item [UUID] " .. itemDeprecatedEquipped))
+							Osi.RequestDelete(itemDeprecatedEquipped)
+						end
+					end
+				end
+			end)
 		end
 	end
 end)
-
-Osi.IterateInventory(Osi.GetHostCharacter(), "OnItem", "InventoryDone")
 Ext.Osiris.RegisterListener("CharacterJoinedParty", 1, "after", function(character) 
 	local Entity = Ext.Entity.Get(character)
 	local allTags = Ext.Entity.Get(character):GetAllComponents().Tag.Tags
@@ -443,6 +460,7 @@ Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "after", function(uuid, it
 			local CurrentWing = getCurrentWing(uuid)
 			if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
 				player.Vars.AAS_WingsChosen = CurrentWing
+				SyncWings(uuid)
 			end
 			ToggleWings(uuid, false)
 		end
@@ -459,10 +477,8 @@ Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function()
 				local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
 				local WingOptions = getPermittedWings(uuid)
 				if raceTable[race] then
-					if (entity.Vars.AAS_WingsChosen == nil) then
-						entity.Vars.AAS_WingsChosen = WingOptions[1]
-					end
 					entity.Vars.AAS_WingsChosen = getCurrentWing(uuid)
+					SyncWings(uuid)
 					if JustOnce == false then
 						Osi.ApplyStatus(uuid,"UNS_WINGS",0)
 						ToggleWings(uuid, false)
@@ -482,6 +498,7 @@ Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(ch
 		local CurrentWing = getCurrentWing(uuid)
 		if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
 			player.Vars.AAS_WingsChosen = CurrentWing
+			SyncWings(uuid)
 		end
 		ToggleWings(uuid, false)
 	end
