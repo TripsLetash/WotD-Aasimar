@@ -1480,6 +1480,41 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
+			<!--AASIMAR BLOOD ELIXIR-->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h5568099dgddf7g45degab43g786ba116b336" version="3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h97bc545a52da42d0a0022b8d83fc2c657ec7" version="1" />
+					<attribute id="Icon" type="FixedString" value="Items_CONS_Drink_Bottle_Small_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="aa6cee6c-6107-4770-9412-8df30965a3df" />
+					<attribute id="Name" type="LSString" value="CONS_Elixir_Blood_Aasimar" />
+					<attribute id="ParentTemplateId" type="FixedString" value="eef254dd-b983-4e59-bf49-5ed76a536220" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="dda0519b-fb51-b604-5b42-819812f83383" />
+					<attribute id="Stats" type="FixedString" value="OBJ_BloodPotion_Aasimar" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="hc44d0f0a732a4ebfa1537ade6227e28df151" version="1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="dfc89a5f-2be9-3e7d-d750-58a95d0cbd81" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="895ce382-397d-4b9a-9e8f-6ee3b1ff3a13" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="MOO_BLOODPOTION_AASIMAR" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>
