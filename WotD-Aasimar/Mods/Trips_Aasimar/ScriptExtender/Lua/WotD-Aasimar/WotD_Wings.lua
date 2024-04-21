@@ -461,7 +461,7 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelNa
 					_P(GetMagentaText("WOTD: [CLEANUP] ".. deprecatedWing .. " found on " .. uuid .. ". Applying Status OLDWINGSDESTROYININV" .. i))
 					Osi.ApplyStatus(uuid, "OLDWINGSDESTROYININV" .. i, 0)
 					if entity.Vars.AAS_WingsChosen == nil then
-						--entity.Vars.AAS_WingsChosen = WingOptions[i]
+						entity.Vars.AAS_WingsChosen = WingOptions[i]
 						_P(GetYellowText("WOTD: [CLEANUP] Setting player uuid " .. uuid .. " to wings ".. WingOptions[i]))
 						_P(GetYellowText("WOTD [WARN]: Synced wings at line 416"))
 						SyncWings(Ext.Entity.Get(uuid))				
