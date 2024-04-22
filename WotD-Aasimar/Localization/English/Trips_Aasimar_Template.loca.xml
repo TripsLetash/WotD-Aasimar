@@ -311,9 +311,16 @@
 
 <!--Araj Oblodra Aasimar Elixir-->
     <content contentuid="h97bc545a52da42d0a0022b8d83fc2c657ec7" version="1">Elixir of Distilled Aasimar Divinity</content>
-    <content contentuid="hc44d0f0a732a4ebfa1537ade6227e28df151" version="1">You are overtaken by a divine power, a searing light bursting through your skin and elevating your own mortality. For a moment, atleast.</content>
+    <content contentuid="hc44d0f0a732a4ebfa1537ade6227e28df151" version="1">You are overtaken by a divine power, a power swelling in your chest while elevating your own mortality. For a moment, atleast.</content>
     <content contentuid="h93a576c8098d4d2c87b525a695f2b038b756" version="1">Angelic Divinity</content>
-    <content contentuid="h4bf81abe701949c79ec3a8fb01cccbbf882e" version="1">Temporarily infuses an entity with divine power, searing light breaking through their skin. Dealing periodic damage and growing wings temporarily.</content>
+    <content contentuid="h4bf81abe701949c79ec3a8fb01cccbbf882e" version="1">Temporarily infuses an entity with divine power, searing light breaking through their skin. Dealing periodic damage.</content>
+    <content contentuid="hb2a9df0b33f74efdaf859a9c16ffc3744e8f" version="1">Temporarily infuses an entity with profane power, malice and fear corrupting their skin. Instilling fear in those around them.</content>
+    <content contentuid="hb2d567e3bc5746c4be8d2396d90fd2e81500" version="1">Temporarily infuses an entity with righteous power, their skin crackling and writhing as if whipped. Forcing those around them into bleeding temporarily.</content>
+    <content contentuid="h894589786d3f42258c47b29024ead63d5e4b" version="1">Temporarily infuses an entity with stalwart power, soothing light breaking through their skin. Healing allies around them temporarily.</content>
     <content contentuid="h648fc66691fd4ab98a2f3ec89ddbfe9ca25f" version="1">Fury of the Divine Appropriation</content>
     <content contentuid="h62fc4ff7bd9742d59721016394f7efe0d3f5" version="1">Fury of the Crusading Aasimar</content>
+	<content contentuid="h92d942642f16481f99b305a0ff6cdbb936ag" version="1">Wail of the Fallen Aasimar</content>
+	<content contentuid="h6b4d2053ebda4d988c125b7a30ded72e0766" version="1">Penance of the Sinning Aasimar</content>
+	<content contentuid="h2058f1ba063444a7b755432e49eee03b59e1" version="1">Echo of the Shielding Aasimar</content>
+
 </contentList>
