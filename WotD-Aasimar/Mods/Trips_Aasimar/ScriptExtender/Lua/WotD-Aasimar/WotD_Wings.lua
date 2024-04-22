@@ -237,6 +237,10 @@ local function overrideWing(newWing, uuid, summon)
 				Osi.RemoveCustomVisualOvirride(uuid, invisWing)
 				Osi.AddCustomVisualOverride(uuid, player.Vars.AAS_WingsChosen)
 			end
+		elseif GetLevel(uuid) > 9 and contains(Ext.Entity.Get(uuid):GetAllComponents().Tag.Tags, TagLevelTen) == true then
+			_P(GetYellowText("WOTD [WARNING]: setting new wing, lvlten passive, but higher than 9"))
+			Osi.RemoveCustomVisualOvirride(uuid, invisWing)
+			Osi.AddCustomVisualOverride(uuid, newWing)
 		elseif contains(Ext.Entity.Get(uuid):GetAllComponents().Tag.Tags, TagLevelTen) == false then
 			_P(GetYellowText("WOTD [WARNING]: setting new wing, removing inviswing, cuz lvl1 passive"))
 			Osi.RemoveCustomVisualOvirride(uuid, invisWing)
@@ -292,6 +296,7 @@ function ToggleWings(uuid, IsPlayerWinging, CCExit)
 						_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL TEN, HIGHER THAN LEVEL TEN AND WINGING"))
 						MayHaveWings(uuid, true, false)
 					elseif IsPlayerWinging == false then
+						Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
 						_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL TEN, HIGHER THAN LEVEL TEN AND NOT WINGING"))
 						MayHaveWings(uuid, true, false)
 					end
@@ -597,8 +602,9 @@ Ext.Osiris.RegisterListener("LeveledUp", 1, "after", function(character)
 			else
 				for index, SubClass in pairs(classTable) do
 					if eRace.SubRace == SubClass then
-						Osi.ApplyStatus(uuid, classVfxTable[index], 0)
-						Wait(delay, function() overrideWing(player.Vars.AAS_WingsChosen, uuid, true) end)	
+						--Osi.ApplyStatus(uuid, classVfxTable[index], 0)
+						--Wait(delay, function() overrideWing(player.Vars.AAS_WingsChosen, uuid, true) end)
+						ToggleWings(uuid, false, false)
 					end
 				end
 			end
