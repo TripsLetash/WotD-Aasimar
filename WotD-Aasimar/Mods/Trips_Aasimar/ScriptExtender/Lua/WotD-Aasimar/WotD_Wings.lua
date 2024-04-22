@@ -320,7 +320,18 @@ function ToggleWings(uuid, IsPlayerWinging, CCExit)
 				--_P(GetBlueText("WOTD [DEBUG]: Old savegame detected, giving them wings at level one"))
 				--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR TOGGLEIWINGS OLD"))
 				if getCurrentWing(uuid) ~= invisWing then
-					entity.Vars.AAS_WingsChosen = getCurrentWing(uuid)
+					if getCurrentWing(uuid) == nil then
+						for i, SubRace in pairs(raceTable) do
+							if entity:GetAllComponents().Race.Race == SubRace then
+								entity.Vars.AAS_WingsChosen = getPermittedWings(uuid)[i]
+							end
+						end
+						if entity.Vars.AAS_WingsChosen == nil then
+							entity.Vars.AAS_WingsChosen = getPermittedWings(uuid)[1]
+						end
+					else
+						entity.Vars.AAS_WingsChosen = getCurrentWing(uuid)
+					end
 				end
 				MayHaveWings(uuid, true, false)				
 			end	
@@ -556,6 +567,9 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelNa
 			else
 				if IsLowLevelTagTen(uuid) then
 					--_P(GetYellowText("WOTD [WARN]: Is low level 10 and has tag during Gameplay started, doing nothing"))
+					if entity.Vars.AAS_WingsChosen == nil then
+						
+					end
 				else
 					--_P(GetYellowText("WOTD [WARN]: Is normal during Gameplay started, ToggleWings False"))
 					ToggleWings(uuid, false, false)
