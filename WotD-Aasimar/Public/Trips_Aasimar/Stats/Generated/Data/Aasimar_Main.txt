@@ -1176,6 +1176,13 @@ data "StackId" "WOTD_UNS_TOGGLE"
 data "StatusPropertyFlags" "ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
 data "OnRemoveFunctors" "IF(HasWings()):RemoveStatus(TOGGLE_HAS_WINGS);IF(not HasWings()):ApplyStatus(TOGGLE_NO_WINGS,100,-1);RemoveStatus(DEVA_LOCO);RemoveStatus(AASIMAR_PASSIVE_WINGS_10)"
 
+new entry "SUM_WINGS_SPAWN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "WOTD_UNS_SPAWN"
+data "StatusPropertyFlags" "ApplyToDead;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "OnRemoveFunctors" "IF(HasWings()):RemoveStatus(TOGGLE_HAS_WINGS);IF(not HasWings()):ApplyStatus(TOGGLE_NO_WINGS,100,-1);RemoveStatus(DEVA_LOCO);RemoveStatus(AASIMAR_PASSIVE_WINGS_10)"
+
 
 new entry "IS_WINGING"
 type "StatusData"
