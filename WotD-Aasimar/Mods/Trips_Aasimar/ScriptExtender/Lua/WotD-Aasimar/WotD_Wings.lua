@@ -59,6 +59,16 @@ local classVfxTable ={
 	"SUM_VFX_HARB",
 	"SUM_VFX_CRESSA"
 }
+local oldWingTags ={
+	"WOTD_PROT",
+	"WOTD_SCOURGE",
+	"WOTD_FALLEN",
+	"WOTD_HARB",
+	"WOTD_FLAME",
+	"WOTD_POLD",
+	"WOTD_SCOLD",
+	"WOTD_FOLD"
+}
 local dummyTable={
 	["S_GLO_CharacterCreationDummy_001_e2badbf0-159a-4ef5-9e73-7bbeb3d1015a"]=true,
 	["S_GLO_CharacterCreationDummy_002_aa772968-b5e0-4441-8d86-2d0506b4aab5"]=true,
@@ -166,12 +176,23 @@ local function IsLowLevelTagTen(uuid)
 		return false
 	end
 end
+
+local function IsOldWingTag(uuid)
+	local hasOldTag = false
+	for i, tag in pairs(oldWingTags) do
+		if contains(Ext.Entity.Get(uuid):GetAllComponents().Tag.Tags, tag) == true then
+			hasOldTag = true
+		end
+	end
+	return hasOldTag
+end
+
 -- Get all CharacterCreationAppearaceVisuals of type Tail loaded in the game
 ---return 				- list of CharacterCreationAppearaceVisual IDs for all Tails
 local function getAllWings()
 	local allWings = {}
 	local allCCAV = Ext.StaticData.GetAll("CharacterCreationAppearanceVisual")
-	for _, CCAV in pairs(allCCAV)do
+	for _, CCAV in pairs(allCCAV) do
 		local contents = Ext.StaticData.Get(CCAV, "CharacterCreationAppearanceVisual")
 		local slotName = contents.SlotName
 		if slotName and slotName == "Tail" then
@@ -240,27 +261,29 @@ local function overrideWing(newWing, uuid, summon)
 			_P("WOTD CURRENT WING IS INVIS")
 		else
 			_P("WOTD CURRENT WING IS being removed, then invis applied")
-			Osi.RemoveCustomVisualOvirride(uuid, getCurrentWing(uuid))
+			if getCurrentWing(uuid) ~= nil then
+				Osi.RemoveCustomVisualOvirride(uuid, getCurrentWing(uuid))
+			end
 			Osi.AddCustomVisualOverride(uuid, invisWing)
 		end
 	elseif summon == true then
 		if IsLowLevelTagTen(uuid) then
 			if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
-				_P(GetYellowText("WOTD [WARNING]: setting new wing, removing invisWing, IS WINGING"))
+				--_P(GetYellowText("WOTD [WARNING]: setting new wing, removing invisWing, IS WINGING"))
 				Osi.RemoveCustomVisualOvirride(uuid, invisWing)
 				Osi.AddCustomVisualOverride(uuid, player.Vars.AAS_WingsChosen)
 			end
 		elseif GetLevel(uuid) >= 10 and contains(Ext.Entity.Get(uuid):GetAllComponents().Tag.Tags, TagLevelTen) == true then
-			_P(GetYellowText("WOTD [WARNING]: setting new wing, lvlten passive, but higher than 9"))
+			--_P(GetYellowText("WOTD [WARNING]: setting new wing, lvlten passive, but higher than 9"))
 			Osi.RemoveCustomVisualOvirride(uuid, invisWing)
 			Osi.AddCustomVisualOverride(uuid, newWing)
 		elseif contains(Ext.Entity.Get(uuid):GetAllComponents().Tag.Tags, TagLevelTen) == false then
-			_P(GetYellowText("WOTD [WARNING]: setting new wing, removing inviswing, cuz lvl1 passive"))
+			--_P(GetYellowText("WOTD [WARNING]: setting new wing, removing inviswing, cuz lvl1 passive"))
 			Osi.RemoveCustomVisualOvirride(uuid, invisWing)
 			Osi.AddCustomVisualOverride(uuid, newWing)
 		end
 	elseif summon == nil then
-		_P(GetYellowText("WOTD [WARNING]: newWing is nil, overridewing fallback reached."))	
+		--_P(GetYellowText("WOTD [WARNING]: newWing is nil, overridewing fallback reached."))	
 		Osi.RemoveCustomVisualOvirride(uuid, invisWing)
 		Osi.AddCustomVisualOverride(uuid, invisWing)
 	end
@@ -288,39 +311,40 @@ function ToggleWings(uuid, IsPlayerWinging, CCExit)
 	local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
 	if raceTable[race] then
 		if stringContains(uuid, "Dummy") then
-			--_P(GetBlueText("WOTD [DEBUG]: Supressed the toggling of " .. uuid .. ", they are a DUMMY."))
+			----_P(GetBlueText("WOTD [DEBUG]: Supressed the toggling of " .. uuid .. ", they are a DUMMY."))
 		else
-			--_P(GetBlueText("WOTD [DEBUG]: Tried to Toggle active object " .. uuid))
+			----_P(GetBlueText("WOTD [DEBUG]: Tried to Toggle active object " .. uuid))
 			Osi.RemovePassive(uuid, "Aasimar_Get_Toggle_WingsShow")
 			if contains(allTags, TagLevelOne) then
 				Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
-				_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL ONE TOGGLE"))
+				--_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL ONE TOGGLE"))
 				MayHaveWings(uuid, true, CCExit)
 			elseif contains(allTags, TagLevelTen) and not contains (allTags, TagLevelOne) then
 				if GetLevel(uuid) >= 10 then
-					_P(GetBlueText("WOTD [DEBUG]: LVL10 PASSIVE, LVL >= 10"))
+					--_P(GetBlueText("WOTD [DEBUG]: LVL10 PASSIVE, LVL >= 10"))
 					local xyzDummy = getCurrentWing(uuid)
 					if xyzDummy == nil then xyzDummy = "nil" end
-					_P(GetYellowText("Toggle Wings: getCurrentWing(uuid) : " .. xyzDummy))
+					--_P(GetYellowText("Toggle Wings: getCurrentWing(uuid) : " .. xyzDummy))
 					local xyzChosenDummy = entity.Vars.AAS_WingsChosen
 					if xyzChosenDummy == nil then xyzChosenDummy = "nil" end
-					_P(GetYellowText("Toggle Wings: entity.Vars.AAS_WingsChosen : " .. xyzChosenDummy))
+					--_P(GetYellowText("Toggle Wings: entity.Vars.AAS_WingsChosen : " .. xyzChosenDummy))
 					if IsPlayerWinging == true then
 						Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
-						_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL TEN, HIGHER THAN LEVEL TEN AND WINGING"))
+						--_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL TEN, HIGHER THAN LEVEL TEN AND WINGING"))
 						MayHaveWings(uuid, true, false)
 					elseif IsPlayerWinging == false then
 						Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
-						_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL TEN, HIGHER THAN LEVEL TEN AND NOT WINGING"))
+						--_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL TEN, HIGHER THAN LEVEL TEN AND NOT WINGING"))
 						MayHaveWings(uuid, true, false)
 					end
 				elseif GetLevel(uuid) <= 9 and contains (allTags, TagLevelTen)then
-					_P(GetBlueText("WOTD [DEBUG]: LVL10 PASSIVE, LVL <= 9"))
+					--_P(GetBlueText("WOTD [DEBUG]: LVL10 PASSIVE, LVL <= 9"))
+					Osi.RemovePassive(uuid,"Aasimar_Get_Toggle")
 					if IsPlayerWinging == true then
-						_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL TEN, LOWER THAN LEVEL TEN AND WINGING"))
+						--_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL TEN, LOWER THAN LEVEL TEN AND WINGING"))
 						MayHaveWings(uuid, true, CCExit)
 					elseif IsPlayerWinging == false then
-						_P(GetBlueText("WOTD [DEBUG]:" .. " SYNCING LEVEL TEN, LOWER THAN LEVEL TEN AND NOT WINGING"))
+						--_P(GetBlueText("WOTD [DEBUG]:" .. " SYNCING LEVEL TEN, LOWER THAN LEVEL TEN AND NOT WINGING"))
 						local dummyCCExit = ""
 						if CCExit then
 							dummyCCExit = "true"
@@ -335,36 +359,36 @@ function ToggleWings(uuid, IsPlayerWinging, CCExit)
 				end
 			elseif contains(allTags, TagLevelTen) == false and contains(allTags, TagLevelOne) == false then
 				Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
-				_P(GetBlueText("WOTD [DEBUG]: Old savegame detected, giving them wings at level one"))
-				--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR TOGGLEIWINGS OLD"))
+				--_P(GetBlueText("WOTD [DEBUG]: Old savegame detected, giving them wings at level one"))
+				----_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR TOGGLEIWINGS OLD"))
 				if getCurrentWing(uuid) ~= invisWing then
 					if getCurrentWing(uuid) == nil then
 						for i, SubRace in pairs(raceTable) do
 							if entity:GetAllComponents().Race.Race == SubRace then
-								_P("WOTD SET THE WINGS TO DEFAULT_LOOP")
+								--_P("WOTD SET THE WINGS TO DEFAULT_LOOP")
 								entity.Vars.AAS_WingsChosen = getPermittedWings(uuid)[i]
 							end
 						end
 						if entity.Vars.AAS_WingsChosen == nil then
-							_P("WOTD SET THE WINGS TO DEFAULT")
+							--_P("WOTD SET THE WINGS TO DEFAULT")
 							entity.Vars.AAS_WingsChosen = getPermittedWings(uuid)[1]
 						end
 					else
-						_P("WOTD SET THE WINGS TO CURRENT WINGS")
+						--_P("WOTD SET THE WINGS TO CURRENT WINGS")
 						entity.Vars.AAS_WingsChosen = getCurrentWing(uuid)
 					end
 				end
-				_P("WOTD SENT MAYHAVEWINGS IN TOGGLEWINGS LVL10")
+				--_P("WOTD SENT MAYHAVEWINGS IN TOGGLEWINGS LVL10")
 				MayHaveWings(uuid, true, false)				
 			end	
 		end
 	else
 		if contains(allTags, TagCressa) then
-			--_P(GetBlueText("WOTD [DEBUG]: SYNCING CRESSA"))
+			----_P(GetBlueText("WOTD [DEBUG]: SYNCING CRESSA"))
+			--Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
 			MayHaveWings(uuid, true, CCExit)
-			Osi.AddPassive(uuid,"Aasimar_Get_Toggle_WingsShow")
 		else
-			--_P(GetBlueText("WOTD [DEBUG]: Surpressed the toggling of " .. uuid .. ", they are a NOT an Aasimar, clearing Vars."))
+			----_P(GetBlueText("WOTD [DEBUG]: Surpressed the toggling of " .. uuid .. ", they are a NOT an Aasimar, clearing Vars."))
 			--entity.Vars.AAS_WingsChosen = nil
 			--Ext.Vars.SyncUserVariables()
 		end
@@ -375,61 +399,65 @@ end
 -- @param uuid 	     		- uuid of entity that will receive the wing
 function MayHaveWings(uuid, permission, CCExit)
 	if uuid == nil then
-		_P(GetYellowText("WOTD [WARN]: MayHaveWings, uuid is nil"))
+		--_P(GetYellowText("WOTD [WARN]: MayHaveWings, uuid is nil"))
 	else
-		_P(GetYellowText("WOTD [WARN]: MAyHaveWings called"))
+		--_P(GetYellowText("WOTD [WARN]: MAyHaveWings called"))
 		local entity = Ext.Entity.Get(uuid)
 		--SyncWings(entity)
-		_P(GetYellowText("MayHaveWings: getCurrentWing(uuid) : " .. getCurrentWing(uuid)))
-		_P(GetYellowText("MayHaveWings: entity.Vars.AAS_WingsChosen : " .. entity.Vars.AAS_WingsChosen))
+		local xyzDummyMayHaveWings = getCurrentWing(uuid)
+		if xyzDummyMayHaveWings == nil then xyzDummyMayHaveWings = "nil" end
+		--_P(GetYellowText("MayHaveWings: getCurrentWing(uuid) : " .. xyzDummyMayHaveWings))
+		local xyzDummyMayHaveWingsChosen = entity.Vars.AAS_WingsChosen
+		if xyzDummyMayHaveWingsChosen == nil then xyzDummyMayHaveWingsChosen = "nil" end
+		--_P(GetYellowText("MayHaveWings: entity.Vars.AAS_WingsChosen : " .. xyzDummyMayHaveWingsChosen))
 		local currentWings = getCurrentWing(uuid)
 		if permission == true then
 			if currentWings == invisWing then
-				_P(GetBlueText("WOTD [DEBUG]: Summoning wings, currently hidden"))
+				--_P(GetBlueText("WOTD [DEBUG]: Summoning wings, currently hidden"))
 				Osi.ApplyStatus(uuid,"SUM_WINGS",0)
 			else
 				if CCExit == true then
-					--_P(GetBlueText("WOTD [DEBUG]: Came out of CC, forced wings"))
+					----_P(GetBlueText("WOTD [DEBUG]: Came out of CC, forced wings"))
 					if Osi.HasActiveStatus(uuid, "DEVA_LOCO") == 1 then
-						_P(GetBlueText("WOTD [DEBUG]: Tried to summon wings, currently already showing. CCExit True"))
+						--_P(GetBlueText("WOTD [DEBUG]: Tried to summon wings, currently already showing. CCExit True"))
 					else
-						_P(GetBlueText("WOTD [DEBUG]: Tried to summon wings, currently already showing. CCExit True, DEVA False"))
+						--_P(GetBlueText("WOTD [DEBUG]: Tried to summon wings, currently already showing. CCExit True, DEVA False"))
 						Osi.ApplyStatus(uuid,"SUM_WINGS",0)
 					end
 				else
-					--_P(GetBlueText("WOTD [DEBUG]: Tried to summon wings, currently already showing"))
+					----_P(GetBlueText("WOTD [DEBUG]: Tried to summon wings, currently already showing"))
 					if Osi.HasActiveStatus(uuid, "DEVA_LOCO") == 1 then
-						_P(GetBlueText("WOTD [DEBUG]: Tried to summon wings, currently already showing. CCExit False"))
+						--_P(GetBlueText("WOTD [DEBUG]: Tried to summon wings, currently already showing. CCExit False"))
 					else
-						_P(GetBlueText("WOTD [DEBUG]: Tried to summon wings, currently already showing. CCExit False, DEVA False"))
+						--_P(GetBlueText("WOTD [DEBUG]: Tried to summon wings, currently already showing. CCExit False, DEVA False"))
 						Osi.ApplyStatus(uuid,"SUM_WINGS",0)
 					end
 				end
 			end
 		else
-			Osi.ApplyStatus(uuid,"UNS_WINGS",0)
+			--Osi.ApplyStatus(uuid,"UNS_WINGS",0)
 			if CCExit == true then
-				_P(GetBlueText("WOTD [DEBUG]: Not allowed wings, spawning invis."))
+				--_P(GetBlueText("WOTD [DEBUG]: Not allowed wings, spawning invis."))
 				--Osi.ApplyStatus(uuid,"SUM_WINGS_SPAWN",0)
 				Osi.RemoveStatus(uuid, "DEVA_LOCO", uuid)
 				Osi.RemoveStatus(uuid, "AASIMAR_PASSIVE_WINGS_10", uuid)
-				overrideWing(inviswing, uuid, false)
+				overrideWing(invisWing, uuid, false)
 			elseif CCExit == false then
 				if IsLowLevelTagTen(uuid) then
 					if GetLevel(uuid) >= 2 then
 						if Osi.HasActiveStatus(uuid, "DEVA_LOCO") == 1 then
 							Osi.ApplyStatus(uuid,"UNS_WINGS",0)
 						end
-						_P(GetBlueText("WOTD [DEBUG]: Not allowed wings and higher than level 1, UNSUM."))
+						--_P(GetBlueText("WOTD [DEBUG]: Not allowed wings and higher than level 1, UNSUM."))
 					else
 						if Osi.HasActiveStatus(uuid, "DEVA_LOCO") == 1 then
-							_P(GetBlueText("WOTD [DEBUG]: Not allowed wings and level 1, doing nothing."))
+							--_P(GetBlueText("WOTD [DEBUG]: Not allowed wings and level 1, doing nothing."))
 							Osi.ApplyStatus(uuid,"UNS_WINGS",0)
 						end
 					end
 				else
 					if Osi.HasActiveStatus(uuid, "DEVA_LOCO") == 1 then
-						_P(GetBlueText("WOTD [DEBUG]: Not allowed wings."))
+						--_P(GetBlueText("WOTD [DEBUG]: Not allowed wings."))
 						Osi.ApplyStatus(uuid,"UNS_WINGS",0)
 					end
 				end
@@ -456,13 +484,13 @@ end
 ----------------------------------------------------------------------------------------------------
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee, storyActionID)
 	if status == "SUM_WINGS_TOGGLE" then
-		_P(GetMagentaText("WOTD [INFO]TOGGLE WAS CLICKED INTO ON"))
+		--_P(GetMagentaText("WOTD [INFO]TOGGLE WAS CLICKED INTO ON"))
 		local delay = 600
 		local player = Ext.Entity.Get(object)
 		local uuid = player.Uuid.EntityUuid
 		local eRace = Ext.Entity.Get(object):GetAllComponents().CharacterCreationStats
 		if IsLowLevelTagTen(uuid) then
-			_P("SUM_WINGS_TOGGLE ON LOW LEVEL")
+			--_P("SUM_WINGS_TOGGLE ON LOW LEVEL")
 		else
 			for index, SubClass in pairs(classTable) do
 				if eRace.SubRace == SubClass then
@@ -473,7 +501,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
 		end
 	end
 	if status == "UNS_WINGS_TOGGLE" then
-		_P(GetMagentaText("WOTD [INFO]TOGGLE WAS CLICKED INTO OFF"))
+		--_P(GetMagentaText("WOTD [INFO]TOGGLE WAS CLICKED INTO OFF"))
 		local delay = 600
 		local player = Ext.Entity.Get(object)
 		local uuid = player.Uuid.EntityUuid
@@ -481,12 +509,10 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
 		for index, SubClass in pairs(classTable) do
 			if eRace.SubRace == SubClass then
 				if IsLowLevelTagTen(uuid) then
-					_P("SUM_WINGS_TOGGLE OFF LOW LEVEL")
+					--_P("SUM_WINGS_TOGGLE OFF LOW LEVEL")
 				else
-
 					Osi.ApplyStatus(uuid, classVfxTable[index], 0)
 					Wait(delay, function() overrideWing(invisWing, uuid, false) end)
-			
 				end
 			end
 		end
@@ -499,11 +525,11 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
 		for index, SubClass in pairs(classTable) do
 			if eRace.SubRace == SubClass then
 				if IsLowLevelTagTen(uuid) then
-					_P(GetMagentaText("WOTD [INFO]SUMMON: Don't summon cuz low level and wings10passive"))
+					--_P(GetMagentaText("WOTD [INFO]SUMMON: Don't summon cuz low level and wings10passive"))
 					Osi.ApplyStatus(uuid, classVfxTable[index], 0)
 					Wait(delay, function() overrideWing(invisWing, uuid, true) end)
 				else
-					_P(GetMagentaText("WOTD [INFO]SUMMON: SMU WINGS Race is " .. eRace.SubRace))
+					--_P(GetMagentaText("WOTD [INFO]SUMMON: SMU WINGS Race is " .. eRace.SubRace))
 					Osi.ApplyStatus(uuid, classVfxTable[index], 0)
 					Wait(delay, function() overrideWing(player.Vars.AAS_WingsChosen, uuid, true) end)
 				end
@@ -515,17 +541,17 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
 		local player = Ext.Entity.Get(object)
 		local uuid = player.Uuid.EntityUuid
 		local eRace = Ext.Entity.Get(object):GetAllComponents().CharacterCreationStats
-		_P(GetMagentaText("WOTD [INFO]SUMMON: SUM WINGS SPAWN"))
+		--_P(GetMagentaText("WOTD [INFO]SUMMON: SUM WINGS SPAWN"))
 		for index, SubClass in pairs(classTable) do
 			if eRace.SubRace == SubClass then
 				if GetLevel(uuid) >= 2 then
-					_P(GetMagentaText("WOTD [INFO]SUMMON: didn't do shit cuz level > 1"))
+					--_P(GetMagentaText("WOTD [INFO]SUMMON: didn't do shit cuz level > 1"))
 					if IsLowLevelTagTen(uuid) then
 						Osi.ApplyStatus(uuid, classVfxTable[index], 0)
 						Wait(delay, function() overrideWing(invisWing, uuid, false) end)
 					end
 				else
-					_P(GetMagentaText("WOTD [INFO]SUMMON: did shit cuz level = 1"))
+					--_P(GetMagentaText("WOTD [INFO]SUMMON: did shit cuz level = 1"))
 					
 					Osi.ApplyStatus(uuid, classVfxTable[index], 0)
 					Wait(delay, function() overrideWing(invisWing, uuid, false) end)
@@ -539,21 +565,21 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
 		local player = Ext.Entity.Get(object)
 		local uuid = player.Uuid.EntityUuid
 		local eRace = Ext.Entity.Get(object):GetAllComponents().CharacterCreationStats
-		----_P(GetMagentaText("WOTD [INFO]:UNSUMMON: SubRace is " .. eRace.SubRace))
+		------_P(GetMagentaText("WOTD [INFO]:UNSUMMON: SubRace is " .. eRace.SubRace))
 		for index, SubClass in pairs(classTable) do
 			if eRace.SubRace == SubClass then
 				if GetLevel(uuid) >= 10 or contains(player:GetAllComponents().Tag.Tags, TagLevelOne) then
-					_P(GetMagentaText("WOTD [INFO]: Not unsummmoning wings, level above 9 and has lvl1 tag"))
+					--_P(GetMagentaText("WOTD [INFO]: Not unsummmoning wings, level above 9 and has lvl1 tag"))
 					--Wait(delay, function() overrideWing(player.Vars.AAS_WingsChosen, uuid, false) end)
 				elseif IsLowLevelTagTen(uuid) then
 					if GetLevel(uuid) >= 2 then
-						_P(GetMagentaText("WOTD [INFO]: UNSUM, level under 10 and above 1 and has lvl10 tag, player saved wings: " .. player.Vars.AAS_WingsChosen))
+						--_P(GetMagentaText("WOTD [INFO]: UNSUM, level under 10 and above 1 and has lvl10 tag, player saved wings: " .. player.Vars.AAS_WingsChosen))
 						Osi.ApplyStatus(uuid, classVfxTable[index], 0)
 						Wait(delay, function() overrideWing(invisWing, uuid, false) end)
 					else
 						Osi.ApplyStatus(uuid, classVfxTable[index], 0)
-						_P(GetMagentaText("WOTD [INFO]: Unsummmoning wings, level under 10 and has lvl10 tag, player saved wings: " .. player.Vars.AAS_WingsChosen))
-						----_P(GetYellowText("WOTD [INFO]: Unsummmoning wings, level under 10 and has lvl10 tag, player current wings: " .. getCurrentWing(uuid)))
+						--_P(GetMagentaText("WOTD [INFO]: Unsummmoning wings, level under 10 and has lvl10 tag, player saved wings: " .. player.Vars.AAS_WingsChosen))
+						------_P(GetYellowText("WOTD [INFO]: Unsummmoning wings, level under 10 and has lvl10 tag, player current wings: " .. getCurrentWing(uuid)))
 						Wait(delay, function() overrideWing(invisWing, uuid, false) end)
 					end
 				end
@@ -564,7 +590,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
 		local race = Ext.Entity.Get(object):GetAllComponents().CharacterCreationStats.Race
 		if raceTable[race] then
 			ToggleWings(object, true, false)
-			--_P(GetYellowText("WOTD [WARN]: ERROR 006"))
+			----_P(GetYellowText("WOTD [WARN]: ERROR 006"))
 		end
 	end
 	if status == "WOTD_RESET_CHAR" then
@@ -591,20 +617,20 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelNa
 	local oldWingItem = ""
 	for _, uuid in pairs(GetPartyWotD()) do
 		local entity = Ext.Entity.Get(uuid)
-		local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
+		local race = entity:GetAllComponents().CharacterCreationStats.Race
 		if raceTable[race] then
 			local WingOptions = getPermittedWings(uuid)
 			for i, deprecatedWing in pairs(oldWingsTable) do
 				local deprecatedWingItem = Osi.GetItemByTemplateInUserInventory(deprecatedWing, uuid)
 				if deprecatedWingItem ~= nil then
-					--_P(GetMagentaText("WOTD: [CLEANUP] ".. deprecatedWing .. " found on " .. uuid .. ". Applying Status OLDWINGSDESTROYININV" .. i))
+					----_P(GetMagentaText("WOTD: [CLEANUP] ".. deprecatedWing .. " found on " .. uuid .. ". Applying Status OLDWINGSDESTROYININV" .. i))
 					Osi.ApplyStatus(uuid, "OLDWINGSDESTROYININV" .. i, 0)
 					if entity.Vars.AAS_WingsChosen == nil then
-						--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR LEVEL GAMEPLAY STARTED"))
+						----_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR LEVEL GAMEPLAY STARTED"))
 						entity.Vars.AAS_WingsChosen = WingOptions[i]
-						--_P(GetYellowText("WOTD: [CLEANUP] Setting player uuid " .. uuid .. " to wings ".. WingOptions[i]))
-						--_P(GetYellowText("WOTD [WARN]: Synced wings at line 416"))
-						SyncWings(Ext.Entity.Get(uuid))				
+						----_P(GetYellowText("WOTD: [CLEANUP] Setting player uuid " .. uuid .. " to wings ".. WingOptions[i]))
+						----_P(GetYellowText("WOTD [WARN]: Synced wings at line 416"))
+						SyncWings(entity)				
 					end
 				end
 			end
@@ -612,25 +638,11 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelNa
 				local itemRoot  = item.Item.GameObjectVisual.RootTemplateId
 				local itemUuid = item.Item.Uuid.EntityUuid
 				if contains(oldWingsTable, itemRoot) then
-					--_P(GetMagentaText("WOTD: [CLEANUP] Illegally spawned wings: [ROOT] (".. itemRoot .. ") found. Deleting copy. Item [UUID] " .. itemUuid))
+					----_P(GetMagentaText("WOTD: [CLEANUP] Illegally spawned wings: [ROOT] (".. itemRoot .. ") found. Deleting copy. Item [UUID] " .. itemUuid))
 					Osi.Drop(itemUuid)
 					Osi.RequestDelete(itemUuid)
 				end
-			end
-			if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
-				ToggleWings(uuid, true, false)
-				--_P(GetYellowText("WOTD [WARN]: ERROR 005"))
-			else
-				if IsLowLevelTagTen(uuid) then
-					--_P(GetYellowText("WOTD [WARN]: Is low level 10 and has tag during Gameplay started, doing nothing"))
-					if entity.Vars.AAS_WingsChosen == nil then
-						
-					end
-				else
-					--_P(GetYellowText("WOTD [WARN]: Is normal during Gameplay started, ToggleWings False"))
-					ToggleWings(uuid, false, false)
-				end
-			end
+			end			
 			--Wait for legally spawned wings to resolve
 			Wait(3000, function()
 				itemDeprecatedEquipped = GetEquippedItem(uuid, "Underwear")
@@ -638,29 +650,63 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelNa
 					itemDeprecatedEquippedRoot = Ext.Entity.Get(itemDeprecatedEquipped):GetAllComponents().GameObjectVisual.RootTemplateId
 					for i, deprecatedWing in pairs(oldWingsTable) do
 						if deprecatedWing == itemDeprecatedEquippedRoot then
-							--_P(GetMagentaText("WOTD: [CLEANUP] Illegally spawned and equipped wings: [ROOT] (".. itemDeprecatedEquippedRoot .. ") found. Deleting copy. Item [UUID] " .. itemDeprecatedEquipped))
+							----_P(GetMagentaText("WOTD: [CLEANUP] Illegally spawned and equipped wings: [ROOT] (".. itemDeprecatedEquippedRoot .. ") found. Deleting copy. Item [UUID] " .. itemDeprecatedEquipped))
 							Osi.RequestDelete(itemDeprecatedEquipped)
 						end
 					end
 				end
 			end)
+			if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
+				ToggleWings(uuid, true, false)
+				----_P(GetYellowText("WOTD [WARN]: ERROR 005"))
+			else
+				if IsOldWingTag(uuid) == true then
+					_P(GetYellowText("WOTD [WARN]: Old Character detected!"))
+				else
+					if IsLowLevelTagTen(uuid) then
+						_P(GetYellowText("WOTD [WARN]: Is low level 10 and has tag during Gameplay started"))
+						if entity.Vars.AAS_WingsChosen == nil then
+							_P(GetYellowText("WOTD GAMEPLAY STARTED CHOSEN IS NIL"))
+							for i, SubRace in pairs(raceTable) do
+								if entity:GetAllComponents().Race.Race == SubRace then
+									entity.Vars.AAS_WingsChosen = getPermittedWings(uuid)[i]
+									_P(GetYellowText("WOTD GAMEPLAY STARTED CHOSEN IS no longer NIL"))
+									SyncWings(entity)
+								end
+							end							
+						end
+						Wait(660, function() --Osi.ApplyStatus(uuid,"UNS_WINGS",0)
+							_P("WOTD did the UNS in Gamestart") ToggleWings(uuid, false, true) end)
+					else
+						if entity.Vars.AAS_WingsChosen == nil then
+							_P(GetYellowText("WOTD GAMEPLAY STARTED no lvl 10 tag, CHOSEN IS NIL"))
+							entity.Vars.AAS_WingsChosen = getPermittedWings(uuid)[1]
+							SyncWings(entity)
+							Wait(660, function() Osi.ApplyStatus(uuid,"SUM_WINGS",0)
+								_P("WOTD did the SUM in gamestart") ToggleWings(uuid, false, true) end)
+						end
+						_P(GetYellowText("WOTD [WARN]: Is normal during Gameplay started, ToggleWings False"))
+						ToggleWings(uuid, false, false)
+					end
+				end
+			end
 		end
 	end
 end)
 Ext.Osiris.RegisterListener("CharacterJoinedParty", 1, "after", function(character) 
-	local Entity = Ext.Entity.Get(character)
+	local entity = Ext.Entity.Get(character)
 	local allTags = Ext.Entity.Get(character):GetAllComponents().Tag.Tags
 	if stringContains(character, "Dummy") then
 	elseif stringContains(character, "Hirelings") then
-		--_P(GetMagentaText("WOTD [HIRELING]: " .. character .. " joined the party."))
+		_P(GetMagentaText("WOTD [HIRELING]: " .. character .. " joined the party."))
 		if contains(allTags, TagCressa) then
-			--_P(GetMagentaText("WOTD [HIRELING]: Saving Scourge wings for Cressa,  " .. character))
+			_P(GetMagentaText("WOTD [HIRELING]: Saving Scourge wings for Cressa,  " .. character))
 			--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR CRESSA"))
-			Entity.Vars.AAS_WingsChosen = "19ce82fa-7f72-41f5-bbfe-b2c75baf575e"
-			Ext.Vars.SyncUserVariables()
+			entity.Vars.AAS_WingsChosen = "19ce82fa-7f72-41f5-bbfe-b2c75baf575e"
+			SyncWings(entity)
 			if Osi.HasActiveStatus(character, "IS_WINGING") == 1 then
 				ToggleWings(character, true, false)
-				--_P(GetYellowText("WOTD [WARN]: ERROR 004"))
+				----_P(GetYellowText("WOTD [WARN]: ERROR 004"))
 			else
 				ToggleWings(character, false, false)
 			end
@@ -670,8 +716,8 @@ end)
 Ext.Osiris.RegisterListener("LeveledUp", 1, "after", function(character) 
 	if character ~= nil then	
 		if GetLevel(character) == 10 then		
-	 		--_P(GetYellowText("WOTD [WARN]: Leveled up."))
-			--_P(GetMagentaText("WOTD [INFO]SUM as you hit lvl 10"))
+	 		----_P(GetYellowText("WOTD [WARN]: Leveled up."))
+			----_P(GetMagentaText("WOTD [INFO]SUM as you hit lvl 10"))
 			local delay = 600
 			local player = Ext.Entity.Get(character)
 			local uuid = player.Uuid.EntityUuid
@@ -691,71 +737,72 @@ Ext.Osiris.RegisterListener("LeveledUp", 1, "after", function(character)
 	end
 end)
 Ext.Osiris.RegisterListener("RespecCompleted", 1, "after", function(character) 
-	_P(GetYellowText("WOTD [WARN]: Respec complete"))
-	if character ~= nil then
-		local uuid = character
-		local player = Ext.Entity.Get(character)		
-		local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
-		if raceTable[race] then
-			local CurrentWing = getCurrentWing(uuid)
-			if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
+	_P(GetYellowText("WOTD [INFO]: Respec complete"))
+	local entity = Ext.Entity.Get(character)
+		--if entity.CCState.HasDummy == false then
+			local uuid = entity.Uuid.EntityUuid
+			local race = entity:GetAllComponents().Race.Race
+			local WingOptions = getPermittedWings(uuid)
+			if raceTable[race] then
+				----_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR CC FINISH"))
+				local CurrentWing = getCurrentWing(uuid)
+				if CurrentWing == nil then CurrentWing = "nil" end
+				--_P("overrideWing during CA: " .. CurrentWing)
 				if CurrentWing ~= invisWing then
 					if CurrentWing == nil then
 						for i, SubRace in pairs(raceTable) do
-							if player:GetAllComponents().Race.Race == SubRace then
-								player.Vars.AAS_WingsChosen = getPermittedWings(uuid)[i]
-								SyncWings(player)
+							if entity:GetAllComponents().Race.Race == SubRace then
+								entity.Vars.AAS_WingsChosen = getPermittedWings(uuid)[i]
+								SyncWings(entity)
+								--_P(GetYellowText("getCurrentWing(uuid) RS after toggle: RS 1" .. getCurrentWing(uuid)))
+								--_P(GetYellowText("entity.Vars.AAS_WingsChosen RS after toggle: RS 1" .. entity.Vars.AAS_WingsChosen))
 							end
 						end
 					else
-						player.Vars.AAS_WingsChosen = CurrentWing
-						SyncWings(player)
+						entity.Vars.AAS_WingsChosen = CurrentWing
+						SyncWings(entity)
 					end
 				end
-				--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR MIRROR FINISH: "  .. player.Vars.AAS_WingsChosen))
+				--_P(GetYellowText("getCurrentWing(uuid) RS before toggle: " .. getCurrentWing(uuid)))
+				--_P(GetYellowText("entity.Vars.AAS_WingsChosen RS before toggle: " .. entity.Vars.AAS_WingsChosen))
+				--_P(GetYellowText("WOTD [WARN]: Toggle Wings RS Finished"))
+				Wait(1200, function() 
+				if IsLowLevelTagTen(uuid) then
+					_P("WOTD WINGS LVL 10 LOW LEVEL RS")
+					if getCurrentWing(uuid) ~= invisWing then
+						_P("WOTD WINGS LVL 1 RS - WINGS NOT INVIS")
+						entity.Vars.AAS_WingsChosen = getCurrentWing(uuid)
+						SyncWings(entity)
+						Wait(660, function() Osi.ApplyStatus(uuid,"UNS_WINGS",0)
+							_P("WOTD did the toggle in RS") ToggleWings(uuid, false, true) end)
+						--_P(GetYellowText("getCurrentWing(uuid) RS after lowlevel10: " .. getCurrentWing(uuid)))
+						--_P(GetYellowText("entity.Vars.AAS_WingsChosen RS after lowlevel10: " .. entity.Vars.AAS_WingsChosen))
+					else
+						_P("WOTD WINGS LVL 1 RS - WINGS INVIS or nil")
+					end
+				else
+					_P("WOTD WINGS LVL 1 RS")
+					if getCurrentWing(uuid) == invisWing and entity.Vars.AAS_WingsChosen ~= nil then
+						_P("WOTD WINGS LVL 1 RS - current wings invis AND chason not nil")
+						Wait(660, function() Osi.ApplyStatus(uuid,"SUM_WINGS",0) end)
+					else
+						_P("WOTD WINGS LVL 1 RS - other")
+					end
+					_P("WOTD WINGS LVL 1 RS - toggle wings")
+					ToggleWings(uuid, false, true)
+					--_P(GetYellowText("getCurrentWing(uuid) RS after toggle: " .. getCurrentWing(uuid)))
+					--_P(GetYellowText("entity.Vars.AAS_WingsChosen RS after toggle: " .. entity.Vars.AAS_WingsChosen))
+				end	end)				
 			end
-			ToggleWings(uuid, false, false)
-		end
-	end
+		--end
 end)
 Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "after", function(uuid, itemroot, item, _)
     if (itemroot == "UNI_MagicMirror_72ae7a39-d0ce-4cb6-8d74-ebdf7cdccf91") then
-        -- local player = Ext.Entity.Get(uuid)
-		-- --_P(GetYellowText("WOTD [WARN]: Left Magic Mirror"))
-		-- local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
-		-- if raceTable[race] then
-		-- 	local CurrentWing = getCurrentWing(uuid)
-		-- 	if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
-		-- 		if CurrentWing ~= invisWing then
-		-- 			if CurrentWing == nil then
-		-- 				for i, SubRace in pairs(raceTable) do
-		-- 					if player:GetAllComponents().Race.Race == SubRace then
-		-- 						_P("WOTD Current wings : " .. getCurrentWing(uuid))
-								
-		-- 						player.Vars.AAS_WingsChosen = getPermittedWings(uuid)[i]
-		-- 						SyncWings(player)
-		-- 					end
-		-- 					_P("WOTD Chosen wings : " .. player.Vars.AAS_WingsChosen)
-		-- 				end
-		-- 			else
-		-- 				_P("WOTD Current wings CW not nil: " .. getCurrentWing(uuid))
-		-- 				player.Vars.AAS_WingsChosen = CurrentWing
-		-- 				SyncWings(player)
-		-- 				_P("WOTD Chosen wings CW not nil : " .. player.Vars.AAS_WingsChosen)
-		-- 			end
-		-- 		end
-		-- 		--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR MIRROR FINISH: "  .. player.Vars.AAS_WingsChosen))
-		-- 	end
-		-- 	_P("Wotd unsummoning wings and togglewings false false")
-		-- 	Osi.ApplyStatus(uuid,"UNS_WINGS",0)
-		-- 	ToggleWings(uuid, false, false)
-		-- 	_P("WOTD Current wings mirror exit: " .. getCurrentWing(uuid))
-		-- 	--_P("WOTD Chosen wings mirror exit: " .. player.Vars.AAS_WingsChosen)
-		-- end
+		_P(GetYellowText("WOTD [INFO]: Clicked Magic Mirror"))
     end
 end)
 Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function()
-	_P(GetYellowText("WOTD [WARN]: Character Creation Finished"))
+	_P(GetYellowText("WOTD [INFO]: Character Creation Finished"))
 	for _, character in pairs(GetPartyWotD()) do
 		local charactersEntity = Ext.Entity.Get(character)
 		Ext.Entity.Subscribe("CCState", function(entity, _, _)
@@ -764,18 +811,18 @@ Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function()
 				local race = entity:GetAllComponents().Race.Race
 				local WingOptions = getPermittedWings(uuid)
 				if raceTable[race] then
-					--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR CC FINISH"))
+					----_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR CC FINISH"))
 					local CurrentWing = getCurrentWing(uuid)
 					if CurrentWing == nil then CurrentWing = "nil" end
-					_P("overrideWing during CA: " .. CurrentWing)
+					--_P("overrideWing during CA: " .. CurrentWing)
 					if CurrentWing ~= invisWing then
 						if CurrentWing == nil then
 							for i, SubRace in pairs(raceTable) do
 								if entity:GetAllComponents().Race.Race == SubRace then
 									entity.Vars.AAS_WingsChosen = getPermittedWings(uuid)[i]
 									SyncWings(entity)
-									_P(GetYellowText("getCurrentWing(uuid) CC after toggle: CC 1" .. getCurrentWing(uuid)))
-									_P(GetYellowText("entity.Vars.AAS_WingsChosen CC after toggle: CC 1" .. entity.Vars.AAS_WingsChosen))
+									--_P(GetYellowText("getCurrentWing(uuid) CC after toggle: CC 1" .. getCurrentWing(uuid)))
+									--_P(GetYellowText("entity.Vars.AAS_WingsChosen CC after toggle: CC 1" .. entity.Vars.AAS_WingsChosen))
 								end
 							end
 						else
@@ -783,22 +830,22 @@ Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function()
 							SyncWings(entity)
 						end
 					end
-					_P(GetYellowText("getCurrentWing(uuid) CC before toggle: " .. getCurrentWing(uuid)))
-					_P(GetYellowText("entity.Vars.AAS_WingsChosen CC before toggle: " .. entity.Vars.AAS_WingsChosen))
-					_P(GetYellowText("WOTD [WARN]: Toggle Wings CC Finished"))
+					----_P(GetYellowText("getCurrentWing(uuid) CC before toggle: " .. getCurrentWing(uuid)))
+					----_P(GetYellowText("entity.Vars.AAS_WingsChosen CC before toggle: " .. entity.Vars.AAS_WingsChosen))
+					----_P(GetYellowText("WOTD [WARN]: Toggle Wings CC Finished"))
 					if IsLowLevelTagTen(uuid) then
 						if getCurrentWing(uuid) ~= invisWing then
 							entity.Vars.AAS_WingsChosen = getCurrentWing(uuid)
 							SyncWings(entity)
 							Wait(660, function() Osi.ApplyStatus(uuid,"UNS_WINGS",0)
 								ToggleWings(uuid, false, true) end)
-							_P(GetYellowText("getCurrentWing(uuid) CC after lowlevel10: " .. getCurrentWing(uuid)))
-							_P(GetYellowText("entity.Vars.AAS_WingsChosen CC after lowlevel10: " .. entity.Vars.AAS_WingsChosen))
+							----_P(GetYellowText("getCurrentWing(uuid) CC after lowlevel10: " .. getCurrentWing(uuid)))
+							----_P(GetYellowText("entity.Vars.AAS_WingsChosen CC after lowlevel10: " .. entity.Vars.AAS_WingsChosen))
 						end
 					else
 						ToggleWings(uuid, false, true)
-						_P(GetYellowText("getCurrentWing(uuid) CC after toggle: " .. getCurrentWing(uuid)))
-						_P(GetYellowText("entity.Vars.AAS_WingsChosen CC after toggle: " .. entity.Vars.AAS_WingsChosen))
+						----_P(GetYellowText("getCurrentWing(uuid) CC after toggle: " .. getCurrentWing(uuid)))
+						----_P(GetYellowText("entity.Vars.AAS_WingsChosen CC after toggle: " .. entity.Vars.AAS_WingsChosen))
 					end					
 				end
 			end
@@ -807,6 +854,7 @@ Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function()
 end)
 Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(character) 
 	--local charactersEntity = Ext.Entity.Get(character)
+	_P(GetYellowText("WOTD [INFO]: Change Appearance Finished"))
 	local entity = Ext.Entity.Get(character)
 	--Ext.Entity.Subscribe("CCState", function(entity, _, _)
 		if entity.CCState.HasDummy == false then
@@ -814,18 +862,18 @@ Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(ch
 			local race = entity:GetAllComponents().Race.Race
 			local WingOptions = getPermittedWings(uuid)
 			if raceTable[race] then
-				--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR CC FINISH"))
+				----_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR CC FINISH"))
 				local CurrentWing = getCurrentWing(uuid)
 				if CurrentWing == nil then CurrentWing = "nil" end
-				_P("overrideWing during CA: " .. CurrentWing)
+				--_P("overrideWing during CA: " .. CurrentWing)
 				if CurrentWing ~= invisWing then
 					if CurrentWing == nil then
 						for i, SubRace in pairs(raceTable) do
 							if entity:GetAllComponents().Race.Race == SubRace then
 								entity.Vars.AAS_WingsChosen = getPermittedWings(uuid)[i]
 								SyncWings(entity)
-								_P(GetYellowText("getCurrentWing(uuid) AC after toggle: AC 1" .. getCurrentWing(uuid)))
-								_P(GetYellowText("entity.Vars.AAS_WingsChosen AC after toggle: AC 1" .. entity.Vars.AAS_WingsChosen))
+								--_P(GetYellowText("getCurrentWing(uuid) AC after toggle: AC 1" .. getCurrentWing(uuid)))
+								--_P(GetYellowText("entity.Vars.AAS_WingsChosen AC after toggle: AC 1" .. entity.Vars.AAS_WingsChosen))
 							end
 						end
 					else
@@ -833,86 +881,31 @@ Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(ch
 						SyncWings(entity)
 					end
 				end
-				_P(GetYellowText("getCurrentWing(uuid) AC before toggle: " .. getCurrentWing(uuid)))
-				_P(GetYellowText("entity.Vars.AAS_WingsChosen AC before toggle: " .. entity.Vars.AAS_WingsChosen))
-				_P(GetYellowText("WOTD [WARN]: Toggle Wings AC Finished"))
+				--_P(GetYellowText("getCurrentWing(uuid) AC before toggle: " .. getCurrentWing(uuid)))
+				--_P(GetYellowText("entity.Vars.AAS_WingsChosen AC before toggle: " .. entity.Vars.AAS_WingsChosen))
+				--_P(GetYellowText("WOTD [WARN]: Toggle Wings AC Finished"))
 				if IsLowLevelTagTen(uuid) then
 					if getCurrentWing(uuid) ~= invisWing then
-
 						entity.Vars.AAS_WingsChosen = getCurrentWing(uuid)
 						SyncWings(entity)
-
-						Wait(660, function() --Osi.ApplyStatus(uuid,"UNS_WINGS",0)
+						Wait(660, function() Osi.ApplyStatus(uuid,"UNS_WINGS",0)
 							_P("WOTD did the toggle in AC") ToggleWings(uuid, false, true) end)
-						_P(GetYellowText("getCurrentWing(uuid) AC after lowlevel10: " .. getCurrentWing(uuid)))
-						_P(GetYellowText("entity.Vars.AAS_WingsChosen AC after lowlevel10: " .. entity.Vars.AAS_WingsChosen))
+						--_P(GetYellowText("getCurrentWing(uuid) AC after lowlevel10: " .. getCurrentWing(uuid)))
+						--_P(GetYellowText("entity.Vars.AAS_WingsChosen AC after lowlevel10: " .. entity.Vars.AAS_WingsChosen))
 					end
 				else
 					ToggleWings(uuid, false, true)
-					_P(GetYellowText("getCurrentWing(uuid) CC after toggle: " .. getCurrentWing(uuid)))
-					_P(GetYellowText("entity.Vars.AAS_WingsChosen CC after toggle: " .. entity.Vars.AAS_WingsChosen))
+					--_P(GetYellowText("getCurrentWing(uuid) CC after toggle: " .. getCurrentWing(uuid)))
+					--_P(GetYellowText("entity.Vars.AAS_WingsChosen CC after toggle: " .. entity.Vars.AAS_WingsChosen))
 				end					
 			end
 		end
 	--end, charactersEntity)
 end)
-Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", function()
-	--_P(GetYellowText("WOTD [WARN]: Long Rest Finished"))
-	-- for _, uuid in pairs(GetPartyWotD()) do
-	-- 	local entity = Ext.Entity.Get(uuid)
-	-- 	local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
-	-- 	if raceTable[race] then
-	-- 		local toggleShowWings =  SHOWWINGS
-	-- 		if toggleShowWings == false then				
-	-- 			overrideWing(entity.Vars.AAS_WingsChosen, uuid, false)
-	-- 		elseif toggleShowWings == true then
-	-- 			overrideWing(entity.Vars.AAS_WingsChosen, uuid, true)
-	-- 		end
-	-- 	end
-	-- end
-end)
-Ext.Osiris.RegisterListener("RequestEndTheDaySuccess", 0, "before", function()
-	--_P(GetYellowText("WOTD [WARN]: End of Day Requested"))
-	-- for _, uuid in pairs(GetPartyWotD()) do
-	-- 	local entity = Ext.Entity.Get(uuid)
-	-- 	local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
-	-- 	if raceTable[race] then
-	-- 		local toggleShowWings =  Osi.HasActiveStatus(uuid, "AASIMAR_WINGS_SHOW")
-	-- 		if toggleShowWings == 0 then
-	-- 			overrideWing(entity.Vars.AAS_WingsChosen, uuid, false)
-	-- 		end
-	-- 	end
-	-- end
-end)
-Ext.Osiris.RegisterListener("DialogStartRequested", 2, "before", function(target, player)
-	--_P(GetYellowText("WOTD [WARN]: Dialog Start Requested"))
-	-- local uuid = player
-	-- local entity = Ext.Entity.Get(uuid)
-	-- local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
-	-- if raceTable[race] then
-	-- 	local toggleShowWings =  Osi.HasActiveStatus(uuid, "AASIMAR_WINGS_SHOW")
-	-- 	if toggleShowWings == 0 then
-	-- 		overrideWing(entity.Vars.AAS_WingsChosen, uuid, false)
-	-- 	end
-	-- end
-end)
+
 Ext.Osiris.RegisterListener("DialogEnded", 2, "after", function(dialog, instanceID)
-	-- --_P(GetYellowText("WOTD [WARN]: AFTER Dialog Ended"))
-	-- for _, character in pairs(GetPartyWotD()) do
-	-- 	local uuid = character
-	-- 	local entity = Ext.Entity.Get(uuid)
-	-- 	local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
-	-- 	if raceTable[race] then
-	-- 		if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
-	-- 			ToggleWings(uuid, true, false)
-	-- 			--_P(GetYellowText("WOTD [WARN]: ERROR 003"))
-	-- 		else
-	-- 			ToggleWings(uuid, false, false)
-	-- 		end
-	-- 	end
-	-- end
 	if dialog == "TUT_Start_OriginIntroduction_Default_2a464bcd-c513-d282-e54e-17e6bdbf67b6" then
-		--_P(GetYellowText("WOTD [WARN]: INTRO dialog ended"))
+		----_P(GetYellowText("WOTD [WARN]: INTRO dialog ended"))
 		for _, character in pairs(GetPartyWotD()) do
 			local uuid = character
 			local entity = Ext.Entity.Get(uuid)
@@ -920,20 +913,20 @@ Ext.Osiris.RegisterListener("DialogEnded", 2, "after", function(dialog, instance
 			if raceTable[race] then
 				if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
 					ToggleWings(uuid, true, true)
-					--_P(GetYellowText("WOTD [WARN]: ERROR 002"))
+					----_P(GetYellowText("WOTD [WARN]: ERROR 002"))
 				else
 					if IsLowLevelTagTen(uuid) then
 						if uuid ~= nil then
-							--_P(GetYellowText("WOTD [WARN]: Intro, low level and tag ten: " .. uuid))
+							----_P(GetYellowText("WOTD [WARN]: Intro, low level and tag ten: " .. uuid))
 							if getCurrentWing(uuid) ~= invisWing then
 								entity.Vars.AAS_WingsChosen = getCurrentWing(uuid)
 								SyncWings(entity)
 								Wait(660, function() Osi.ApplyStatus(uuid,"UNS_WINGS",0)
 									ToggleWings(uuid, false, true) end)
 							end
-							--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR POST INTRO: " .. entity.Vars.AAS_WingsChosen))
+							----_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR POST INTRO: " .. entity.Vars.AAS_WingsChosen))
 						else
-							_P(GetYellowText("WOTD [WARN]: uuid is nil"))
+							--_P(GetYellowText("WOTD [WARN]: uuid is nil"))
 						end
 					else
 						ToggleWings(uuid, false, true)
@@ -942,33 +935,6 @@ Ext.Osiris.RegisterListener("DialogEnded", 2, "after", function(dialog, instance
 			end
 		end
 	end
-end)
-Ext.Osiris.RegisterListener("DialogEnded", 2, "before", function(dialog, instanceID)
-	--_P(GetYellowText("WOTD [WARN]: BEFORE Dialog Ended"))
-	-- local DialogInvolved = 1
-	-- local dialogIndex = 1
-	-- local characters = GetPartyWotD()
-	-- local dialogCharacters = {}
-	-- DialogInvolved = Osi.DialogGetNumberOfInvolvedPlayers(instanceID)
-	-- for _, player in pairs(characters) do
-	-- 	local DialogPlayer = Osi.DialogGetInvolvedPlayer(instanceID, dialogIndex)
-	-- 	if DialogPlayer ~= nil then
-	-- 		dialogIndex = dialogIndex + 1
-	-- 		table.insert(dialogCharacters, DialogPlayer)
-	-- 	end
-	-- end
-	-- for _, uuid in pairs(dialogCharacters) do
-	-- 	local entity = Ext.Entity.Get(uuid)
-	-- 	local race = Ext.Entity.Get(uuid):GetAllComponents().Race.Race
-	-- 	if raceTable[race] then
-	-- 		if  Osi.HasActiveStatus(uuid, "IS_WINGING") then
-	-- 			--ToggleWings(uuid, true, false)
-	-- 			--_P(GetYellowText("WOTD [WARN]: ERROR 001"))
-	-- 		else
-	-- 			--ToggleWings(uuid, false, false)
-	-- 		end
-	-- 	end		
-	-- end
 end)
 Ext.Osiris.RegisterListener("SavegameLoaded", 0, "after", function()
     -- We track this to prevent doing operations on new game

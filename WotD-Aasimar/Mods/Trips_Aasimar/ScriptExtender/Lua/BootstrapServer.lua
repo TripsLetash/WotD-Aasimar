@@ -7,7 +7,7 @@ Ext.Vars.RegisterUserVariable("AAS_WingsChosen", {
     SyncToClient = true,
     SyncToServer = true
 })
-_P(GetYellowText("WOTD: Registered User Variable AAS_WingsChosen"))
+_P(GetYellowText("WOTD [PRELOAD]: Registered User Variable AAS_WingsChosen"))
 
 WOTD = {}
 WOTD.modPrefix = "WOTD"
