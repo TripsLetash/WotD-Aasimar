@@ -384,6 +384,7 @@ function MayHaveWings(uuid, permission, CCExit)
 						--_P(GetBlueText("WOTD [DEBUG]: Not allowed wings and higher than level 1, UNSUM."))
 					else
 						--_P(GetBlueText("WOTD [DEBUG]: Not allowed wings and level 1, doing nothing."))
+						
 					end
 				else
 					--_P(GetBlueText("WOTD [DEBUG]: Not allowed wings."))
@@ -643,13 +644,20 @@ Ext.Osiris.RegisterListener("RespecCompleted", 1, "after", function(character)
 		if raceTable[race] then
 			local CurrentWing = getCurrentWing(uuid)
 			if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
-				
 				if CurrentWing ~= invisWing then
-					player.Vars.AAS_WingsChosen = CurrentWing
-					--_P(GetYellowText("WOTD [WARN]: Synced wings at line 508"))
-					SyncWings(player)
+					if CurrentWing == nil then
+						for i, SubRace in pairs(raceTable) do
+							if player:GetAllComponents().Race.Race == SubRace then
+								player.Vars.AAS_WingsChosen = getPermittedWings(uuid)[i]
+								SyncWings(player)
+							end
+						end
+					else
+						player.Vars.AAS_WingsChosen = CurrentWing
+						SyncWings(player)
+					end
 				end
-				--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR RESPEC COMPLETE: " .. player.Vars.AAS_WingsChosen))
+				--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR MIRROR FINISH: "  .. player.Vars.AAS_WingsChosen))
 			end
 			ToggleWings(uuid, false, false)
 		end
@@ -664,9 +672,17 @@ Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "after", function(uuid, it
 			local CurrentWing = getCurrentWing(uuid)
 			if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
 				if CurrentWing ~= invisWing then
-					player.Vars.AAS_WingsChosen = CurrentWing
-					--_P(GetYellowText("WOTD [WARN]: Synced wings at line 479"))
-					SyncWings(Ext.Entity.Get(uuid))
+					if CurrentWing == nil then
+						for i, SubRace in pairs(raceTable) do
+							if player:GetAllComponents().Race.Race == SubRace then
+								player.Vars.AAS_WingsChosen = getPermittedWings(uuid)[i]
+								SyncWings(player)
+							end
+						end
+					else
+						player.Vars.AAS_WingsChosen = CurrentWing
+						SyncWings(player)
+					end
 				end
 				--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR MIRROR FINISH: "  .. player.Vars.AAS_WingsChosen))
 			end
@@ -687,9 +703,18 @@ Ext.Osiris.RegisterListener("CharacterCreationFinished", 0, "after", function()
 				local WingOptions = getPermittedWings(uuid)
 				if raceTable[race] then
 					--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR CC FINISH"))
-					if getCurrentWing(uuid) ~= invisWing then
-						entity.Vars.AAS_WingsChosen = getCurrentWing(uuid)
-						SyncWings(Ext.Entity.Get(uuid)) 
+					if CurrentWing ~= invisWing then
+						if CurrentWing == nil then
+							for i, SubRace in pairs(raceTable) do
+								if entity:GetAllComponents().Race.Race == SubRace then
+									entity.Vars.AAS_WingsChosen = getPermittedWings(uuid)[i]
+									SyncWings(entity)
+								end
+							end
+						else
+							entity.Vars.AAS_WingsChosen = CurrentWing
+							SyncWings(entity)
+						end
 					end
 					----_P(GetYellowText("getCurrentWing(uuid) : " .. getCurrentWing(uuid)))
 					--_P(GetYellowText("entity.Vars.AAS_WingsChosen : " .. entity.Vars.AAS_WingsChosen))
@@ -709,11 +734,18 @@ Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(ch
 	if raceTable[race] then
 		local CurrentWing = getCurrentWing(uuid)
 		if (player.Vars.AAS_WingsChosen ~= CurrentWing) then
-			
-			if currentWing ~= invisWing then
-				player.Vars.AAS_WingsChosen = CurrentWing
-				SyncWings(player)
-				--_P(GetYellowText("WOTD [WARN]: Synced wings at line 523"))
+			if CurrentWing ~= invisWing then
+				if CurrentWing == nil then
+					for i, SubRace in pairs(raceTable) do
+						if player:GetAllComponents().Race.Race == SubRace then
+							player.Vars.AAS_WingsChosen = getPermittedWings(uuid)[i]
+							SyncWings(player)
+						end
+					end
+				else
+					player.Vars.AAS_WingsChosen = CurrentWing
+					SyncWings(player)
+				end
 			end
 			--_P(GetYellowText("WOTD [WARN]: SETTING AAS_WINGSCHOSEN VAR CHANGE APPEARANCE COMPLETE: " .. player.Vars.AAS_WingsChosen))
 		end
