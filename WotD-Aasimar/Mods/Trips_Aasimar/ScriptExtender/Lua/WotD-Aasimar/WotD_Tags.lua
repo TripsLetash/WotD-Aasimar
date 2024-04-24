@@ -28,7 +28,13 @@ local uuidReallyTags = {
     "45b007f7-f4f6-46e2-9480-395a49b87ef3",
     "2b40a033-7a5c-47e9-92f0-7de9b5cd3a42",
     "da1d4f47-8583-49a1-b262-d77d361b2e09",
-    "058df86a-97b6-4dc4-a246-a1db65ff3c0f"
+    "058df86a-97b6-4dc4-a246-a1db65ff3c0f",
+    "39783f17-8484-46a6-aa3b-f3d51122e5f3",
+    "1029b3e3-3ff0-4d73-b4ed-79b622cad4f9",
+    "2fddf7dd-f79b-4998-882c-d7257badbfe6",
+    "aa68eccb-7875-436f-881e-c3775eee37f6",
+    "4cb02915-7ad7-4141-907e-93253c6a8644",
+    "2d0a73b9-f113-4d35-bdee-a31ab9163d74"
 }
 local uuidNormalTags = {
     "69fd1443-7686-4ca9-9516-72ec0b9d94d7",
@@ -59,21 +65,16 @@ local uuidNormalTags = {
     "78adf3cd-4741-47a8-94f6-f3d322432591",
     "b99b6a5d-8445-44e4-ac58-81b2ee88aab1",
     "57a00605-9e74-477c-bd9d-53c721e25e56",
-    "8d545fa1-8416-493f-8325-7d112bceced8"
-}
-local normalSpecialTags = {
-    "UNDERDARK",
-    "BALDURIAN"
-}
-local uuidReallySpecialTags = {
-    "2d0a73b9-f113-4d35-bdee-a31ab9163d74",
-    "f15e9b0d-676c-4f52-9abf-365cff89ef0f"
-}
-local uuidNormalSpecialTags = {
-    "60f6b464-752f-4970-a855-f729565b5e07",
-    "f15e9b0d-676c-4f52-9abf-365cff89ef0f"
+    "8d545fa1-8416-493f-8325-7d112bceced8",
+    "02e5e9ed-b6b2-4524-99cd-cb2bc84c754a",
+    "92aae5aa-4595-4f1c-96d2-9e2499d35c6f",
+    "41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201",
+    "48d7b679-dffd-4f68-a306-adac19de8acf",
+    "bad00ba2-8a49-450c-8387-af47681717f1",
+    "60f6b464-752f-4970-a855-f729565b5e07"
 }
 local debugText = false
+
 
 function tripsHasStatusShapeshift(uuid, race)
     local IsDisguised = 0
