@@ -55,21 +55,6 @@
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="59154963-bd1f-4cd3-a1a1-a261b88501b8" /> 
 								</node>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="d2f86ec3-c41f-47e1-8acd-984872a4d7d5" /> 
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
-								</node>
 							</children>
 						</node>
 						<node id="GameMaster" />
@@ -91,21 +76,6 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="59154963-bd1f-4cd3-a1a1-a261b88501b8" /> 
-								</node>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="d2f86ec3-c41f-47e1-8acd-984872a4d7d5" /> 
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
 								</node>
 							</children>
 						</node>
@@ -226,18 +196,6 @@
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
 								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
-								</node>
 							</children>
 						</node>
 					</children>
@@ -258,18 +216,6 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
 								</node>
 							</children>
 						</node>
@@ -292,18 +238,6 @@
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
 								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
-								</node>
 							</children>
 						</node>
 					</children>
@@ -324,18 +258,6 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="6cbfe8ea-d9eb-4e2f-bae6-9caa2daf201f" />
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
 								</node>
 							</children>
 						</node>
@@ -359,18 +281,6 @@
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="3ea6f061-6eb2-48ef-9ad3-c0afdbb21a26" />
 								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
-								</node>
 							</children>
 						</node>
 					</children>
@@ -391,18 +301,6 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="3ea6f061-6eb2-48ef-9ad3-c0afdbb21a26" />
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
 								</node>
 							</children>
 						</node>
@@ -425,18 +323,6 @@
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="3ea6f061-6eb2-48ef-9ad3-c0afdbb21a26" />
 								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
-								</node>
 							</children>
 						</node>
 					</children>
@@ -457,18 +343,6 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="3ea6f061-6eb2-48ef-9ad3-c0afdbb21a26" />
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
 								</node>
 							</children>
 						</node>
@@ -492,18 +366,6 @@
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="39bc17c6-300d-4c18-8095-bf7a12d8722e" />
 								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
-								</node>
 							</children>
 						</node>
 					</children>
@@ -524,18 +386,6 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="39bc17c6-300d-4c18-8095-bf7a12d8722e" />
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
 								</node>
 							</children>
 						</node>
@@ -558,18 +408,6 @@
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="39bc17c6-300d-4c18-8095-bf7a12d8722e" />
 								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
-								</node>
 							</children>
 						</node>
 					</children>
@@ -590,18 +428,6 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="39bc17c6-300d-4c18-8095-bf7a12d8722e" />
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
 								</node>
 							</children>
 						</node>
@@ -625,18 +451,6 @@
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="3e2e1c74-9efd-4837-9088-890ba7331491" />
 								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
-								</node>
 							</children>
 						</node>
 					</children>
@@ -657,18 +471,6 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="3e2e1c74-9efd-4837-9088-890ba7331491" />
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
 								</node>
 							</children>
 						</node>
@@ -691,18 +493,6 @@
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="3e2e1c74-9efd-4837-9088-890ba7331491" />
 								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
-								</node>
 							</children>
 						</node>
 					</children>
@@ -723,18 +513,6 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="3e2e1c74-9efd-4837-9088-890ba7331491" />
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="4cb02915-7ad7-4141-907e-93253c6a8644"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="bad00ba2-8a49-450c-8387-af47681717f1"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
-								</node>
-								<node id="Tags">
-									<attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
 								</node>
 							</children>
 						</node>
