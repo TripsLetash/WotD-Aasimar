@@ -1,3 +1,4 @@
+Ext.Require("Shared/Utils.lua")
 Ext.Require("WotD-Aasimar/WotD_Wings.lua")
 Ext.Require("WotD-Aasimar/WotD_Tags.lua")
 
@@ -8,7 +9,7 @@ Ext.Vars.RegisterUserVariable("AAS_WingsChosen", {
     SyncToClient = true,
     SyncToServer = true
 })
-_P(GetYellowText("WOTD [PRELOAD]: Registered User Variable AAS_WingsChosen"))
+_P(Utils.GetYellowText("WOTD [PRELOAD]: Registered User Variable AAS_WingsChosen"))
 
 WOTD = {}
 WOTD.modPrefix = "WOTD"
@@ -21,7 +22,7 @@ local function OnSessionLoaded()
     WOTD.modTableKey = ModInfo.Name
     WOTD.modVersion = { major = ModInfo.ModVersion[1], minor = ModInfo.ModVersion[2], revision = ModInfo.ModVersion[3], build = ModInfo.ModVersion[4] }
 
-    _P(GetRainbowText(WOTD.modTableKey) .. " Version: " .. WOTD.modVersion.major .. "." .. WOTD.modVersion.minor .. "." .. WOTD.modVersion.revision .. "." .. WOTD.modVersion.build .. GetRainbowText(" Loaded"))
+    _P(Utils.GetRainbowText(WOTD.modTableKey) .. " Version: " .. WOTD.modVersion.major .. "." .. WOTD.modVersion.minor .. "." .. WOTD.modVersion.revision .. "." .. WOTD.modVersion.build .. Utils.GetRainbowText(" Loaded"))
 end
 
 Ext.Events.SessionLoaded:Subscribe(OnSessionLoaded)

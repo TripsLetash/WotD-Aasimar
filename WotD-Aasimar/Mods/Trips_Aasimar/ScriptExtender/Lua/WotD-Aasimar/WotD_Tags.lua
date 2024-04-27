@@ -172,12 +172,12 @@ local specialNames = {
 function Trips_IsSpecial(tag, identifier)
     local returnBool = true
     for i, value in pairs(specialNames) do
-        if contains(specialNames[i], tag) then returnBool = false end
+        if Utils.contains(specialNames[i], tag) then returnBool = false end
     end
     return returnBool
 end
 Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelName, isEditorMode) 
-    for _, uuid in pairs(GetPartyWotD()) do
+    for _, uuid in pairs(Utils.GetPartyWotD()) do
         local entity = Ext.Entity.Get(uuid)
         if entity.CharacterCreationStats then
             local race = entity.CharacterCreationStats.Race
@@ -185,38 +185,38 @@ Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelNa
                 local allTags = entity.Tag.Tags
                 for i, tag in pairs(OriginTagsUuid) do
                     if ((i % 2) == 0) then
-                        if contains(allTags, OriginTagsUuid[i - 1]) then
-                            if contains(allTags, OriginTagsUuid[i]) then
-                                if debugText then _P(GetRainbowText("Gamestart: Already has ".. OriginTagsName[i])) end
+                        if Utils.contains(allTags, OriginTagsUuid[i - 1]) then
+                            if Utils.contains(allTags, OriginTagsUuid[i]) then
+                                if debugText then _P(Utils.GetRainbowText("Gamestart: Already has ".. OriginTagsName[i])) end
                             else
-                                if debugText then _P(GetRainbowText("Added ".. OriginTagsName[i] .." after dropping DISGUISE to " .. uuid)) end
+                                if debugText then _P(Utils.GetRainbowText("Added ".. OriginTagsName[i] .." after dropping DISGUISE to " .. uuid)) end
                                 Osi.SetTag(uuid, OriginTagsUuid[i])
                             end
                         end
                     end
                 end
-                if contains(allTags, OriginTagsPlaceUuid[1]) then
-                    if contains(allTags, OriginTagsPlaceUuid[2]) then
-                        if debugText then _P(GetRainbowText("Already has " .. OriginTagsPlaceName[2] .. " after GAMEPLAY STARTED")) end
+                if Utils.contains(allTags, OriginTagsPlaceUuid[1]) then
+                    if Utils.contains(allTags, OriginTagsPlaceUuid[2]) then
+                        if debugText then _P(Utils.GetRainbowText("Already has " .. OriginTagsPlaceName[2] .. " after GAMEPLAY STARTED")) end
                     else
                         Osi.SetTag(uuid, OriginTagsPlaceUuid[2])
-                        if debugText then _P(GetRainbowText("Added ".. OriginTagsPlaceName[2] .." after GAMEPLAY STARTED to " .. uuid)) end
+                        if debugText then _P(Utils.GetRainbowText("Added ".. OriginTagsPlaceName[2] .." after GAMEPLAY STARTED to " .. uuid)) end
                     end
                 end
-                if contains(allTags, OriginTagsPlaceUuid[3]) then 
-                    if contains(allTags, OriginTagsPlaceUuid[4]) then
-                        if debugText then _P(GetRainbowText("Already has " .. OriginTagsPlaceName[4] .. " after GAMEPLAY STARTED")) end
+                if Utils.contains(allTags, OriginTagsPlaceUuid[3]) then 
+                    if Utils.contains(allTags, OriginTagsPlaceUuid[4]) then
+                        if debugText then _P(Utils.GetRainbowText("Already has " .. OriginTagsPlaceName[4] .. " after GAMEPLAY STARTED")) end
                     else
                         Osi.SetTag(uuid, OriginTagsPlaceUuid[4])
-                        if debugText then _P(GetRainbowText("Added ".. OriginTagsPlaceName[4] .." after GAMEPLAY STARTED to " .. uuid)) end
+                        if debugText then _P(Utils.GetRainbowText("Added ".. OriginTagsPlaceName[4] .." after GAMEPLAY STARTED to " .. uuid)) end
                     end
                 end
-                if contains(allTags, OriginTagsPlaceUuid[5]) then 
-                    if contains(allTags, OriginTagsPlaceUuid[6]) then
-                        if debugText then _P(GetRainbowText("Already has " .. OriginTagsPlaceName[6] .. " after GAMEPLAY STARTED")) end
+                if Utils.contains(allTags, OriginTagsPlaceUuid[5]) then 
+                    if Utils.contains(allTags, OriginTagsPlaceUuid[6]) then
+                        if debugText then _P(Utils.GetRainbowText("Already has " .. OriginTagsPlaceName[6] .. " after GAMEPLAY STARTED")) end
                     else
                         Osi.SetTag(uuid, OriginTagsPlaceUuid[6])
-                        if debugText then _P(GetRainbowText("Added ".. OriginTagsPlaceName[6] .." after GAMEPLAY STARTED to " .. uuid)) end
+                        if debugText then _P(Utils.GetRainbowText("Added ".. OriginTagsPlaceName[6] .." after GAMEPLAY STARTED to " .. uuid)) end
                     end
                 end
             end
@@ -235,7 +235,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(uuid, status, 
                     local clearSpecial = {}
                     for i, tag in pairs(OriginTagsUuid) do
                         if ((i % 2) == 0) then
-                            if contains(allTags, OriginTagsUuid[index]) then
+                            if Utils.contains(allTags, OriginTagsUuid[index]) then
                                 for k, specialName in pairs(OriginTagsPlaceName) do
                                     local indexPos = 1
                                     if ((k % 2) ~= 0) then
@@ -244,16 +244,16 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(uuid, status, 
                                     end
                                 end
                                 Osi.ClearTag(uuid, OriginTagsUuid[i])
-                                if debugText then _P(GetRainbowText("Cleared ".. OriginTagsName[i] .." after " .. uuid .. " took a DISGUISE.")) end
+                                if debugText then _P(Utils.GetRainbowText("Cleared ".. OriginTagsName[i] .." after " .. uuid .. " took a DISGUISE.")) end
                             end
                         end
                         index = i + 1
                     end
                     for i, special in pairs(clearSpecial) do
                         if clearSpecial[i] ~= true then
-                            if debugText then _P(GetRainbowText("Didn't clear ".. OriginTagsPlaceName[i*2] .." because of DISGUISE.")) end
+                            if debugText then _P(Utils.GetRainbowText("Didn't clear ".. OriginTagsPlaceName[i*2] .." because of DISGUISE.")) end
                         else
-                            if debugText then _P(GetRainbowText("Cleared ".. OriginTagsPlaceName[i*2] .." because of DISGUISE.")) end
+                            if debugText then _P(Utils.GetRainbowText("Cleared ".. OriginTagsPlaceName[i*2] .." because of DISGUISE.")) end
                             Osi.ClearTag(uuid, OriginTagsPlaceName[i*2])
                         end
                     end
@@ -272,38 +272,38 @@ Ext.Osiris.RegisterListener("StatusRemoved", 4, "after", function(uuid, status, 
                     local allTags = entity.Tag.Tags
                     for i, tag in pairs(OriginTagsUuid) do
                         if ((i % 2) == 0) then
-                            if contains(allTags, OriginTagsUuid[i - 1]) then
-                                if contains(allTags, OriginTagsUuid[i]) then
-                                    if debugText then _P(GetRainbowText("Already has ".. OriginTagsName[i])) end
+                            if Utils.contains(allTags, OriginTagsUuid[i - 1]) then
+                                if Utils.contains(allTags, OriginTagsUuid[i]) then
+                                    if debugText then _P(Utils.GetRainbowText("Already has ".. OriginTagsName[i])) end
                                 else
-                                    if debugText then _P(GetRainbowText("Added ".. OriginTagsName[i] .." after dropping DISGUISE to " .. uuid)) end
+                                    if debugText then _P(Utils.GetRainbowText("Added ".. OriginTagsName[i] .." after dropping DISGUISE to " .. uuid)) end
                                     Osi.SetTag(uuid, OriginTagsUuid[i])
                                 end
                             end
                         end
                     end
-                    if contains(allTags, OriginTagsPlaceUuid[1]) then
-                        if contains(allTags, OriginTagsPlaceUuid[2]) then
-                            if debugText then _P(GetRainbowText("Already has ".. OriginTagsPlaceName[2])) end
+                    if Utils.contains(allTags, OriginTagsPlaceUuid[1]) then
+                        if Utils.contains(allTags, OriginTagsPlaceUuid[2]) then
+                            if debugText then _P(Utils.GetRainbowText("Already has ".. OriginTagsPlaceName[2])) end
                         else
                             Osi.SetTag(uuid, OriginTagsPlaceUuid[2])
-                            if debugText then _P(GetRainbowText("Added ".. OriginTagsPlaceName[2] .." after dropping DISGUISE to " .. uuid)) end
+                            if debugText then _P(Utils.GetRainbowText("Added ".. OriginTagsPlaceName[2] .." after dropping DISGUISE to " .. uuid)) end
                         end
                     end
-                    if contains(allTags, OriginTagsPlaceUuid[3]) then 
-                        if contains(allTags, OriginTagsPlaceUuid[4]) then
-                            if debugText then _P(GetRainbowText("Already has ".. OriginTagsPlaceName[4])) end
+                    if Utils.contains(allTags, OriginTagsPlaceUuid[3]) then 
+                        if Utils.contains(allTags, OriginTagsPlaceUuid[4]) then
+                            if debugText then _P(Utils.GetRainbowText("Already has ".. OriginTagsPlaceName[4])) end
                         else
                             Osi.SetTag(uuid, OriginTagsPlaceUuid[4])
-                            if debugText then _P(GetRainbowText("Added ".. OriginTagsPlaceName[4] .." after dropping DISGUISE to " .. uuid)) end
+                            if debugText then _P(Utils.GetRainbowText("Added ".. OriginTagsPlaceName[4] .." after dropping DISGUISE to " .. uuid)) end
                         end
                     end
-                    if contains(allTags, OriginTagsPlaceUuid[5]) then 
-                        if contains(allTags, OriginTagsPlaceUuid[6]) then
-                            if debugText then _P(GetRainbowText("Already has ".. OriginTagsPlaceName[6])) end
+                    if Utils.contains(allTags, OriginTagsPlaceUuid[5]) then 
+                        if Utils.Utils.contains(allTags, OriginTagsPlaceUuid[6]) then
+                            if debugText then _P(Utils.GetRainbowText("Already has ".. OriginTagsPlaceName[6])) end
                         else
                             Osi.SetTag(uuid, OriginTagsPlaceUuid[6])
-                            if debugText then _P(GetRainbowText("Added ".. OriginTagsPlaceName[6] .." after dropping DISGUISE to " .. uuid)) end
+                            if debugText then _P(Utils.GetRainbowText("Added ".. OriginTagsPlaceName[6] .." after dropping DISGUISE to " .. uuid)) end
                         end
                     end
                 end
