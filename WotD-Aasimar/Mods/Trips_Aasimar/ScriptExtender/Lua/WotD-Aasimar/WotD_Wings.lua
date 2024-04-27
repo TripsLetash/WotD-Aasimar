@@ -351,17 +351,18 @@ function ToggleWings(uuid, IsPlayerWinging, CCExit)
 				----_P(GetBlueText("WOTD [DEBUG]: SYNCING LEVEL ONE TOGGLE"))
 				if getCurrentWing(uuid) == invisWing then
 					--_P("WOTD: Wings are toggled off, not showing on load")
+					MayHaveWings(uuid, false, CCExit)
 				else
 					MayHaveWings(uuid, true, CCExit)
 				end
 			elseif contains(allTags, TagLevelTen) and not contains (allTags, TagLevelOne) then
 				if GetLevel(uuid) >= 10 then
 					----_P(GetBlueText("WOTD [DEBUG]: LVL10 PASSIVE, LVL >= 10"))
-					local xyzDummy = getCurrentWing(uuid)
+					--local xyzDummy = getCurrentWing(uuid)
 					if xyzDummy == nil then xyzDummy = "nil" end
 					----_P(GetYellowText("Toggle Wings: getCurrentWing(uuid) : " .. xyzDummy))
 					local xyzChosenDummy = entity.Vars.AAS_WingsChosen
-					if xyzChosenDummy == nil then xyzChosenDummy = "nil" end
+					--if xyzChosenDummy == nil then xyzChosenDummy = "nil" end
 					----_P(GetYellowText("Toggle Wings: entity.Vars.AAS_WingsChosen : " .. xyzChosenDummy))
 					if IsPlayerWinging == true then
 						Osi.AddPassive(uuid,"Aasimar_Get_Toggle")
