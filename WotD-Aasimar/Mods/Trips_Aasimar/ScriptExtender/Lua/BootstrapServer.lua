@@ -1,4 +1,9 @@
 Ext.Require("WotD-Aasimar/WotD_Wings.lua")
+<<<<<<< Updated upstream
+=======
+Ext.Require("WotD-Aasimar/WotD_Tags.lua")
+Ext.Require("Server/WotD_UI_Window.lua")
+>>>>>>> Stashed changes
 
 Ext.Vars.RegisterUserVariable("AAS_WingsChosen", {
     Server = true,

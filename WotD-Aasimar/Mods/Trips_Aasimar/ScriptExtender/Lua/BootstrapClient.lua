@@ -1,3 +1,5 @@
+Ext.Require("Client/WotD_UI_Window.lua")
+Ext.Require("Client/WotD_UI_TattooSwitcher.lua")
 
     Ext.Vars.RegisterUserVariable("AAS_WingsChosen", {
         Server = true,

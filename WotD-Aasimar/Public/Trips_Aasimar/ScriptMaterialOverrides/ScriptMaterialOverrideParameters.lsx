@@ -22,6 +22,18 @@
                     <attribute id="ParameterValue" type="LSString" value="0.38;0;0.69"/>
                     <attribute id="UUID" type="guid" value="dc0b577d-16c8-4082-916a-35da15fe57c3"/>
                 </node>
+                <node id="ScriptMaterialOverrideParameter">
+                    <attribute id="ParameterName" type="FixedString" value="BodyTattooIndex"/>
+                    <attribute id="ParameterType" type="FixedString" value="Float"/>
+                    <attribute id="ParameterValue" type="LSString" value="0"/>
+                    <attribute id="UUID" type="guid" value="6db5a375-ba8f-408c-a40e-0883890f23b9"/>
+                </node>
+                <node id="ScriptMaterialOverrideParameter">
+                    <attribute id="ParameterName" type="FixedString" value="BodyTattooIndex"/>
+                    <attribute id="ParameterType" type="FixedString" value="Float"/>
+                    <attribute id="ParameterValue" type="LSString" value="1"/>
+                    <attribute id="UUID" type="guid" value="3dd184e9-2763-4c4e-901d-b0ae09804107"/>
+                </node>
             </children>
         </node>
     </region>

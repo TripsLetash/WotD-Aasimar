@@ -162,10 +162,51 @@ end
 local function overrideWing(newWing, uuid, summon)
 
 	if summon == false then
+<<<<<<< Updated upstream
 		local player = Ext.Entity.Get(uuid)
 		Osi.RemoveCustomVisualOvirride(uuid, player.Vars.AAS_WingsChosen) 
 	elseif summon then
 		Osi.AddCustomVisualOverride(uuid, newWing)
+=======
+		--_P("WOTD SUMMON IS FALSE")
+		if CurrentWing == invisWing then
+			--_P("WOTD CURRENT WING IS INVIS")
+		else
+			--_P("WOTD CURRENT WING IS being removed, then invis applied")
+			if getCurrentWing(uuid) ~= nil then
+				Osi.RemoveCustomVisualOvirride(uuid, getCurrentWing(uuid))
+			end
+			Osi.AddCustomVisualOverride(uuid, invisWing)
+		end
+	elseif summon == true then
+		if IsLowLevelTagTen(uuid) then
+			if Osi.HasActiveStatus(uuid, "IS_WINGING") == 1 then
+				----_P(Utils.GetYellowText("WOTD [WARNING]: setting new wing, removing invisWing, IS WINGING"))
+				if getCurrentWing(uuid) == invisWing then
+					Osi.RemoveCustomVisualOvirride(uuid, invisWing)
+				end
+				Osi.AddCustomVisualOverride(uuid, player.Vars.AAS_WingsChosen)
+			end
+		elseif GetLevel(uuid) >= 10 and Utils.contains(Ext.Entity.Get(uuid):GetAllComponents().Tag.Tags, TagLevelTen) == true then
+			----_P(Utils.GetYellowText("WOTD [WARNING]: setting new wing, lvlten passive, but higher than 9"))
+			if getCurrentWing(uuid) == invisWing then
+				Osi.RemoveCustomVisualOvirride(uuid, invisWing)
+			end
+			Osi.AddCustomVisualOverride(uuid, newWing)
+		elseif Utils.contains(Ext.Entity.Get(uuid):GetAllComponents().Tag.Tags, TagLevelTen) == false then
+			----_P(Utils.GetYellowText("WOTD [WARNING]: setting new wing, removing inviswing, cuz lvl1 passive"))
+			if getCurrentWing(uuid) == invisWing then
+				Osi.RemoveCustomVisualOvirride(uuid, invisWing)
+			end
+			Osi.AddCustomVisualOverride(uuid, newWing)
+		end
+	elseif summon == nil then
+		----_P(Utils.GetYellowText("WOTD [WARNING]: newWing is nil, overridewing fallback reached."))	
+		if getCurrentWing(uuid) == invisWing then	
+			Osi.RemoveCustomVisualOvirride(uuid, invisWing)
+		end
+		Osi.AddCustomVisualOverride(uuid, invisWing)
+>>>>>>> Stashed changes
 	end
 end
 ----------------------------------------------------------------------------------------------------

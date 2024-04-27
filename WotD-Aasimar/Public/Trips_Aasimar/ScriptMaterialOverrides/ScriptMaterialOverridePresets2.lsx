@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="302"/>
+    <region id="ScriptMaterialOverridePresets">
+        <node id="root">
+            <children>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo1"/>
+                    <attribute id="UUID" type="guid" value="81640b3d-cbf6-4048-9773-d89b0d681431"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="6db5a375-ba8f-408c-a40e-0883890f23b9"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo2"/>
+                    <attribute id="UUID" type="guid" value="fb72da11-0cb1-45af-ab0d-4c575b1c89eb"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="3dd184e9-2763-4c4e-901d-b0ae09804107"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo3"/>
+                    <attribute id="UUID" type="guid" value="b59f566f-d333-4188-8641-db66ec6a59df"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="29ae89f6-6408-43d2-b175-a348a7a1f7bc"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo4"/>
+                    <attribute id="UUID" type="guid" value="020353e3-d6af-4954-97b5-a72fa7ca1319"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="aa510108-6cef-4ea4-9e5a-20344c1df0b2"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo5"/>
+                    <attribute id="UUID" type="guid" value="be8e1efe-f771-4132-9ec4-2b70c5d8fea9"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="dde649a4-da90-4939-9d64-6f80ad52a6fa"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo6"/>
+                    <attribute id="UUID" type="guid" value="1bd4956b-9e52-4f29-93dd-005ad933c56b"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="e400de5b-17ab-4cd5-a809-307d2f854e01"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo7"/>
+                    <attribute id="UUID" type="guid" value="23009130-f0f2-48e1-91f6-9da7e2433e0b"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="737a59d8-58d2-4480-b885-bef73cd8c684"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo8"/>
+                    <attribute id="UUID" type="guid" value="d1da6a01-ee85-4a5a-8d02-4e0b3f6bfdfc"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="66f20ba9-cd27-40d2-b6d8-5a6288e21073"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo9"/>
+                    <attribute id="UUID" type="guid" value="f5c687b6-6cea-42a8-917a-2ad633e610ce"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="8c03d946-dc8c-4ec7-be81-71c8e46b7215"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo10"/>
+                    <attribute id="UUID" type="guid" value="31696d71-dd26-484a-bf96-5ec05e34ac5b"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="6ec44d38-7e55-469d-b294-a74f8165ee4b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo11"/>
+                    <attribute id="UUID" type="guid" value="2a398bd6-e6db-4109-a505-4571957d804c"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="bc81a197-3b10-45b0-8967-98ce51ff9347"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo12"/>
+                    <attribute id="UUID" type="guid" value="e908e7d0-4db0-433a-b90b-3d55f8f65906"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="a5ab4781-fd16-4b6f-8561-9d1f745db5b1"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo13"/>
+                    <attribute id="UUID" type="guid" value="d9b9fb2e-6553-4d18-85b1-6da9da856dc7"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="061b1a27-3e5c-4bdf-9b62-59c158edf441"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo14"/>
+                    <attribute id="UUID" type="guid" value="33b516cc-b05f-47c6-b840-0a5b54006acd"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="abaf2204-4023-4482-97cf-6ed87ddcf9a7"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo15"/>
+                    <attribute id="UUID" type="guid" value="9c9d7ae6-55d9-48f8-b4a1-f158bbb18320"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="a05cafe8-9e87-4be9-b42b-68c64906fa1e"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo16"/>
+                    <attribute id="UUID" type="guid" value="146bfe56-bd7c-46be-a98f-305efe4f4792"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="0fb4aec2-9cc5-463e-a9ad-2bbab00eb041"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo17"/>
+                    <attribute id="UUID" type="guid" value="0db2a564-5f1c-4e3c-bb7f-54c87a96855b"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="901bffbf-5308-4624-ab21-1b5cfe05c7c3"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo18"/>
+                    <attribute id="UUID" type="guid" value="8a947c4f-d40d-4083-85fe-208b0c288b7e"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="99ba16cb-5000-40ca-8df7-e45410ab56cc"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo19"/>
+                    <attribute id="UUID" type="guid" value="575e0d73-ba90-42ec-afcb-773375e4599d"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="c408c546-f4af-4378-a1d6-f50154144e0d"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo20"/>
+                    <attribute id="UUID" type="guid" value="69155d61-86a3-4c0e-a205-e695c3455db4"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="b16c1127-089c-4e4d-ac20-d55110661029"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Opacity_RGB"/>
+                    <attribute id="UUID" type="guid" value="d0c85bf5-80e0-44c6-a885-893746ecd5b9"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="6890618f-3558-4925-839c-599cc47116d3"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Opacity_None"/>
+                    <attribute id="UUID" type="guid" value="be41d21c-7593-41fc-90f1-917b828ff932"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="2bd8b7b8-669b-46ea-b4f2-cf735882a61f"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Opacity_R"/>
+                    <attribute id="UUID" type="guid" value="e806581b-cf76-4281-a158-c32f90e0c2c6"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="f207cdf7-f0f0-4823-b0a4-7a04a56f4ad4"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Opacity_G"/>
+                    <attribute id="UUID" type="guid" value="3bbdd7e4-657e-47fa-afce-9bd874b4d157"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="dc3c538e-655a-4fb7-b1ea-8ece56335baa"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Opacity_B"/>
+                    <attribute id="UUID" type="guid" value="80971792-7470-431a-9128-3902f62bc323"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="d50c4d03-3f6c-4d20-a814-6b13090572c7"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Opacity_RG"/>
+                    <attribute id="UUID" type="guid" value="3814591e-2dd8-4098-9854-d3b99a199ea7"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="d2f318b6-c1bb-4282-b45f-41690fe05927"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Opacity_RB"/>
+                    <attribute id="UUID" type="guid" value="d2f03f46-a3b4-4c85-ba67-4d906d89a400"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="25a2b02a-7a68-4412-bb87-eac72d046b7a"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Opacity_GB"/>
+                    <attribute id="UUID" type="guid" value="bd71beb6-3f12-4570-bf14-f73f67ce4b54"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="eb009fdd-b426-4761-8919-1cf61ca3418b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Metalness"/>
+                    <attribute id="UUID" type="guid" value="38163b5b-859e-48e8-a571-7d437c187a8c"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="18b8a69d-84d8-4441-8211-471c1cee53f5"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Reflectance"/>
+                    <attribute id="UUID" type="guid" value="e6073903-c482-4222-ae3f-93793b15129c"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="7123d6b9-168e-45c9-ac15-b3addaa79fbe"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color1_Black"/>
+                    <attribute id="UUID" type="guid" value="f8587226-cab2-4ddc-8b7a-149a1bb977be"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="4a679ffa-4bb8-4db2-853f-96f5e28bbaea"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color1_Red"/>
+                    <attribute id="UUID" type="guid" value="e1e427b2-93fe-4d1c-ad6a-3d423291754c"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="c0c6379b-8573-410f-b2c0-8768e02868ad"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color1_Orange"/>
+                    <attribute id="UUID" type="guid" value="9176f243-69af-40ca-b366-67c061889206"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="d033d8da-af60-4379-bf75-f981711b2841"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color1_Yellow"/>
+                    <attribute id="UUID" type="guid" value="7cc863ec-6579-45ac-88c7-56cbc830b0f0"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="e11b5f1c-c086-487a-a1c9-ee6f4387f55b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color1_Green"/>
+                    <attribute id="UUID" type="guid" value="1c41b1fd-9a83-43b2-9247-3ad17fdc0301"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="ec17dade-940d-4142-98d3-60bf0f1b068c"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color1_Blue"/>
+                    <attribute id="UUID" type="guid" value="a2b68688-0e6e-4fde-b52d-bba5fae7aeb8"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="248e91a4-6c13-4147-8eeb-bdc8b972c096"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color1_Purple"/>
+                    <attribute id="UUID" type="guid" value="c9eb6b28-203f-4c0e-8879-61640e3a144e"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="f4fec641-a88e-4449-a94c-8b3e1dd50ce4"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color1_Pink"/>
+                    <attribute id="UUID" type="guid" value="6b57c539-c782-4859-9a4d-ddaa9473ede0"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="21287b14-eadb-4353-b925-0b3848e8ca50"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color1_Brown"/>
+                    <attribute id="UUID" type="guid" value="a01ebf67-4158-4b98-8e7f-582ee974adc7"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="910a988a-f156-4e22-9c1e-a189ece0052d"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color1_White"/>
+                    <attribute id="UUID" type="guid" value="2c1a0e7e-d636-41fa-9528-e31cb49594be"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="f1d014ed-8033-49f5-a55e-020d63689496"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color2_Black"/>
+                    <attribute id="UUID" type="guid" value="fb724fa8-4046-4a9d-95d1-c5d5f193785c"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="37d0cada-a994-4581-b791-9dca657333ea"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color2_Red"/>
+                    <attribute id="UUID" type="guid" value="fb86b869-791b-4a98-aa0e-a6e64c1d2c40"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="8dad577f-fa2f-4a8f-9b25-e0850f7c5718"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color2_Orange"/>
+                    <attribute id="UUID" type="guid" value="3dfdf9f3-9818-4e39-bc23-1d39782894b6"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="91d146ad-dfa7-4a5d-965a-1bf1fee376d5"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color2_Yellow"/>
+                    <attribute id="UUID" type="guid" value="63cf310c-d6f2-4ca4-81a8-23f1ebd8229f"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="293738ae-2f7f-47cf-a242-557436ef00b3"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color2_Green"/>
+                    <attribute id="UUID" type="guid" value="effbf27a-8de8-4563-b865-167bbbc678e0"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="c4be4805-72d8-40dd-9bba-0d1a8aad2815"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color2_Blue"/>
+                    <attribute id="UUID" type="guid" value="d05bf95e-9488-4b0b-ba00-7d558f63e9f1"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="256ce1b4-3074-4b19-aeba-eb2e2ec89c94"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color2_Purple"/>
+                    <attribute id="UUID" type="guid" value="abb503f2-2e80-4aeb-ae61-b0b15939686b"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="276945a9-a2a3-4d8f-87cc-e7ef109c59ed"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color2_Pink"/>
+                    <attribute id="UUID" type="guid" value="b35a4e96-24ec-4df6-8627-a99ef488056a"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="1c449a41-df92-40fc-a3a9-873d6a1e66d9"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color2_Brown"/>
+                    <attribute id="UUID" type="guid" value="dbb49540-6be0-4d61-9698-8bd6ef0a10c8"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="7f2e3555-8fb6-45d1-96cd-121ba2763da0"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color2_White"/>
+                    <attribute id="UUID" type="guid" value="2155acda-6ae5-467a-a1d4-6900a487b187"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="13631ba3-5554-498b-b887-a4ac68b4b9bb"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color3_Black"/>
+                    <attribute id="UUID" type="guid" value="2fb4044c-fcb7-4aca-ba67-152cd1f624af"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="5a1ff70f-4317-43c3-9868-2a93d1bc200c"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color3_Red"/>
+                    <attribute id="UUID" type="guid" value="c6c7b2b7-6d0a-494f-9831-0bfbd945702d"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="084000f3-c57d-4db5-a85a-274a0a497ca0"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color3_Orange"/>
+                    <attribute id="UUID" type="guid" value="19b468f8-b7aa-45b7-807c-0e07dae270b6"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="282d3181-1275-4e28-beab-deb84703c87f"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color3_Yellow"/>
+                    <attribute id="UUID" type="guid" value="86ce04a9-c990-44e4-af46-c7880c3b4f1d"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="8a1292e7-8ecd-4249-89bc-becedb474eb7"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color3_Green"/>
+                    <attribute id="UUID" type="guid" value="abfe4110-c421-4568-8699-3c03c7049fff"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="356fa4f6-ca7d-494b-9d5d-b8441558138e"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color3_Blue"/>
+                    <attribute id="UUID" type="guid" value="35abeab3-a8a6-441c-8fe3-cd4163828c70"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="2985fc1b-1f62-4595-8a83-9957636665fb"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color3_Purple"/>
+                    <attribute id="UUID" type="guid" value="0c10f061-8bc1-485b-8fe0-e881ea5559bd"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="554c04ff-7e83-4450-8b23-8450faafac1a"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color3_Pink"/>
+                    <attribute id="UUID" type="guid" value="785cae71-7749-4354-ac5f-337cf0782985"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="10c0079a-6d61-45b5-af9b-af5daec1d0ad"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color3_Brown"/>
+                    <attribute id="UUID" type="guid" value="257c8b4e-2898-4006-9806-701dff9fcb50"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="f8f00ff6-5f73-452f-8a43-fbc02e72b6c7"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Color3_White"/>
+                    <attribute id="UUID" type="guid" value="11dd6851-ad4d-4201-9e0b-64805416cdc2"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="529dd5e0-7c17-4bb4-806d-1af6d1096a7b"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
