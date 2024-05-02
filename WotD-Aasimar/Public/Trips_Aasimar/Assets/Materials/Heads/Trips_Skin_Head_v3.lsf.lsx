@@ -1,0 +1,2143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="1" revision="0" build="0" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Material">
+		<node id="Material">
+			<attribute id="Version64" type="int64" value="36028805608898564" />
+			<attribute id="ShadingModel" type="uint8" value="3" />
+			<attribute id="ForwardLightingMode" type="uint8" value="0" />
+			<attribute id="BlendStateID" type="uint8" value="7" />
+			<attribute id="RasterizerStateID" type="uint8" value="1" />
+			<attribute id="DepthStateID" type="uint8" value="5" />
+			<attribute id="UVCount" type="uint32" value="1" />
+			<attribute id="VertexColorEnabled" type="bool" value="False" />
+			<attribute id="InstanceColorEnabled" type="bool" value="False" />
+			<attribute id="QTangentEnabled" type="bool" value="True" />
+			<attribute id="DynamicParameterEnabled" type="bool" value="False" />
+			<attribute id="IsRefracting" type="bool" value="False" />
+			<attribute id="SceneColorEnabled" type="bool" value="False" />
+			<attribute id="MaterialPassHint" type="uint8" value="1" />
+			<attribute id="MaterialType" type="uint8" value="18" />
+			<attribute id="IsLuminanceEmissive" type="bool" value="False" />
+			<attribute id="IsEmissiveMaterial" type="bool" value="False" />
+			<attribute id="MaterialUsage" type="uint8" value="0" />
+			<attribute id="LateAlpha" type="bool" value="False" />
+			<attribute id="EarlyRefraction" type="bool" value="False" />
+			<attribute id="IsOpaqueCustom" type="bool" value="True" />
+			<attribute id="IsUsingWorldPositionOffset" type="bool" value="False" />
+			<attribute id="IsDiscardingPixels" type="bool" value="False" />
+			<attribute id="CanReceiveDeferredDecals" type="bool" value="False" />
+			<attribute id="OutputVelocity" type="bool" value="False" />
+			<attribute id="OutputDepth" type="bool" value="False" />
+			<attribute id="UsedWithFixedRibbons" type="bool" value="False" />
+			<attribute id="UsedWithCameraAlignedRibbons" type="bool" value="False" />
+			<attribute id="DiffusionProfileUUID" type="FixedString" value="3428c9e0-de61-cc06-2476-4c56b84d473d" />
+			<children>
+				<node id="ShaderDescriptions">
+					<children>
+						<node id="ShaderDesc_StaticForward">
+							<attribute id="EngineParamFlags" type="uint16" value="16441" />
+							<attribute id="EngineCBSize" type="uint16" value="80" />
+							<attribute id="MaterialCBSize" type="uint16" value="496" />
+							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="64" />
+							<attribute id="FadeOpacity" type="uint16" value="68" />
+							<attribute id="DiffusionProfileIndex" type="uint16" value="72" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="0" />
+									<attribute id="DxPsIndex" type="int8" value="0" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="0" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="1" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticInstancedForward">
+							<attribute id="EngineParamFlags" type="uint16" value="16441" />
+							<attribute id="EngineCBSize" type="uint16" value="16" />
+							<attribute id="MaterialCBSize" type="uint16" value="496" />
+							<attribute id="FadeOpacity" type="uint16" value="0" />
+							<attribute id="DiffusionProfileIndex" type="uint16" value="4" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="0" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="0" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="1" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticDeferred">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="80" />
+							<attribute id="MaterialCBSize" type="uint16" value="496" />
+							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="64" />
+							<attribute id="LightChannel" type="uint16" value="68" />
+							<attribute id="DiffusionProfileIndex" type="uint16" value="72" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="0" />
+									<attribute id="DxPsIndex" type="int8" value="0" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="0" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="1" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticInstancedDeferred">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="16" />
+							<attribute id="MaterialCBSize" type="uint16" value="496" />
+							<attribute id="LightChannel" type="uint16" value="0" />
+							<attribute id="DiffusionProfileIndex" type="uint16" value="4" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="0" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="0" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="1" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticDepth">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="80" />
+							<attribute id="MaterialCBSize" type="uint16" value="0" />
+							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="64" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="0" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="0" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticInstancedDepth">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="0" />
+							<attribute id="MaterialCBSize" type="uint16" value="0" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticDepthShadow">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="80" />
+							<attribute id="MaterialCBSize" type="uint16" value="0" />
+							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="64" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="0" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="0" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticInstancedDepthShadow">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="0" />
+							<attribute id="MaterialCBSize" type="uint16" value="0" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticDepthShadowTetrahedron">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="80" />
+							<attribute id="MaterialCBSize" type="uint16" value="0" />
+							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="64" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="0" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="0" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticInstancedDepthShadowTetrahedron">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="0" />
+							<attribute id="MaterialCBSize" type="uint16" value="0" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticVelocity">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="144" />
+							<attribute id="MaterialCBSize" type="uint16" value="0" />
+							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="WorldMatrixPrev" type="uint16" value="64" />
+							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="128" />
+							<attribute id="TransformedVerticesOffsetPrev" type="uint16" value="132" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="0" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="0" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticInstancedVelocity">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="0" />
+							<attribute id="MaterialCBSize" type="uint16" value="0" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticEmissive">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="80" />
+							<attribute id="MaterialCBSize" type="uint16" value="0" />
+							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="64" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="0" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="0" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticInstancedEmissive">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="0" />
+							<attribute id="MaterialCBSize" type="uint16" value="0" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+							</children>
+						</node>
+						<node id="ShaderDesc_StaticBake">
+							<attribute id="EngineParamFlags" type="uint16" value="0" />
+							<attribute id="EngineCBSize" type="uint16" value="0" />
+							<attribute id="MaterialCBSize" type="uint16" value="496" />
+							<children>
+								<node id="EngineCBBinding">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="-1" />
+									<attribute id="VkDescriptorSet" type="int8" value="-1" />
+									<attribute id="VkBindingIndex" type="int8" value="-1" />
+								</node>
+								<node id="MaterialCBSize">
+									<attribute id="DxVsIndex" type="int8" value="-1" />
+									<attribute id="DxPsIndex" type="int8" value="0" />
+									<attribute id="VkDescriptorSet" type="int8" value="1" />
+									<attribute id="VkBindingIndex" type="int8" value="0" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="BM_Adjust_Weight" />
+					<attribute id="GroupName" type="FixedString" value="09Adjust" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_BM_Adjust_Weight" />
+					<attribute id="StaticForward" type="uint16" value="92" />
+					<attribute id="StaticInstancedForward" type="uint16" value="92" />
+					<attribute id="StaticDeferred" type="uint16" value="92" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="92" />
+					<attribute id="StaticBake" type="uint16" value="92" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="BM_Adjust_Index" />
+					<attribute id="GroupName" type="FixedString" value="09Adjust" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_BM_Adjust_Index" />
+					<attribute id="StaticForward" type="uint16" value="108" />
+					<attribute id="StaticInstancedForward" type="uint16" value="108" />
+					<attribute id="StaticDeferred" type="uint16" value="108" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="108" />
+					<attribute id="StaticBake" type="uint16" value="108" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Scar_Weight" />
+					<attribute id="GroupName" type="FixedString" value="07Scars" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Scar_Weight" />
+					<attribute id="StaticForward" type="uint16" value="124" />
+					<attribute id="StaticInstancedForward" type="uint16" value="124" />
+					<attribute id="StaticDeferred" type="uint16" value="124" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="124" />
+					<attribute id="StaticBake" type="uint16" value="124" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="ScarIndex" />
+					<attribute id="GroupName" type="FixedString" value="07Scars" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="1" />
+					<attribute id="BaseValue" type="float" value="1" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_ScarIndex" />
+					<attribute id="StaticForward" type="uint16" value="140" />
+					<attribute id="StaticInstancedForward" type="uint16" value="140" />
+					<attribute id="StaticDeferred" type="uint16" value="140" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="140" />
+					<attribute id="StaticBake" type="uint16" value="140" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Age_Weight" />
+					<attribute id="GroupName" type="FixedString" value="10Age" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Age_Weight" />
+					<attribute id="StaticForward" type="uint16" value="156" />
+					<attribute id="StaticInstancedForward" type="uint16" value="156" />
+					<attribute id="StaticDeferred" type="uint16" value="156" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="156" />
+					<attribute id="StaticBake" type="uint16" value="156" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Age_Index" />
+					<attribute id="GroupName" type="FixedString" value="10Age" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Age_Index" />
+					<attribute id="StaticForward" type="uint16" value="172" />
+					<attribute id="StaticInstancedForward" type="uint16" value="172" />
+					<attribute id="StaticDeferred" type="uint16" value="172" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="172" />
+					<attribute id="StaticBake" type="uint16" value="172" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Sweat" />
+					<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Sweat" />
+					<attribute id="StaticForward" type="uint16" value="188" />
+					<attribute id="StaticInstancedForward" type="uint16" value="188" />
+					<attribute id="StaticDeferred" type="uint16" value="188" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="188" />
+					<attribute id="StaticBake" type="uint16" value="188" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Blood" />
+					<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Blood" />
+					<attribute id="StaticForward" type="uint16" value="204" />
+					<attribute id="StaticInstancedForward" type="uint16" value="204" />
+					<attribute id="StaticDeferred" type="uint16" value="204" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="204" />
+					<attribute id="StaticBake" type="uint16" value="204" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Dirt" />
+					<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Dirt" />
+					<attribute id="StaticForward" type="uint16" value="220" />
+					<attribute id="StaticInstancedForward" type="uint16" value="220" />
+					<attribute id="StaticDeferred" type="uint16" value="220" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="220" />
+					<attribute id="StaticBake" type="uint16" value="220" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Bruises" />
+					<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Bruises" />
+					<attribute id="StaticForward" type="uint16" value="236" />
+					<attribute id="StaticInstancedForward" type="uint16" value="236" />
+					<attribute id="StaticDeferred" type="uint16" value="236" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="236" />
+					<attribute id="StaticBake" type="uint16" value="236" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Blood_Sharpness" />
+					<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0.7" />
+					<attribute id="BaseValue" type="float" value="0.7" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Blood_Sharpness" />
+					<attribute id="StaticForward" type="uint16" value="252" />
+					<attribute id="StaticInstancedForward" type="uint16" value="252" />
+					<attribute id="StaticDeferred" type="uint16" value="252" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="252" />
+					<attribute id="StaticBake" type="uint16" value="252" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Dirt_Sharpness" />
+					<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0.7" />
+					<attribute id="BaseValue" type="float" value="0.7" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Dirt_Sharpness" />
+					<attribute id="StaticForward" type="uint16" value="268" />
+					<attribute id="StaticInstancedForward" type="uint16" value="268" />
+					<attribute id="StaticDeferred" type="uint16" value="268" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="268" />
+					<attribute id="StaticBake" type="uint16" value="268" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Bruises_Sharpness" />
+					<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="1" />
+					<attribute id="BaseValue" type="float" value="1" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Bruises_Sharpness" />
+					<attribute id="StaticForward" type="uint16" value="284" />
+					<attribute id="StaticInstancedForward" type="uint16" value="284" />
+					<attribute id="StaticDeferred" type="uint16" value="284" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="284" />
+					<attribute id="StaticBake" type="uint16" value="284" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Sweat_Sharpness" />
+					<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="1" />
+					<attribute id="BaseValue" type="float" value="1" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Sweat_Sharpness" />
+					<attribute id="StaticForward" type="uint16" value="300" />
+					<attribute id="StaticInstancedForward" type="uint16" value="300" />
+					<attribute id="StaticDeferred" type="uint16" value="300" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="300" />
+					<attribute id="StaticBake" type="uint16" value="300" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="ScarHemoMultiplier" />
+					<attribute id="GroupName" type="FixedString" value="07Scars" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_ScarHemoMultiplier" />
+					<attribute id="StaticForward" type="uint16" value="316" />
+					<attribute id="StaticInstancedForward" type="uint16" value="316" />
+					<attribute id="StaticDeferred" type="uint16" value="316" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="316" />
+					<attribute id="StaticBake" type="uint16" value="316" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="HemoglobinAmount" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="1" />
+					<attribute id="BaseValue" type="float" value="1" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_HemoglobinAmount" />
+					<attribute id="StaticForward" type="uint16" value="332" />
+					<attribute id="StaticInstancedForward" type="uint16" value="332" />
+					<attribute id="StaticDeferred" type="uint16" value="332" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="332" />
+					<attribute id="StaticBake" type="uint16" value="332" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="ScarMelaninMultiplier" />
+					<attribute id="GroupName" type="FixedString" value="07Scars" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_ScarMelaninMultiplier" />
+					<attribute id="StaticForward" type="uint16" value="348" />
+					<attribute id="StaticInstancedForward" type="uint16" value="348" />
+					<attribute id="StaticDeferred" type="uint16" value="348" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="348" />
+					<attribute id="StaticBake" type="uint16" value="348" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="MelaninDarkThreshold" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0.9" />
+					<attribute id="BaseValue" type="float" value="0.9" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_MelaninDarkThreshold" />
+					<attribute id="StaticForward" type="uint16" value="352" />
+					<attribute id="StaticInstancedForward" type="uint16" value="352" />
+					<attribute id="StaticDeferred" type="uint16" value="352" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="352" />
+					<attribute id="StaticBake" type="uint16" value="352" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="MelaninDarkMultiplier" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="2" />
+					<attribute id="BaseValue" type="float" value="2" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_MelaninDarkMultiplier" />
+					<attribute id="StaticForward" type="uint16" value="356" />
+					<attribute id="StaticInstancedForward" type="uint16" value="356" />
+					<attribute id="StaticDeferred" type="uint16" value="356" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="356" />
+					<attribute id="StaticBake" type="uint16" value="356" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="MelaninAmount" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0.6" />
+					<attribute id="BaseValue" type="float" value="0.6" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_MelaninAmount" />
+					<attribute id="StaticForward" type="uint16" value="360" />
+					<attribute id="StaticInstancedForward" type="uint16" value="360" />
+					<attribute id="StaticDeferred" type="uint16" value="360" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="360" />
+					<attribute id="StaticBake" type="uint16" value="360" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Vitiligo" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Vitiligo" />
+					<attribute id="StaticForward" type="uint16" value="364" />
+					<attribute id="StaticInstancedForward" type="uint16" value="364" />
+					<attribute id="StaticDeferred" type="uint16" value="364" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="364" />
+					<attribute id="StaticBake" type="uint16" value="364" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="VitiligoWeight" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0.5" />
+					<attribute id="BaseValue" type="float" value="0.5" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_VitiligoWeight" />
+					<attribute id="StaticForward" type="uint16" value="368" />
+					<attribute id="StaticInstancedForward" type="uint16" value="368" />
+					<attribute id="StaticDeferred" type="uint16" value="368" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="368" />
+					<attribute id="StaticBake" type="uint16" value="368" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Freckles" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Freckles" />
+					<attribute id="StaticForward" type="uint16" value="372" />
+					<attribute id="StaticInstancedForward" type="uint16" value="372" />
+					<attribute id="StaticDeferred" type="uint16" value="372" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="372" />
+					<attribute id="StaticBake" type="uint16" value="372" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="FrecklesWeight" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0.1" />
+					<attribute id="BaseValue" type="float" value="0.1" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_FrecklesWeight" />
+					<attribute id="StaticForward" type="uint16" value="376" />
+					<attribute id="StaticInstancedForward" type="uint16" value="376" />
+					<attribute id="StaticDeferred" type="uint16" value="376" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="376" />
+					<attribute id="StaticBake" type="uint16" value="376" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="MelaninRemovalAmount" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_MelaninRemovalAmount" />
+					<attribute id="StaticForward" type="uint16" value="380" />
+					<attribute id="StaticInstancedForward" type="uint16" value="380" />
+					<attribute id="StaticDeferred" type="uint16" value="380" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="380" />
+					<attribute id="StaticBake" type="uint16" value="380" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="ScarVeinMultiplier" />
+					<attribute id="GroupName" type="FixedString" value="07Scars" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_ScarVeinMultiplier" />
+					<attribute id="StaticForward" type="uint16" value="384" />
+					<attribute id="StaticInstancedForward" type="uint16" value="384" />
+					<attribute id="StaticDeferred" type="uint16" value="384" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="384" />
+					<attribute id="StaticBake" type="uint16" value="384" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="VeinAmount" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0.7" />
+					<attribute id="BaseValue" type="float" value="0.7" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_VeinAmount" />
+					<attribute id="StaticForward" type="uint16" value="388" />
+					<attribute id="StaticInstancedForward" type="uint16" value="388" />
+					<attribute id="StaticDeferred" type="uint16" value="388" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="388" />
+					<attribute id="StaticBake" type="uint16" value="388" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="YellowingAmount" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0.3" />
+					<attribute id="BaseValue" type="float" value="0.3" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_YellowingAmount" />
+					<attribute id="StaticForward" type="uint16" value="392" />
+					<attribute id="StaticInstancedForward" type="uint16" value="392" />
+					<attribute id="StaticDeferred" type="uint16" value="392" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="392" />
+					<attribute id="StaticBake" type="uint16" value="392" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="ScalpDesaturation" />
+					<attribute id="GroupName" type="FixedString" value="03Hair" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_ScalpDesaturation" />
+					<attribute id="StaticForward" type="uint16" value="396" />
+					<attribute id="StaticInstancedForward" type="uint16" value="396" />
+					<attribute id="StaticDeferred" type="uint16" value="396" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="396" />
+					<attribute id="StaticBake" type="uint16" value="396" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="ScalpDarken" />
+					<attribute id="GroupName" type="FixedString" value="03Hair" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_ScalpDarken" />
+					<attribute id="StaticForward" type="uint16" value="400" />
+					<attribute id="StaticInstancedForward" type="uint16" value="400" />
+					<attribute id="StaticDeferred" type="uint16" value="400" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="400" />
+					<attribute id="StaticBake" type="uint16" value="400" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="BeardDesaturation" />
+					<attribute id="GroupName" type="FixedString" value="03Hair" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_BeardDesaturation" />
+					<attribute id="StaticForward" type="uint16" value="404" />
+					<attribute id="StaticInstancedForward" type="uint16" value="404" />
+					<attribute id="StaticDeferred" type="uint16" value="404" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="404" />
+					<attribute id="StaticBake" type="uint16" value="404" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="BeardDarken" />
+					<attribute id="GroupName" type="FixedString" value="03Hair" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_BeardDarken" />
+					<attribute id="StaticForward" type="uint16" value="408" />
+					<attribute id="StaticInstancedForward" type="uint16" value="408" />
+					<attribute id="StaticDeferred" type="uint16" value="408" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="408" />
+					<attribute id="StaticBake" type="uint16" value="408" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="IllithidColorWeight" />
+					<attribute id="GroupName" type="FixedString" value="11IllithidTransform" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_IllithidColorWeight" />
+					<attribute id="StaticForward" type="uint16" value="412" />
+					<attribute id="StaticInstancedForward" type="uint16" value="412" />
+					<attribute id="StaticDeferred" type="uint16" value="412" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="412" />
+					<attribute id="StaticBake" type="uint16" value="412" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="LipsMakeupIntensity" />
+					<attribute id="GroupName" type="FixedString" value="05Makeup" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_LipsMakeupIntensity" />
+					<attribute id="StaticForward" type="uint16" value="416" />
+					<attribute id="StaticInstancedForward" type="uint16" value="416" />
+					<attribute id="StaticDeferred" type="uint16" value="416" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="416" />
+					<attribute id="StaticBake" type="uint16" value="416" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="CustomIndex" />
+					<attribute id="GroupName" type="FixedString" value="06Custom" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_CustomIndex" />
+					<attribute id="StaticForward" type="uint16" value="420" />
+					<attribute id="StaticInstancedForward" type="uint16" value="420" />
+					<attribute id="StaticDeferred" type="uint16" value="420" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="420" />
+					<attribute id="StaticBake" type="uint16" value="420" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="CustomIntensity" />
+					<attribute id="GroupName" type="FixedString" value="06Custom" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_CustomIntensity" />
+					<attribute id="StaticForward" type="uint16" value="424" />
+					<attribute id="StaticInstancedForward" type="uint16" value="424" />
+					<attribute id="StaticDeferred" type="uint16" value="424" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="424" />
+					<attribute id="StaticBake" type="uint16" value="424" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="TattooIndex" />
+					<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_TattooIndex" />
+					<attribute id="StaticForward" type="uint16" value="428" />
+					<attribute id="StaticInstancedForward" type="uint16" value="428" />
+					<attribute id="StaticDeferred" type="uint16" value="428" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="428" />
+					<attribute id="StaticBake" type="uint16" value="428" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="TattooCurvatureInfluence" />
+					<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="1" />
+					<attribute id="BaseValue" type="float" value="1" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_TattooCurvatureInfluence" />
+					<attribute id="StaticForward" type="uint16" value="432" />
+					<attribute id="StaticInstancedForward" type="uint16" value="432" />
+					<attribute id="StaticDeferred" type="uint16" value="432" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="432" />
+					<attribute id="StaticBake" type="uint16" value="432" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="MakeUpIndex" />
+					<attribute id="GroupName" type="FixedString" value="05Makeup" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_MakeUpIndex" />
+					<attribute id="StaticForward" type="uint16" value="436" />
+					<attribute id="StaticInstancedForward" type="uint16" value="436" />
+					<attribute id="StaticDeferred" type="uint16" value="436" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="436" />
+					<attribute id="StaticBake" type="uint16" value="436" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="MakeupIntensity" />
+					<attribute id="GroupName" type="FixedString" value="05Makeup" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_MakeupIntensity" />
+					<attribute id="StaticForward" type="uint16" value="440" />
+					<attribute id="StaticInstancedForward" type="uint16" value="440" />
+					<attribute id="StaticDeferred" type="uint16" value="440" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="440" />
+					<attribute id="StaticBake" type="uint16" value="440" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="NonSkin_Weight" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="1" />
+					<attribute id="BaseValue" type="float" value="1" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_NonSkin_Weight" />
+					<attribute id="StaticForward" type="uint16" value="444" />
+					<attribute id="StaticInstancedForward" type="uint16" value="444" />
+					<attribute id="StaticDeferred" type="uint16" value="444" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="444" />
+					<attribute id="StaticBake" type="uint16" value="444" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Grime" />
+					<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Grime" />
+					<attribute id="StaticForward" type="uint16" value="448" />
+					<attribute id="StaticInstancedForward" type="uint16" value="448" />
+					<attribute id="StaticDeferred" type="uint16" value="448" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="448" />
+					<attribute id="StaticBake" type="uint16" value="448" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Dirt_Wetness" />
+					<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0.2" />
+					<attribute id="BaseValue" type="float" value="0.2" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_Dirt_Wetness" />
+					<attribute id="StaticForward" type="uint16" value="452" />
+					<attribute id="StaticInstancedForward" type="uint16" value="452" />
+					<attribute id="StaticDeferred" type="uint16" value="452" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="452" />
+					<attribute id="StaticBake" type="uint16" value="452" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="NonSkinMetalness" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_NonSkinMetalness" />
+					<attribute id="StaticForward" type="uint16" value="456" />
+					<attribute id="StaticInstancedForward" type="uint16" value="456" />
+					<attribute id="StaticDeferred" type="uint16" value="456" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="456" />
+					<attribute id="StaticBake" type="uint16" value="456" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="BM_Adjust_Metalness" />
+					<attribute id="GroupName" type="FixedString" value="09Adjust" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_BM_Adjust_Metalness" />
+					<attribute id="StaticForward" type="uint16" value="460" />
+					<attribute id="StaticInstancedForward" type="uint16" value="460" />
+					<attribute id="StaticDeferred" type="uint16" value="460" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="460" />
+					<attribute id="StaticBake" type="uint16" value="460" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="EyesMakeupMetalness" />
+					<attribute id="GroupName" type="FixedString" value="05Makeup" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_EyesMakeupMetalness" />
+					<attribute id="StaticForward" type="uint16" value="464" />
+					<attribute id="StaticInstancedForward" type="uint16" value="464" />
+					<attribute id="StaticDeferred" type="uint16" value="464" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="464" />
+					<attribute id="StaticBake" type="uint16" value="464" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="LipsMakeupMetalness" />
+					<attribute id="GroupName" type="FixedString" value="05Makeup" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_LipsMakeupMetalness" />
+					<attribute id="StaticForward" type="uint16" value="468" />
+					<attribute id="StaticInstancedForward" type="uint16" value="468" />
+					<attribute id="StaticDeferred" type="uint16" value="468" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="468" />
+					<attribute id="StaticBake" type="uint16" value="468" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="TattooMetalness" />
+					<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_TattooMetalness" />
+					<attribute id="StaticForward" type="uint16" value="472" />
+					<attribute id="StaticInstancedForward" type="uint16" value="472" />
+					<attribute id="StaticDeferred" type="uint16" value="472" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="472" />
+					<attribute id="StaticBake" type="uint16" value="472" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="LipsMakeupRoughness" />
+					<attribute id="GroupName" type="FixedString" value="05Makeup" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="1" />
+					<attribute id="BaseValue" type="float" value="1" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_LipsMakeupRoughness" />
+					<attribute id="StaticForward" type="uint16" value="476" />
+					<attribute id="StaticInstancedForward" type="uint16" value="476" />
+					<attribute id="StaticDeferred" type="uint16" value="476" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="476" />
+					<attribute id="StaticBake" type="uint16" value="476" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="TattooRoughnessOffset" />
+					<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_TattooRoughnessOffset" />
+					<attribute id="StaticForward" type="uint16" value="480" />
+					<attribute id="StaticInstancedForward" type="uint16" value="480" />
+					<attribute id="StaticDeferred" type="uint16" value="480" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="480" />
+					<attribute id="StaticBake" type="uint16" value="480" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="MakeupRoughness" />
+					<attribute id="GroupName" type="FixedString" value="05Makeup" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0.5" />
+					<attribute id="BaseValue" type="float" value="0.5" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_MakeupRoughness" />
+					<attribute id="StaticForward" type="uint16" value="484" />
+					<attribute id="StaticInstancedForward" type="uint16" value="484" />
+					<attribute id="StaticDeferred" type="uint16" value="484" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="484" />
+					<attribute id="StaticBake" type="uint16" value="484" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="ScarsRoughness" />
+					<attribute id="GroupName" type="FixedString" value="07Scars" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="float" value="0" />
+					<attribute id="BaseValue" type="float" value="0" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_ScarsRoughness" />
+					<attribute id="StaticForward" type="uint16" value="488" />
+					<attribute id="StaticInstancedForward" type="uint16" value="488" />
+					<attribute id="StaticDeferred" type="uint16" value="488" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="488" />
+					<attribute id="StaticBake" type="uint16" value="488" />
+				</node>
+				<node id="ScalarParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="MakeupThicknessExclusion" />
+					<attribute id="GroupName" type="FixedString" value="05Makeup" />
+					<attribute id="ExportAsPreset" type="bool" value="False" />
+					<attribute id="Value" type="float" value="0.1" />
+					<attribute id="BaseValue" type="float" value="0.1" />
+					<attribute id="UniformName" type="FixedString" value="FloatParameter_MakeupThicknessExclusion" />
+					<attribute id="StaticForward" type="uint16" value="492" />
+					<attribute id="StaticInstancedForward" type="uint16" value="492" />
+					<attribute id="StaticDeferred" type="uint16" value="492" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="492" />
+					<attribute id="StaticBake" type="uint16" value="492" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="HemoglobinColor" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.6509804 0.007843138 0.007843138" />
+					<attribute id="BaseValue" type="fvec3" value="0.6509804 0.007843138 0.007843138" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_HemoglobinColor" />
+					<attribute id="StaticForward" type="uint16" value="80" />
+					<attribute id="StaticInstancedForward" type="uint16" value="80" />
+					<attribute id="StaticDeferred" type="uint16" value="80" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="80" />
+					<attribute id="StaticBake" type="uint16" value="80" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="VeinColor" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0 0.421 0.73" />
+					<attribute id="BaseValue" type="fvec3" value="0 0.421 0.73" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_VeinColor" />
+					<attribute id="StaticForward" type="uint16" value="96" />
+					<attribute id="StaticInstancedForward" type="uint16" value="96" />
+					<attribute id="StaticDeferred" type="uint16" value="96" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="96" />
+					<attribute id="StaticBake" type="uint16" value="96" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="MelaninColor" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.0077220076 0.003907067 0.001875442" />
+					<attribute id="BaseValue" type="fvec3" value="0.0077220076 0.003907067 0.001875442" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_MelaninColor" />
+					<attribute id="StaticForward" type="uint16" value="112" />
+					<attribute id="StaticInstancedForward" type="uint16" value="112" />
+					<attribute id="StaticDeferred" type="uint16" value="112" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="112" />
+					<attribute id="StaticBake" type="uint16" value="112" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="YellowingColor" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="1 0.7889278 0.1840635" />
+					<attribute id="BaseValue" type="fvec3" value="1 0.7889278 0.1840635" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_YellowingColor" />
+					<attribute id="StaticForward" type="uint16" value="128" />
+					<attribute id="StaticInstancedForward" type="uint16" value="128" />
+					<attribute id="StaticDeferred" type="uint16" value="128" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="128" />
+					<attribute id="StaticBake" type="uint16" value="128" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="IllithidVeinColor" />
+					<attribute id="GroupName" type="FixedString" value="11IllithidTransform" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.011764706 0.003921569 0.019607844" />
+					<attribute id="BaseValue" type="fvec3" value="0.011764706 0.003921569 0.019607844" />
+					<attribute id="IsColor" type="bool" value="False" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_IllithidVeinColor" />
+					<attribute id="StaticForward" type="uint16" value="144" />
+					<attribute id="StaticInstancedForward" type="uint16" value="144" />
+					<attribute id="StaticDeferred" type="uint16" value="144" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="144" />
+					<attribute id="StaticBake" type="uint16" value="144" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Lips_Makeup_Color" />
+					<attribute id="GroupName" type="FixedString" value="05Makeup" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.44787082 0.14718807 0.14005016" />
+					<attribute id="BaseValue" type="fvec3" value="0.44787082 0.14718807 0.14005016" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_Lips_Makeup_Color" />
+					<attribute id="StaticForward" type="uint16" value="160" />
+					<attribute id="StaticInstancedForward" type="uint16" value="160" />
+					<attribute id="StaticDeferred" type="uint16" value="160" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="160" />
+					<attribute id="StaticBake" type="uint16" value="160" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="CustomColor" />
+					<attribute id="GroupName" type="FixedString" value="06Custom" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.02745098 0.02745098 0.02745098" />
+					<attribute id="BaseValue" type="fvec3" value="0.02745098 0.02745098 0.02745098" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_CustomColor" />
+					<attribute id="StaticForward" type="uint16" value="176" />
+					<attribute id="StaticInstancedForward" type="uint16" value="176" />
+					<attribute id="StaticDeferred" type="uint16" value="176" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="176" />
+					<attribute id="StaticBake" type="uint16" value="176" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="BM_Adjust_Color" />
+					<attribute id="GroupName" type="FixedString" value="09Adjust" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="1 0.5459957 0" />
+					<attribute id="BaseValue" type="fvec3" value="1 0.5459957 0" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_BM_Adjust_Color" />
+					<attribute id="StaticForward" type="uint16" value="192" />
+					<attribute id="StaticInstancedForward" type="uint16" value="192" />
+					<attribute id="StaticDeferred" type="uint16" value="192" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="192" />
+					<attribute id="StaticBake" type="uint16" value="192" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="TattooColor" />
+					<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+					<attribute id="BaseValue" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_TattooColor" />
+					<attribute id="StaticForward" type="uint16" value="208" />
+					<attribute id="StaticInstancedForward" type="uint16" value="208" />
+					<attribute id="StaticDeferred" type="uint16" value="208" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="208" />
+					<attribute id="StaticBake" type="uint16" value="208" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="TattooColorG" />
+					<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+					<attribute id="BaseValue" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_TattooColorG" />
+					<attribute id="StaticForward" type="uint16" value="224" />
+					<attribute id="StaticInstancedForward" type="uint16" value="224" />
+					<attribute id="StaticDeferred" type="uint16" value="224" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="224" />
+					<attribute id="StaticBake" type="uint16" value="224" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="TattooColorB" />
+					<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+					<attribute id="BaseValue" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_TattooColorB" />
+					<attribute id="StaticForward" type="uint16" value="240" />
+					<attribute id="StaticInstancedForward" type="uint16" value="240" />
+					<attribute id="StaticDeferred" type="uint16" value="240" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="240" />
+					<attribute id="StaticBake" type="uint16" value="240" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="TattooColorA" />
+					<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+					<attribute id="BaseValue" type="fvec3" value="0.018484231 0.027027028 0.018484231" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_TattooColorA" />
+					<attribute id="StaticForward" type="uint16" value="256" />
+					<attribute id="StaticInstancedForward" type="uint16" value="256" />
+					<attribute id="StaticDeferred" type="uint16" value="256" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="256" />
+					<attribute id="StaticBake" type="uint16" value="256" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="MakeupColor" />
+					<attribute id="GroupName" type="FixedString" value="05Makeup" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0 0 0" />
+					<attribute id="BaseValue" type="fvec3" value="0 0 0" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_MakeupColor" />
+					<attribute id="StaticForward" type="uint16" value="272" />
+					<attribute id="StaticInstancedForward" type="uint16" value="272" />
+					<attribute id="StaticDeferred" type="uint16" value="272" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="272" />
+					<attribute id="StaticBake" type="uint16" value="272" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Eyebrow_Color" />
+					<attribute id="GroupName" type="FixedString" value="03Hair" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.074 0.038 0.022" />
+					<attribute id="BaseValue" type="fvec3" value="0.074 0.038 0.022" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_Eyebrow_Color" />
+					<attribute id="StaticForward" type="uint16" value="288" />
+					<attribute id="StaticInstancedForward" type="uint16" value="288" />
+					<attribute id="StaticDeferred" type="uint16" value="288" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="288" />
+					<attribute id="StaticBake" type="uint16" value="288" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="NonSkinColor" />
+					<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.16862746 0.13725491 0.11372549" />
+					<attribute id="BaseValue" type="fvec3" value="0.16862746 0.13725491 0.11372549" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_NonSkinColor" />
+					<attribute id="StaticForward" type="uint16" value="304" />
+					<attribute id="StaticInstancedForward" type="uint16" value="304" />
+					<attribute id="StaticDeferred" type="uint16" value="304" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="304" />
+					<attribute id="StaticBake" type="uint16" value="304" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="DirtColor" />
+					<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.11657577 0.06575388 0.04777575" />
+					<attribute id="BaseValue" type="fvec3" value="0.11657577 0.06575388 0.04777575" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_DirtColor" />
+					<attribute id="StaticForward" type="uint16" value="320" />
+					<attribute id="StaticInstancedForward" type="uint16" value="320" />
+					<attribute id="StaticDeferred" type="uint16" value="320" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="320" />
+					<attribute id="StaticBake" type="uint16" value="320" />
+				</node>
+				<node id="Vector3Parameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Blood_Color" />
+					<attribute id="GroupName" type="FixedString" value="08Dirt&amp;Blood&amp;Sweat" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec3" value="0.13035227 0.0077510267 0.0041161766" />
+					<attribute id="BaseValue" type="fvec3" value="0.13035227 0.0077510267 0.0041161766" />
+					<attribute id="IsColor" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="Vector3Parameter_Blood_Color" />
+					<attribute id="StaticForward" type="uint16" value="336" />
+					<attribute id="StaticInstancedForward" type="uint16" value="336" />
+					<attribute id="StaticDeferred" type="uint16" value="336" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="336" />
+					<attribute id="StaticBake" type="uint16" value="336" />
+				</node>
+				<node id="VectorParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="_WrinkleWeightsR" />
+					<attribute id="GroupName" type="FixedString" value="" />
+					<attribute id="ExportAsPreset" type="bool" value="False" />
+					<attribute id="Value" type="fvec4" value="0 0 0 0" />
+					<attribute id="BaseValue" type="fvec4" value="0 0 0 0" />
+					<attribute id="IsColor" type="bool" value="False" />
+					<attribute id="UniformName" type="FixedString" value="_WrinkleWeightsR" />
+					<attribute id="StaticForward" type="uint16" value="0" />
+					<attribute id="StaticInstancedForward" type="uint16" value="0" />
+					<attribute id="StaticDeferred" type="uint16" value="0" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="0" />
+					<attribute id="StaticBake" type="uint16" value="0" />
+				</node>
+				<node id="VectorParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="_WrinkleWeightsG" />
+					<attribute id="GroupName" type="FixedString" value="" />
+					<attribute id="ExportAsPreset" type="bool" value="False" />
+					<attribute id="Value" type="fvec4" value="0 0 0 0" />
+					<attribute id="BaseValue" type="fvec4" value="0 0 0 0" />
+					<attribute id="IsColor" type="bool" value="False" />
+					<attribute id="UniformName" type="FixedString" value="_WrinkleWeightsG" />
+					<attribute id="StaticForward" type="uint16" value="16" />
+					<attribute id="StaticInstancedForward" type="uint16" value="16" />
+					<attribute id="StaticDeferred" type="uint16" value="16" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="16" />
+					<attribute id="StaticBake" type="uint16" value="16" />
+				</node>
+				<node id="VectorParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="_WrinkleWeightsB" />
+					<attribute id="GroupName" type="FixedString" value="" />
+					<attribute id="ExportAsPreset" type="bool" value="False" />
+					<attribute id="Value" type="fvec4" value="0 0 0 0" />
+					<attribute id="BaseValue" type="fvec4" value="0 0 0 0" />
+					<attribute id="IsColor" type="bool" value="False" />
+					<attribute id="UniformName" type="FixedString" value="_WrinkleWeightsB" />
+					<attribute id="StaticForward" type="uint16" value="32" />
+					<attribute id="StaticInstancedForward" type="uint16" value="32" />
+					<attribute id="StaticDeferred" type="uint16" value="32" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="32" />
+					<attribute id="StaticBake" type="uint16" value="32" />
+				</node>
+				<node id="VectorParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="_WrinkleWeightsA" />
+					<attribute id="GroupName" type="FixedString" value="" />
+					<attribute id="ExportAsPreset" type="bool" value="False" />
+					<attribute id="Value" type="fvec4" value="0 0 0 0" />
+					<attribute id="BaseValue" type="fvec4" value="0 0 0 0" />
+					<attribute id="IsColor" type="bool" value="False" />
+					<attribute id="UniformName" type="FixedString" value="_WrinkleWeightsA" />
+					<attribute id="StaticForward" type="uint16" value="48" />
+					<attribute id="StaticInstancedForward" type="uint16" value="48" />
+					<attribute id="StaticDeferred" type="uint16" value="48" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="48" />
+					<attribute id="StaticBake" type="uint16" value="48" />
+				</node>
+				<node id="VectorParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="TattooIntensity" />
+					<attribute id="GroupName" type="FixedString" value="04Tattoo" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="Value" type="fvec4" value="0 0 0 0" />
+					<attribute id="BaseValue" type="fvec4" value="0 0 0 0" />
+					<attribute id="IsColor" type="bool" value="False" />
+					<attribute id="UniformName" type="FixedString" value="Vector4Parameter_TattooIntensity" />
+					<attribute id="StaticForward" type="uint16" value="64" />
+					<attribute id="StaticInstancedForward" type="uint16" value="64" />
+					<attribute id="StaticDeferred" type="uint16" value="64" />
+					<attribute id="StaticInstancedDeferred" type="uint16" value="64" />
+					<attribute id="StaticBake" type="uint16" value="64" />
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Head_Normalmap" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="961d330f-9ca7-4b95-8eeb-d36c573e16a2" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_normalmap" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="0" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="2" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="0" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="2" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="0" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="2" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="0" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="2" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="0" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="WrinkleMapNormal" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="6b5203b4-3854-7173-d8fb-1bcfd7eb7a7a" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_WrinkleMapNormal" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="1" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="3" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="1" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="3" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="1" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="3" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="1" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="3" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="1" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="2" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="WrinkleMapMSK" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="761fe5e5-b445-e88a-30d5-3dbe693d58c8" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_WrinkleMapMSK" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="2" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="4" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="2" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="4" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="2" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="4" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="2" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="4" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="2" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="3" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="" />
+					<attribute id="GroupName" type="FixedString" value="" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="d436033d-26de-6915-bcc5-a3e8425271dc" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_d436033d26de6915bcc5a3e8425271dc" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="3" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="5" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="3" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="5" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="3" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="5" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="3" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="5" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="3" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="4" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="d6462d10-fc2d-8696-e829-b2e965872e32" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_d6462d10fc2d8696e829b2e965872e32" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="4" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="6" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="4" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="6" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="4" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="6" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="4" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="6" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="4" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="5" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="" />
+					<attribute id="GroupName" type="FixedString" value="" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="4e5e8740-5784-6211-9f95-1120f35d7823" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_4e5e8740578462119f951120f35d7823" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="5" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="7" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="5" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="7" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="5" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="7" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="5" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="7" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="5" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="6" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="b17053a6-dd9f-c21e-fffb-0952a0a3411f" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_b17053a6dd9fc21efffb0952a0a3411f" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="6" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="8" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="6" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="8" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="6" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="8" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="6" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="8" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="6" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="7" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="CLEA" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="a175d259-c903-43c3-afc7-8149cafaa693" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_CLEA" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="7" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="9" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="7" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="9" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="7" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="9" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="7" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="9" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="7" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="8" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Head_CancelMSK" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="3c765d2a-10cb-8b00-998a-53ac81411902" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_CancelMSK" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="8" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="10" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="8" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="10" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="8" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="10" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="8" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="10" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="8" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="9" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="DetailNormalMap" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="8b42733e-91ef-d267-d846-124187296633" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_DetailNormalMap" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="9" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="11" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="9" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="11" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="9" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="11" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="9" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="11" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="9" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="10" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="" />
+					<attribute id="GroupName" type="FixedString" value="" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="12e87a92-2595-9583-5c86-9e60dec03757" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_12e87a92259595835c869e60dec03757" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="10" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="12" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="10" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="12" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="10" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="12" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="10" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="12" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="10" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="11" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="HMVY" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="b5c02535-9b66-ef19-fb01-5b4e2521edd4" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_HMVY" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="11" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="13" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="11" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="13" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="11" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="13" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="11" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="13" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="11" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="12" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="" />
+					<attribute id="GroupName" type="FixedString" value="" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="3778c2db-3048-d5cb-9d66-211f24d33999" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_3778c2db3048d5cb9d66211f24d33999" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="12" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="14" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="12" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="14" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="12" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="14" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="12" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="14" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="12" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="13" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="MakeUpAtlas" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="2f72fffe-7602-05c4-b005-14bd527391f1" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_MakeUpAtlas" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="13" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="15" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="13" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="15" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="13" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="15" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="13" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="15" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="13" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="14" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="TattooAtlas" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="505e82ee-ed64-05cc-aa31-6b7057a5b75f" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_TattooAtlas" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="14" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="16" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="14" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="16" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="14" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="16" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="14" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="16" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="14" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="15" />
+						</node>
+					</children>
+				</node>
+				<node id="Texture2DParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="Head_BaseColor_NonSkin" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="ID" type="FixedString" value="8f1f209a-dd37-4531-b1ee-5e81c1d169cc" />
+					<attribute id="UniformName" type="FixedString" value="Texture2DParameter_BaseColor_NonSkin" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="15" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="17" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="15" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="17" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="15" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="17" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="15" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="17" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="15" />
+							<attribute id="VkDescriptorSet" type="int8" value="1" />
+							<attribute id="VkBindingIndex" type="int8" value="16" />
+						</node>
+					</children>
+				</node>
+				<node id="SamplerStateParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="_DefaultWrapSampler" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="UniformName" type="FixedString" value="_DefaultWrapSampler" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="15" />
+							<attribute id="VkDescriptorSet" type="int8" value="0" />
+							<attribute id="VkBindingIndex" type="int8" value="7" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="15" />
+							<attribute id="VkDescriptorSet" type="int8" value="0" />
+							<attribute id="VkBindingIndex" type="int8" value="7" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="15" />
+							<attribute id="VkDescriptorSet" type="int8" value="0" />
+							<attribute id="VkBindingIndex" type="int8" value="7" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="15" />
+							<attribute id="VkDescriptorSet" type="int8" value="0" />
+							<attribute id="VkBindingIndex" type="int8" value="7" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="15" />
+							<attribute id="VkDescriptorSet" type="int8" value="0" />
+							<attribute id="VkBindingIndex" type="int8" value="7" />
+						</node>
+					</children>
+				</node>
+				<node id="SamplerStateParameters">
+					<attribute id="Enabled" type="bool" value="False" />
+					<attribute id="ParameterName" type="FixedString" value="_DefaultClampSampler" />
+					<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+					<attribute id="ExportAsPreset" type="bool" value="True" />
+					<attribute id="TextureAddressMode" type="uint8" value="2" />
+					<attribute id="UniformName" type="FixedString" value="_DefaultClampSampler" />
+					<children>
+						<node id="StaticForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="14" />
+							<attribute id="VkDescriptorSet" type="int8" value="0" />
+							<attribute id="VkBindingIndex" type="int8" value="8" />
+						</node>
+						<node id="StaticInstancedForward">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="14" />
+							<attribute id="VkDescriptorSet" type="int8" value="0" />
+							<attribute id="VkBindingIndex" type="int8" value="8" />
+						</node>
+						<node id="StaticDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="14" />
+							<attribute id="VkDescriptorSet" type="int8" value="0" />
+							<attribute id="VkBindingIndex" type="int8" value="8" />
+						</node>
+						<node id="StaticInstancedDeferred">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="14" />
+							<attribute id="VkDescriptorSet" type="int8" value="0" />
+							<attribute id="VkBindingIndex" type="int8" value="8" />
+						</node>
+						<node id="StaticBake">
+							<attribute id="DxVsIndex" type="int8" value="-1" />
+							<attribute id="DxPsIndex" type="int8" value="14" />
+							<attribute id="VkDescriptorSet" type="int8" value="0" />
+							<attribute id="VkBindingIndex" type="int8" value="8" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1653,6 +1653,17 @@
 					<attribute id="VirtualTextureLayerConfig" type="uint32" value="3" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
 				</node>
+				<node id="Resource">
+					<attribute id="GTexFileName" type="FixedString" value="AAS_Femme_NC" />
+					<attribute id="ID" type="FixedString" value="bf394a96-b1fd-47a1-80f1-9ebe7ad4a55e" />
+					<attribute id="Name" type="LSString" value="AAS_BODY_NKD_F_NC" />
+					<attribute id="Prefetch" type="bool" value="true" />
+					<attribute id="PrefetchMipLevel" type="int8" value="-1" />
+					<attribute id="ReferencedColorSpaces" type="uint32" value="6" />
+					<attribute id="SourceFile" type="LSString" value="" />
+					<attribute id="VirtualTextureLayerConfig" type="uint32" value="3" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+				</node>
 			</children>
 		</node>
 	</region>
@@ -5693,7 +5704,7 @@
 					<attribute id="ID" type="FixedString" value="cb2b3d59-1546-4e72-8e17-d7569a564f68" />
 					<attribute id="MaterialType" type="uint8" value="18" />
 					<attribute id="Name" type="LSString" value="Aasimar_GM_VT_Fem_Body" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Skin_Body_GM.lsf" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Materials/Characters/Trips_Skin_Body_GM.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144678138029277484" />
 					<children>
 						<node id="ScalarParameters">
@@ -5950,7 +5961,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="04Tattoo" />
 							<attribute id="ParameterName" type="FixedString" value="TattooMetalness" />
-							<attribute id="Value" type="float" value="1" />
+							<attribute id="Value" type="float" value="0" />
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="0.56" />
@@ -5988,7 +5999,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
 							<attribute id="ID" type="FixedString" value="f593b266-c9b8-4203-bec2-aeccef29cf10" />
-							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
+							<attribute id="ParameterName" type="FixedString" value="Body_Glowmap" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="False" />
@@ -6002,7 +6013,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
 							<attribute id="ID" type="FixedString" value="e8360665-4d98-4e5a-aa8d-6b26968fb5f9" />
-							<attribute id="ParameterName" type="FixedString" value="CancelMSK" />
+							<attribute id="ParameterName" type="FixedString" value="Body_CancelMSK" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="False" />
@@ -6044,14 +6055,14 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
 							<attribute id="ID" type="FixedString" value="f4da3cac-456b-4193-9293-5fc3dae5d4ad" />
-							<attribute id="ParameterName" type="FixedString" value="TattooAtlas" />
+							<attribute id="ParameterName" type="FixedString" value="Body_TattooAtlas" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
 							<attribute id="ID" type="FixedString" value="37ff7f61-b86b-4206-927b-1edaf8cc6e8b" />
-							<attribute id="ParameterName" type="FixedString" value="BaseColor_NonSkin" />
+							<attribute id="ParameterName" type="FixedString" value="Body_BaseColor_NonSkin" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.85125166 0.101145156 0.0025858253" />
@@ -6203,7 +6214,7 @@
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
 							<attribute id="ID" type="FixedString" value="db2a353d-2ebb-4730-9678-6fc62a11a07d" />
 							<attribute id="Index" type="int32" value="0" />
-							<attribute id="ParameterName" type="FixedString" value="virtualtexture" />
+							<attribute id="ParameterName" type="FixedString" value="Body_Virtualtexture" />
 						</node>
 					</children>
 				</node>
@@ -6212,7 +6223,7 @@
 					<attribute id="ID" type="FixedString" value="dae11875-5e8f-493f-a8d7-503183c60d44" />
 					<attribute id="MaterialType" type="uint8" value="13" />
 					<attribute id="Name" type="LSString" value="Aasimar_Glowy_Crackle_Yellow" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" /> allows for both alpha and glow?
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Materials/Crackle/Trips_GM_Pulse_AlphaBlend.lsf" /> allows for both alpha and glow?
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="ScalarParameters">
@@ -6259,7 +6270,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
 							<attribute id="ID" type="FixedString" value="a711776e-36d4-4745-bd1f-d4f12d9ee5bd" />
-							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+							<attribute id="ParameterName" type="FixedString" value="Head_Normalmap" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="False" />
@@ -6273,7 +6284,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
 							<attribute id="ID" type="FixedString" value="4ea0efdf-9165-4de5-858d-a3edf49d2571" />
-							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
+							<attribute id="ParameterName" type="FixedString" value="Crackle_Glowmap" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.8512517 0.1011452 0.002585825" />
@@ -6291,7 +6302,7 @@
 					<attribute id="ID" type="FixedString" value="ee3d7cc2-a1c3-4b9c-9589-fa47039f22d3" />
 					<attribute id="MaterialType" type="uint8" value="13" />
 					<attribute id="Name" type="LSString" value="Aasimar_Glowy_Crackle_Blue" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" /> allows for both alpha and glow?
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Materials/Crackle/Trips_GM_Pulse_AlphaBlend.lsf" /> allows for both alpha and glow?
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="ScalarParameters">
@@ -6338,7 +6349,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
 							<attribute id="ID" type="FixedString" value="a711776e-36d4-4745-bd1f-d4f12d9ee5bd" />
-							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+							<attribute id="ParameterName" type="FixedString" value="Head_Normalmap" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="False" />
@@ -6352,7 +6363,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
 							<attribute id="ID" type="FixedString" value="4ea0efdf-9165-4de5-858d-a3edf49d2571" />
-							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
+							<attribute id="ParameterName" type="FixedString" value="Crackle_Glowmap" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.8512517 0.1011452 0.002585825" />
@@ -6370,7 +6381,7 @@
 					<attribute id="ID" type="FixedString" value="47ba2a1a-d621-460d-964e-9e65719c9368" />
 					<attribute id="MaterialType" type="uint8" value="13" />
 					<attribute id="Name" type="LSString" value="Aasimar_Glowy_Crackle_Green" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" /> allows for both alpha and glow?
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Materials/Crackle/Trips_GM_Pulse_AlphaBlend.lsf" /> allows for both alpha and glow?
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="ScalarParameters">
@@ -6417,7 +6428,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
 							<attribute id="ID" type="FixedString" value="a711776e-36d4-4745-bd1f-d4f12d9ee5bd" />
-							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+							<attribute id="ParameterName" type="FixedString" value="Head_Normalmap" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="False" />
@@ -6431,7 +6442,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
 							<attribute id="ID" type="FixedString" value="4ea0efdf-9165-4de5-858d-a3edf49d2571" />
-							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
+							<attribute id="ParameterName" type="FixedString" value="Crackle_Glowmap" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.8512517 0.1011452 0.002585825" />
@@ -6449,7 +6460,7 @@
 					<attribute id="ID" type="FixedString" value="4510f650-e8cb-47ab-8d70-71e22c026852" />
 					<attribute id="MaterialType" type="uint8" value="13" />
 					<attribute id="Name" type="LSString" value="Aasimar_Glowy_Crackle_Red" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" /> allows for both alpha and glow?
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Materials/Crackle/Trips_GM_Pulse_AlphaBlend.lsf" /> allows for both alpha and glow?
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="ScalarParameters">
@@ -6496,7 +6507,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
 							<attribute id="ID" type="FixedString" value="a711776e-36d4-4745-bd1f-d4f12d9ee5bd" />
-							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+							<attribute id="ParameterName" type="FixedString" value="Head_Normalmap" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="False" />
@@ -6510,7 +6521,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
 							<attribute id="ID" type="FixedString" value="4ea0efdf-9165-4de5-858d-a3edf49d2571" />
-							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
+							<attribute id="ParameterName" type="FixedString" value="Crackle_Glowmap" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.8512517 0.1011452 0.002585825" />
@@ -6528,7 +6539,7 @@
 					<attribute id="ID" type="FixedString" value="16d1d106-cdbd-4451-817b-53e525735b3c" />
 					<attribute id="MaterialType" type="uint8" value="18" />
 					<attribute id="Name" type="LSString" value="Trips_HUM_F_NKD_Head_E" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Skin_Head_v3.lsf" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Materials/Heads/Trips_Skin_Head_v3.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="ScalarParameters">
@@ -6960,7 +6971,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
 							<attribute id="ID" type="FixedString" value="a711776e-36d4-4745-bd1f-d4f12d9ee5bd" />
-							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+							<attribute id="ParameterName" type="FixedString" value="Head_Normalmap" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
@@ -7016,7 +7027,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
 							<attribute id="ID" type="FixedString" value="82751d53-a83a-484f-9e86-d3f9946ca9d0" />
-							<attribute id="ParameterName" type="FixedString" value="CancelMSK" />
+							<attribute id="ParameterName" type="FixedString" value="Head_CancelMSK" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
@@ -7065,7 +7076,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
 							<attribute id="ID" type="FixedString" value="58f8367b-2ce5-42d8-9bd8-83b8dafeb38e" />
-							<attribute id="ParameterName" type="FixedString" value="BaseColor_NonSkin" />
+							<attribute id="ParameterName" type="FixedString" value="Head_BaseColor_NonSkin" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.6509804 0.007843138 0.007843138" />
@@ -7273,7 +7284,7 @@
 					<attribute id="ID" type="FixedString" value="51e38dd5-1a17-4e6a-8376-a99423928902" />
 					<attribute id="MaterialType" type="uint8" value="18" />
 					<attribute id="Name" type="LSString" value="Trips_Engels_Mat_Bodytype_1" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Skin_Head_v3.lsf" />
+					<attribute id="SourceFile" type="LSString" value="Public/Trips_Aasimar/Assets/Materials/Heads/Trips_Skin_Head_v3.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="ScalarParameters">
@@ -7705,7 +7716,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
 							<attribute id="ID" type="FixedString" value="26e0d037-603c-4b32-97b3-787733d7bf56" />
-							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+							<attribute id="ParameterName" type="FixedString" value="Head_Normalmap" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
@@ -7761,7 +7772,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
 							<attribute id="ID" type="FixedString" value="82751d53-a83a-484f-9e86-d3f9946ca9d0" />
-							<attribute id="ParameterName" type="FixedString" value="CancelMSK" />
+							<attribute id="ParameterName" type="FixedString" value="Head_CancelMSK" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
@@ -7810,7 +7821,7 @@
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
 							<attribute id="ID" type="FixedString" value="58f8367b-2ce5-42d8-9bd8-83b8dafeb38e" />
-							<attribute id="ParameterName" type="FixedString" value="BaseColor_NonSkin" />
+							<attribute id="ParameterName" type="FixedString" value="Head_BaseColor_NonSkin" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="BaseValue" type="fvec3" value="0.6509804 0.007843138 0.007843138" />

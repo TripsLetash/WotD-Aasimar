@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TileSet Version="2" Name="AAS_VT_Tileset_NC">
+	<Paths>
+		<SourceTextures>Public\Trips_Aasimar\Assets\Textures</SourceTextures>
+		<VirtualTextures>Public\Trips_Aasimar\Assets\VirtualTextures</VirtualTextures>
+	</Paths>
+	
+	<Textures>
+		<Texture Name="AAS_Femme_NC"><!--F-->
+			<Layer Name="Albedo" Source="AAS_Femme_NC_0.dds" />
+			<Layer Name="Normal" Source="AAS_Femme_NC_1.dds" />
+			<Layer Name="Physical" Source="AAS_Femme_NC_2.dds" />
+		</Texture>
+	</Textures>
+    <Textures>
+		<Texture Name="AAS_Femme_Strong_NC"><!--FS-->
+			<Layer Name="Albedo" Source="AAS_Femme_Strong_NC_0.dds" />
+			<Layer Name="Normal" Source="AAS_Femme_Strong_NC_1.dds" />
+			<Layer Name="Physical" Source="AAS_Femme_Strong_NC_2.dds" />
+		</Texture>
+	</Textures>
+    <Textures>
+		<Texture Name="AAS_Masc_NC"><!--M-->
+			<Layer Name="Albedo" Source="AAS_Masc_NC_0.dds" />
+			<Layer Name="Normal" Source="AAS_Masc_NC_1.dds" />
+			<Layer Name="Physical" Source="AAS_Masc_NC_2.dds" />
+		</Texture>
+	</Textures>
+    <Textures>
+		<Texture Name="AAS_Masc_Strong_NC"><!--MS-->
+			<Layer Name="Albedo" Source="AAS_Masc_Strong_NC_0.dds" />
+			<Layer Name="Normal" Source="AAS_Masc_Strong_NC_1.dds" />
+			<Layer Name="Physical" Source="AAS_Masc_Strong_NC_2.dds" />
+		</Texture>
+	</Textures>
+	
+	<Layers>
+		<Layer Name="Albedo" Type="R8G8B8A8_SRGB" />
+		<Layer Name="Normal" Type="X8Y8Z8W8" />
+		<Layer Name="Physical" Type="X8Y8Z8W8" />
+	</Layers>
+	
+	<TileSetConfig>
+		<Compression>Best</Compression>
+		<OneFilePerGTex>false</OneFilePerGTex>
+		<BackfillPages>true</BackfillPages>
+		<DeduplicateTiles>true</DeduplicateTiles>
+	</TileSetConfig>
+</TileSet>

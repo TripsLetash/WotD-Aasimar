@@ -234,7 +234,7 @@ end
 function ToggleWings(uuid, IsPlayerWinging, CCExit)
 	local allTags = Ext.Entity.Get(uuid):GetAllComponents().Tag.Tags
 	local entity = Ext.Entity.Get(uuid)
-	local race = Ext.Entity.Get(uuid):GetAllComponents().CharacterCreationStats.Race
+	local race = Ext.Entity.Get(uuid).CharacterCreationStats.Race
 	if raceTable[race] then
 		if Utils.stringContains(uuid, "Dummy") then
 			------_P(Utils.GetBlueText("WOTD [DEBUG]: Supressed the toggling of " .. uuid .. ", they are a DUMMY."))

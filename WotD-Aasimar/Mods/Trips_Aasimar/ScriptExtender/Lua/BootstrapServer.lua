@@ -1,6 +1,7 @@
 Ext.Require("Shared/Utils.lua")
 Ext.Require("WotD-Aasimar/WotD_Wings.lua")
 Ext.Require("WotD-Aasimar/WotD_Tags.lua")
+Ext.Require("Server/WotD_UI_Window.lua")
 
 Ext.Vars.RegisterUserVariable("AAS_WingsChosen", {
     Server = true,

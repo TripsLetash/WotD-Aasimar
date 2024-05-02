@@ -15,6 +15,22 @@
         {
             "GTexName": "fb3fa330cc8942d09f2ba51609740fa7",
             "GTS": "Public/Trips_Aasimar/Assets/VirtualTextures/AAS_VT_Tileset.gts"
+        },
+        {
+            "GTexName": "AAS_Femme_NC",
+            "GTS": "Public/Trips_Aasimar/Assets/VirtualTextures/AAS_VT_Tileset_NC.gts"
+        },
+        {
+            "GTexName": "AAS_Femme_Strong_NC",
+            "GTS": "Public/Trips_Aasimar/Assets/VirtualTextures/AAS_VT_Tileset_NC.gts"
+        },
+        {
+            "GTexName": "AAS_Masc_NC",
+            "GTS": "Public/Trips_Aasimar/Assets/VirtualTextures/AAS_VT_Tileset_NC.gts"
+        },
+        {
+            "GTexName": "AAS_Masc_Strong_NC",
+            "GTS": "Public/Trips_Aasimar/Assets/VirtualTextures/AAS_VT_Tileset_NC.gts"
         }
     ]
 }
