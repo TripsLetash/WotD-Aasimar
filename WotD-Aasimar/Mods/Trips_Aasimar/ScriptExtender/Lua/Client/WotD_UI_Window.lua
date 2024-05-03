@@ -70,6 +70,7 @@ tCRED:AddText("Down by the River Community")
 --wotdwindow.Closeable = true
 wotdwindow.Visible = false
 wotdwindow.NoFocusOnAppearing = true
+wotdwindow.Closeable = true
 wotdwindow.Open = false
 wotdwindow:SetStyle("WindowMinSize", 500, 500)
 wotdwindow:SetStyle("WindowRounding", 30)
@@ -124,9 +125,9 @@ wotdwindow:SetColor("Button", {0.62, 0.07, 0.07, 0.5})
 --- AddText fun(self:ExtuiTreeParent, a1:string):ImguiHandle
 --- AddTree fun(self:ExtuiTreeParent, a1:string):ImguiHandle
 
-Ext.Events.NetMessage:Subscribe(function(e) 
-    if (e.Channel == "ChangeAppearanceCompleted") then wotdwindow.Visible = false wotdwindow.Open = false end
-    if (e.Channel == "ChangeAppearanceStarted") then wotdwindow.Visible = true wotdwindow.Open = true end
+Ext.Events.NetMessage:Subscribe(function(e)
+    if (e.Channel == "ChangeAppearanceCompletedWotD") then wotdwindow.Visible = false wotdwindow.Open = false end
+    if (e.Channel == "ChangeAppearanceStartedWotD") then wotdwindow.Visible = true wotdwindow.Open = true end
 end)
 
 

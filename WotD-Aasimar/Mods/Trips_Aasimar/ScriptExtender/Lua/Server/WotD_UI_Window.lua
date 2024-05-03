@@ -15,26 +15,27 @@ local raceTable={
 	["309b9cc5-0156-4f64-b857-8cf83fa2160b"]=true
 }
 
+Ext.Osiris.RegisterListener("ChangeAppearanceCancelled", 1, "after", function(character) 
+    local race = Ext.Entity.Get(character).Race.Race
+	if raceTable[race] then
+        Ext.Net.PostMessageToClient(character, "ChangeAppearanceCompletedWotD", "ChangeAppearanceCancelled")
+    end
+end)
 Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(character) 
     local race = Ext.Entity.Get(character).Race.Race
 	if raceTable[race] then
-        Ext.Net.BroadcastMessage("ChangeAppearanceCompleted", "OnEnd")
+        Ext.Net.PostMessageToClient(character, "ChangeAppearanceCompletedWotD", "ChangeAppearanceCancelled")
     end
 end)
 Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "after", function(uuid, itemroot, item, _)
     local race = Ext.Entity.Get(uuid).Race.Race
 	if raceTable[race] then
         if (itemroot == "UNI_MagicMirror_72ae7a39-d0ce-4cb6-8d74-ebdf7cdccf91") then
-		    Utils.Wait(3000, function() Ext.Net.BroadcastMessage("ChangeAppearanceStarted", "OnEnd") end)
+		    Utils.Wait(3000, function() Ext.Net.PostMessageToClient(uuid, "ChangeAppearanceStartedWotD", "MirrorUsed") end)
         end
     end
 end)
-Ext.Osiris.RegisterListener("ChangeAppearanceCancelled", 1, "after", function(character) 
-    local race = Ext.Entity.Get(character).Race.Race
-	if raceTable[race] then
-        Ext.Net.BroadcastMessage("ChangeAppearanceCompleted", "OnEnd")
-    end
-end)
+
 Ext.Osiris.RegisterListener("DialogEnded", 2, "after", function(dialog, instanceID)
     if dialog == "GLO_MagicMirror_f9af5a3b-fb57-b69d-7526-9abdaf50db78" then
         --do something
