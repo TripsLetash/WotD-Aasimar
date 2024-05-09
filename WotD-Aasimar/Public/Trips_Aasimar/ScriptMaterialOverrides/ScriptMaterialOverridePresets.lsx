@@ -1992,7 +1992,7 @@
                             <attribute id="Object" type="guid" value="195ebac0-ce98-4187-9730-33bc7664ad51"/>
                         </node>
                         <node id="ParameterUUIDs">
-                            <attribute id="Object" type="guid" value="72ff547d-67ea-4644-bb1c-0f8e35eb2256"/>
+                            <attribute id="Object" type="guid" value="81c36bcb-f3d3-420c-ade6-fdd522412903"/>
                         </node>
                         <node id="ParameterUUIDs">
                             <attribute id="Object" type="guid" value="91c2474a-0a1f-432f-869d-f5ffd4213f28"/>
@@ -2246,8 +2246,6 @@
                         </node>
                     </children>
                 </node>
-
-
                 <node id="ScriptMaterialOverridePreset">
                     <attribute id="PresetName" type="FixedString" value="AAS_MakeUpOpacity_Show"/>
                     <attribute id="UUID" type="guid" value="caa7fb87-bd30-4963-8100-9d4d08ba621e"/>

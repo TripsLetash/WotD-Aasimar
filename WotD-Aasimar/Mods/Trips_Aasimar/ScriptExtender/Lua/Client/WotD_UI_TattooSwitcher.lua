@@ -4,10 +4,10 @@
 --                 Tattoo Options                   --
 --                                                  --
 ------------------------------------------------------
-tCC:AddDummy(0,5)
-CCBody = tCC:AddCollapsingHeader("Paint Menu")
+WotDCC:AddDummy(0,5)
+CCBody = WotDCC:AddCollapsingHeader("Paint Menu")
 CCBody.DefaultOpen = true
-tCC:AddSeparatorText("")
+WotDCC:AddSeparatorText("")
 
 tattooAtlasHeader = CCBody:AddCollapsingHeader("Customization Selection")
 tattooAtlasHeader.DefaultOpen = true

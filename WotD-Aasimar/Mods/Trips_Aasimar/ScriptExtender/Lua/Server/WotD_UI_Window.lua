@@ -27,10 +27,19 @@ Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(ch
         Ext.Net.PostMessageToClient(character, "ChangeAppearanceCompletedWotD", "ChangeAppearanceCancelled")
     end
 end)
-Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "after", function(uuid, itemroot, item, _)
+Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "before", function(uuid, itemroot, item, _)
     local race = Ext.Entity.Get(uuid).Race.Race
 	if raceTable[race] then
         if (itemroot == "UNI_MagicMirror_72ae7a39-d0ce-4cb6-8d74-ebdf7cdccf91") then
+		    Utils.Wait(3000, function() Ext.Net.PostMessageToClient(uuid, "ChangeAppearanceStartedWotD", "MirrorUsed") end)
+        end
+    end
+end)
+
+Ext.Osiris.RegisterListener("UsingSpell", 5, "before", function(uuid, name, _, _, _, _)
+    if name == "Shout_Open_Mirror" then
+        local race = Ext.Entity.Get(uuid).Race.Race
+	    if raceTable[race] then
 		    Utils.Wait(3000, function() Ext.Net.PostMessageToClient(uuid, "ChangeAppearanceStartedWotD", "MirrorUsed") end)
         end
     end
@@ -42,49 +51,74 @@ Ext.Osiris.RegisterListener("DialogEnded", 2, "after", function(dialog, instance
     end
 end)
 
+-- Builds property table for a character so the tattoos stop washing off
 function SaveInit(character)
-    if not PersistentVars[character] then
-        PersistentVars[character] = {}
+    local charEnt = Ext.Entity.Get(character)
+
+    if not charEnt.Vars.WOTDSaveData then
+        charEnt.Vars.WOTDSaveData = {}
     end
-    if not PersistentVars[character].Shine then
-        PersistentVars[character].Shine = {}
+
+    local tempTable = charEnt.Vars.WOTDSaveData -- For the sake of containing subtables within the save table and being able to synchronize them, we have to clone the table to reassign the entire thing
+
+    if not tempTable.Shine then
+        tempTable.Shine = {}
     end
-    if not PersistentVars[character].VirtualBody then
-        PersistentVars[character].VirtualBody = {}
+    if not tempTable.MakeupOpacity then
+        tempTable.MakeupOpacity = {}
     end
-    if not PersistentVars[character].MakeupOpacity then
-        PersistentVars[character].MakeupOpacity = {}
+    if not tempTable.HalfIllithid then
+        tempTable.HalfIllithid = {}
     end
-    if not PersistentVars[character].HalfIllithid then
-        PersistentVars[character].HalfIllithid = {}
+    if not tempTable.VirtualBody then
+        tempTable.VirtualBody = {}
     end
+
+    charEnt.Vars.WOTDSaveData = tempTable
 end
 
+
 -- Klementines functions
-PersistentVars = {}
- 
 function RevertOverride(character, overrideType)
+    local charEnt = Ext.Entity.Get(character)
+    local tempTable = charEnt.Vars.WOTDSaveData -- See SaveInit()
+
     Osi.RemoveCustomMaterialOverride(character,
-        Overrides[overrideType][PersistentVars[character][overrideType]])
-    PersistentVars[character][overrideType] = nil
+        Overrides[overrideType][tempTable[overrideType]])
+    tempTable[overrideType] = nil
+
+    charEnt.Vars.WOTDSaveData = tempTable
+    Ext.Vars.SyncUserVariables()
 end
 
 function ApplyOverride(character, overrideType, override)
-    if PersistentVars[character][overrideType] then
+    local charEnt = Ext.Entity.Get(character)
+    local tempTable = charEnt.Vars.WOTDSaveData -- See SaveInit()
+
+    if charEnt.Vars.WOTDSaveData[overrideType] then
         RevertOverride(character, overrideType)
     end
     Osi.AddCustomMaterialOverride(character, Overrides[overrideType][override])
-    PersistentVars[character][overrideType] = override
+    charEnt.Vars.WOTDSaveData[overrideType] = override
+
+    charEnt.Vars.WOTDSaveData = tempTable
+    Ext.Vars.SyncUserVariables()
 end
 
 function ToggleOverride(character, overrideType, toggleableOverride)
-    if PersistentVars[character][overrideType][toggleableOverride] then
+    local charEnt = Ext.Entity.Get(character)
+    local tempTable = charEnt.Vars.WOTDSaveData -- See SaveInit()
+
+    if tempTable[overrideType][toggleableOverride] then
         Osi.RemoveCustomMaterialOverride(character, Overrides[overrideType][toggleableOverride])
-        PersistentVars[character][overrideType][toggleableOverride] = nil
+        tempTable[overrideType][toggleableOverride] = nil
     else
         Osi.AddCustomMaterialOverride(character, Overrides[overrideType][toggleableOverride])
-        PersistentVars[character][overrideType][toggleableOverride] = true
+        tempTable[overrideType][toggleableOverride] = true
     end
+
+    charEnt.Vars.WOTDSaveData = tempTable
+    Ext.Vars.SyncUserVariables()
 end
 
 -- index done, opacity done,
@@ -533,9 +567,7 @@ Ext.Events.NetMessage:Subscribe(function(e)
     if (e.Channel == "FaceOpacity_G") then ApplyOverride(sender, "FaceOpacity", "G") end
     if (e.Channel == "FaceOpacity_B") then ApplyOverride(sender, "FaceOpacity", "B") end
     if (e.Channel == "FaceOpacity_None") then ApplyOverride(sender, "FaceOpacity", "None") end
-    
     if (e.Channel == "MakeupOpacity_Show") then ToggleOverride(sender, "MakeupOpacity", "Show") end
-
     if (e.Channel == "tattooBodyAtlas1") then ApplyOverride(sender, "AtlasTexBody", 1) end
     if (e.Channel == "tattooBodyAtlas2") then ApplyOverride(sender, "AtlasTexBody", 2) end
     if (e.Channel == "tattooBodyAtlas3") then ApplyOverride(sender, "AtlasTexBody", 3) end
