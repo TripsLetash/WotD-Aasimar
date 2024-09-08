@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-	<version major="4" minor="1" revision="0" build="0" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<version major="4" minor="7" revision="1" build="0" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
 	<region id="Material">
 		<node id="Material">
-			<attribute id="Version64" type="int64" value="36028805608898564" />
+			<attribute id="Version64" type="int64" value="36028805608898568" />
 			<attribute id="ShadingModel" type="uint8" value="3" />
 			<attribute id="ForwardLightingMode" type="uint8" value="0" />
 			<attribute id="BlendStateID" type="uint8" value="7" />
@@ -39,7 +39,7 @@
 							<attribute id="EngineParamFlags" type="uint16" value="16441" />
 							<attribute id="EngineCBSize" type="uint16" value="80" />
 							<attribute id="MaterialCBSize" type="uint16" value="496" />
-							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="WorldOffsetMatrixCurr" type="uint16" value="0" />
 							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="64" />
 							<attribute id="FadeOpacity" type="uint16" value="68" />
 							<attribute id="DiffusionProfileIndex" type="uint16" value="72" />
@@ -83,7 +83,7 @@
 							<attribute id="EngineParamFlags" type="uint16" value="0" />
 							<attribute id="EngineCBSize" type="uint16" value="80" />
 							<attribute id="MaterialCBSize" type="uint16" value="496" />
-							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="WorldOffsetMatrixCurr" type="uint16" value="0" />
 							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="64" />
 							<attribute id="LightChannel" type="uint16" value="68" />
 							<attribute id="DiffusionProfileIndex" type="uint16" value="72" />
@@ -127,7 +127,7 @@
 							<attribute id="EngineParamFlags" type="uint16" value="0" />
 							<attribute id="EngineCBSize" type="uint16" value="80" />
 							<attribute id="MaterialCBSize" type="uint16" value="0" />
-							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="WorldOffsetMatrixCurr" type="uint16" value="0" />
 							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="64" />
 							<children>
 								<node id="EngineCBBinding">
@@ -167,7 +167,7 @@
 							<attribute id="EngineParamFlags" type="uint16" value="0" />
 							<attribute id="EngineCBSize" type="uint16" value="80" />
 							<attribute id="MaterialCBSize" type="uint16" value="0" />
-							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="WorldOffsetMatrixCurr" type="uint16" value="0" />
 							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="64" />
 							<children>
 								<node id="EngineCBBinding">
@@ -207,7 +207,7 @@
 							<attribute id="EngineParamFlags" type="uint16" value="0" />
 							<attribute id="EngineCBSize" type="uint16" value="80" />
 							<attribute id="MaterialCBSize" type="uint16" value="0" />
-							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="WorldOffsetMatrixCurr" type="uint16" value="0" />
 							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="64" />
 							<children>
 								<node id="EngineCBBinding">
@@ -247,8 +247,8 @@
 							<attribute id="EngineParamFlags" type="uint16" value="0" />
 							<attribute id="EngineCBSize" type="uint16" value="144" />
 							<attribute id="MaterialCBSize" type="uint16" value="0" />
-							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
-							<attribute id="WorldMatrixPrev" type="uint16" value="64" />
+							<attribute id="WorldOffsetMatrixCurr" type="uint16" value="0" />
+							<attribute id="WorldOffsetMatrixPrev" type="uint16" value="64" />
 							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="128" />
 							<attribute id="TransformedVerticesOffsetPrev" type="uint16" value="132" />
 							<children>
@@ -289,7 +289,7 @@
 							<attribute id="EngineParamFlags" type="uint16" value="0" />
 							<attribute id="EngineCBSize" type="uint16" value="80" />
 							<attribute id="MaterialCBSize" type="uint16" value="0" />
-							<attribute id="WorldMatrixCurr" type="uint16" value="0" />
+							<attribute id="WorldOffsetMatrixCurr" type="uint16" value="0" />
 							<attribute id="TransformedVerticesOffsetCurr" type="uint16" value="64" />
 							<children>
 								<node id="EngineCBBinding">
